@@ -1,0 +1,21 @@
+{
+  "propulsion": {
+    "motors": ["brushless-dc", "coreless", "outrunner"],
+    "batteries": ["LiPo", "LiFePO4", "solid-state"],
+    "fuel_cells": ["hydrogen", "methanol"]
+  },
+  "electronics": {
+    "flight_controllers": ["pixhawk", "betaflight", "ardupilot"],
+    "communication": ["rc-link", "video-link", "mesh-network"],
+    "processing": ["cortex-a72", "cortex-m4", "custom-asic"]
+  },
+  "sensors": {
+    "vision": ["hd-camera", "4k-camera", "thermal-imaging", "lidar"],
+    "navigation": ["gps", "imu", "barometer", "compass"],
+    "targeting": ["optical-zoom", "thermal", "ar-marker"]
+  },
+  "structures": {
+    "frame_materials": ["carbon-fiber", "aluminum", "titanium", "composite"],
+    "design_types": ["quadcopter", "fixed-wing", "hybrid", "ground-rover"]
+  }
+}

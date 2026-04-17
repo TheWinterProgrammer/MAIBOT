@@ -1,0 +1,20 @@
+{
+  "last_updated": "2026-04-17T08:59:00Z",
+  "research_runs": 1,
+  "total_robots_tracked": 0,
+  "data_collection_status": "active",
+  "sources": {
+    "ukrainian_mil": "https://www.mil.gov.ua",
+    "main_directorate": "https://gur.gov.ua",
+    "defence_express": "https://defence.ua",
+    "militarny": "https://militarny.com",
+    "zbroya": "https://zbroya.net",
+    "ucca": "https://www.ucca.kmu.gov.ua"
+  },
+  "categories_tracked": [
+    "loitering-munitions",
+    "ground-robots",
+    "aerial-systems",
+    "underwater-systems"
+  ]
+}
