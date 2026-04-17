@@ -1,21 +1,223 @@
 {
-  "propulsion": {
-    "motors": ["brushless-dc", "coreless", "outrunner"],
-    "batteries": ["LiPo", "LiFePO4", "solid-state"],
-    "fuel_cells": ["hydrogen", "methanol"]
+  "power_systems": {
+    "description": "Energy and power delivery systems for UGVs",
+    "components": [
+      {
+        "id": "battery_lgp",
+        "name": "Lithium-polymer battery packs",
+        "applications": "Standard power source for medium-sized UGVs",
+        "notes": "War-driven evolution shows increasing capacity demands"
+      },
+      {
+        "id": "battery_liion",
+        "name": "Lithium-ion modular batteries",
+        "applications": "Tactical robots requiring extended operational time",
+        "capacity_scaling": true
+      },
+      {
+        "id": "battery_fuel_cell",
+        "name": "Fuel cell systems",
+        "applications": "Long-endurance platforms (5+ hour missions)",
+        "example_platforms": [
+          "Unitree Go2 Pro: 5 hour runtime"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "name": "BTRY.Energy",
+        "location": "Ukraine",
+        "specialization": "UGV-specific battery packs",
+        "notes": "Ukrainian manufacturer serving defense sector"
+      }
+    ]
   },
-  "electronics": {
-    "flight_controllers": ["pixhawk", "betaflight", "ardupilot"],
-    "communication": ["rc-link", "video-link", "mesh-network"],
-    "processing": ["cortex-a72", "cortex-m4", "custom-asic"]
+  "propulsion_and_mobility": {
+    "description": "Motors, drive systems, and terrain mobility",
+    "components": [
+      {
+        "id": "motor_brushless_dc",
+        "name": "Brushless DC motors",
+        "applications": "High-efficiency wheel drive systems",
+        "example_platforms": [
+          "FoxTac all-wheel drive",
+          "UNEX UGV"
+        ]
+      },
+      {
+        "id": "motor_servo",
+        "name": "Servo motors with feedback",
+        "applications": "Precision leg control in quadruped systems",
+        "example_platforms": [
+          "Unitree Go2 Pro joint motors"
+        ]
+      },
+      {
+        "id": "drivetrain_tracked",
+        "name": "Track drive systems",
+        "applications": "Heavy payload, rough terrain vehicles",
+        "example_platforms": [
+          "FoxTac hybrid wheels+tracks"
+        ]
+      },
+      {
+        "id": "drivetrain_wheeled",
+        "name": "Multi-wheel all-terrain drive",
+        "applications": "Balanced speed and payload capacity",
+        "example_platforms": [
+          "UNEX UGV (10km range)",
+          "D-21-11"
+        ]
+      }
+    ]
   },
-  "sensors": {
-    "vision": ["hd-camera", "4k-camera", "thermal-imaging", "lidar"],
-    "navigation": ["gps", "imu", "barometer", "compass"],
-    "targeting": ["optical-zoom", "thermal", "ar-marker"]
+  "electronics_and_control": {
+    "description": "Computing, control, and communication systems",
+    "components": [
+      {
+        "id": "processor_edge_ai",
+        "name": "Edge AI processors",
+        "specs": "1.5 TFlops (Unitree Go2 Pro reference)",
+        "applications": "Real-time autonomous navigation, obstacle avoidance",
+        "notes": "Brave1 testing AI-integrated drone systems"
+      },
+      {
+        "id": "radio_control_standard",
+        "name": "Radio frequency control modules",
+        "range_m": 10000,
+        "applications": "Tactical control radius for combat robots",
+        "example_platforms": [
+          "D-21-11 standard control"
+        ]
+      },
+      {
+        "id": "radio_control_lte",
+        "name": "LTE/GSM control modules",
+        "range": "Unlimited with signal coverage",
+        "applications": "Extended-range operations beyond line-of-sight",
+        "example_platforms": [
+          "D-21-11 (10km+)",
+          "UNEX UGV (unlimited LTE)"
+        ]
+      },
+      {
+        "id": "stabilization_imu",
+        "name": "Inertial Measurement Units (IMU)",
+        "applications": "Terrain adaptation, balance, slope navigation",
+        "example_platforms": [
+          "Unitree Go2 Pro intelligent terrain stability"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "name": "FT Systems",
+        "location": "Ukraine",
+        "specialization": "Electronics for unmanned systems (FPV components)",
+        "website": "ft.systems/en",
+        "notes": "Ukrainian manufacturer of demanding-environment electronics"
+      }
+    ]
   },
-  "structures": {
-    "frame_materials": ["carbon-fiber", "aluminum", "titanium", "composite"],
-    "design_types": ["quadcopter", "fixed-wing", "hybrid", "ground-rover"]
+  "sensors_and_optics": {
+    "description": "Perception and environmental sensing systems",
+    "components": [
+      {
+        "id": "camera_fish_eye",
+        "name": "Fish-eye omnidirectional cameras",
+        "coverage": "360 degrees",
+        "example_platforms": [
+          "Unitree Go2 Pro (multiple pairs)"
+        ]
+      },
+      {
+        "id": "camera_night_vision",
+        "name": "Night vision / thermal imaging",
+        "applications": "24/7 surveillance and targeting",
+        "example_platforms": [
+          "Lyut robot soldier (day/night target ID and engagement)"
+        ]
+      },
+      {
+        "id": "sensor_lidar",
+        "name": "LiDAR sensors",
+        "applications": "3D obstacle mapping, autonomous navigation",
+        "notes": "Increasingly integrated in Brave1 tested platforms"
+      },
+      {
+        "id": "sensor_radar",
+        "name": "Millimeter-wave radar",
+        "applications": "Long-range target detection, adverse weather operation"
+      }
+    ]
+  },
+  "integration_and_payload": {
+    "description": "Mounting, integration, and payload delivery systems",
+    "components": [
+      {
+        "id": "weapon_mount_turret",
+        "name": "Remote weapon turrets",
+        "example_platforms": [
+          "Shabla turret (operational)",
+          "Lyut (7.62mm coaxial)"
+        ],
+        "notes": "Integration with various UGV platforms"
+      },
+      {
+        "id": "manipulator_arm",
+        "name": "Robotic arms / manipulators",
+        "payload_capacity_kg": 4,
+        "applications": [
+          "Door unlocking",
+          "Bomb disposal",
+          "Utility tasks"
+        ],
+        "example_platforms": [
+          "Unitree Go2 Pro robotic arm"
+        ]
+      },
+      {
+        "id": "stretcher_module",
+        "name": "Casualty evacuation stretcher",
+        "applications": "Wounded personnel transport",
+        "example_platforms": [
+          "FoxTac evacuation platform"
+        ]
+      },
+      {
+        "id": "cargo_platform",
+        "name": "Modular cargo / ammo delivery",
+        "applications": [
+          "Ammunition supply",
+          "Equipment transport"
+        ],
+        "payload_scaling": true
+      }
+    ]
+  },
+  "communications_and_coordination": {
+    "description": "Inter-robot and human-machine interface systems",
+    "components": [
+      {
+        "id": "frequency_hopping_radio",
+        "name": "Frequency-hopping radio systems",
+        "notes": "Electronic warfare resilience (critical in Ukraine operations)"
+      },
+      {
+        "id": "secure_data_link",
+        "name": "Encrypted data links",
+        "applications": "Command and control in contested EW environment"
+      },
+      {
+        "id": "telemetry_system",
+        "name": "Real-time telemetry feedback",
+        "integration": "DELTA battlefield management system"
+      }
+    ]
+  },
+  "total_components_tracked": 30,
+  "last_updated": "2026-04-17T20:02:00Z",
+  "metadata": {
+    "last_updated": "2026-04-17"
   }
 }

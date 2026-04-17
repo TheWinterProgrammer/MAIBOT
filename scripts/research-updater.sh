@@ -1,0 +1,182 @@
+#!/bin/bash
+# MAIBOT Research Updater
+# Research Ukrainian military robot technology from official sources
+
+set -e
+
+PROJECT_DIR="/Users/maltsev/Documents/Projects/MAIBOT"
+DATA_DIR="$PROJECT_DIR/data"
+RESEARCH_DIR="$PROJECT_DIR/research"
+SOURCES_DIR="$PROJECT_DIR/sources"
+DATE=$(date +%Y-%m-%d)
+TIMESTAMP=$(date +%Y-%m-%d_%H%M%S)
+
+echo "=== MAIBOT Research Updater ==="
+echo "Started at: $(date)"
+echo ""
+
+# Ensure directories exist
+mkdir -p "$DATA_DIR" "$RESEARCH_DIR/daily-reports" "$RESEARCH_DIR/robot-profiles" "$SOURCES_DIR"
+
+# Function to fetch and extract content
+fetch_source() {
+    local url=$1
+    local name=$2
+    local output_file="$SOURCES_DIR/${name}_${TIMESTAMP}.html"
+    
+    echo "Fetching: $name ($url)"
+    curl -sL --max-time 15 "$url" -o "$output_file" 2>/dev/null || echo "  ⚠️ Failed to fetch $name"
+}
+
+# Fetch Ukrainian military sources
+echo "📡 Fetching official Ukrainian sources..."
+fetch_source "https://www.mil.gov.ua/en/news/" "mindef_news"
+fetch_source "https://gur.gov.ua/en/publications" "gur_intel"
+fetch_source "https://defence-ua.com/" "defence_express"
+fetch_source "https://mil.in.ua/en/" "militarny_en"
+fetch_source "https://www.ukrinform.net/" "ukrinform"
+
+echo ""
+echo "🔍 Analyzing sources for robot/technology mentions..."
+
+# Create today's report file
+REPORT_FILE="$RESEARCH_DIR/daily-reports/${DATE}.md"
+
+# Initialize or append to report
+cat > "$REPORT_FILE" << EOF
+# MAIBOT Research Report — ${DATE}
+**Update Time:** $(date '+%H:%M UTC')  
+**Run ID:** ${TIMESTAMP}
+
+## Source Status
+EOF
+
+# Check what we fetched
+for source in "$SOURCES_DIR"/*_${TIMESTAMP}.html; do
+    if [ -f "$source" ]; then
+        size=$(stat -f%z "$source" 2>/dev/null || stat -c%s "$source" 2>/dev/null || echo "0")
+        name=$(basename "$source" | sed 's/_.*//')
+        echo "- **${name}**: ${size} bytes" >> "$REPORT_FILE"
+    fi
+done
+
+echo "" >> "$REPORT_FILE"
+echo "## Research Findings" >> "$REPORT_FILE"
+echo "" >> "$REPORT_FILE"
+
+# Search for robot/drone/AI technology mentions in fetched sources
+echo "📊 Extracting robot technology data..."
+
+ROBOT_KEYWORDS="robot|drone|UAV|FPV|loitering|autonomous|AI|artificial intelligence|unmanned|ground robot|combat robot|surveillance"
+COMPONENT_KEYWORDS="sensor|camera|thermal|LIDAR|radar|battery|motor|propulsion|transmission|communication|radio"
+
+for source_file in "$SOURCES_DIR"/*_${TIMESTAMP}.html; do
+    if [ -f "$source_file" ]; then
+        source_name=$(basename "$source_file" | sed 's/_.*//')
+        
+        # Try to extract meaningful text (basic HTML stripping)
+        text=$(cat "$source_file" | sed 's/<[^>]*>//g' | tr -s ' \n' | head -c 50000)
+        
+        # Look for robot mentions
+        mentions=$(echo "$text" | grep -oiE "$ROBOT_KEYWORDS" | sort -u | head -20 || true)
+        
+        if [ -n "$mentions" ]; then
+            echo "### ${source_name}" >> "$REPORT_FILE"
+            echo "" >> "$REPORT_FILE"
+            echo "**Keywords found:**" >> "$REPORT_FILE"
+            echo "$mentions" | sed 's/^/- /' >> "$REPORT_FILE"
+            echo "" >> "$REPORT_FILE"
+        fi
+    fi
+done
+
+# Update or create data files
+echo ""
+echo "💾 Updating data files..."
+
+# robots.json
+ROBOTS_FILE="$DATA_DIR/robots.json"
+if [ ! -f "$ROBOTS_FILE" ]; then
+    cat > "$ROBOTS_FILE" << 'EOF'
+{
+  "metadata": {
+    "project": "MAIBOT",
+    "last_updated": "",
+    "total_robots": 0
+  },
+  "robots": []
+}
+EOF
+fi
+
+# components.json
+COMPONENTS_FILE="$DATA_DIR/components.json"
+if [ ! -f "$COMPONENTS_FILE" ]; then
+    cat > "$COMPONENTS_FILE" << 'EOF'
+{
+  "metadata": {
+    "project": "MAIBOT",
+    "last_updated": "",
+    "total_components": 0
+  },
+  "categories": {
+    "propulsion": [],
+    "sensors": [],
+    "communication": [],
+    "power": [],
+    "frames": [],
+    "weapons": []
+  }
+}
+EOF
+fi
+
+# statistics.json
+STATS_FILE="$DATA_DIR/statistics.json"
+if [ ! -f "$STATS_FILE" ]; then
+    cat > "$STATS_FILE" << 'EOF'
+{
+  "metadata": {
+    "project": "MAIBOT",
+    "last_updated": ""
+  },
+  "deployments": [],
+  "aggregates": {
+    "total_units_tracked": 0,
+    "total_cost_estimate_usd": 0
+  }
+}
+EOF
+fi
+
+# Update timestamps in JSON files
+for json_file in "$ROBOTS_FILE" "$COMPONENTS_FILE" "$STATS_FILE"; do
+    if [ -f "$json_file" ]; then
+        tmp_file="${json_file}.tmp"
+        jq --arg date "$DATE" '.metadata.last_updated = $date' "$json_file" > "$tmp_file" && mv "$tmp_file" "$json_file" 2>/dev/null || true
+    fi
+done
+
+echo "" >> "$REPORT_FILE"
+echo "## Data Files Updated" >> "$REPORT_FILE"
+echo "" >> "$REPORT_FILE"
+echo "- \`data/robots.json\` — Last updated: ${DATE}" >> "$REPORT_FILE"
+echo "- \`data/components.json\` — Last updated: ${DATE}" >> "$REPORT_FILE"
+echo "- \`data/statistics.json\` — Last updated: ${DATE}" >> "$REPORT_FILE"
+echo "" >> "$REPORT_FILE"
+echo "---" >> "$REPORT_FILE"
+echo "*Generated by MAIBOT Research Updater*" >> "$REPORT_FILE"
+
+echo ""
+echo "✅ Research complete!"
+echo "📄 Report saved to: $REPORT_FILE"
+echo ""
+
+# Optional: Git commit if in a git repo
+if [ -d "$PROJECT_DIR/.git" ]; then
+    cd "$PROJECT_DIR"
+    git add -A 2>/dev/null || true
+    git commit -m "MAIBOT: Research update ${TIMESTAMP}" 2>/dev/null || echo "⚠️ Git commit skipped (no changes or not configured)"
+fi
+
+echo "🏁 Done at: $(date)"

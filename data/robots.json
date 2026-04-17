@@ -1,1 +1,156 @@
-[]
+[
+  {
+    "id": "foxtac-001",
+    "name": "FoxTac",
+    "type": "evacuation_and_logistics",
+    "primary_function": "Wounded evacuation, ammunition delivery, supply transport",
+    "developer": "Brave1 Cluster",
+    "status": "Approved for military use (Feb 2024)",
+    "specifications": {
+      "mobility": "All-wheel drive with wheels and tracks",
+      "control_radius_m": 700,
+      "operational_radius_km": 10,
+      "payload_capacity_kg": "unknown",
+      "terrain_capability": "Multi-terrain, debris-resistant"
+    },
+    "deployment_units": ["3rd Separate Assault Brigade", "1st Separate Medical Battalion", "92nd Separate Assault Brigade"],
+    "sources": [
+      "Defence Express - Feb 2024",
+      "Ministry of Digital Transformation of Ukraine"
+    ]
+  },
+  {
+    "id": "d21-11-001",
+    "name": "D-21-11",
+    "type": "reconnaissance_and_combat",
+    "primary_function": "Multi-role reconnaissance, light combat support",
+    "developer": "Ukrainian Defense Industry",
+    "status": "Operational",
+    "specifications": {
+      "control_radius_m": "10000+ via radio",
+      "control_radius_unlimited_lte": true,
+      "terrain_capability": "Off-road, semi-amphibious"
+    },
+    "sources": ["Brave1 platform", "Defence Express"]
+  },
+  {
+    "id": "d21-12r-001",
+    "name": "D-21-12R",
+    "type": "combat_robot",
+    "primary_function": "Combat operations, direct fire support",
+    "developer": "Ukrainian Defense Industry",
+    "status": "Operational",
+    "notes": "Described as 'latest robot' with high battlefield effectiveness",
+    "sources": ["Defence Express - 2024"]
+  },
+  {
+    "id": "lyut-001",
+    "name": "Lyut (Лють)",
+    "type": "robot_soldier",
+    "primary_function": "24/7 surveillance and fire support on defensive lines",
+    "developer": "Ukrainian Defense Industry",
+    "status": "Approved for military deployment",
+    "specifications": {
+      "primary_weapon": "7.62mm machine gun",
+      "capabilities": ["Day/night target identification", "Day/night engagement", "Surveillance"],
+      "combat_tested": true
+    },
+    "sources": ["UNITED24 Media - March 2025"]
+  },
+  {
+    "id": "bizon-l-001",
+    "name": "BIZON-L",
+    "type": "modular_ground_robot",
+    "primary_function": "Combat and engineering operations",
+    "developer": "Ukrainian Defense Industry",
+    "status": "Approved for military use (Apr 2026)",
+    "specifications": {
+      "modular_design": true,
+      "available_modules": ["Combat module", "Engineering module"]
+    },
+    "sources": ["UNITED24 Media - Apr 7, 2026"]
+  },
+  {
+    "id": "unex-ugv-001",
+    "name": "UNEX UGV",
+    "type": "amphibious_robotic_complex",
+    "primary_function": "Amphibious reconnaissance and payload transport",
+    "developer": "UNEX (Ukrainian manufacturer)",
+    "status": "Approved for military use",
+    "specifications": {
+      "mobility": "Amphibious",
+      "control_radius_m": 10000,
+      "control_radius_lte": "Unlimited with GSM signal",
+      "off_road_capable": true
+    },
+    "sources": ["UNEX UGV official specs", "Ukrainian Ministry of Defence"]
+  },
+  {
+    "id": "termit-001",
+    "name": "TerMIT",
+    "type": "universal_ground_robot",
+    "primary_function": "Evacuation, logistics, combat operations",
+    "developer": "Brave1 platform participant",
+    "status": "Operational",
+    "specifications": {
+      "multi_role": true,
+      "applications": ["Casualty evacuation", "Supply logistics", "Combat support"]
+    },
+    "sources": ["Brave1 Market - market-brave1.delta.mil.gov.ua"]
+  },
+  {
+    "id": "zmii-001",
+    "name": "КНРО 'Змій' (Serpent)",
+    "type": "demining_robot",
+    "primary_function": "Mine clearance and rapid explosive disposal",
+    "developer": "Ukrainian Defense Technology",
+    "status": "Operational",
+    "specifications": {
+      "blast_resistant": true,
+      "mission_focus": "Rapid mine clearance"
+    },
+    "sources": ["Brave1 Market - market-brave1.delta.mil.gov.ua"]
+  },
+  {
+    "id": "unitree-go2-pro-001",
+    "name": "Unitree Go2 Pro",
+    "type": "quadruped_robot_dog",
+    "primary_function": "Bomb disposal, reconnaissance, scout duties",
+    "manufacturer": "Unitree Robotics (China)",
+    "supplier_ukraine": "Brit Alliance (UK)",
+    "status": "Deployed in combat (Aug 2024+)",
+    "specifications": {
+      "processor_tflops": 1.5,
+      "max_speed_mph": 11,
+      "weight_lbs": "less than 30",
+      "battery_life_hours": 5,
+      "payload_capacity_kg": 4,
+      "cameras": "Fish-eye arrays, 360 degree coverage",
+      "control_range_km": 3,
+      "operator_control_type": "Remote (non-autonomous)"
+    },
+    "capabilities": [
+      "Bomb detonation",
+      "Door unlocking",
+      "Booby trap detection",
+      "Internal space exploration",
+      "Visual operator following",
+      "Intelligent side following"
+    ],
+    "cost_usd": 4500,
+    "notes": "First known combat deployment of robot dogs in warfare",
+    "sources": ["CircuitDigest - Aug 2024", "Wikipedia - Unitree Robotics"]
+  },
+  {
+    "id": "shabla-turret-001",
+    "name": "Shabla Turret",
+    "type": "combat_turret",
+    "primary_function": "Remote weapon system, fire support",
+    "developer": "Ukrainian Defense Industry",
+    "status": "Operational on frontlines (as of Mar 2024)",
+    "specifications": {
+      "deployment_status": "Already in combat use"
+    },
+    "sources": ["Defence Express - Mar 2024"]
+  }
+]

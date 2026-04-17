@@ -1,20 +1,74 @@
 {
-  "last_updated": "2026-04-17T08:59:00Z",
-  "research_runs": 1,
-  "total_robots_tracked": 0,
-  "data_collection_status": "active",
-  "sources": {
-    "ukrainian_mil": "https://www.mil.gov.ua",
-    "main_directorate": "https://gur.gov.ua",
-    "defence_express": "https://defence.ua",
-    "militarny": "https://militarny.com",
-    "zbroya": "https://zbroya.net",
-    "ucca": "https://www.ucca.kmu.gov.ua"
+  "last_updated": "2026-04-17T20:02:00Z",
+  "research_runs": 11,
+  "deployment_statistics": {
+    "march_2026_missions": 9000,
+    "march_2026_units_deployed": 167,
+    "january_2026_missions": 7000,
+    "november_2025_missions": 2900,
+    "ytd_2026_missions": 32500,
+    "monthly_trend": "Accelerating exponentially"
   },
-  "categories_tracked": [
-    "loitering-munitions",
-    "ground-robots",
-    "aerial-systems",
-    "underwater-systems"
-  ]
+  "procurement_targets": {
+    "2025_target": 15000,
+    "target_status": "On track for domestic production",
+    "2024_h2_contracts": 6,
+    "2024_h2_contract_value_usd": 2500000,
+    "2025_q1_contracts": 31,
+    "2025_q1_contract_value_usd": 150000000
+  },
+  "platform_inventory": {
+    "total_systems_tested_brave1": 50,
+    "total_registered_brave1": 140,
+    "nato_standard_compliance": 14,
+    "operationally_deployed": "Multiple (Shabla confirmed active, others in units)"
+  },
+  "brave1_cluster_status": {
+    "total_registered_systems": 140,
+    "defence_scrutiny_passed": 96,
+    "nato_standard_systems": 14,
+    "active_deployment": true
+  },
+  "combat_unit_participation": {
+    "3rd_separate_assault_brigade": "Top performer, highest mission output",
+    "92nd_separate_assault_brigade": "Unmanned systems company active",
+    "95th_separate_air_assault_brigade": "Polissya - March 2026 deployment",
+    "3rd_operational_brigade_spartan": "Combat-proven robotic deployments",
+    "total_participating_units_march_2026": 167,
+    "total_participating_units_nov_2025": 67
+  },
+  "technology_trends": {
+    "fpv_drones": "Primary offensive tool, continued swarm development",
+    "ground_robotics": "Accelerating development, increasingly autonomous",
+    "ai_integration": "Active testing with computer vision",
+    "logistics_focus": "Key priority - ammunition, supplies, casualty evacuation",
+    "personnel_replacement_potential": "Up to 1/3 of infantry (per 3rd Army Corps commander)"
+  },
+  "operational_focus": {
+    "primary_role": "Logistics and support",
+    "secondary_role": "Combat operations",
+    "key_functions": [
+      "Ammunition delivery",
+      "Supply transport",
+      "Casualty evacuation",
+      "Reconnaissance",
+      "Mine clearance",
+      "Casualty evacuation"
+    ]
+  },
+  "sources_indexed": 8,
+  "data_collection_points": 34,
+  "key_metrics_tracked": [
+    "Mission count (monthly)",
+    "Unit deployment breadth",
+    "System types in operation",
+    "Contract values and volume",
+    "Technology capability maturity",
+    "Procurement pipeline",
+    "EW resilience",
+    "Casualty reduction effectiveness"
+  ],
+  "metadata": {
+    "last_updated": "2026-04-17"
+  }
 }

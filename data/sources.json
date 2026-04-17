@@ -1,0 +1,109 @@
+{
+  "official_sources": [
+    {
+      "name": "Ministry of Defence of Ukraine",
+      "url": "mil.gov.ua",
+      "classification": "Government official source",
+      "data_authority": "Deployment statistics, operational reports, system approvals"
+    },
+    {
+      "name": "Ministry of Digital Transformation of Ukraine",
+      "url": "minfed.gov.ua",
+      "classification": "Government official source",
+      "data_authority": "Brave1 platform announcements, technology initiative leadership"
+    },
+    {
+      "name": "Main Directorate (GUR)",
+      "url": "gur.gov.ua",
+      "classification": "Government intelligence/military",
+      "data_authority": "Operational deployments, tactical effectiveness reports"
+    },
+    {
+      "name": "DELTA Battlefield Management System",
+      "classification": "Military operational system",
+      "data_authority": "Real-time mission tracking, unit deployment data"
+    }
+  ],
+  "defense_analysis_sources": [
+    {
+      "name": "Defence Express",
+      "url": "defence-ua.com",
+      "language": "English",
+      "specialization": "Ukrainian military analysis, defense technology",
+      "reliability": "High - consistent with official announcements",
+      "articles_used": 8
+    },
+    {
+      "name": "UNITED24 Media",
+      "url": "united24media.com",
+      "language": "English",
+      "specialization": "Ukrainian defense tech, procurement, statistics",
+      "reliability": "High - official sources and primary research",
+      "articles_used": 5
+    }
+  ],
+  "platform_sources": [
+    {
+      "name": "Brave1 Market",
+      "url": "market-brave1.delta.mil.gov.ua",
+      "classification": "Official government platform",
+      "data_authority": "Registered systems, system specifications, integration status",
+      "systems_listed": 140
+    },
+    {
+      "name": "Brave1 Cluster",
+      "classification": "Defense tech coordination platform",
+      "leadership": "Ministry of Digital, Ministry of Defense, General Staff, NSDC",
+      "data_authority": "Technology validation, testing results, procurement coordination"
+    }
+  ],
+  "component_and_supplier_sources": [
+    {
+      "name": "BTRY.Energy",
+      "url": "btry.energy/en",
+      "location": "Ukraine",
+      "specialization": "Battery systems for UGVs",
+      "reliability": "High - native Ukrainian manufacturer"
+    },
+    {
+      "name": "FT Systems",
+      "url": "ft.systems/en",
+      "location": "Ukraine",
+      "specialization": "Electronics for unmanned systems, FPV components",
+      "reliability": "High - native Ukrainian manufacturer"
+    },
+    {
+      "name": "UGV Machinery",
+      "url": "ugvmachinery.com",
+      "location": "Kyiv, Ukraine",
+      "specialization": "UNEX UGV amphibious robotics platform",
+      "reliability": "High - manufacturer source"
+    }
+  ],
+  "international_sources": [
+    {
+      "name": "CircuitDigest",
+      "url": "circuitdigest.com",
+      "specialization": "Military robotics technology",
+      "notable_coverage": "Unitree Go2 Pro combat deployment",
+      "reliability": "Medium - secondary source with field reporting"
+    },
+    {
+      "name": "Defence Industry Europe",
+      "url": "defence-industry.eu",
+      "specialization": "European defense technology",
+      "notable_coverage": "Brave1 large-scale trials reporting",
+      "reliability": "High - professional defense analysis"
+    }
+  ],
+  "total_sources": 13,
+  "last_updated": "2026-04-17T20:02:00Z",
+  "data_coverage": {
+    "robots_documented": 10,
+    "component_categories": 6,
+    "component_items": 30,
+    "statistics_datapoints": 34,
+    "supplier_networks": 3
+  },
+  "notes": "All sources are publicly available and current as of April 2026. Priority given to official Ukrainian government sources and primary defense analysis from Ukrainian tech community."
+}
