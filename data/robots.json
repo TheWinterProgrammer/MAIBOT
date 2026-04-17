@@ -152,5 +152,81 @@
       "deployment_status": "Already in combat use"
     },
     "sources": ["Defence Express - Mar 2024"]
+  },
+  {
+    "id": "zmiy-droid-12-7-001",
+    "name": "Zmiy Droid 12.7",
+    "type": "strike_reconnaissance_ground_robot",
+    "primary_function": "Strike and reconnaissance in high-intensity combat environments",
+    "developer": "RoverTech (Ukrainian defense enterprise)",
+    "status": "Codified and approved for operational use (2026)",
+    "specifications": {
+      "platform": "Zmiy (combat-proven)",
+      "weapon_station": "Wolly (remotely operated)",
+      "primary_armament": "12.7 mm machine gun",
+      "mobility": "High cross-country mobility",
+      "terrain_capability": ["Rough terrain", "Sand", "Snow", "Shallow water"],
+      "armor": "Armored hull - protects against anti-personnel mines",
+      "drone_resistance": "Can withstand multiple FPV drone hits",
+      "ai_features": "Automatic target acquisition and tracking",
+      "control": "Integrated control module (platform + weapon station)"
+    },
+    "combat_performance": {
+      "documented_engagements": "MT-LB armored fighting vehicle destroyed",
+      "position_hold_record": "45 consecutive days with maintenance every 2 days"
+    },
+    "sources": ["Ministry of Defence Ukraine - 2026", "RoverTech"]
+  },
+  {
+    "id": "krampus-001",
+    "name": "KRAMPUS",
+    "type": "mobile_strike_system",
+    "primary_function": "Offensive and defensive operations with thermobaric launchers",
+    "developer": "Ukrainian Defense Industry",
+    "status": "Codified and authorized for operational use (2026)",
+    "specifications": {
+      "mobility": "Compact tracked chassis",
+      "transport": "Fits in pickup truck, minibus, or trailer",
+      "propulsion": "2x silent electric motors",
+      "terrain_capability": ["Off-road", "Dense forests", "Sand", "Swamps", "Steep slopes"],
+      "communication": "EW-resistant control channels",
+      "weather_operations": ["Cold", "Heat", "Snow", "Rain"],
+      "battery_endurance": "Several hours continuous movement, extended position duty",
+      "primary_armament": "RPV-16 reactive thermobaric launchers",
+      "targets": "Enemy personnel and lightly armored vehicles",
+      "optics": "Video cameras for remote operation"
+    },
+    "sources": ["Ministry of Defence Ukraine - 2026"]
+  },
+  {
+    "id": "bizon-l-detailed-001",
+    "name": "BIZON-L (Detailed Specs)",
+    "type": "modular_ground_robot",
+    "primary_function": "Cargo/ammunition transport, MEDEVAC, combat",
+    "developer": "UAV TECHNOLOGY",
+    "status": "Codified and approved for Security and Defence Forces (Apr 2026)",
+    "specifications": {
+      "control_system": "DroidBox (universal, supports 6 communication types)",
+      "architecture": "Modular - rapid reconfiguration without complex procedures",
+      "payload_capacity_kg": "200-300",
+      "operational_range_km": "30 (50 with auxiliary batteries)",
+      "max_speed_kmh": 12,
+      "propulsion": "Steel tracks",
+      "communication_channels": ["LTE", "Wi-Fi", "Starlink", "Secure channels"],
+      "mobility": "High - marshland, snow, rugged terrain",
+      "thermal_signature": "Low (liquid-cooled system)",
+      "acoustic_signature": "Near-silent operation",
+      "deployment_time_minutes": "<10",
+      "battery_swap_time_minutes": "<5 (hot-swappable, no shutdown required)"
+    },
+    "available_modules": [
+      "12.7 mm machine-gun turret",
+      "Antenna and communications relay",
+      "Remote minelaying",
+      "Engineering obstacles",
+      "Electronic warfare systems",
+      "Trailer module for supplies"
+    ],
+    "sources": ["UAV TECHNOLOGY", "The Defender Media - Apr 2026"]
   }
 ]
