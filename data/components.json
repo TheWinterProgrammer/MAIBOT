@@ -1,321 +1,193 @@
 {
-  "fpv_drone_components": {
-    "frame_structure": {
-      "material": "Carbon fiber",
-      "localization_status": "100% Ukrainian",
-      "suppliers": [
-        "VYRIY DRONE",
-        "Wild Hornets",
-        "Escadrone",
-        "General Chereshnia"
-      ],
-      "characteristics": "Lightweight, high-strength, optimized for maneuverability"
-    },
-    "flight_controller": {
-      "role": "Drone brain - flight stabilization and motor coordination",
-      "localization_status": "Partial (breakthrough in 2024)",
-      "breakthroughs": [
-        "Wild Hornets - first localized flight controller production"
-      ],
-      "challenges": "Requires high-precision microelectronics, clean-room fabrication",
-      "current_suppliers": [
-        "Wild Hornets (Ukrainian)",
-        "SpeedyBee (imported)",
-        "other Chinese suppliers"
-      ],
-      "cost_reduction": "12% from localization",
-      "strategic_importance": "Critical for independence"
-    },
-    "electronic_speed_controllers": {
-      "role": "Transmit motor control signals from flight controller",
-      "localization_status": "100% Ukrainian",
-      "suppliers": [
-        "Wild Hornets",
-        "Escadrone",
-        "VYRIY DRONE"
-      ],
-      "specifications": "Precise signal transmission, motor efficiency optimization"
-    },
-    "motors": {
-      "localization_status": "Partial - Expanding",
-      "current_production": "Motor-G: 100,000+ units/month",
-      "suppliers": [
-        "Motor-G (Ukrainian, 100k+/mo)",
-        "Realgold LLC (Ukrainian)",
-        "BrotherHobby (imported)",
-        "EMAX (imported)"
-      ],
-      "challenges": "Requires specialized winding machinery, rotor balancing equipment",
-      "quality_trend": "Ukrainian motors now reliable and mass-produced"
-    },
-    "propellers": {
-      "localization_status": "100% Ukrainian",
-      "suppliers": [
-        "VYRIY DRONE",
-        "Wild Hornets",
-        "Escadrone"
-      ]
-    },
-    "battery_system": {
-      "type": "Lithium-Polymer (Li-Po)",
-      "role": "Power source",
-      "characteristics": "High capacity, low weight",
-      "localization_status": "100% Ukrainian",
-      "suppliers": [
-        "Wild Hornets",
-        "Escadrone",
-        "VYRIY DRONE"
-      ]
-    },
-    "sensor_modules": {
-      "types": [
-        "Accelerometer (3-axis acceleration measurement)",
-        "Gyroscope (angular position/rotation tracking)",
-        "Integrated IMU chips (miniaturized)"
-      ],
-      "localization_status": "Partial (high-precision miniaturized sensors still imported)",
-      "challenges": "Requires certified equipment and highly skilled engineers",
-      "role": "Flight stability and real-time drone stabilization"
-    },
-    "gps_module": {
-      "role": "Spatial orientation, takeoff point recording, preset route following",
-      "localization_status": "Partial"
-    },
-    "fpv_camera": {
-      "role": "Drone eyes - real-time video transmission to pilot",
-      "localization_status": "Partial",
-      "suppliers": [
-        "Odd Systems (Ukrainian thermal)",
-        "Caddx (imported)",
-        "DJI (imported)"
-      ],
-      "types": [
-        "Analog FPV cameras",
-        "Thermal imaging cameras"
-      ],
-      "challenges": "Advanced optics require precise calibration and testing"
-    },
-    "video_transmitter_vtx": {
-      "role": "Radio signal transmission to pilot goggles/monitor",
-      "power": "2.5W+ variants available",
-      "range": "Depends on quality and interference",
-      "localization_status": "Partial",
-      "suppliers": [
-        "DEC-1 (Ukrainian)",
-        "AKK (imported)",
-        "Foxeer (imported)"
-      ],
-      "challenges": "Microelectronics design and manufacturing"
-    },
-    "signal_receiver": {
-      "role": "Pilot-to-drone command reception",
-      "localization_status": "Partial",
-      "quality_factors": "Range, control precision, EW resistance",
-      "supplied_by": "Mixed Ukrainian-imported"
-    },
-    "landing_gear": {
-      "role": "Landing cushioning, camera/payload protection",
-      "design_combat": "Simple legs or plates",
-      "materials": [
-        "Carbon fiber",
-        "Plastic"
-      ],
-      "localization_status": "100% Ukrainian"
-    },
-    "guidance_systems": {
-      "vgi_9_system": {
-        "name": "VGI-9 Drone Guidance System",
-        "origin": "Ukrainian AI-driven",
-        "technology": "Machine vision targeting",
-        "features": [
-          "Improved strike accuracy",
-          "EW resistance capability",
-          "Cruise control for stability",
-          "Night target guidance (24/7 operations)"
-        ],
-        "deployment": "VYRIY DRONE integration, other manufacturers adopting"
+  "propulsion_systems": {
+    "electric_tracked": {
+      "usage": ["UNEX UGV", "DODGER", "KRAMPUS", "TERMIT"],
+      "specs": {
+        "motors": "dual_silent_electric",
+        "battery": "high_capacity",
+        "endurance": "several_continuous_hours",
+        "advantages": ["silent_operation", "extended_duty", "low_thermal_signature"]
       }
+    },
+    "diesel_ic": {
+      "usage": ["PROTECTOR", "Bufalo"],
+      "specs": {
+        "type": "internal_combustion_diesel",
+        "range_extension": "configurable_fuel_tanks",
+        "advantages": ["long_range", "refuel_vs_replace_batteries", "high_power"]
+      }
+    },
+    "hybrid": {
+      "note": "Some systems use combination approaches"
     }
   },
-  "ground_robot_components": {
-    "chassis_platform": {
-      "droid_tw_numo_base": {
-        "type": "Modular tracked platform",
-        "weight_loaded": "620kg",
-        "payload": "300kg",
-        "origin": "Tank Bureau (Ukrainian)"
-      },
-      "protector_platform": {
-        "type": "Full-sized unmanned vehicle",
-        "weight": "Heavy-duty",
-        "payload": "700kg",
-        "power": "Internal combustion engine"
-      },
-      "unex_platform": {
-        "type": "Amphibious low-pressure chassis",
-        "feature": "Ground pressure < soldier weight",
-        "tires": "Wide, optimized distribution"
-      },
-      "krampus_platform": {
-        "type": "Tracked electric platform",
-        "motors": "Dual electric (whisper-quiet)",
-        "acoustic": "Very low signature"
-      },
-      "zmiy_droid_platform": {
-        "type": "Tracked armored ground robotic platform",
-        "developer": "RoverTech",
-        "armor": "Armored protection",
-        "mobility": "Challenging terrain adapted (damaged urban/off-road)",
-        "applications": [
-          "Combat",
-          "Demining (GRCS Zmiy variant)"
-        ],
-        "control": "Integrated movement + weapon operation"
-      }
+  "chassis_types": {
+    "tracked": {
+      "usage": ["TERMIT", "KRAMPUS", "DODGER"],
+      "features": ["low_center_of_gravity", "trench_traversal", "all_terrain"]
     },
-    "weapon_systems": {
-      "droid_tw_weapons": {
-        "primary_12_7mm": "Browning machine gun, 480 rounds",
-        "primary_7_62mm": "PKT machine gun, 1000 rounds",
-        "range": "1000m max",
-        "fire_control": "Ballistic calculation system"
-      },
-      "krampus_weapon": {
-        "rpv_16": "Thermobaric rocket launcher (Ukrainian)",
-        "warhead": "2500°C fireball with overpressure + fragmentation",
-        "range": "1000m max, 600m effective",
-        "equivalent": "122mm artillery shell"
-      },
-      "zmiy_droid_weapons": {
-        "wolly_12_7_station": "Remote weapon station (DevDroid)",
-        "primary_weapon": "Heavy machine gun (12.7mm)",
-        "control": "Integrated movement + weapon operation",
-        "design_philosophy": "Practical, operator-friendly"
-      }
+    "wheeled_all_wheel": {
+      "usage": ["PROTECTOR"],
+      "tires": "runflat",
+      "drive": "all_wheel_drive"
     },
-    "sensor_suite": {
-      "thermal_imaging": {
-        "droid_tw": "Thermal imager with display modes",
-        "numo_derivatives": "Optional thermal modules",
-        "detection_range_day": "1500m",
-        "detection_range_night": "1000m"
-      },
-      "targeting_systems": {
-        "ballistic_calculation": "For fire accuracy (Droid TW)",
-        "autonomous_tracking": "Target recognition & autonomous modes",
-        "ai_integration": "Personnel identification and fire support"
-      }
-    },
-    "control_systems": {
-      "remote_operation": {
-        "droid_tw": [
-          "Tablet",
-          "Gamepad",
-          "Remote control"
-        ],
-        "numo": "Radio control with programmable autopilot",
-        "unex": "Radio control with programmable autopilot"
-      },
-      "communications_protocols": {
-        "jam_resistant": "KRAMPUS jam-resistant channels",
-        "military_standard": "Compatible with Armed Forces systems",
-        "starlink_lte": "Optional modern connectivity"
-      }
-    },
-    "power_systems": {
-      "protector": "Internal combustion engine (400km range)",
-      "numo": "Rechargeable batteries (25-40km range)",
-      "krampus": "Multi-hour battery packs (autonomous operation)",
-      "unex": "Multi-hour batteries"
-    },
-    "mobility_features": {
-      "drive_systems": {
-        "protector": "All-wheel drive with RunFlat tires",
-        "numo": "Tracked platform (235mm clearance)",
-        "krampus": "Tracked with dual electric motors",
-        "unex": "Wide-tire low-pressure amphibious"
-      },
-      "terrain_capability": {
-        "protector": "Excellent off-road, water crossings",
-        "numo": "Forests, swamps, shelters, rough terrain",
-        "krampus": "Off-road, dense forests, sand, swamps, steep inclines",
-        "unex": "Swamps, ice, rocky terrain, swimming"
-      }
+    "specialized_amphibious": {
+      "usage": ["UNEX UGV"],
+      "features": ["water_traversal", "low_ground_pressure", "wide_tires"]
     }
   },
-  "localization_summary": {
-    "fully_localized": [
-      "Carbon fiber frames",
-      "Propellers",
-      "Electronic speed controllers (ESCs)",
-      "Lithium-polymer batteries",
-      "Landing gear",
-      "Motor production (100k+/month capacity)"
-    ],
-    "partially_localized": [
-      "Flight controllers (breakthrough 2024)",
-      "Video transmitters (VTX)",
-      "Thermal imaging cameras",
-      "Sensor modules (high-precision IMU chips)",
-      "Guidance systems"
-    ],
-    "import_dependent": [
-      "Advanced flight controller chips (requires clean-room fab)",
-      "High-precision motors (specialized equipment)",
-      "Advanced optics and cameras",
-      "Microelectronics base",
-      "Semiconductor fabrication"
-    ]
+  "ai_cv_systems": {
+    "enemy_recognition": {
+      "systems": ["Droid TW", "Bufalo"],
+      "capabilities": [
+        "personnel_detection",
+        "autonomous_target_tracking",
+        "threat_identification"
+      ]
+    },
+    "local_navigation": {
+      "systems": ["Bufalo"],
+      "capabilities": [
+        "obstacle_detection_15m_range",
+        "route_planning",
+        "danger_response_autonomous_stop"
+      ]
+    },
+    "autonomous_targeting": {
+      "capabilities": [
+        "detect_recognize_track",
+        "autonomous_mode_operation",
+        "fire_support_optimization"
+      ]
+    }
   },
-  "critical_supply_chain_risks": {
-    "microelectronics": {
-      "status": "Strategic vulnerability",
-      "impact": "If China export controls tighten, drone mass production significantly disrupted",
-      "requirement": "Certified clean-room manufacturing facilities, massive investment",
-      "timeline": "Years to achieve independence"
+  "sensors_optics": {
+    "thermal_imagers": {
+      "systems": ["Droid TW"],
+      "specs": {
+        "day_range_m": 1500,
+        "night_range_m": 1000,
+        "display_modes": "multiple"
+      }
+    },
+    "video_cameras": {
+      "systems": ["KRAMPUS", "Bufalo"],
+      "types": ["day_night_vision", "navigation_cameras"]
     },
     "optical_systems": {
-      "status": "Import-dependent",
-      "challenge": "Advanced optics require specialized facilities and testing",
-      "localization_effort": "Ongoing but not yet at scale"
-    },
-    "manufacturing_facilities": {
-      "risk": "Shelling and infrastructure damage (e.g., Mukachevo SMT line destroyed)",
-      "mitigation": "Distributed production network (76+ contractors)",
-      "advantage": "Resilience through redundancy"
+      "dodger": "surveillance_cameras",
+      "termit": "reconnaissance_optics"
     }
   },
-  "localization_success_stories": {
-    "vyriy_drone": {
-      "2023": "0% localization (all Chinese)",
-      "2024": "70% Ukrainian components",
-      "2025_march": "100% localization achieved",
-      "cost_parity": "30,000 UAH (matches Chinese alternative costs)",
-      "quality_advantage": "Better quality control, shorter logistics"
+  "electronics_controllers": {
+    "control_systems": {
+      "types": {
+        "radio_controlled": {
+          "systems": ["UNEX UGV", "PROTECTOR", "DODGER"],
+          "features": ["ew_resistant_channels", "reliable_transmission"]
+        },
+        "remote_tablet_gamepad": {
+          "systems": ["Droid TW"],
+          "features": ["intuitive_interface", "quick_deployment"]
+        }
+      }
     },
-    "wild_hornets": {
-      "breakthrough": "First flight controller localization (2024)",
-      "cost_savings": "12% reduction from controller localization",
-      "current_localization": "65% (Queen of the Hornets)",
-      "payload": "9.5kg capacity variant",
-      "roadmap": "Target 100% localization (frames, ESCs, batteries, sensors, onboard computers)"
+    "autopilot": {
+      "systems": ["UNEX UGV"],
+      "type": "programmable_autopilot"
     },
-    "motor_production": {
-      "producer": "Motor-G",
-      "capacity": "100,000+ motors/month",
-      "scale": "Enables mass production of all drone types",
-      "quality": "Reliable domestic alternative to imported motors"
-    },
-    "fiber_optic_drones": {
-      "producer": "3DTech",
-      "breakthrough": "First domestic 30km fiber-optic spools",
-      "previous_limit": "≤20km range standard",
-      "quality_control": "Strict testing reduces breakage vs Chinese spools",
-      "strategic_value": "EW-immune operation (fiber cannot be jammed)",
-      "codified_models": "5 'Khyzhak REBOFF' variants (10-20km range with official IDs)"
+    "ballistic_computers": {
+      "systems": ["Droid TW"],
+      "function": "fire_accuracy_improvement"
     }
   },
-  "metadata": {
-    "last_updated": "2026-04-18"
+  "power_systems": {
+    "batteries": {
+      "high_capacity": {
+        "systems": ["UNEX UGV", "TERMIT", "KRAMPUS"],
+        "features": ["extended_operation", "several_hours_continuous_movement"]
+      }
+    },
+    "fuel_cells_diesel": {
+      "systems": ["PROTECTOR", "Bufalo"],
+      "advantages": ["long_range", "quick_refuel", "high_power_output"]
+    }
+  },
+  "communication_systems": {
+    "Starlink_integration": {
+      "systems": ["Droid TW", "Bufalo"],
+      "features": ["satellite_backhaul", "global_coverage"]
+    },
+    "LTE": {
+      "systems": ["Droid TW"],
+      "note": "Cellular_backup_communication"
+    },
+    "military_communications": {
+      "systems": ["Droid TW"],
+      "type": "military_standard_encryption"
+    },
+    "radio_channels": {
+      "systems": ["Bufalo"],
+      "backup": true
+    },
+    "GPS_navigation": {
+      "systems": ["Bufalo"],
+      "protection": "CRPA_antenna_anti_jamming"
+    }
+  },
+  "weapon_stations": {
+    "machine_guns": {
+      "12.7mm_browning": {
+        "systems": ["Droid TW"],
+        "range_m": 1000
+      },
+      "7.62mm": {
+        "systems": ["Droid TW"],
+        "ammo_capacity": [480, 1000]
+      }
+    },
+    "thermobaric_launchers": {
+      "RPV-16": {
+        "systems": ["KRAMPUS"],
+        "quantity": 2,
+        "targets": ["personnel", "light_armor"]
+      }
+    },
+    "grenade_launchers": {
+      "40mm_auto": {
+        "system": "SHABLIA MK19(M)",
+        "function": "personnel_light_armor_engagement"
+      }
+    },
+    "modular_mounts": {
+      "systems": ["UNEX UGV", "TERMIT", "PROTECTOR"],
+      "types": ["weapon_stations", "EW_systems", "logistics_platforms"]
+    }
+  },
+  "protection_systems": {
+    "armor": {
+      "light_plating": {
+        "systems": ["DODGER"],
+        "resistance": ["small_arms", "shrapnel"]
+      },
+      "heavy_armor": {
+        "systems": ["Bufalo"],
+        "resistance": ["small_arms_direct_fire", "152mm_shells_100m_radius"]
+      }
+    },
+    "mine_resistance": {
+      "unex_method": "ground_pressure_distribution",
+      "pressure": "less_than_soldier_foot"
+    },
+    "runflat_tires": {
+      "systems": ["PROTECTOR"],
+      "advantage": "continued_mobility_when_damaged"
+    }
+  },
+  "localization": {
+    "domestic_content_target": "70_percent",
+    "example": "Bufalo",
+    "domestic_components": ["electronics", "cameras", "software"],
+    "imported_components": "basic_EU_sourced"
   }
 }

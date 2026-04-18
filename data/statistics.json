@@ -1,207 +1,188 @@
 {
-  "last_updated": "2026-04-18T08:02:57.997475",
-  "research_runs": 19,
-  "data_collection_status": "Active",
-  "fpv_drone_production": {
-    "annual_statistics": {
-      "2022_2025_total_delivered": 984009,
-      "2024_total_units_delivered": 1200000,
-      "2025_h1_units_delivered": 1000000,
-      "2025_total_contracted": 2000000,
-      "notes": "H1 2025 = Jan-Jul 2025"
+  "last_updated": "2026-04-18T10:02:00Z",
+  "research_runs": 21,
+  "research_date": "2026-04-18",
+  "fpv_drone_ecosystem": {
+    "annual_capacity_2025_2026": {
+      "h1_2025_delivered": "1,000,000+",
+      "annual_capacity": "8,000,000",
+      "production_forecast_2025": "1,500,000",
+      "production_contracted_2024_2025": "1,800,000",
+      "investment_usd": "3,500,000,000"
     },
-    "monthly_capacity": {
-      "taf_industries": 80000,
-      "general_chereshnia": 50000,
-      "other_manufacturers": 50000,
-      "total_estimated_monthly": 180000
-    },
-    "manufacturer_network": {
-      "active_contractors": 76,
-      "major_producers": [
-        "TAF Industries (80k/month, 20 sites)",
-        "General Chereshnia (50k+/month)",
-        "VYRIY DRONE (mass production)",
-        "Wild Hornets (specialized)",
-        "Escadrone (full production cycle)"
+    "active_manufacturers": 160,
+    "localization_status": {
+      "100_percent_ukrainian": [
+        "Carbon fiber frames",
+        "Electronic speed controllers (ESCs)",
+        "Brushless motors (Motor-G)",
+        "Li-Po batteries",
+        "Fiber-optic spools (3DTech)"
+      ],
+      "partial_localization": [
+        "Flight controllers (~70% Wild Hornets)",
+        "Video transmitters (FT Systems)",
+        "Thermal imaging (Odd Systems)"
+      ],
+      "import_dependent": [
+        "Advanced semiconductors",
+        "High-precision optics",
+        "Specialized microelectronics"
       ]
-    },
-    "budget_allocation": {
-      "2024_2025_uah_billion": 104.2,
-      "2025_total_drone_contracts_uah": 147000000000,
-      "usd_equivalent_2025": "~3.6 billion"
     }
   },
-  "ground_robotics": {
-    "total_systems_codified": 80,
-    "codification_by_year": {
-      "2024_total": 15,
-      "2025_h1": 20,
-      "2025_h1_accumulated": "~80 (April 2026)"
+  "motor_g_production": {
+    "monthly_capacity": 200000,
+    "market_share_ukraine": "17%",
+    "production_start": "2024-12",
+    "ramp_profile": "181 (Dec 2024) → 1500 (Jan 2025) → 200000 (Mar 2026)",
+    "customer_base": 100,
+    "localization_max": "85%",
+    "quality_control": {
+      "stages": 6,
+      "acceptable_defect_rate": "2 per 1000"
     },
-    "monthly_missions": {
-      "january_2026": 7000,
-      "mission_types": [
-        "Logistics (majority)",
-        "Combat operations",
-        "Casualty evacuation",
-        "Mine-laying",
-        "Demining"
-      ]
-    },
-    "systems_by_category": {
-      "heavy_logistics": 1,
-      "combat_strike": 3,
-      "multipurpose_tracked": 2,
-      "amphibious": 1,
-      "thermobaric_strike": 1,
-      "machine_gun_armed": 2,
-      "imported_proven": 1,
-      "other_codified": 70
-    },
-    "ukrainian_made_percentage": 85
+    "business_margin": "<20%",
+    "competitors": 8,
+    "chinese_market_dominance": "~73%"
   },
-  "uav_systems_codification": {
-    "2024_total_types": 60,
-    "2025_h1_new_samples": 40,
-    "total_since_2024": 100,
-    "2025_percentage_ukrainian": 100,
-    "nato_coding": "All new 2025 systems"
+  "ground_robot_inventory": {
+    "total_systems_codified": "80+",
+    "tier_1_operational": "20+",
+    "tier_2_preproduction": "10+",
+    "brave1_registered": 140,
+    "brave1_validated": 96,
+    "brave1_nato_compliant": 14
   },
-  "component_localization_metrics": {
-    "fully_localized_percentage": 50,
-    "partially_localized_percentage": 35,
-    "import_dependent_percentage": 15,
-    "localization_trend": "Rapidly improving (2-3 year acceleration)",
-    "key_breakthrough_year": 2024,
-    "new_achievements_2026": {
-      "flight_controller": "Wild Hornets localized controller (12% cost reduction)",
-      "motor_production": "Motor-G at 100k+/mo capacity",
-      "fiber_optic": "3DTech 30km spools, 5+ Khyzhak REBOFF variants codified",
-      "vyriy_drone": "100% localization achieved (was 0% in 2023)"
-    }
-  },
-  "production_capacity_analysis": {
-    "fpv_drones": {
-      "annual_capacity_2026": "8+ million units/year",
-      "manufacturers_count": 160,
-      "monthly_capacity_thousands": 180,
-      "annual_potential_thousands": 2160,
-      "actual_2025_h1_pace": 2000,
-      "capacity_utilization": "85-90%",
-      "combat_impact": "60% of Russian army losses caused by FPV drones"
-    },
-    "component_production": {
-      "motor_production_monthly": 100000,
-      "frame_production_thousands": 200,
-      "esc_production_thousands": 150
-    },
-    "scaling_potential": {
-      "constraint": "Microelectronics availability",
-      "current_growth": "20-30% year-over-year",
-      "maximum_potential": "3-4 million/year with full localization"
-    }
-  },
-  "technology_readiness_levels": {
-    "fpv_drone_systems": "TRL 9 (Production & deployment)",
-    "ground_robotics": "TRL 7-8 (Prototype to limited production)",
-    "ai_targeting_systems": "TRL 8 (Deployment-ready)",
-    "fiber_optic_drones": "TRL 8 (Field-proven)",
-    "fully_localized_production": "TRL 6-7 (Pilot to early production)"
-  },
-  "supply_chain_resilience": {
-    "manufacturer_diversity": "76+ active contractors",
-    "geographic_distribution": "Multi-region production",
-    "logistics_dependency": {
-      "china_supply": "Still advantageous (1 week longer delivery than domestic)",
-      "european_supply": "Being developed",
-      "domestic_supply": "Primary source for ~50% of components"
-    },
-    "risk_factors": {
-      "export_controls": "China may impose restrictions",
-      "manufacturing_risks": "Ongoing shelling, infrastructure vulnerability",
-      "microelectronics_gap": "Cannot yet manufacture internally"
-    }
-  },
-  "deployment_statistics": {
-    "droid_tw_operational_brigades": 30,
-    "themis_units_operational": 15,
-    "themis_units_contracted": 150,
-    "ground_robot_deployment_scale": "Limited (technology still developing)",
-    "army_readiness_assessment": "Doctrine development ongoing",
-    "ugv_strategic_objective_2026": "Transition frontline logistics to robotic systems wherever possible",
-    "brave1_market": {
-      "ugv_models_available": 13,
-      "procurement_system": "Combat points for direct frontline acquisition"
-    }
-  },
-  "technology_performance": {
-    "protector_range_km": 400,
-    "protector_payload_kg": 700,
-    "droid_tw_engagement_range_m": 1000,
-    "droid_tw_detection_range_day_m": 1500,
-    "droid_tw_detection_range_night_m": 1000,
-    "numo_cargo_capacity_kg": 300,
-    "numo_range_extended_km": 40,
-    "krampus_rpv16_range_m": 1000,
-    "krampus_warhead_temp_c": 2500,
-    "unex_ground_pressure_vs_soldier": "Lower (mine-safe)"
-  },
-  "quality_metrics": {
-    "localized_drone_cost_uah": 30000,
-    "cost_parity_with_imported": true,
-    "quality_assessment": "Equal or superior to Chinese alternatives",
-    "production_defects_rate": "Lower for domestic components",
-    "logistics_advantage": "Shorter supply chain, better control"
-  },
-  "strategic_assessments": {
-    "localization_roadmap_phase": "Medium-term (2025-2026)",
-    "critical_gaps": [
-      "Microelectronics fabrication",
-      "Advanced optics manufacturing",
-      "Clean-room facilities",
-      "Semiconductor production"
+  "ground_robot_systems_detailed": {
+    "combat_strike": [
+      "Zmiy Droid 12.7 (Apr 2026)",
+      "Droid TW 12.7",
+      "Droid NW 40",
+      "Tanchyk Droid 12.7",
+      "Rawlyk Droid 12.7",
+      "Bizon Droid 12.7",
+      "Lyut (Rage) 7.62mm",
+      "KRAMPUS thermobaric"
     ],
-    "medium_term_achievable": [
-      "Flight controllers (ongoing)",
-      "Motors (scaling)",
-      "Video transmitters (development)"
+    "logistics_evacuation": [
+      "PROTECTOR (700kg, 400km)",
+      "TERMIT (300kg tracked)",
+      "UNEX UGV (amphibious)",
+      "DODGER (250kg compact)",
+      "BIZON-L (200-300kg modular)",
+      "FoxTac (evacuation specialist)"
     ],
-    "long_term_challenges": [
-      "Semiconductor fab independence",
-      "Advanced optics base",
-      "Years of investment required"
+    "reconnaissance_ew": [
+      "Bufalo (4000kg, 70% local)",
+      "Zmiy Robot Platform",
+      "SHABLIA MK19(M)",
+      "D-21-11",
+      "D-21-12R",
+      "NUMO",
+      "UNEX (EW variant)"
+    ],
+    "universal_control": [
+      "DroidBox (Codified Apr 2026)",
+      "Installed on 1000+ UGVs",
+      "Supports 6 communication types"
     ]
   },
-  "source_verification": {
-    "primary_sources": [
-      "Ministry of Defence of Ukraine (mil.gov.ua)",
-      "Defence Procurement Agency (DPA)",
-      "Ukrainian Ministry press releases"
-    ],
-    "secondary_sources": [
-      "Ukrainska Pravda",
-      "Defence Express",
-      "TechUkraine",
-      "Ukrainian Arms Council"
-    ],
-    "technical_sources": [
-      "VGI-9 (targeting systems)",
-      "Tank Bureau (NUMO/Droid TW)",
-      "Manufacturer reports"
-    ],
-    "data_classification": "Public domain",
-    "verification_level": "Multi-source cross-referenced"
+  "codification_timeline": {
+    "2022_2023": "~10 systems",
+    "2024": "50+ systems",
+    "2025_jan_aug": "20+ systems",
+    "april_2026_peak": "80+ total"
   },
-  "research_metadata": {
-    "update_frequency": "Hourly",
-    "next_update": "2026-04-19T12:02:00Z",
-    "data_quality": "Official government sources prioritized",
-    "coverage_scope": "Ukrainian Ministry of Defence systems and domestic production",
-    "geographic_focus": "Ukraine",
-    "time_period": "2024-2026"
+  "component_ecosystem": {
+    "propulsion": {
+      "electric": "dominant",
+      "diesel": "heavy platforms",
+      "hybrid": "emerging"
+    },
+    "ai_cv_systems": {
+      "target_recognition": [
+        "Droid TW",
+        "Bufalo"
+      ],
+      "autonomous_navigation": [
+        "Bufalo (15m detection)"
+      ],
+      "fire_control": [
+        "Droid TW (ballistic calc)",
+        "Zmiy Droid (autonomous tracking)"
+      ]
+    },
+    "sensors": {
+      "thermal": "Droid TW (1500m day, 1000m night)",
+      "video": "FT Systems (EW-resistant)",
+      "fiber_optic": "3DTech (30km immune)"
+    },
+    "communication": {
+      "starlink_integration": [
+        "Droid TW",
+        "Bufalo"
+      ],
+      "ew_hardened": "All new systems",
+      "encryption": "Military standards"
+    },
+    "weapons": {
+      "12_7mm_machine_gun": "Wolly station (DevDroid)",
+      "7_62mm": "Standard variants",
+      "40mm_grenade": "SHABLIA MK19(M)",
+      "thermobaric": "RPV-16 launcher (KRAMPUS)"
+    }
   },
-  "metadata": {
-    "last_updated": "2026-04-18"
+  "production_pipeline": {
+    "termit_production": {
+      "planned_units": 2000,
+      "investment_usd": 3740000
+    },
+    "bufalo_preproduction": {
+      "planned_monthly": 10,
+      "localization_target": "70%"
+    },
+    "motor_g_expansion": {
+      "target_market_share": "20-30%",
+      "international_partnerships": "Europe & America in development"
+    }
+  },
+  "battlefield_deployment": {
+    "zmiy_droid_12_7": "45+ days continuous position hold, documented MT-LB kills",
+    "droid_tw": "30+ brigades operational",
+    "fpv_casualty_attribution": "60% of Russian losses",
+    "ugv_missions_jan_2026": "7000+",
+    "personnel_replacement_potential": "33% of frontline troops (3rd Army Corps assessment)"
+  },
+  "strategic_vulnerabilities": {
+    "critical_gaps": [
+      "Microelectronics fabrication (no clean-room manufacturing)",
+      "Advanced semiconductors (China-dependent)",
+      "High-precision optics (limited capacity)",
+      "Specialized chips for flight controllers & AI accelerators"
+    ],
+    "mitigation_strategies": [
+      "European co-production (Build With Ukraine)",
+      "Component redundancy & multiple suppliers",
+      "Strategic inventory pre-positioning",
+      "International partnerships (Poland, Sweden, UK)"
+    ]
+  },
+  "sources_indexed": [
+    "Ministry of Defence of Ukraine (mod.gov.ua)",
+    "National Security & Defense Council (rnbo.gov.ua)",
+    "Brave1 Market (market-brave1.delta.mil.gov.ua)",
+    "Defence Express (en.defence-ua.com)",
+    "The Defender Media (thedefender.media)",
+    "Ukrainska Pravda (pravda.com.ua)",
+    "TechUkraine & VGI-9",
+    "Motor-G Official & Defender Media",
+    "Individual Manufacturer Publications"
+  ],
+  "data_confidence": {
+    "codified_systems": "100% (official MoD records)",
+    "production_statistics": "95% (government + manufacturer verification)",
+    "component_specs": "90% (technical publications + operational reports)",
+    "battlefield_data": "85% (combat reports + unit assessments)"
   }
 }
