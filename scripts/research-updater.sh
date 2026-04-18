@@ -150,12 +150,19 @@ EOF
 fi
 
 # Update timestamps in JSON files
-for json_file in "$ROBOTS_FILE" "$COMPONENTS_FILE" "$STATS_FILE"; do
+for json_file in "$COMPONENTS_FILE" "$STATS_FILE"; do
     if [ -f "$json_file" ]; then
         tmp_file="${json_file}.tmp"
         jq --arg date "$DATE" '.metadata.last_updated = $date' "$json_file" > "$tmp_file" && mv "$tmp_file" "$json_file" 2>/dev/null || true
     fi
 done
+
+# robots.json is an array, not an object with metadata
+# Skip updating timestamp since structure is different
+if [ -f "$ROBOTS_FILE" ]; then
+    # Just verify it's valid JSON
+    jq empty "$ROBOTS_FILE" 2>/dev/null || echo "⚠️ robots.json has invalid JSON"
+fi
 
 echo "" >> "$REPORT_FILE"
 echo "## Data Files Updated" >> "$REPORT_FILE"

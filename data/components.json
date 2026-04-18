@@ -167,6 +167,30 @@
             "intuitive_interface",
             "quick_deployment"
           ]
+        },
+        "droidbox_universal": {
+          "system": "DroidBox_Universal_Control",
+          "manufacturer": "DevDroid",
+          "codified": "2026_04",
+          "capacity": "1000+_ugvs",
+          "communication_types": 6,
+          "features": [
+            "unified_multi_platform_control",
+            "gps_spoofing_protection",
+            "ai_integration_support",
+            "redundant_transmission"
+          ],
+          "already_deployed_on": [
+            "droid_tw_series",
+            "bizon_series",
+            "foxtac",
+            "lynx_max",
+            "8+_other_variants"
+          ],
+          "interface": [
+            "tablet",
+            "gamepad"
+          ]
         }
       }
     },
@@ -338,5 +362,107 @@
   },
   "metadata": {
     "last_updated": "2026-04-18"
+  },
+  "system_profiles": {
+    "lynx_max": {
+      "category": "tracked_evacuation_ugv",
+      "propulsion": {
+        "type": "electric_track_drive",
+        "battery": "high_capacity_li_po",
+        "endurance": "4_to_6_hours",
+        "range": "60km"
+      },
+      "control": {
+        "range": "700m_line_of_sight",
+        "interface": [
+          "gamepad",
+          "tablet"
+        ],
+        "backup_frequency": "multiple"
+      },
+      "cargo": {
+        "auto_ejection": true,
+        "suspension": "horizontal_buffer",
+        "water_crossing": "70cm_depth"
+      },
+      "mobility": {
+        "speed": "13kmh_offroad",
+        "obstacles": "30_40cm_traversable",
+        "slopes": "45_50_degrees",
+        "terrain": [
+          "mud",
+          "snow",
+          "sand",
+          "rocky"
+        ]
+      }
+    }
+  },
+  "manufacturing_capacity_april_2026": {
+    "motor_g": {
+      "monthly_production": 200000,
+      "annual_capacity": 2400000,
+      "market_share_ukraine": "17%",
+      "quality_control_stages": 6,
+      "defect_rate": "0.2%_acceptable",
+      "localization": "85%_maximum",
+      "competitors": 8
+    },
+    "battery_production": {
+      "domestic_manufacturers": "5+",
+      "annual_capacity": "3000000+",
+      "technology": "Li_Po",
+      "quality": "Consistent with international standards"
+    },
+    "frame_production": {
+      "annual_capacity": "15000000+",
+      "material": "carbon_fiber",
+      "manufacturers": [
+        "VYRIY",
+        "Wild Hornets",
+        "Escadrone"
+      ],
+      "localization": "100%"
+    }
+  },
+  "localization_status_april_2026": {
+    "full_ukrainian": [
+      "carbon_fiber_frames",
+      "electronic_speed_controllers_esc",
+      "brushless_motors",
+      "li_po_batteries",
+      "fiber_optic_spools_3dtech"
+    ],
+    "partial_50_80": [
+      "flight_controllers_70_percent",
+      "video_transmitters_ft_systems",
+      "thermal_imaging_odd_systems",
+      "onboard_computers"
+    ],
+    "import_dependent": [
+      "microelectronics_fab",
+      "advanced_semiconductors",
+      "high_precision_optics",
+      "specialized_ai_accelerators"
+    ],
+    "domestic_supply_chain_target": "70%_by_end_2026"
+  },
+  "procurement_platforms_2026": {
+    "dot_chain_defence": {
+      "operator": "Ministry_of_Defence_Procurement_Agency_AOZ",
+      "purpose": "centralized_ground_robot_procurement",
+      "status": "operational_april_2026",
+      "features": [
+        "transparent_pricing",
+        "fast_approval",
+        "direct_military_ordering"
+      ]
+    },
+    "brave1_market": {
+      "purpose": "combat_points_based_ordering",
+      "available_systems": "13+_ground_robot_models",
+      "procurement_speed": "hours_to_days",
+      "payment_method": "earned_combat_points"
+    }
   }
 }

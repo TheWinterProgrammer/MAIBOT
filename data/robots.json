@@ -16,7 +16,12 @@
         "automatic_target_tracking": true
       },
       "mobility": {
-        "terrain": ["rough_terrain", "sand", "snow", "shallow_water"],
+        "terrain": [
+          "rough_terrain",
+          "sand",
+          "snow",
+          "shallow_water"
+        ],
         "chassis": "high_cross_country_mobility",
         "protection": {
           "hull": "armored",
@@ -26,7 +31,10 @@
       },
       "control": {
         "type": "integrated_control_module",
-        "features": ["simultaneous_platform_and_weapon_control", "reduced_decision_time"]
+        "features": [
+          "simultaneous_platform_and_weapon_control",
+          "reduced_decision_time"
+        ]
       },
       "combat_record": {
         "position_hold_record": "45 consecutive days",
@@ -48,8 +56,14 @@
     "specs": {
       "mobility": {
         "drive": "four_wheel_drive",
-        "features": ["wheeled_and_tracked_operation", "debris_shielded"],
-        "terrain": ["heavy_off_road", "various_terrains"]
+        "features": [
+          "wheeled_and_tracked_operation",
+          "debris_shielded"
+        ],
+        "terrain": [
+          "heavy_off_road",
+          "various_terrains"
+        ]
       },
       "control": {
         "control_range_m": 700,
@@ -57,7 +71,9 @@
         "safety_feature": "operator_remote_operation"
       },
       "primary_mission": "wounded_soldier_evacuation",
-      "secondary_missions": ["logistics_transport"],
+      "secondary_missions": [
+        "logistics_transport"
+      ],
       "deployment_status": "prototypes_tested, codification_complete"
     },
     "status": "operational",
@@ -75,7 +91,10 @@
       "primary_role": "kamikaze_robot",
       "mission": "destroy_enemy_positions_and_armored_vehicles",
       "operation": "mobile_warhead_carrying_explosives",
-      "payloads": ["anti_tank_mines", "explosives"],
+      "payloads": [
+        "anti_tank_mines",
+        "explosives"
+      ],
       "production_status": "mass_production_launched"
     },
     "status": "operational",
@@ -98,9 +117,15 @@
       "mobility": {
         "speed_kmh": 15,
         "endurance_hours": 13,
-        "conditions": ["rough_terrain", "difficult_weather"]
+        "conditions": [
+          "rough_terrain",
+          "difficult_weather"
+        ]
       },
-      "sensors": ["thermal_imaging", "sighting_cameras"],
+      "sensors": [
+        "thermal_imaging",
+        "sighting_cameras"
+      ],
       "weapon": "ShaBlya M2 RWS",
       "propulsion": "hybrid_power_plant"
     },
@@ -150,9 +175,21 @@
     "type": "UGV",
     "specs": {
       "mobility": {
-        "terrain": ["water", "floodplains", "swamps", "mire", "sand", "ice", "difficult_surfaces"],
+        "terrain": [
+          "water",
+          "floodplains",
+          "swamps",
+          "mire",
+          "sand",
+          "ice",
+          "difficult_surfaces"
+        ],
         "ground_pressure": "less_than_infantry_soldier_foot",
-        "features": ["amphibious", "wide_tires", "specialized_chassis"]
+        "features": [
+          "amphibious",
+          "wide_tires",
+          "specialized_chassis"
+        ]
       },
       "propulsion": {
         "type": "electric",
@@ -196,8 +233,15 @@
       "mobility": {
         "drive": "all_wheel_drive",
         "tires": "runflat",
-        "terrain": ["off_road", "water_crossings", "steep_obstacles"],
-        "features": ["excellent_off_road", "overcomes_significant_obstacles"]
+        "terrain": [
+          "off_road",
+          "water_crossings",
+          "steep_obstacles"
+        ],
+        "features": [
+          "excellent_off_road",
+          "overcomes_significant_obstacles"
+        ]
       },
       "configurations": [
         "ammunition_transport",
@@ -224,7 +268,10 @@
       "dimensions": "compact_low_profile",
       "protection": {
         "armor": "protective_plating",
-        "resistance": ["small_arms_fire", "shrapnel"]
+        "resistance": [
+          "small_arms_fire",
+          "shrapnel"
+        ]
       },
       "missions": [
         "logistics_transport",
@@ -248,13 +295,21 @@
       "payload_capacity_kg": 300,
       "chassis": "tracked",
       "center_of_gravity": "low",
-      "terrain": ["rough_ground", "steep_slopes", "trenches", "obstacles"],
+      "terrain": [
+        "rough_ground",
+        "steep_slopes",
+        "trenches",
+        "obstacles"
+      ],
       "propulsion": {
         "type": "battery",
         "endurance": "several_continuous_hours",
         "range": "tens_of_kilometers"
       },
-      "features": ["modular", "improved_dynamic_performance"],
+      "features": [
+        "modular",
+        "improved_dynamic_performance"
+      ],
       "configurations": [
         "medical_evacuation",
         "supply_transport",
@@ -279,7 +334,11 @@
     "weight_class": "compact",
     "type": "UGV",
     "specs": {
-      "transport": ["pickup_truck", "minibus", "trailer"],
+      "transport": [
+        "pickup_truck",
+        "minibus",
+        "trailer"
+      ],
       "propulsion": {
         "type": "electric",
         "motors": "dual_silent_electric",
@@ -287,18 +346,34 @@
         "battery": "extended_duty_hours"
       },
       "mobility": {
-        "terrain": ["off_road", "dense_forests", "sand", "swamps", "steep_slopes"]
+        "terrain": [
+          "off_road",
+          "dense_forests",
+          "sand",
+          "swamps",
+          "steep_slopes"
+        ]
       },
       "control": {
         "ew_resistance": "high",
-        "weather": ["cold", "heat", "snow", "rain"]
+        "weather": [
+          "cold",
+          "heat",
+          "snow",
+          "rain"
+        ]
       },
       "payload": {
         "weapon": "RPV-16_reactive_thermobaric_launchers",
         "quantity": 2,
-        "targets": ["enemy_personnel", "lightly_armored_vehicles"]
+        "targets": [
+          "enemy_personnel",
+          "lightly_armored_vehicles"
+        ]
       },
-      "sensors": ["video_cameras"]
+      "sensors": [
+        "video_cameras"
+      ]
     },
     "status": "operational",
     "source": "Ministry of Defence Ukraine"
@@ -328,7 +403,10 @@
           "type": "machine_gun"
         }
       ],
-      "ammunition_capacity": [480, 1000],
+      "ammunition_capacity": [
+        480,
+        1000
+      ],
       "effective_range_m": 1000,
       "detection": {
         "day_range_m": 1500,
@@ -339,9 +417,16 @@
       "computing": {
         "ballistic_calculation": true
       },
-      "communication": ["military_systems", "Starlink", "LTE"],
+      "communication": [
+        "military_systems",
+        "Starlink",
+        "LTE"
+      ],
       "deployment_time_minutes": 5,
-      "control": ["tablet", "gamepad"],
+      "control": [
+        "tablet",
+        "gamepad"
+      ],
       "field_testing": "2023",
       "operational_deployment": "30+ brigades (Apr 2026)"
     },
@@ -363,7 +448,10 @@
       "propulsion": {
         "type": "diesel",
         "fuel_tanks": "configurable",
-        "range_km": [100, 200]
+        "range_km": [
+          100,
+          200
+        ]
       },
       "ai_capabilities": {
         "local_navigation": true,
@@ -382,7 +470,10 @@
       },
       "local_content_percent": 70,
       "components": {
-        "domestic": ["electronics", "cameras"],
+        "domestic": [
+          "electronics",
+          "cameras"
+        ],
         "imported": "basic_components_from_EU"
       },
       "production_planned_monthly": 10,
@@ -412,7 +503,11 @@
       "ammunition_capacity": "1000 rounds",
       "effective_range_m": 1000,
       "mobility": {
-        "terrain": ["rough_terrain", "minefields", "water"],
+        "terrain": [
+          "rough_terrain",
+          "minefields",
+          "water"
+        ],
         "max_speed_kmh": 8,
         "endurance_hours": "multiple_days"
       },
@@ -420,7 +515,10 @@
         "thermal_imager": true,
         "video_cameras": "multiple_views"
       },
-      "communication": ["Starlink", "military_systems"],
+      "communication": [
+        "Starlink",
+        "military_systems"
+      ],
       "production_status": "mass_production"
     },
     "status": "operational",
@@ -438,7 +536,12 @@
     "specs": {
       "platform": "Modular tracked UGV",
       "propulsion": "electric",
-      "configurations": ["weapons", "logistics", "mine_clearing", "evacuation"],
+      "configurations": [
+        "weapons",
+        "logistics",
+        "mine_clearing",
+        "evacuation"
+      ],
       "terrain_capability": "all_terrain",
       "communication": "NATO_standard"
     },
@@ -450,5 +553,100 @@
       "order_date": "October 2025"
     },
     "source": "Ukrainska Pravda (pravda.com.ua), Oct 2025"
+  },
+  {
+    "id": "robot-12",
+    "name": "Lynx MAX",
+    "manufacturer": "Roboneers (Ukrainian)",
+    "codified": "2026-04",
+    "category": "evacuation_logistics_tracked",
+    "weight_class": "medium",
+    "type": "UGV",
+    "specs": {
+      "chassis": "tracked",
+      "speed_kmh": 13,
+      "payload_kg": 350,
+      "range_km": 60,
+      "personnel_capacity": 2,
+      "water_crossing_depth_cm": 70,
+      "control_range_m": 700,
+      "endurance_hours": "4-6",
+      "special_features": [
+        "automatic_cargo_ejection_system",
+        "horizontal_buffer_suspension",
+        "all_terrain_tracked_mobility",
+        "operational_capsule_communication"
+      ]
+    },
+    "deployment": {
+      "status": "operational",
+      "location": "Pokrovsk axis",
+      "units": [
+        "25th Sicheslav Brigade",
+        "68th Separate Jaeger Brigade"
+      ],
+      "verified_mission": "12km deep penetration under drone threat, successful casualty evacuation"
+    },
+    "combat_record": {
+      "documented_missions": "Multiple evacuations Pokrovsk axis (March 2026)",
+      "threat_environment": "Active enemy drone coverage",
+      "communication": "Internal capsule communication maintained"
+    },
+    "source": "Roboneers official, Defender Media (April 2026), Ministry of Defence Ukraine"
+  },
+  {
+    "id": "robot-13",
+    "name": "Nurse TB",
+    "manufacturer": "Ratel Robotics (Ukrainian)",
+    "codified": "2026-04",
+    "category": "medical_evacuation_tracked",
+    "weight_class": "light",
+    "type": "UGV",
+    "specs": {
+      "chassis": "tracked",
+      "primary_mission": "medical_evacuation_and_logistics",
+      "cargo_capacity_kg": 150,
+      "special_payloads": [
+        "anti_tank_mines (up to 6)",
+        "medical_supply_modules",
+        "ammunition_containers"
+      ],
+      "mobility": "all_terrain_tracked"
+    },
+    "status": "pre_production",
+    "source": "Ratel Robotics official, Defender Media (April 2026)"
+  },
+  {
+    "id": "robot-14",
+    "name": "DroidBox Universal Control System",
+    "manufacturer": "DevDroid (Ukrainian)",
+    "codified": "2026-04",
+    "category": "universal_control_system",
+    "type": "C2_Integration",
+    "specs": {
+      "unified_control_capacity": "1000+ UGVs",
+      "communication_types": 6,
+      "gps_spoofing_protection": true,
+      "ai_integration_support": true,
+      "control_interface": [
+        "tablet",
+        "gamepad"
+      ],
+      "pre_installed_on": [
+        "8+ system variants",
+        "Droid TW series",
+        "BIZON series",
+        "FoxTac",
+        "others"
+      ]
+    },
+    "features": {
+      "single_operator_control": "Multiple platforms from one device",
+      "redundancy": "6 communication channel types",
+      "anti_jamming": "Multiple transmission methods"
+    },
+    "deployment": "1000+ units already deployed",
+    "status": "operational",
+    "source": "Ministry of Defence Ukraine (April 2026), DevDroid, Defender Media"
   }
 ]

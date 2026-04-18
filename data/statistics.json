@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-18T15:02:00Z",
+  "last_updated": "2026-04-18T20:06:25.165348",
   "research_run_id": "36198b4b-8844-494c-978b-299931f147b4",
-  "research_runs": 27,
+  "research_runs": 29,
   "research_date": "2026-04-18",
   "fpv_drone_ecosystem": {
     "annual_capacity_2025_2026": {
@@ -277,5 +277,70 @@
       "UGS units being formed at brigade level with dedicated organizational structure",
       "Zmiy Droid 12.7 held position for 45 consecutive days - longest documented deployment"
     ]
+  },
+  "mission_escalation_2026": {
+    "november_2025": 2900,
+    "january_2026": 7000,
+    "march_2026": 9000,
+    "ytd_jan_mar_2026": 24500
+  },
+  "unit_deployment_growth": {
+    "november_2025": 67,
+    "march_2026": 167,
+    "growth_multiplier": 2.49
+  },
+  "procurement_targets_2026": {
+    "h1_target_units": 25000,
+    "h1_target_uah": "11000000000",
+    "aoz_contracts": 19,
+    "notes": "Double the total 2025 procurement (12,500 units)"
+  },
+  "ecosystem_metrics_april_2026": {
+    "active_companies": 280,
+    "technological_solutions": 550,
+    "brave1_registered": 140,
+    "brave1_validated": 96,
+    "brave1_nato_compliant": 14
+  },
+  "systems_verified_2026_04_18": {
+    "lynx_max": {
+      "manufacturer": "Roboneers",
+      "category": "evacuation_logistics_tracked",
+      "speed_kmh": 13,
+      "payload_kg": 350,
+      "range_km": 60,
+      "operational_status": "deployed_pokrovsk_axis"
+    },
+    "nurse_tb": {
+      "manufacturer": "Ratel Robotics",
+      "category": "medical_evacuation_tracked",
+      "cargo_capacity_kg": 150,
+      "anti_tank_mines": 6,
+      "status": "pre_production"
+    },
+    "droidbox": {
+      "manufacturer": "DevDroid",
+      "category": "universal_control_system",
+      "unified_ugv_count": 1000,
+      "codified_date": "2026-04",
+      "status": "operational"
+    }
+  },
+  "top_units_by_performance_march_2026": {
+    "1": "3rd Separate Assault Brigade",
+    "2": "1st Separate Medical Battalion",
+    "3": "92nd Separate Assault Brigade - Unmanned Systems Company",
+    "4": "95th Separate Airborne Assault Polissya Brigade",
+    "5": "3rd Operational Brigade 'Spartan'"
+  },
+  "miny_strategic_initiatives_2026": {
+    "goal": "100% automation of frontline logistics",
+    "actions": [
+      "VAT review - pricing adjustments approved",
+      "Procurement streamlining - contracting accelerated",
+      "1-year contracts guaranteed to manufacturers",
+      "Center of Competence for Ground Robots creation"
+    ],
+    "center_competence_launch": "Q2 2026"
   }
 }
