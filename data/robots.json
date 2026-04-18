@@ -212,26 +212,46 @@
     "developer": "RoverTech + DevDroid (collaboration)",
     "status": "Codified & Operational",
     "codification_year": 2026,
+    "adoption_date": "2026-04-14",
     "specs": {
       "platform_base": "Zmiy ground robotic platform (RoverTech)",
-      "armor": "Armored protection",
-      "mobility": "Challenging terrain adapted (urban/off-road)",
-      "control_system": "Integrated movement + weapon operation",
-      "deployment_time": "Reduced detection-to-engagement time"
+      "armor": "Armored protection, mine-resistant body",
+      "mobility": "High cross-country ability, sand, snow, shallow water obstacles",
+      "control_system": "Integrated simultaneous platform + weapon module operation",
+      "durability": "Withstands multiple FPV drone hits",
+      "deployment_time": "Reduced detection-to-engagement time",
+      "operational_record": "45 consecutive days holding firing position"
     },
     "weapon_station": {
       "name": "Wolly 12.7",
       "developer": "DevDroid",
       "type": "Remote weapon station",
-      "primary_weapon": "Heavy machine gun (12.7mm)"
+      "primary_weapon": "Heavy machine gun (12.7mm)",
+      "ai_features": ["Target capture", "Autonomous tracking mode"]
+    },
+    "ai_integration": {
+      "level": "Advanced",
+      "features": [
+        "Automatic target capture",
+        "Target tracking in autonomous mode",
+        "Simultaneous platform and weapon control"
+      ]
+    },
+    "combat_proven": {
+      "status": true,
+      "victories": [
+        "Documented destruction of Russian MT-LB armored vehicles"
+      ],
+      "endurance_record": "45 days continuous deployment with minimal maintenance"
     },
     "capabilities": [
       "Fire support during offensive/defensive operations",
       "Position protection and suppression tasks",
       "Engaging enemy personnel and lightly armored vehicles",
-      "Operating in high FPV drone threat environments"
+      "Operating in high FPV drone threat environments",
+      "AI-assisted autonomous targeting"
     ],
     "design_philosophy": "Practical, combat-tested, operator-friendly",
-    "sources": ["mod.gov.ua", "rovertech.co.ua", "thedefender.media"]
+    "sources": ["mod.gov.ua", "dev.ua", "gsminfo.com.ua"]
   }
 ]

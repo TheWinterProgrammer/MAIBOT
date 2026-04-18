@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-18T05:05:22.236062",
-  "research_runs": 17,
+  "last_updated": "2026-04-18T08:02:57.997475",
+  "research_runs": 19,
   "data_collection_status": "Active",
   "fpv_drone_production": {
     "annual_statistics": {
@@ -39,6 +39,16 @@
       "2025_h1": 20,
       "2025_h1_accumulated": "~80 (April 2026)"
     },
+    "monthly_missions": {
+      "january_2026": 7000,
+      "mission_types": [
+        "Logistics (majority)",
+        "Combat operations",
+        "Casualty evacuation",
+        "Mine-laying",
+        "Demining"
+      ]
+    },
     "systems_by_category": {
       "heavy_logistics": 1,
       "combat_strike": 3,
@@ -63,14 +73,23 @@
     "partially_localized_percentage": 35,
     "import_dependent_percentage": 15,
     "localization_trend": "Rapidly improving (2-3 year acceleration)",
-    "key_breakthrough_year": 2024
+    "key_breakthrough_year": 2024,
+    "new_achievements_2026": {
+      "flight_controller": "Wild Hornets localized controller (12% cost reduction)",
+      "motor_production": "Motor-G at 100k+/mo capacity",
+      "fiber_optic": "3DTech 30km spools, 5+ Khyzhak REBOFF variants codified",
+      "vyriy_drone": "100% localization achieved (was 0% in 2023)"
+    }
   },
   "production_capacity_analysis": {
     "fpv_drones": {
+      "annual_capacity_2026": "8+ million units/year",
+      "manufacturers_count": 160,
       "monthly_capacity_thousands": 180,
       "annual_potential_thousands": 2160,
       "actual_2025_h1_pace": 2000,
-      "capacity_utilization": "85-90%"
+      "capacity_utilization": "85-90%",
+      "combat_impact": "60% of Russian army losses caused by FPV drones"
     },
     "component_production": {
       "motor_production_monthly": 100000,
@@ -109,7 +128,12 @@
     "themis_units_operational": 15,
     "themis_units_contracted": 150,
     "ground_robot_deployment_scale": "Limited (technology still developing)",
-    "army_readiness_assessment": "Doctrine development ongoing"
+    "army_readiness_assessment": "Doctrine development ongoing",
+    "ugv_strategic_objective_2026": "Transition frontline logistics to robotic systems wherever possible",
+    "brave1_market": {
+      "ugv_models_available": 13,
+      "procurement_system": "Combat points for direct frontline acquisition"
+    }
   },
   "technology_performance": {
     "protector_range_km": 400,
