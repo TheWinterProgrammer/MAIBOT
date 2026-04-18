@@ -160,6 +160,17 @@
         "type": "Tracked electric platform",
         "motors": "Dual electric (whisper-quiet)",
         "acoustic": "Very low signature"
+      },
+      "zmiy_droid_platform": {
+        "type": "Tracked armored ground robotic platform",
+        "developer": "RoverTech",
+        "armor": "Armored protection",
+        "mobility": "Challenging terrain adapted (damaged urban/off-road)",
+        "applications": [
+          "Combat",
+          "Demining (GRCS Zmiy variant)"
+        ],
+        "control": "Integrated movement + weapon operation"
       }
     },
     "weapon_systems": {
@@ -174,6 +185,12 @@
         "warhead": "2500°C fireball with overpressure + fragmentation",
         "range": "1000m max, 600m effective",
         "equivalent": "122mm artillery shell"
+      },
+      "zmiy_droid_weapons": {
+        "wolly_12_7_station": "Remote weapon station (DevDroid)",
+        "primary_weapon": "Heavy machine gun (12.7mm)",
+        "control": "Integrated movement + weapon operation",
+        "design_philosophy": "Practical, operator-friendly"
       }
     },
     "sensor_suite": {

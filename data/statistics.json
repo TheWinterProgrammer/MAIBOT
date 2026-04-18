@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-18T01:03:55.720797",
-  "research_runs": 14,
+  "last_updated": "2026-04-18T05:05:22.236062",
+  "research_runs": 17,
   "data_collection_status": "Active",
   "fpv_drone_production": {
     "annual_statistics": {
@@ -37,17 +37,17 @@
     "codification_by_year": {
       "2024_total": 15,
       "2025_h1": 20,
-      "2025_h1_accumulated": "~35"
+      "2025_h1_accumulated": "~80 (April 2026)"
     },
     "systems_by_category": {
       "heavy_logistics": 1,
-      "combat_strike": 2,
+      "combat_strike": 3,
       "multipurpose_tracked": 2,
       "amphibious": 1,
       "thermobaric_strike": 1,
-      "machine_gun_armed": 1,
+      "machine_gun_armed": 2,
       "imported_proven": 1,
-      "other_codified": 71
+      "other_codified": 70
     },
     "ukrainian_made_percentage": 85
   },

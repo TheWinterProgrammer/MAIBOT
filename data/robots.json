@@ -203,5 +203,35 @@
       "target_engagement": "Precise, all-lighting-conditions"
     },
     "sources": ["defence-ua.com"]
+  },
+  {
+    "id": "zmiy_droid_12_7",
+    "name": "Zmiy Droid 12.7",
+    "type": "Ground Robotic System",
+    "classification": "Armored Strike Platform",
+    "developer": "RoverTech + DevDroid (collaboration)",
+    "status": "Codified & Operational",
+    "codification_year": 2026,
+    "specs": {
+      "platform_base": "Zmiy ground robotic platform (RoverTech)",
+      "armor": "Armored protection",
+      "mobility": "Challenging terrain adapted (urban/off-road)",
+      "control_system": "Integrated movement + weapon operation",
+      "deployment_time": "Reduced detection-to-engagement time"
+    },
+    "weapon_station": {
+      "name": "Wolly 12.7",
+      "developer": "DevDroid",
+      "type": "Remote weapon station",
+      "primary_weapon": "Heavy machine gun (12.7mm)"
+    },
+    "capabilities": [
+      "Fire support during offensive/defensive operations",
+      "Position protection and suppression tasks",
+      "Engaging enemy personnel and lightly armored vehicles",
+      "Operating in high FPV drone threat environments"
+    ],
+    "design_philosophy": "Practical, combat-tested, operator-friendly",
+    "sources": ["mod.gov.ua", "rovertech.co.ua", "thedefender.media"]
   }
 ]
