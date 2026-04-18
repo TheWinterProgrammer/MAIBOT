@@ -1,20 +1,36 @@
 {
   "propulsion_systems": {
     "electric_tracked": {
-      "usage": ["UNEX UGV", "DODGER", "KRAMPUS", "TERMIT"],
+      "usage": [
+        "UNEX UGV",
+        "DODGER",
+        "KRAMPUS",
+        "TERMIT"
+      ],
       "specs": {
         "motors": "dual_silent_electric",
         "battery": "high_capacity",
         "endurance": "several_continuous_hours",
-        "advantages": ["silent_operation", "extended_duty", "low_thermal_signature"]
+        "advantages": [
+          "silent_operation",
+          "extended_duty",
+          "low_thermal_signature"
+        ]
       }
     },
     "diesel_ic": {
-      "usage": ["PROTECTOR", "Bufalo"],
+      "usage": [
+        "PROTECTOR",
+        "Bufalo"
+      ],
       "specs": {
         "type": "internal_combustion_diesel",
         "range_extension": "configurable_fuel_tanks",
-        "advantages": ["long_range", "refuel_vs_replace_batteries", "high_power"]
+        "advantages": [
+          "long_range",
+          "refuel_vs_replace_batteries",
+          "high_power"
+        ]
       }
     },
     "hybrid": {
@@ -23,22 +39,41 @@
   },
   "chassis_types": {
     "tracked": {
-      "usage": ["TERMIT", "KRAMPUS", "DODGER"],
-      "features": ["low_center_of_gravity", "trench_traversal", "all_terrain"]
+      "usage": [
+        "TERMIT",
+        "KRAMPUS",
+        "DODGER"
+      ],
+      "features": [
+        "low_center_of_gravity",
+        "trench_traversal",
+        "all_terrain"
+      ]
     },
     "wheeled_all_wheel": {
-      "usage": ["PROTECTOR"],
+      "usage": [
+        "PROTECTOR"
+      ],
       "tires": "runflat",
       "drive": "all_wheel_drive"
     },
     "specialized_amphibious": {
-      "usage": ["UNEX UGV"],
-      "features": ["water_traversal", "low_ground_pressure", "wide_tires"]
+      "usage": [
+        "UNEX UGV"
+      ],
+      "features": [
+        "water_traversal",
+        "low_ground_pressure",
+        "wide_tires"
+      ]
     }
   },
   "ai_cv_systems": {
     "enemy_recognition": {
-      "systems": ["Droid TW", "Bufalo"],
+      "systems": [
+        "Droid TW",
+        "Bufalo"
+      ],
       "capabilities": [
         "personnel_detection",
         "autonomous_target_tracking",
@@ -46,7 +81,9 @@
       ]
     },
     "local_navigation": {
-      "systems": ["Bufalo"],
+      "systems": [
+        "Bufalo"
+      ],
       "capabilities": [
         "obstacle_detection_15m_range",
         "route_planning",
@@ -63,7 +100,9 @@
   },
   "sensors_optics": {
     "thermal_imagers": {
-      "systems": ["Droid TW"],
+      "systems": [
+        "Droid TW"
+      ],
       "specs": {
         "day_range_m": 1500,
         "night_range_m": 1000,
@@ -71,8 +110,14 @@
       }
     },
     "video_cameras": {
-      "systems": ["KRAMPUS", "Bufalo"],
-      "types": ["day_night_vision", "navigation_cameras"]
+      "systems": [
+        "KRAMPUS",
+        "Bufalo"
+      ],
+      "types": [
+        "day_night_vision",
+        "navigation_cameras"
+      ]
     },
     "optical_systems": {
       "dodger": "surveillance_cameras",
@@ -83,74 +128,130 @@
     "control_systems": {
       "types": {
         "radio_controlled": {
-          "systems": ["UNEX UGV", "PROTECTOR", "DODGER"],
-          "features": ["ew_resistant_channels", "reliable_transmission"]
+          "systems": [
+            "UNEX UGV",
+            "PROTECTOR",
+            "DODGER"
+          ],
+          "features": [
+            "ew_resistant_channels",
+            "reliable_transmission"
+          ]
         },
         "remote_tablet_gamepad": {
-          "systems": ["Droid TW"],
-          "features": ["intuitive_interface", "quick_deployment"]
+          "systems": [
+            "Droid TW"
+          ],
+          "features": [
+            "intuitive_interface",
+            "quick_deployment"
+          ]
         }
       }
     },
     "autopilot": {
-      "systems": ["UNEX UGV"],
+      "systems": [
+        "UNEX UGV"
+      ],
       "type": "programmable_autopilot"
     },
     "ballistic_computers": {
-      "systems": ["Droid TW"],
+      "systems": [
+        "Droid TW"
+      ],
       "function": "fire_accuracy_improvement"
     }
   },
   "power_systems": {
     "batteries": {
       "high_capacity": {
-        "systems": ["UNEX UGV", "TERMIT", "KRAMPUS"],
-        "features": ["extended_operation", "several_hours_continuous_movement"]
+        "systems": [
+          "UNEX UGV",
+          "TERMIT",
+          "KRAMPUS"
+        ],
+        "features": [
+          "extended_operation",
+          "several_hours_continuous_movement"
+        ]
       }
     },
     "fuel_cells_diesel": {
-      "systems": ["PROTECTOR", "Bufalo"],
-      "advantages": ["long_range", "quick_refuel", "high_power_output"]
+      "systems": [
+        "PROTECTOR",
+        "Bufalo"
+      ],
+      "advantages": [
+        "long_range",
+        "quick_refuel",
+        "high_power_output"
+      ]
     }
   },
   "communication_systems": {
     "Starlink_integration": {
-      "systems": ["Droid TW", "Bufalo"],
-      "features": ["satellite_backhaul", "global_coverage"]
+      "systems": [
+        "Droid TW",
+        "Bufalo"
+      ],
+      "features": [
+        "satellite_backhaul",
+        "global_coverage"
+      ]
     },
     "LTE": {
-      "systems": ["Droid TW"],
+      "systems": [
+        "Droid TW"
+      ],
       "note": "Cellular_backup_communication"
     },
     "military_communications": {
-      "systems": ["Droid TW"],
+      "systems": [
+        "Droid TW"
+      ],
       "type": "military_standard_encryption"
     },
     "radio_channels": {
-      "systems": ["Bufalo"],
+      "systems": [
+        "Bufalo"
+      ],
       "backup": true
     },
     "GPS_navigation": {
-      "systems": ["Bufalo"],
+      "systems": [
+        "Bufalo"
+      ],
       "protection": "CRPA_antenna_anti_jamming"
     }
   },
   "weapon_stations": {
     "machine_guns": {
       "12.7mm_browning": {
-        "systems": ["Droid TW"],
+        "systems": [
+          "Droid TW"
+        ],
         "range_m": 1000
       },
       "7.62mm": {
-        "systems": ["Droid TW"],
-        "ammo_capacity": [480, 1000]
+        "systems": [
+          "Droid TW"
+        ],
+        "ammo_capacity": [
+          480,
+          1000
+        ]
       }
     },
     "thermobaric_launchers": {
       "RPV-16": {
-        "systems": ["KRAMPUS"],
+        "systems": [
+          "KRAMPUS"
+        ],
         "quantity": 2,
-        "targets": ["personnel", "light_armor"]
+        "targets": [
+          "personnel",
+          "light_armor"
+        ]
       }
     },
     "grenade_launchers": {
@@ -160,19 +261,37 @@
       }
     },
     "modular_mounts": {
-      "systems": ["UNEX UGV", "TERMIT", "PROTECTOR"],
-      "types": ["weapon_stations", "EW_systems", "logistics_platforms"]
+      "systems": [
+        "UNEX UGV",
+        "TERMIT",
+        "PROTECTOR"
+      ],
+      "types": [
+        "weapon_stations",
+        "EW_systems",
+        "logistics_platforms"
+      ]
     }
   },
   "protection_systems": {
     "armor": {
       "light_plating": {
-        "systems": ["DODGER"],
-        "resistance": ["small_arms", "shrapnel"]
+        "systems": [
+          "DODGER"
+        ],
+        "resistance": [
+          "small_arms",
+          "shrapnel"
+        ]
       },
       "heavy_armor": {
-        "systems": ["Bufalo"],
-        "resistance": ["small_arms_direct_fire", "152mm_shells_100m_radius"]
+        "systems": [
+          "Bufalo"
+        ],
+        "resistance": [
+          "small_arms_direct_fire",
+          "152mm_shells_100m_radius"
+        ]
       }
     },
     "mine_resistance": {
@@ -180,14 +299,23 @@
       "pressure": "less_than_soldier_foot"
     },
     "runflat_tires": {
-      "systems": ["PROTECTOR"],
+      "systems": [
+        "PROTECTOR"
+      ],
       "advantage": "continued_mobility_when_damaged"
     }
   },
   "localization": {
     "domestic_content_target": "70_percent",
     "example": "Bufalo",
-    "domestic_components": ["electronics", "cameras", "software"],
+    "domestic_components": [
+      "electronics",
+      "cameras",
+      "software"
+    ],
     "imported_components": "basic_EU_sourced"
+  },
+  "metadata": {
+    "last_updated": "2026-04-18"
   }
 }

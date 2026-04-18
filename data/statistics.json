@@ -184,5 +184,8 @@
     "production_statistics": "95% (government + manufacturer verification)",
     "component_specs": "90% (technical publications + operational reports)",
     "battlefield_data": "85% (combat reports + unit assessments)"
+  },
+  "metadata": {
+    "last_updated": "2026-04-18"
   }
 }
