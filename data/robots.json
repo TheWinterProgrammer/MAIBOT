@@ -1,5 +1,146 @@
 [
   {
+    "id": "zmiy-droid-12-7",
+    "name": "Zmiy Droid 12.7",
+    "manufacturer": "Ukrainian (two domestic defense enterprises)",
+    "codified": "2026-04",
+    "category": "strike_reconnaissance",
+    "weight_class": "medium",
+    "type": "UGV",
+    "specs": {
+      "base_platform": "Zmiy (proven combat effectiveness)",
+      "weapon_station": "Wolly remotely operated",
+      "armament": "12.7mm machine gun",
+      "ai_capabilities": {
+        "automatic_target_acquisition": true,
+        "automatic_target_tracking": true
+      },
+      "mobility": {
+        "terrain": ["rough_terrain", "sand", "snow", "shallow_water"],
+        "chassis": "high_cross_country_mobility",
+        "protection": {
+          "hull": "armored",
+          "mine_resistance": "anti_personnel_mine_protected",
+          "drone_resistance": "multiple_FPV_drone_hits"
+        }
+      },
+      "control": {
+        "type": "integrated_control_module",
+        "features": ["simultaneous_platform_and_weapon_control", "reduced_decision_time"]
+      },
+      "combat_record": {
+        "position_hold_record": "45 consecutive days",
+        "documented_kills": "MT-LB multi-purpose tracked armored vehicle",
+        "maintenance_cycle": "every 2 days for hours"
+      }
+    },
+    "status": "operational",
+    "source": "Ministry of Defence Ukraine (mod.gov.ua)"
+  },
+  {
+    "id": "foxtac",
+    "name": "FoxTac",
+    "manufacturer": "Brave1 cluster participants",
+    "codified": "2024 (testing), 2025 (operational)",
+    "category": "evacuation_logistics",
+    "weight_class": "medium",
+    "type": "UGV",
+    "specs": {
+      "mobility": {
+        "drive": "four_wheel_drive",
+        "features": ["wheeled_and_tracked_operation", "debris_shielded"],
+        "terrain": ["heavy_off_road", "various_terrains"]
+      },
+      "control": {
+        "control_range_m": 700,
+        "operational_radius_km": 10,
+        "safety_feature": "operator_remote_operation"
+      },
+      "primary_mission": "wounded_soldier_evacuation",
+      "secondary_missions": ["logistics_transport"],
+      "deployment_status": "prototypes_tested, codification_complete"
+    },
+    "status": "operational",
+    "source": "Brave1, Ministry of Digital Transformation"
+  },
+  {
+    "id": "ratel-s",
+    "name": "Ratel-S",
+    "manufacturer": "Ukrainian (Brave1)",
+    "codified": "2024",
+    "category": "kamikaze_strike",
+    "weight_class": "light",
+    "type": "UGV",
+    "specs": {
+      "primary_role": "kamikaze_robot",
+      "mission": "destroy_enemy_positions_and_armored_vehicles",
+      "operation": "mobile_warhead_carrying_explosives",
+      "payloads": ["anti_tank_mines", "explosives"],
+      "production_status": "mass_production_launched"
+    },
+    "status": "operational",
+    "source": "Brave1, Militarnyi"
+  },
+  {
+    "id": "ironclad",
+    "name": "IronClad",
+    "manufacturer": "Ukrainian (Brave1)",
+    "codified": "2024",
+    "category": "assault_platform",
+    "weight_class": "heavy",
+    "type": "UGV",
+    "specs": {
+      "primary_role": "position_storming",
+      "protection": {
+        "armor": "armored_shell",
+        "resistance": "small_arms_fire"
+      },
+      "mobility": {
+        "speed_kmh": 15,
+        "endurance_hours": 13,
+        "conditions": ["rough_terrain", "difficult_weather"]
+      },
+      "sensors": ["thermal_imaging", "sighting_cameras"],
+      "weapon": "ShaBlya M2 RWS",
+      "propulsion": "hybrid_power_plant"
+    },
+    "status": "operational",
+    "source": "Brave1, Militarnyi"
+  },
+  {
+    "id": "d-21-11",
+    "name": "D-21-11",
+    "manufacturer": "Ukrainian (Brave1)",
+    "codified": "2024",
+    "category": "stationary_fire_module",
+    "weight_class": "light",
+    "type": "UGV",
+    "specs": {
+      "type": "stationary_ground_based_robotic_fast_deployment_module",
+      "function": "remote_aiming_and_firing_from_protected_position",
+      "mobility": "fixed_position_deployment"
+    },
+    "status": "operational",
+    "source": "Brave1, Militarnyi"
+  },
+  {
+    "id": "volya-e",
+    "name": "Volya-E",
+    "manufacturer": "Ukrainian",
+    "codified": "2024 (testing)",
+    "category": "logistics_transport",
+    "weight_class": "medium",
+    "type": "UGV",
+    "specs": {
+      "type": "robotic_radio_controlled_platform",
+      "mission": "logistics_goods_transport",
+      "readiness": "90%",
+      "deployment": "testing_in_multiple_divisions"
+    },
+    "status": "pre_production",
+    "source": "Brave1"
+  },
+  {
     "id": "unex-ugv",
     "name": "UNEX UGV",
     "manufacturer": "Ukrainian (domestic)",
@@ -174,7 +315,8 @@
       "ai_capabilities": {
         "enemy_recognition": true,
         "target_tracking": true,
-        "autonomous_detection": true
+        "autonomous_detection": true,
+        "ballistic_calculation": true
       },
       "weapons": [
         {
@@ -199,10 +341,12 @@
       },
       "communication": ["military_systems", "Starlink", "LTE"],
       "deployment_time_minutes": 5,
-      "control": ["tablet", "gamepad"]
+      "control": ["tablet", "gamepad"],
+      "field_testing": "2023",
+      "operational_deployment": "30+ brigades (Apr 2026)"
     },
     "status": "operational",
-    "source": "Ministry of Defence Ukraine"
+    "source": "Ministry of Defence Ukraine, Ukrainska Pravda"
   },
   {
     "id": "bufalo-ugv",
@@ -250,6 +394,61 @@
       ]
     },
     "status": "testing_pre_production",
-    "source": "Oboronka, Ukrainska Pravda"
+    "source": "Oboronka, Ukrainska Pravda",
+    "deployment_target": "2026-2027"
+  },
+  {
+    "id": "rovertech-zmiy-droid-12-7",
+    "name": "RoverTech ZMIY Droid 12.7",
+    "manufacturer": "RoverTech (Ukrainian)",
+    "codified": "2026-03",
+    "category": "combat_strike",
+    "weight_class": "medium",
+    "type": "UGV",
+    "specs": {
+      "base_platform": "ZMIY tracked platform",
+      "armor": "armored_hull",
+      "armament": "12.7mm machine gun (Browning)",
+      "ammunition_capacity": "1000 rounds",
+      "effective_range_m": 1000,
+      "mobility": {
+        "terrain": ["rough_terrain", "minefields", "water"],
+        "max_speed_kmh": 8,
+        "endurance_hours": "multiple_days"
+      },
+      "sensors": {
+        "thermal_imager": true,
+        "video_cameras": "multiple_views"
+      },
+      "communication": ["Starlink", "military_systems"],
+      "production_status": "mass_production"
+    },
+    "status": "operational",
+    "source": "RoverTech (rovertech.co.ua), Ministry of Defence Ukraine",
+    "deployment_note": "22,000+ missions documented"
+  },
+  {
+    "id": "themis-estonian-ugv",
+    "name": "THeMIS",
+    "manufacturer": "Milrem Robotics (Estonia)",
+    "codified": "2025-10",
+    "category": "multi_role_logistics_combat",
+    "weight_class": "medium",
+    "type": "UGV",
+    "specs": {
+      "platform": "Modular tracked UGV",
+      "propulsion": "electric",
+      "configurations": ["weapons", "logistics", "mine_clearing", "evacuation"],
+      "terrain_capability": "all_terrain",
+      "communication": "NATO_standard"
+    },
+    "status": "operational_expanding",
+    "deployment_status": {
+      "current_deployed": 15,
+      "additional_contracted": "150+",
+      "total_target": "165+",
+      "order_date": "October 2025"
+    },
+    "source": "Ukrainska Pravda (pravda.com.ua), Oct 2025"
   }
 ]

@@ -1,6 +1,7 @@
 {
-  "last_updated": "2026-04-18T10:02:00Z",
-  "research_runs": 21,
+  "last_updated": "2026-04-18T15:02:00Z",
+  "research_run_id": "36198b4b-8844-494c-978b-299931f147b4",
+  "research_runs": 27,
   "research_date": "2026-04-18",
   "fpv_drone_ecosystem": {
     "annual_capacity_2025_2026": {
@@ -185,7 +186,96 @@
     "component_specs": "90% (technical publications + operational reports)",
     "battlefield_data": "85% (combat reports + unit assessments)"
   },
+  "research_run_2026_04_18_13_00": {
+    "new_systems_added": [
+      "Zmiy Droid 12.7 (AI-enabled strike/recon)",
+      "FoxTac (evacuation/logistics)",
+      "Ratel-S (kamikaze strike)",
+      "IronClad (assault platform)",
+      "D-21-11 (stationary fire module)",
+      "Volya-E (logistics transport)"
+    ],
+    "components_enhanced": [
+      "Wolly weapon station (12.7mm)",
+      "Hybrid power systems",
+      "Wheel-track combined mobility",
+      "AI-based automatic target acquisition"
+    ],
+    "sources_verified": [
+      "mod.gov.ua - MoD codification announcements",
+      "en.defence-ua.com - Brave1 platform details",
+      "militarnyi.com - Combat deployment reports"
+    ],
+    "key_insights": [
+      "80+ systems codified since invasion, 15+ in 2025 alone",
+      "Zmiy Droid 12.7 held position for 45 consecutive days in combat",
+      "AI/CV integration now standard in new weapon stations",
+      "Brave1 has 140+ registered systems, 96 validated, 14 NATO-compliant",
+      "DOT-Chain Defence marketplace operational for UGV procurement"
+    ]
+  },
   "metadata": {
-    "last_updated": "2026-04-18"
+    "last_updated": "2026-04-18",
+    "update_type": "scheduled_cron_research_run",
+    "job_id": "36198b4b-8844-494c-978b-299931f147b4"
+  },
+  "research_run_2026_04_18_15_02": {
+    "new_data_added": true,
+    "sources_verified": [
+      "Ministry of Defence Ukraine - PROTECTOR, Zmiy Droid 12.7, UNEX, formation of robotic units",
+      "Defence Express - UNEX UGV amphibious capabilities, Raroh-10 drone system",
+      "Brave1.gov.ua - DefenseTech cluster coordination platform",
+      "Motor-G - Ukrainian brushless motor production (200k/mo)",
+      "Euromaidan Press - Robot army growth statistics (67→167 units in 4 months)",
+      "Army Recognition - TW-12.7 combat droid vs Russian MT-LB"
+    ],
+    "key_statistics_discovered": {
+      "robot_army_growth": {
+        "timeframe": "4 months",
+        "growth": "67 → 167 units",
+        "source": "Euromaidan Press, Apr 2026"
+      },
+      "ground_robot_missions_march_2026": "9,000+ (combat and logistical)",
+      "officially_codified_systems": "80+ since full-scale invasion began",
+      "systems_codified_2025_alone": "15+",
+      "brave1_registered_systems": "140+",
+      "brave1_validated": 96,
+      "brave1_nato_compliant": 14
+    },
+    "new_systems_verified": [
+      "PROTECTOR - Heavy logistics/combat UGV (700kg payload, 400km range)",
+      "Zmiy Droid 12.7 - AI-enabled strike platform (45 days position hold record)",
+      "UNEX UGV - Amphibious platform (ground pressure < human footprint)",
+      "Motor-G brushless motors - 200k/month Ukrainian production"
+    ],
+    "component_ecosystem_updates": {
+      "motor_g": {
+        "production_capacity": "200,000 motors/month",
+        "market_share_ukraine": "17%",
+        "localization": "up to 85%",
+        "quality": "6-stage inspection, 0.2% defect rate"
+      },
+      "key_components_100_ukrainian": [
+        "Carbon fiber frames",
+        "Electronic speed controllers (ESCs)",
+        "Brushless motors (Motor-G)",
+        "Li-Po batteries",
+        "Fiber-optic spools (3DTech)"
+      ]
+    },
+    "strategic_development": {
+      "robotic_units_formation": "Armed Forces forming dedicated UGS units integrated into combat brigades",
+      "testing_program": "Comprehensive testing since summer 2024 by Defence Innovation Directorate",
+      "ai_cv_integration": "Now standard in new strike platforms (automatic target acquisition/tracking)",
+      "personnel_replacement_potential": "33% of frontline operations by 2026 (3rd Army Corps assessment)"
+    },
+    "key_insights": [
+      "Ukrainian MoD has codified ~80 ground robotic systems since invasion began",
+      "Robot army grew from 67 to 167 units in just 4 months (April 2026 data)",
+      "Motor-G producing 200k motors/month with 17% Ukrainian market share",
+      "AI/CV integration becoming standard in new weapon stations",
+      "UGS units being formed at brigade level with dedicated organizational structure",
+      "Zmiy Droid 12.7 held position for 45 consecutive days - longest documented deployment"
+    ]
   }
 }

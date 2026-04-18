@@ -5,7 +5,8 @@
         "UNEX UGV",
         "DODGER",
         "KRAMPUS",
-        "TERMIT"
+        "TERMIT",
+        "Zmiy Droid 12.7"
       ],
       "specs": {
         "motors": "dual_silent_electric",
@@ -34,7 +35,10 @@
       }
     },
     "hybrid": {
-      "note": "Some systems use combination approaches"
+      "usage": [
+        "IronClad"
+      ],
+      "note": "13 hours endurance over rough terrain"
     }
   },
   "chassis_types": {
@@ -42,7 +46,8 @@
       "usage": [
         "TERMIT",
         "KRAMPUS",
-        "DODGER"
+        "DODGER",
+        "Zmiy Droid 12.7"
       ],
       "features": [
         "low_center_of_gravity",
@@ -52,7 +57,8 @@
     },
     "wheeled_all_wheel": {
       "usage": [
-        "PROTECTOR"
+        "PROTECTOR",
+        "FoxTac"
       ],
       "tires": "runflat",
       "drive": "all_wheel_drive"
@@ -66,18 +72,29 @@
         "low_ground_pressure",
         "wide_tires"
       ]
+    },
+    "wheel_track_combined": {
+      "usage": [
+        "FoxTac"
+      ],
+      "features": [
+        "dual_mode_wheeled_and_tracked",
+        "debris_shielded"
+      ]
     }
   },
   "ai_cv_systems": {
     "enemy_recognition": {
       "systems": [
         "Droid TW",
-        "Bufalo"
+        "Bufalo",
+        "Zmiy Droid 12.7"
       ],
       "capabilities": [
         "personnel_detection",
         "autonomous_target_tracking",
-        "threat_identification"
+        "threat_identification",
+        "automatic_target_acquisition"
       ]
     },
     "local_navigation": {
@@ -91,10 +108,14 @@
       ]
     },
     "autonomous_targeting": {
+      "systems": [
+        "Zmiy Droid 12.7"
+      ],
       "capabilities": [
         "detect_recognize_track",
         "autonomous_mode_operation",
-        "fire_support_optimization"
+        "fire_support_optimization",
+        "automatic_target_tracking"
       ]
     }
   },
