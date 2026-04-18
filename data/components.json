@@ -1,223 +1,304 @@
 {
-  "power_systems": {
-    "description": "Energy and power delivery systems for UGVs",
-    "components": [
-      {
-        "id": "battery_lgp",
-        "name": "Lithium-polymer battery packs",
-        "applications": "Standard power source for medium-sized UGVs",
-        "notes": "War-driven evolution shows increasing capacity demands"
-      },
-      {
-        "id": "battery_liion",
-        "name": "Lithium-ion modular batteries",
-        "applications": "Tactical robots requiring extended operational time",
-        "capacity_scaling": true
-      },
-      {
-        "id": "battery_fuel_cell",
-        "name": "Fuel cell systems",
-        "applications": "Long-endurance platforms (5+ hour missions)",
-        "example_platforms": [
-          "Unitree Go2 Pro: 5 hour runtime"
-        ]
+  "fpv_drone_components": {
+    "frame_structure": {
+      "material": "Carbon fiber",
+      "localization_status": "100% Ukrainian",
+      "suppliers": [
+        "VYRIY DRONE",
+        "Wild Hornets",
+        "Escadrone",
+        "General Chereshnia"
+      ],
+      "characteristics": "Lightweight, high-strength, optimized for maneuverability"
+    },
+    "flight_controller": {
+      "role": "Drone brain - flight stabilization and motor coordination",
+      "localization_status": "Partial (breakthrough in 2024)",
+      "breakthroughs": [
+        "Wild Hornets - first localized flight controller production"
+      ],
+      "challenges": "Requires high-precision microelectronics, clean-room fabrication",
+      "current_suppliers": [
+        "Wild Hornets (Ukrainian)",
+        "SpeedyBee (imported)",
+        "other Chinese suppliers"
+      ],
+      "cost_reduction": "12% from localization",
+      "strategic_importance": "Critical for independence"
+    },
+    "electronic_speed_controllers": {
+      "role": "Transmit motor control signals from flight controller",
+      "localization_status": "100% Ukrainian",
+      "suppliers": [
+        "Wild Hornets",
+        "Escadrone",
+        "VYRIY DRONE"
+      ],
+      "specifications": "Precise signal transmission, motor efficiency optimization"
+    },
+    "motors": {
+      "localization_status": "Partial - Expanding",
+      "current_production": "Motor-G: 100,000+ units/month",
+      "suppliers": [
+        "Motor-G (Ukrainian, 100k+/mo)",
+        "Realgold LLC (Ukrainian)",
+        "BrotherHobby (imported)",
+        "EMAX (imported)"
+      ],
+      "challenges": "Requires specialized winding machinery, rotor balancing equipment",
+      "quality_trend": "Ukrainian motors now reliable and mass-produced"
+    },
+    "propellers": {
+      "localization_status": "100% Ukrainian",
+      "suppliers": [
+        "VYRIY DRONE",
+        "Wild Hornets",
+        "Escadrone"
+      ]
+    },
+    "battery_system": {
+      "type": "Lithium-Polymer (Li-Po)",
+      "role": "Power source",
+      "characteristics": "High capacity, low weight",
+      "localization_status": "100% Ukrainian",
+      "suppliers": [
+        "Wild Hornets",
+        "Escadrone",
+        "VYRIY DRONE"
+      ]
+    },
+    "sensor_modules": {
+      "types": [
+        "Accelerometer (3-axis acceleration measurement)",
+        "Gyroscope (angular position/rotation tracking)",
+        "Integrated IMU chips (miniaturized)"
+      ],
+      "localization_status": "Partial (high-precision miniaturized sensors still imported)",
+      "challenges": "Requires certified equipment and highly skilled engineers",
+      "role": "Flight stability and real-time drone stabilization"
+    },
+    "gps_module": {
+      "role": "Spatial orientation, takeoff point recording, preset route following",
+      "localization_status": "Partial"
+    },
+    "fpv_camera": {
+      "role": "Drone eyes - real-time video transmission to pilot",
+      "localization_status": "Partial",
+      "suppliers": [
+        "Odd Systems (Ukrainian thermal)",
+        "Caddx (imported)",
+        "DJI (imported)"
+      ],
+      "types": [
+        "Analog FPV cameras",
+        "Thermal imaging cameras"
+      ],
+      "challenges": "Advanced optics require precise calibration and testing"
+    },
+    "video_transmitter_vtx": {
+      "role": "Radio signal transmission to pilot goggles/monitor",
+      "power": "2.5W+ variants available",
+      "range": "Depends on quality and interference",
+      "localization_status": "Partial",
+      "suppliers": [
+        "DEC-1 (Ukrainian)",
+        "AKK (imported)",
+        "Foxeer (imported)"
+      ],
+      "challenges": "Microelectronics design and manufacturing"
+    },
+    "signal_receiver": {
+      "role": "Pilot-to-drone command reception",
+      "localization_status": "Partial",
+      "quality_factors": "Range, control precision, EW resistance",
+      "supplied_by": "Mixed Ukrainian-imported"
+    },
+    "landing_gear": {
+      "role": "Landing cushioning, camera/payload protection",
+      "design_combat": "Simple legs or plates",
+      "materials": [
+        "Carbon fiber",
+        "Plastic"
+      ],
+      "localization_status": "100% Ukrainian"
+    },
+    "guidance_systems": {
+      "vgi_9_system": {
+        "name": "VGI-9 Drone Guidance System",
+        "origin": "Ukrainian AI-driven",
+        "technology": "Machine vision targeting",
+        "features": [
+          "Improved strike accuracy",
+          "EW resistance capability",
+          "Cruise control for stability",
+          "Night target guidance (24/7 operations)"
+        ],
+        "deployment": "VYRIY DRONE integration, other manufacturers adopting"
       }
+    }
+  },
+  "ground_robot_components": {
+    "chassis_platform": {
+      "droid_tw_numo_base": {
+        "type": "Modular tracked platform",
+        "weight_loaded": "620kg",
+        "payload": "300kg",
+        "origin": "Tank Bureau (Ukrainian)"
+      },
+      "protector_platform": {
+        "type": "Full-sized unmanned vehicle",
+        "weight": "Heavy-duty",
+        "payload": "700kg",
+        "power": "Internal combustion engine"
+      },
+      "unex_platform": {
+        "type": "Amphibious low-pressure chassis",
+        "feature": "Ground pressure < soldier weight",
+        "tires": "Wide, optimized distribution"
+      },
+      "krampus_platform": {
+        "type": "Tracked electric platform",
+        "motors": "Dual electric (whisper-quiet)",
+        "acoustic": "Very low signature"
+      }
+    },
+    "weapon_systems": {
+      "droid_tw_weapons": {
+        "primary_12_7mm": "Browning machine gun, 480 rounds",
+        "primary_7_62mm": "PKT machine gun, 1000 rounds",
+        "range": "1000m max",
+        "fire_control": "Ballistic calculation system"
+      },
+      "krampus_weapon": {
+        "rpv_16": "Thermobaric rocket launcher (Ukrainian)",
+        "warhead": "2500°C fireball with overpressure + fragmentation",
+        "range": "1000m max, 600m effective",
+        "equivalent": "122mm artillery shell"
+      }
+    },
+    "sensor_suite": {
+      "thermal_imaging": {
+        "droid_tw": "Thermal imager with display modes",
+        "numo_derivatives": "Optional thermal modules",
+        "detection_range_day": "1500m",
+        "detection_range_night": "1000m"
+      },
+      "targeting_systems": {
+        "ballistic_calculation": "For fire accuracy (Droid TW)",
+        "autonomous_tracking": "Target recognition & autonomous modes",
+        "ai_integration": "Personnel identification and fire support"
+      }
+    },
+    "control_systems": {
+      "remote_operation": {
+        "droid_tw": [
+          "Tablet",
+          "Gamepad",
+          "Remote control"
+        ],
+        "numo": "Radio control with programmable autopilot",
+        "unex": "Radio control with programmable autopilot"
+      },
+      "communications_protocols": {
+        "jam_resistant": "KRAMPUS jam-resistant channels",
+        "military_standard": "Compatible with Armed Forces systems",
+        "starlink_lte": "Optional modern connectivity"
+      }
+    },
+    "power_systems": {
+      "protector": "Internal combustion engine (400km range)",
+      "numo": "Rechargeable batteries (25-40km range)",
+      "krampus": "Multi-hour battery packs (autonomous operation)",
+      "unex": "Multi-hour batteries"
+    },
+    "mobility_features": {
+      "drive_systems": {
+        "protector": "All-wheel drive with RunFlat tires",
+        "numo": "Tracked platform (235mm clearance)",
+        "krampus": "Tracked with dual electric motors",
+        "unex": "Wide-tire low-pressure amphibious"
+      },
+      "terrain_capability": {
+        "protector": "Excellent off-road, water crossings",
+        "numo": "Forests, swamps, shelters, rough terrain",
+        "krampus": "Off-road, dense forests, sand, swamps, steep inclines",
+        "unex": "Swamps, ice, rocky terrain, swimming"
+      }
+    }
+  },
+  "localization_summary": {
+    "fully_localized": [
+      "Carbon fiber frames",
+      "Propellers",
+      "Electronic speed controllers (ESCs)",
+      "Lithium-polymer batteries",
+      "Landing gear",
+      "Motor production (100k+/month capacity)"
     ],
-    "suppliers": [
-      {
-        "name": "BTRY.Energy",
-        "location": "Ukraine",
-        "specialization": "UGV-specific battery packs",
-        "notes": "Ukrainian manufacturer serving defense sector"
-      }
-    ]
-  },
-  "propulsion_and_mobility": {
-    "description": "Motors, drive systems, and terrain mobility",
-    "components": [
-      {
-        "id": "motor_brushless_dc",
-        "name": "Brushless DC motors",
-        "applications": "High-efficiency wheel drive systems",
-        "example_platforms": [
-          "FoxTac all-wheel drive",
-          "UNEX UGV"
-        ]
-      },
-      {
-        "id": "motor_servo",
-        "name": "Servo motors with feedback",
-        "applications": "Precision leg control in quadruped systems",
-        "example_platforms": [
-          "Unitree Go2 Pro joint motors"
-        ]
-      },
-      {
-        "id": "drivetrain_tracked",
-        "name": "Track drive systems",
-        "applications": "Heavy payload, rough terrain vehicles",
-        "example_platforms": [
-          "FoxTac hybrid wheels+tracks"
-        ]
-      },
-      {
-        "id": "drivetrain_wheeled",
-        "name": "Multi-wheel all-terrain drive",
-        "applications": "Balanced speed and payload capacity",
-        "example_platforms": [
-          "UNEX UGV (10km range)",
-          "D-21-11"
-        ]
-      }
-    ]
-  },
-  "electronics_and_control": {
-    "description": "Computing, control, and communication systems",
-    "components": [
-      {
-        "id": "processor_edge_ai",
-        "name": "Edge AI processors",
-        "specs": "1.5 TFlops (Unitree Go2 Pro reference)",
-        "applications": "Real-time autonomous navigation, obstacle avoidance",
-        "notes": "Brave1 testing AI-integrated drone systems"
-      },
-      {
-        "id": "radio_control_standard",
-        "name": "Radio frequency control modules",
-        "range_m": 10000,
-        "applications": "Tactical control radius for combat robots",
-        "example_platforms": [
-          "D-21-11 standard control"
-        ]
-      },
-      {
-        "id": "radio_control_lte",
-        "name": "LTE/GSM control modules",
-        "range": "Unlimited with signal coverage",
-        "applications": "Extended-range operations beyond line-of-sight",
-        "example_platforms": [
-          "D-21-11 (10km+)",
-          "UNEX UGV (unlimited LTE)"
-        ]
-      },
-      {
-        "id": "stabilization_imu",
-        "name": "Inertial Measurement Units (IMU)",
-        "applications": "Terrain adaptation, balance, slope navigation",
-        "example_platforms": [
-          "Unitree Go2 Pro intelligent terrain stability"
-        ]
-      }
+    "partially_localized": [
+      "Flight controllers (breakthrough 2024)",
+      "Video transmitters (VTX)",
+      "Thermal imaging cameras",
+      "Sensor modules (high-precision IMU chips)",
+      "Guidance systems"
     ],
-    "suppliers": [
-      {
-        "name": "FT Systems",
-        "location": "Ukraine",
-        "specialization": "Electronics for unmanned systems (FPV components)",
-        "website": "ft.systems/en",
-        "notes": "Ukrainian manufacturer of demanding-environment electronics"
-      }
+    "import_dependent": [
+      "Advanced flight controller chips (requires clean-room fab)",
+      "High-precision motors (specialized equipment)",
+      "Advanced optics and cameras",
+      "Microelectronics base",
+      "Semiconductor fabrication"
     ]
   },
-  "sensors_and_optics": {
-    "description": "Perception and environmental sensing systems",
-    "components": [
-      {
-        "id": "camera_fish_eye",
-        "name": "Fish-eye omnidirectional cameras",
-        "coverage": "360 degrees",
-        "example_platforms": [
-          "Unitree Go2 Pro (multiple pairs)"
-        ]
-      },
-      {
-        "id": "camera_night_vision",
-        "name": "Night vision / thermal imaging",
-        "applications": "24/7 surveillance and targeting",
-        "example_platforms": [
-          "Lyut robot soldier (day/night target ID and engagement)"
-        ]
-      },
-      {
-        "id": "sensor_lidar",
-        "name": "LiDAR sensors",
-        "applications": "3D obstacle mapping, autonomous navigation",
-        "notes": "Increasingly integrated in Brave1 tested platforms"
-      },
-      {
-        "id": "sensor_radar",
-        "name": "Millimeter-wave radar",
-        "applications": "Long-range target detection, adverse weather operation"
-      }
-    ]
+  "critical_supply_chain_risks": {
+    "microelectronics": {
+      "status": "Strategic vulnerability",
+      "impact": "If China export controls tighten, drone mass production significantly disrupted",
+      "requirement": "Certified clean-room manufacturing facilities, massive investment",
+      "timeline": "Years to achieve independence"
+    },
+    "optical_systems": {
+      "status": "Import-dependent",
+      "challenge": "Advanced optics require specialized facilities and testing",
+      "localization_effort": "Ongoing but not yet at scale"
+    },
+    "manufacturing_facilities": {
+      "risk": "Shelling and infrastructure damage (e.g., Mukachevo SMT line destroyed)",
+      "mitigation": "Distributed production network (76+ contractors)",
+      "advantage": "Resilience through redundancy"
+    }
   },
-  "integration_and_payload": {
-    "description": "Mounting, integration, and payload delivery systems",
-    "components": [
-      {
-        "id": "weapon_mount_turret",
-        "name": "Remote weapon turrets",
-        "example_platforms": [
-          "Shabla turret (operational)",
-          "Lyut (7.62mm coaxial)"
-        ],
-        "notes": "Integration with various UGV platforms"
-      },
-      {
-        "id": "manipulator_arm",
-        "name": "Robotic arms / manipulators",
-        "payload_capacity_kg": 4,
-        "applications": [
-          "Door unlocking",
-          "Bomb disposal",
-          "Utility tasks"
-        ],
-        "example_platforms": [
-          "Unitree Go2 Pro robotic arm"
-        ]
-      },
-      {
-        "id": "stretcher_module",
-        "name": "Casualty evacuation stretcher",
-        "applications": "Wounded personnel transport",
-        "example_platforms": [
-          "FoxTac evacuation platform"
-        ]
-      },
-      {
-        "id": "cargo_platform",
-        "name": "Modular cargo / ammo delivery",
-        "applications": [
-          "Ammunition supply",
-          "Equipment transport"
-        ],
-        "payload_scaling": true
-      }
-    ]
+  "localization_success_stories": {
+    "vyriy_drone": {
+      "2023": "0% localization (all Chinese)",
+      "2024": "70% Ukrainian components",
+      "2025_march": "100% localization achieved",
+      "cost_parity": "30,000 UAH (matches Chinese alternative costs)",
+      "quality_advantage": "Better quality control, shorter logistics"
+    },
+    "wild_hornets": {
+      "breakthrough": "First flight controller localization (2024)",
+      "cost_savings": "12% reduction from controller localization",
+      "current_localization": "65% (Queen of the Hornets)",
+      "payload": "9.5kg capacity variant",
+      "roadmap": "Target 100% localization (frames, ESCs, batteries, sensors, onboard computers)"
+    },
+    "motor_production": {
+      "producer": "Motor-G",
+      "capacity": "100,000+ motors/month",
+      "scale": "Enables mass production of all drone types",
+      "quality": "Reliable domestic alternative to imported motors"
+    },
+    "fiber_optic_drones": {
+      "producer": "3DTech",
+      "breakthrough": "First domestic 30km fiber-optic spools",
+      "previous_limit": "≤20km range standard",
+      "quality_control": "Strict testing reduces breakage vs Chinese spools",
+      "strategic_value": "EW-immune operation (fiber cannot be jammed)",
+      "codified_models": "5 'Khyzhak REBOFF' variants (10-20km range with official IDs)"
+    }
   },
-  "communications_and_coordination": {
-    "description": "Inter-robot and human-machine interface systems",
-    "components": [
-      {
-        "id": "frequency_hopping_radio",
-        "name": "Frequency-hopping radio systems",
-        "notes": "Electronic warfare resilience (critical in Ukraine operations)"
-      },
-      {
-        "id": "secure_data_link",
-        "name": "Encrypted data links",
-        "applications": "Command and control in contested EW environment"
-      },
-      {
-        "id": "telemetry_system",
-        "name": "Real-time telemetry feedback",
-        "integration": "DELTA battlefield management system"
-      }
-    ]
-  },
-  "total_components_tracked": 30,
-  "last_updated": "2026-04-17T20:02:00Z",
   "metadata": {
-    "last_updated": "2026-04-17"
+    "last_updated": "2026-04-18"
   }
 }

@@ -1,232 +1,207 @@
 [
   {
-    "id": "foxtac-001",
-    "name": "FoxTac",
-    "type": "evacuation_and_logistics",
-    "primary_function": "Wounded evacuation, ammunition delivery, supply transport",
-    "developer": "Brave1 Cluster",
-    "status": "Approved for military use (Feb 2024)",
-    "specifications": {
-      "mobility": "All-wheel drive with wheels and tracks",
-      "control_radius_m": 700,
-      "operational_radius_km": 10,
-      "payload_capacity_kg": "unknown",
-      "terrain_capability": "Multi-terrain, debris-resistant"
-    },
-    "deployment_units": ["3rd Separate Assault Brigade", "1st Separate Medical Battalion", "92nd Separate Assault Brigade"],
-    "sources": [
-      "Defence Express - Feb 2024",
-      "Ministry of Digital Transformation of Ukraine"
-    ]
-  },
-  {
-    "id": "d21-11-001",
-    "name": "D-21-11",
-    "type": "reconnaissance_and_combat",
-    "primary_function": "Multi-role reconnaissance, light combat support",
-    "developer": "Ukrainian Defense Industry",
-    "status": "Operational",
-    "specifications": {
-      "control_radius_m": "10000+ via radio",
-      "control_radius_unlimited_lte": true,
-      "terrain_capability": "Off-road, semi-amphibious"
-    },
-    "sources": ["Brave1 platform", "Defence Express"]
-  },
-  {
-    "id": "d21-12r-001",
-    "name": "D-21-12R",
-    "type": "combat_robot",
-    "primary_function": "Combat operations, direct fire support",
-    "developer": "Ukrainian Defense Industry",
-    "status": "Operational",
-    "notes": "Described as 'latest robot' with high battlefield effectiveness",
-    "sources": ["Defence Express - 2024"]
-  },
-  {
-    "id": "lyut-001",
-    "name": "Lyut (Лють)",
-    "type": "robot_soldier",
-    "primary_function": "24/7 surveillance and fire support on defensive lines",
-    "developer": "Ukrainian Defense Industry",
-    "status": "Approved for military deployment",
-    "specifications": {
-      "primary_weapon": "7.62mm machine gun",
-      "capabilities": ["Day/night target identification", "Day/night engagement", "Surveillance"],
-      "combat_tested": true
-    },
-    "sources": ["UNITED24 Media - March 2025"]
-  },
-  {
-    "id": "bizon-l-001",
-    "name": "BIZON-L",
-    "type": "modular_ground_robot",
-    "primary_function": "Combat and engineering operations",
-    "developer": "Ukrainian Defense Industry",
-    "status": "Approved for military use (Apr 2026)",
-    "specifications": {
-      "modular_design": true,
-      "available_modules": ["Combat module", "Engineering module"]
-    },
-    "sources": ["UNITED24 Media - Apr 7, 2026"]
-  },
-  {
-    "id": "unex-ugv-001",
-    "name": "UNEX UGV",
-    "type": "amphibious_robotic_complex",
-    "primary_function": "Amphibious reconnaissance and payload transport",
-    "developer": "UNEX (Ukrainian manufacturer)",
-    "status": "Approved for military use",
-    "specifications": {
-      "mobility": "Amphibious",
-      "control_radius_m": 10000,
-      "control_radius_lte": "Unlimited with GSM signal",
-      "off_road_capable": true
-    },
-    "sources": ["UNEX UGV official specs", "Ukrainian Ministry of Defence"]
-  },
-  {
-    "id": "termit-001",
-    "name": "TerMIT",
-    "type": "universal_ground_robot",
-    "primary_function": "Evacuation, logistics, combat operations",
-    "developer": "Brave1 platform participant",
-    "status": "Operational",
-    "specifications": {
-      "multi_role": true,
-      "applications": ["Casualty evacuation", "Supply logistics", "Combat support"]
-    },
-    "sources": ["Brave1 Market - market-brave1.delta.mil.gov.ua"]
-  },
-  {
-    "id": "zmii-001",
-    "name": "КНРО 'Змій' (Serpent)",
-    "type": "demining_robot",
-    "primary_function": "Mine clearance and rapid explosive disposal",
-    "developer": "Ukrainian Defense Technology",
-    "status": "Operational",
-    "specifications": {
-      "blast_resistant": true,
-      "mission_focus": "Rapid mine clearance"
-    },
-    "sources": ["Brave1 Market - market-brave1.delta.mil.gov.ua"]
-  },
-  {
-    "id": "unitree-go2-pro-001",
-    "name": "Unitree Go2 Pro",
-    "type": "quadruped_robot_dog",
-    "primary_function": "Bomb disposal, reconnaissance, scout duties",
-    "manufacturer": "Unitree Robotics (China)",
-    "supplier_ukraine": "Brit Alliance (UK)",
-    "status": "Deployed in combat (Aug 2024+)",
-    "specifications": {
-      "processor_tflops": 1.5,
-      "max_speed_mph": 11,
-      "weight_lbs": "less than 30",
-      "battery_life_hours": 5,
-      "payload_capacity_kg": 4,
-      "cameras": "Fish-eye arrays, 360 degree coverage",
-      "control_range_km": 3,
-      "operator_control_type": "Remote (non-autonomous)"
+    "id": "protector",
+    "name": "PROTECTOR",
+    "type": "Heavy Unmanned Ground System",
+    "classification": "Logistics & Cargo Platform",
+    "developer": "Ukrainian domestic enterprise",
+    "status": "Codified & Operational",
+    "codification_year": 2025,
+    "specs": {
+      "payload_capacity_kg": 700,
+      "operational_range_km": 400,
+      "power_plant": "Internal combustion engine",
+      "drive_system": "All-wheel drive",
+      "tires": "RunFlat (damage-resistant)",
+      "mobility": "Off-road capable, water crossing"
     },
     "capabilities": [
-      "Bomb detonation",
-      "Door unlocking",
-      "Booby trap detection",
-      "Internal space exploration",
-      "Visual operator following",
-      "Intelligent side following"
+      "Ammunition & equipment transport",
+      "Casualty evacuation",
+      "Robotic weapon station platform",
+      "Mobile EW deployment",
+      "SIGINT/ELINT equipment carrier"
     ],
-    "cost_usd": 4500,
-    "notes": "First known combat deployment of robot dogs in warfare",
-    "sources": ["CircuitDigest - Aug 2024", "Wikipedia - Unitree Robotics"]
+    "sources": ["mil.gov.ua"]
   },
   {
-    "id": "shabla-turret-001",
-    "name": "Shabla Turret",
-    "type": "combat_turret",
-    "primary_function": "Remote weapon system, fire support",
-    "developer": "Ukrainian Defense Industry",
-    "status": "Operational on frontlines (as of Mar 2024)",
-    "specifications": {
-      "deployment_status": "Already in combat use"
+    "id": "droid_tw",
+    "name": "Droid TW",
+    "type": "Combat Robotic System",
+    "classification": "Reconnaissance & Strike Platform",
+    "developer": "Tank Bureau + DevDroid",
+    "status": "Operational",
+    "codification_year": 2024,
+    "ai_integration": true,
+    "specs": {
+      "weapon_variants": ["12.7mm Browning (480 rounds)", "7.62mm PKT (1000 rounds)"],
+      "engagement_range_m": 1000,
+      "max_detection_range_day_m": 1500,
+      "max_detection_range_night_m": 1000,
+      "deployment_time_min": 5,
+      "thermal_imager": true,
+      "ballistic_calculation": true
     },
-    "sources": ["Defence Express - Mar 2024"]
+    "ai_features": [
+      "Personnel recognition",
+      "Autonomous targeting",
+      "Fire accuracy enhancement"
+    ],
+    "communications": ["Starlink", "LTE", "Military comms"],
+    "control": ["Tablet", "Gamepad", "Remote operation"],
+    "brigades_deployed": 30,
+    "sources": ["mil.gov.ua", "pravda.com.ua"]
   },
   {
-    "id": "zmiy-droid-12-7-001",
-    "name": "Zmiy Droid 12.7",
-    "type": "strike_reconnaissance_ground_robot",
-    "primary_function": "Strike and reconnaissance in high-intensity combat environments",
-    "developer": "RoverTech (Ukrainian defense enterprise)",
-    "status": "Codified and approved for operational use (2026)",
-    "specifications": {
-      "platform": "Zmiy (combat-proven)",
-      "weapon_station": "Wolly (remotely operated)",
-      "primary_armament": "12.7 mm machine gun",
-      "mobility": "High cross-country mobility",
-      "terrain_capability": ["Rough terrain", "Sand", "Snow", "Shallow water"],
-      "armor": "Armored hull - protects against anti-personnel mines",
-      "drone_resistance": "Can withstand multiple FPV drone hits",
-      "ai_features": "Automatic target acquisition and tracking",
-      "control": "Integrated control module (platform + weapon station)"
+    "id": "numo",
+    "name": "NUMO",
+    "type": "Multi-Purpose Unmanned Ground Vehicle",
+    "classification": "Modular Tracked Platform",
+    "developer": "Tank Bureau",
+    "status": "Operational",
+    "codification_year": 2025,
+    "specs": {
+      "payload_capacity_kg": 300,
+      "total_weight_loaded_kg": 620,
+      "speed_kmh": 7,
+      "range_basic_km": 25,
+      "range_extended_km": 40,
+      "ground_clearance_mm": 235,
+      "deployment_time_min": 10,
+      "terrain_capability": ["Forests", "Swamps", "Shelters", "Rough terrain"]
     },
-    "combat_performance": {
-      "documented_engagements": "MT-LB armored fighting vehicle destroyed",
-      "position_hold_record": "45 consecutive days with maintenance every 2 days"
-    },
-    "sources": ["Ministry of Defence Ukraine - 2026", "RoverTech"]
+    "modular_configurations": [
+      "Turret-mounted",
+      "Relay mast",
+      "Anti-mine trawls",
+      "Barbed wire deployment (anti-personnel)"
+    ],
+    "communications_switchable": 6,
+    "communications_types": [
+      "Wi-Fi (1.5km primary)",
+      "DTC",
+      "Silvus",
+      "Starlink",
+      "LTE",
+      "SineLink"
+    ],
+    "derived_systems": ["Droid TW (combat variant)"],
+    "sources": ["mil.gov.ua", "pravda.com.ua"]
   },
   {
-    "id": "krampus-001",
+    "id": "unex",
+    "name": "UNEX UGV",
+    "type": "Amphibious Unmanned Ground Vehicle",
+    "classification": "All-Terrain Platform",
+    "developer": "Ukrainian-Czech collaboration",
+    "status": "Operational",
+    "codification_year": 2025,
+    "specs": {
+      "amphibious": true,
+      "ground_pressure_vs_soldier": "Lower",
+      "anti_mine_capability": "Avoids anti-tank mines",
+      "tire_system": "Wide tires with optimal distribution"
+    },
+    "terrain_capability": [
+      "Swamps",
+      "Ice",
+      "Rocky terrain",
+      "Swimming"
+    ],
+    "control_system": "Reliable radio with programmable autopilot",
+    "ew_resistant": true,
+    "power": "Multi-hour battery operation",
+    "mission_profiles": [
+      "Combat modules",
+      "EW systems",
+      "Logistics",
+      "Evacuation",
+      "Demining"
+    ],
+    "durability_demo": "Passes over ceramic plates and coffee cups without damage",
+    "sources": ["mil.gov.ua", "defence-ua.com"]
+  },
+  {
+    "id": "krampus",
     "name": "KRAMPUS",
-    "type": "mobile_strike_system",
-    "primary_function": "Offensive and defensive operations with thermobaric launchers",
-    "developer": "Ukrainian Defense Industry",
-    "status": "Codified and authorized for operational use (2026)",
-    "specifications": {
-      "mobility": "Compact tracked chassis",
-      "transport": "Fits in pickup truck, minibus, or trailer",
-      "propulsion": "2x silent electric motors",
-      "terrain_capability": ["Off-road", "Dense forests", "Sand", "Swamps", "Steep slopes"],
-      "communication": "EW-resistant control channels",
-      "weather_operations": ["Cold", "Heat", "Snow", "Rain"],
-      "battery_endurance": "Several hours continuous movement, extended position duty",
-      "primary_armament": "RPV-16 reactive thermobaric launchers",
-      "targets": "Enemy personnel and lightly armored vehicles",
-      "optics": "Video cameras for remote operation"
+    "type": "Mobile Strike System",
+    "classification": "Thermobaric Launcher Platform",
+    "developer": "Ukrainian domestic production",
+    "status": "Operational",
+    "codification_year": 2025,
+    "specs": {
+      "platform_chassis": "Tracked with dual electric motors",
+      "acoustic_signature": "Very low (whisper-quiet)",
+      "design": "Compact, lightweight",
+      "deployment": "Pickup truck/van/trailer transportable",
+      "all_weather": true,
+      "temperature_range": "Extreme cold to extreme heat",
+      "jam_resistant_comms": true,
+      "battery_endurance_hours": "Multi-hour"
     },
-    "sources": ["Ministry of Defence Ukraine - 2026"]
+    "primary_weapon": {
+      "name": "RPV-16",
+      "type": "Thermobaric rocket launcher (Ukrainian-made)",
+      "weight_kg": 11,
+      "launch_tube_mm": 900,
+      "internal_diameter_mm": 93,
+      "effective_range_m": 600,
+      "max_range_m": 1000
+    },
+    "warhead_characteristics": {
+      "cloud_diameter_m": "7-8",
+      "ignition_time_s": 0.2,
+      "peak_temperature_c": 2500,
+      "equivalent_artillery": "122mm shell",
+      "fragmentation_effects": true
+    },
+    "sources": ["mil.gov.ua", "techukraine.org"]
   },
   {
-    "id": "bizon-l-detailed-001",
-    "name": "BIZON-L (Detailed Specs)",
-    "type": "modular_ground_robot",
-    "primary_function": "Cargo/ammunition transport, MEDEVAC, combat",
-    "developer": "UAV TECHNOLOGY",
-    "status": "Codified and approved for Security and Defence Forces (Apr 2026)",
-    "specifications": {
-      "control_system": "DroidBox (universal, supports 6 communication types)",
-      "architecture": "Modular - rapid reconfiguration without complex procedures",
-      "payload_capacity_kg": "200-300",
-      "operational_range_km": "30 (50 with auxiliary batteries)",
-      "max_speed_kmh": 12,
-      "propulsion": "Steel tracks",
-      "communication_channels": ["LTE", "Wi-Fi", "Starlink", "Secure channels"],
-      "mobility": "High - marshland, snow, rugged terrain",
-      "thermal_signature": "Low (liquid-cooled system)",
-      "acoustic_signature": "Near-silent operation",
-      "deployment_time_minutes": "<10",
-      "battery_swap_time_minutes": "<5 (hot-swappable, no shutdown required)"
+    "id": "d21_12r",
+    "name": "D-21-12R",
+    "type": "Unmanned Ground Vehicle",
+    "classification": "Heavy Machine Gun Platform",
+    "developer": "Ukrainian domestic production",
+    "status": "Codified & Operational",
+    "codification_year": 2025,
+    "specs": {
+      "weapon": "Heavy machine gun",
+      "mounted": true
     },
-    "available_modules": [
-      "12.7 mm machine-gun turret",
-      "Antenna and communications relay",
-      "Remote minelaying",
-      "Engineering obstacles",
-      "Electronic warfare systems",
-      "Trailer module for supplies"
-    ],
-    "sources": ["UAV TECHNOLOGY", "The Defender Media - Apr 2026"]
+    "sources": ["mil.gov.ua", "defence-ua.com"]
+  },
+  {
+    "id": "themis",
+    "name": "THeMIS",
+    "type": "Unmanned Ground Vehicle",
+    "classification": "Multi-Purpose Platform",
+    "developer": "Estonia (Milrem Robotics)",
+    "status": "Operational",
+    "origin": "Imported",
+    "specs": {
+      "units_deployed": 15,
+      "additional_contracted": 150,
+      "deployment_start": 2022
+    },
+    "proven_effectiveness": true,
+    "sources": ["pravda.com.ua"]
+  },
+  {
+    "id": "raroh_10",
+    "name": "Raroh-10",
+    "type": "Unmanned Aerial System",
+    "classification": "FPV Drone System",
+    "developer": "Ukrainian domestic production",
+    "status": "Codified & Operational",
+    "codification_year": 2025,
+    "specs": {
+      "frame_material": "Reinforced lightweight carbon fiber",
+      "frame_durability": "High-speed maneuvering capable",
+      "motors": "High-performance electric",
+      "vision_systems": ["Day vision", "Night vision"],
+      "target_engagement": "Precise, all-lighting-conditions"
+    },
+    "sources": ["defence-ua.com"]
   }
 ]

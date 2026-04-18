@@ -1,74 +1,183 @@
 {
-  "last_updated": "2026-04-17T20:02:00Z",
-  "research_runs": 11,
+  "last_updated": "2026-04-18T01:03:55.720797",
+  "research_runs": 14,
+  "data_collection_status": "Active",
+  "fpv_drone_production": {
+    "annual_statistics": {
+      "2022_2025_total_delivered": 984009,
+      "2024_total_units_delivered": 1200000,
+      "2025_h1_units_delivered": 1000000,
+      "2025_total_contracted": 2000000,
+      "notes": "H1 2025 = Jan-Jul 2025"
+    },
+    "monthly_capacity": {
+      "taf_industries": 80000,
+      "general_chereshnia": 50000,
+      "other_manufacturers": 50000,
+      "total_estimated_monthly": 180000
+    },
+    "manufacturer_network": {
+      "active_contractors": 76,
+      "major_producers": [
+        "TAF Industries (80k/month, 20 sites)",
+        "General Chereshnia (50k+/month)",
+        "VYRIY DRONE (mass production)",
+        "Wild Hornets (specialized)",
+        "Escadrone (full production cycle)"
+      ]
+    },
+    "budget_allocation": {
+      "2024_2025_uah_billion": 104.2,
+      "2025_total_drone_contracts_uah": 147000000000,
+      "usd_equivalent_2025": "~3.6 billion"
+    }
+  },
+  "ground_robotics": {
+    "total_systems_codified": 80,
+    "codification_by_year": {
+      "2024_total": 15,
+      "2025_h1": 20,
+      "2025_h1_accumulated": "~35"
+    },
+    "systems_by_category": {
+      "heavy_logistics": 1,
+      "combat_strike": 2,
+      "multipurpose_tracked": 2,
+      "amphibious": 1,
+      "thermobaric_strike": 1,
+      "machine_gun_armed": 1,
+      "imported_proven": 1,
+      "other_codified": 71
+    },
+    "ukrainian_made_percentage": 85
+  },
+  "uav_systems_codification": {
+    "2024_total_types": 60,
+    "2025_h1_new_samples": 40,
+    "total_since_2024": 100,
+    "2025_percentage_ukrainian": 100,
+    "nato_coding": "All new 2025 systems"
+  },
+  "component_localization_metrics": {
+    "fully_localized_percentage": 50,
+    "partially_localized_percentage": 35,
+    "import_dependent_percentage": 15,
+    "localization_trend": "Rapidly improving (2-3 year acceleration)",
+    "key_breakthrough_year": 2024
+  },
+  "production_capacity_analysis": {
+    "fpv_drones": {
+      "monthly_capacity_thousands": 180,
+      "annual_potential_thousands": 2160,
+      "actual_2025_h1_pace": 2000,
+      "capacity_utilization": "85-90%"
+    },
+    "component_production": {
+      "motor_production_monthly": 100000,
+      "frame_production_thousands": 200,
+      "esc_production_thousands": 150
+    },
+    "scaling_potential": {
+      "constraint": "Microelectronics availability",
+      "current_growth": "20-30% year-over-year",
+      "maximum_potential": "3-4 million/year with full localization"
+    }
+  },
+  "technology_readiness_levels": {
+    "fpv_drone_systems": "TRL 9 (Production & deployment)",
+    "ground_robotics": "TRL 7-8 (Prototype to limited production)",
+    "ai_targeting_systems": "TRL 8 (Deployment-ready)",
+    "fiber_optic_drones": "TRL 8 (Field-proven)",
+    "fully_localized_production": "TRL 6-7 (Pilot to early production)"
+  },
+  "supply_chain_resilience": {
+    "manufacturer_diversity": "76+ active contractors",
+    "geographic_distribution": "Multi-region production",
+    "logistics_dependency": {
+      "china_supply": "Still advantageous (1 week longer delivery than domestic)",
+      "european_supply": "Being developed",
+      "domestic_supply": "Primary source for ~50% of components"
+    },
+    "risk_factors": {
+      "export_controls": "China may impose restrictions",
+      "manufacturing_risks": "Ongoing shelling, infrastructure vulnerability",
+      "microelectronics_gap": "Cannot yet manufacture internally"
+    }
+  },
   "deployment_statistics": {
-    "march_2026_missions": 9000,
-    "march_2026_units_deployed": 167,
-    "january_2026_missions": 7000,
-    "november_2025_missions": 2900,
-    "ytd_2026_missions": 32500,
-    "monthly_trend": "Accelerating exponentially"
+    "droid_tw_operational_brigades": 30,
+    "themis_units_operational": 15,
+    "themis_units_contracted": 150,
+    "ground_robot_deployment_scale": "Limited (technology still developing)",
+    "army_readiness_assessment": "Doctrine development ongoing"
   },
-  "procurement_targets": {
-    "2025_target": 15000,
-    "target_status": "On track for domestic production",
-    "2024_h2_contracts": 6,
-    "2024_h2_contract_value_usd": 2500000,
-    "2025_q1_contracts": 31,
-    "2025_q1_contract_value_usd": 150000000
+  "technology_performance": {
+    "protector_range_km": 400,
+    "protector_payload_kg": 700,
+    "droid_tw_engagement_range_m": 1000,
+    "droid_tw_detection_range_day_m": 1500,
+    "droid_tw_detection_range_night_m": 1000,
+    "numo_cargo_capacity_kg": 300,
+    "numo_range_extended_km": 40,
+    "krampus_rpv16_range_m": 1000,
+    "krampus_warhead_temp_c": 2500,
+    "unex_ground_pressure_vs_soldier": "Lower (mine-safe)"
   },
-  "platform_inventory": {
-    "total_systems_tested_brave1": 50,
-    "total_registered_brave1": 140,
-    "nato_standard_compliance": 14,
-    "operationally_deployed": "Multiple (Shabla confirmed active, others in units)"
+  "quality_metrics": {
+    "localized_drone_cost_uah": 30000,
+    "cost_parity_with_imported": true,
+    "quality_assessment": "Equal or superior to Chinese alternatives",
+    "production_defects_rate": "Lower for domestic components",
+    "logistics_advantage": "Shorter supply chain, better control"
   },
-  "brave1_cluster_status": {
-    "total_registered_systems": 140,
-    "defence_scrutiny_passed": 96,
-    "nato_standard_systems": 14,
-    "active_deployment": true
-  },
-  "combat_unit_participation": {
-    "3rd_separate_assault_brigade": "Top performer, highest mission output",
-    "92nd_separate_assault_brigade": "Unmanned systems company active",
-    "95th_separate_air_assault_brigade": "Polissya - March 2026 deployment",
-    "3rd_operational_brigade_spartan": "Combat-proven robotic deployments",
-    "total_participating_units_march_2026": 167,
-    "total_participating_units_nov_2025": 67
-  },
-  "technology_trends": {
-    "fpv_drones": "Primary offensive tool, continued swarm development",
-    "ground_robotics": "Accelerating development, increasingly autonomous",
-    "ai_integration": "Active testing with computer vision",
-    "logistics_focus": "Key priority - ammunition, supplies, casualty evacuation",
-    "personnel_replacement_potential": "Up to 1/3 of infantry (per 3rd Army Corps commander)"
-  },
-  "operational_focus": {
-    "primary_role": "Logistics and support",
-    "secondary_role": "Combat operations",
-    "key_functions": [
-      "Ammunition delivery",
-      "Supply transport",
-      "Casualty evacuation",
-      "Reconnaissance",
-      "Mine clearance",
-      "Casualty evacuation"
+  "strategic_assessments": {
+    "localization_roadmap_phase": "Medium-term (2025-2026)",
+    "critical_gaps": [
+      "Microelectronics fabrication",
+      "Advanced optics manufacturing",
+      "Clean-room facilities",
+      "Semiconductor production"
+    ],
+    "medium_term_achievable": [
+      "Flight controllers (ongoing)",
+      "Motors (scaling)",
+      "Video transmitters (development)"
+    ],
+    "long_term_challenges": [
+      "Semiconductor fab independence",
+      "Advanced optics base",
+      "Years of investment required"
     ]
   },
-  "sources_indexed": 8,
-  "data_collection_points": 34,
-  "key_metrics_tracked": [
-    "Mission count (monthly)",
-    "Unit deployment breadth",
-    "System types in operation",
-    "Contract values and volume",
-    "Technology capability maturity",
-    "Procurement pipeline",
-    "EW resilience",
-    "Casualty reduction effectiveness"
-  ],
+  "source_verification": {
+    "primary_sources": [
+      "Ministry of Defence of Ukraine (mil.gov.ua)",
+      "Defence Procurement Agency (DPA)",
+      "Ukrainian Ministry press releases"
+    ],
+    "secondary_sources": [
+      "Ukrainska Pravda",
+      "Defence Express",
+      "TechUkraine",
+      "Ukrainian Arms Council"
+    ],
+    "technical_sources": [
+      "VGI-9 (targeting systems)",
+      "Tank Bureau (NUMO/Droid TW)",
+      "Manufacturer reports"
+    ],
+    "data_classification": "Public domain",
+    "verification_level": "Multi-source cross-referenced"
+  },
+  "research_metadata": {
+    "update_frequency": "Hourly",
+    "next_update": "2026-04-19T12:02:00Z",
+    "data_quality": "Official government sources prioritized",
+    "coverage_scope": "Ukrainian Ministry of Defence systems and domestic production",
+    "geographic_focus": "Ukraine",
+    "time_period": "2024-2026"
+  },
   "metadata": {
-    "last_updated": "2026-04-17"
+    "last_updated": "2026-04-18"
   }
 }
