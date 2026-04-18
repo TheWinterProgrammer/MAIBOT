@@ -1,652 +1,153 @@
 [
   {
-    "id": "zmiy-droid-12-7",
-    "name": "Zmiy Droid 12.7",
-    "manufacturer": "Ukrainian (two domestic defense enterprises)",
-    "codified": "2026-04",
-    "category": "strike_reconnaissance",
-    "weight_class": "medium",
-    "type": "UGV",
-    "specs": {
-      "base_platform": "Zmiy (proven combat effectiveness)",
-      "weapon_station": "Wolly remotely operated",
-      "armament": "12.7mm machine gun",
-      "ai_capabilities": {
-        "automatic_target_acquisition": true,
-        "automatic_target_tracking": true
-      },
-      "mobility": {
-        "terrain": [
-          "rough_terrain",
-          "sand",
-          "snow",
-          "shallow_water"
-        ],
-        "chassis": "high_cross_country_mobility",
-        "protection": {
-          "hull": "armored",
-          "mine_resistance": "anti_personnel_mine_protected",
-          "drone_resistance": "multiple_FPV_drone_hits"
-        }
-      },
-      "control": {
-        "type": "integrated_control_module",
-        "features": [
-          "simultaneous_platform_and_weapon_control",
-          "reduced_decision_time"
-        ]
-      },
-      "combat_record": {
-        "position_hold_record": "45 consecutive days",
-        "documented_kills": "MT-LB multi-purpose tracked armored vehicle",
-        "maintenance_cycle": "every 2 days for hours"
-      }
-    },
-    "status": "operational",
-    "source": "Ministry of Defence Ukraine (mod.gov.ua)"
-  },
-  {
-    "id": "foxtac",
-    "name": "FoxTac",
-    "manufacturer": "Brave1 cluster participants",
-    "codified": "2024 (testing), 2025 (operational)",
-    "category": "evacuation_logistics",
-    "weight_class": "medium",
-    "type": "UGV",
-    "specs": {
-      "mobility": {
-        "drive": "four_wheel_drive",
-        "features": [
-          "wheeled_and_tracked_operation",
-          "debris_shielded"
-        ],
-        "terrain": [
-          "heavy_off_road",
-          "various_terrains"
-        ]
-      },
-      "control": {
-        "control_range_m": 700,
-        "operational_radius_km": 10,
-        "safety_feature": "operator_remote_operation"
-      },
-      "primary_mission": "wounded_soldier_evacuation",
-      "secondary_missions": [
-        "logistics_transport"
-      ],
-      "deployment_status": "prototypes_tested, codification_complete"
-    },
-    "status": "operational",
-    "source": "Brave1, Ministry of Digital Transformation"
-  },
-  {
-    "id": "ratel-s",
-    "name": "Ratel-S",
-    "manufacturer": "Ukrainian (Brave1)",
-    "codified": "2024",
-    "category": "kamikaze_strike",
-    "weight_class": "light",
-    "type": "UGV",
-    "specs": {
-      "primary_role": "kamikaze_robot",
-      "mission": "destroy_enemy_positions_and_armored_vehicles",
-      "operation": "mobile_warhead_carrying_explosives",
-      "payloads": [
-        "anti_tank_mines",
-        "explosives"
-      ],
-      "production_status": "mass_production_launched"
-    },
-    "status": "operational",
-    "source": "Brave1, Militarnyi"
-  },
-  {
-    "id": "ironclad",
-    "name": "IronClad",
-    "manufacturer": "Ukrainian (Brave1)",
-    "codified": "2024",
-    "category": "assault_platform",
-    "weight_class": "heavy",
-    "type": "UGV",
-    "specs": {
-      "primary_role": "position_storming",
-      "protection": {
-        "armor": "armored_shell",
-        "resistance": "small_arms_fire"
-      },
-      "mobility": {
-        "speed_kmh": 15,
-        "endurance_hours": 13,
-        "conditions": [
-          "rough_terrain",
-          "difficult_weather"
-        ]
-      },
-      "sensors": [
-        "thermal_imaging",
-        "sighting_cameras"
-      ],
-      "weapon": "ShaBlya M2 RWS",
-      "propulsion": "hybrid_power_plant"
-    },
-    "status": "operational",
-    "source": "Brave1, Militarnyi"
-  },
-  {
-    "id": "d-21-11",
-    "name": "D-21-11",
-    "manufacturer": "Ukrainian (Brave1)",
-    "codified": "2024",
-    "category": "stationary_fire_module",
-    "weight_class": "light",
-    "type": "UGV",
-    "specs": {
-      "type": "stationary_ground_based_robotic_fast_deployment_module",
-      "function": "remote_aiming_and_firing_from_protected_position",
-      "mobility": "fixed_position_deployment"
-    },
-    "status": "operational",
-    "source": "Brave1, Militarnyi"
-  },
-  {
-    "id": "volya-e",
-    "name": "Volya-E",
-    "manufacturer": "Ukrainian",
-    "codified": "2024 (testing)",
-    "category": "logistics_transport",
-    "weight_class": "medium",
-    "type": "UGV",
-    "specs": {
-      "type": "robotic_radio_controlled_platform",
-      "mission": "logistics_goods_transport",
-      "readiness": "90%",
-      "deployment": "testing_in_multiple_divisions"
-    },
-    "status": "pre_production",
-    "source": "Brave1"
-  },
-  {
-    "id": "unex-ugv",
-    "name": "UNEX UGV",
-    "manufacturer": "Ukrainian (domestic)",
-    "codified": "2025-04",
-    "category": "amphibious_platform",
-    "weight_class": "medium",
-    "type": "UGV",
-    "specs": {
-      "mobility": {
-        "terrain": [
-          "water",
-          "floodplains",
-          "swamps",
-          "mire",
-          "sand",
-          "ice",
-          "difficult_surfaces"
-        ],
-        "ground_pressure": "less_than_infantry_soldier_foot",
-        "features": [
-          "amphibious",
-          "wide_tires",
-          "specialized_chassis"
-        ]
-      },
-      "propulsion": {
-        "type": "electric",
-        "battery": "high_capacity"
-      },
-      "protection": {
-        "mine_resistance": "high_pressure_distribution_prevents_activation",
-        "armor": "armored_platform"
-      },
-      "control": {
-        "type": "radio_controlled",
-        "ew_resistance": "high",
-        "autonomy": "programmable_autopilot"
-      },
-      "configurations": [
-        "weapon_station",
-        "electronic_warfare",
-        "logistics",
-        "evacuation",
-        "demining"
-      ]
-    },
-    "status": "operational",
-    "source": "Ministry of Defence Ukraine"
-  },
-  {
-    "id": "protector-ugv",
     "name": "PROTECTOR",
-    "manufacturer": "Ukrainian Armor (domestic)",
-    "codified": "2025-08",
-    "category": "heavy_logistics_combat",
-    "weight_class": "heavy",
-    "type": "UGV",
+    "type": "Heavy UGV",
+    "status": "Codified and authorized by Ministry of Defence",
+    "manufacturer": "Ukrainian domestic enterprise",
     "specs": {
       "payload_capacity_kg": 700,
-      "operational_range_km": 400,
-      "propulsion": {
-        "type": "internal_combustion",
-        "fuel": "diesel_gasoline"
-      },
-      "mobility": {
-        "drive": "all_wheel_drive",
-        "tires": "runflat",
-        "terrain": [
-          "off_road",
-          "water_crossings",
-          "steep_obstacles"
-        ],
-        "features": [
-          "excellent_off_road",
-          "overcomes_significant_obstacles"
-        ]
-      },
-      "configurations": [
-        "ammunition_transport",
-        "casualty_evacuation",
-        "weapon_station_platform",
-        "mobile_ew",
-        "sigint",
-        "elint"
-      ]
+      "range_km": 400,
+      "propulsion": "Internal combustion engine",
+      "drive": "All-wheel drive",
+      "tires": "RunFlat",
+      "mobility": "All-terrain, water crossing capable"
     },
-    "status": "operational",
-    "source": "Ministry of Defence Ukraine"
+    "roles": [
+      "Ammunition and equipment transport",
+      "Casualty evacuation",
+      "Robotic weapon station platform",
+      "Mobile EW platform",
+      "SIGINT/ELINT equipment carrier"
+    ],
+    "development_basis": "Combat experience of Ukrainian forces",
+    "date_authorized": "2025",
+    "source": "Ministry of Defence of Ukraine"
   },
   {
-    "id": "dodger-ugv",
-    "name": "DODGER",
-    "manufacturer": "Ukrainian (combat_informed_development)",
-    "codified": "2025-06",
-    "category": "multi_functional_compact",
-    "weight_class": "light_medium",
-    "type": "UGV",
-    "specs": {
-      "payload_capacity_kg": 250,
-      "dimensions": "compact_low_profile",
-      "protection": {
-        "armor": "protective_plating",
-        "resistance": [
-          "small_arms_fire",
-          "shrapnel"
-        ]
-      },
-      "missions": [
-        "logistics_transport",
-        "casualty_evacuation",
-        "mine_deployment",
-        "combat_engineering"
-      ]
-    },
-    "status": "operational",
-    "source": "Ministry of Defence Ukraine"
-  },
-  {
-    "id": "termit-ugv",
-    "name": "TERMIT",
-    "manufacturer": "Tencore (Ukrainian)",
-    "codified": "2025-06",
-    "category": "modular_all_terrain",
-    "weight_class": "medium",
-    "type": "UGV",
-    "specs": {
-      "payload_capacity_kg": 300,
-      "chassis": "tracked",
-      "center_of_gravity": "low",
-      "terrain": [
-        "rough_ground",
-        "steep_slopes",
-        "trenches",
-        "obstacles"
-      ],
-      "propulsion": {
-        "type": "battery",
-        "endurance": "several_continuous_hours",
-        "range": "tens_of_kilometers"
-      },
-      "features": [
-        "modular",
-        "improved_dynamic_performance"
-      ],
-      "configurations": [
-        "medical_evacuation",
-        "supply_transport",
-        "route_clearance",
-        "mining",
-        "combat_modules"
-      ],
-      "production": {
-        "planned_units": 2000,
-        "investment_usd": 3740000
-      }
-    },
-    "status": "operational_mass_production_planned",
-    "source": "Ministry of Defence Ukraine, Tencore"
-  },
-  {
-    "id": "krampus-strike",
-    "name": "KRAMPUS",
-    "manufacturer": "Ukrainian (domestic)",
-    "codified": "2025",
-    "category": "mobile_strike_thermobaric",
-    "weight_class": "compact",
-    "type": "UGV",
-    "specs": {
-      "transport": [
-        "pickup_truck",
-        "minibus",
-        "trailer"
-      ],
-      "propulsion": {
-        "type": "electric",
-        "motors": "dual_silent_electric",
-        "chassis": "tracked",
-        "battery": "extended_duty_hours"
-      },
-      "mobility": {
-        "terrain": [
-          "off_road",
-          "dense_forests",
-          "sand",
-          "swamps",
-          "steep_slopes"
-        ]
-      },
-      "control": {
-        "ew_resistance": "high",
-        "weather": [
-          "cold",
-          "heat",
-          "snow",
-          "rain"
-        ]
-      },
-      "payload": {
-        "weapon": "RPV-16_reactive_thermobaric_launchers",
-        "quantity": 2,
-        "targets": [
-          "enemy_personnel",
-          "lightly_armored_vehicles"
-        ]
-      },
-      "sensors": [
-        "video_cameras"
-      ]
-    },
-    "status": "operational",
-    "source": "Ministry of Defence Ukraine"
-  },
-  {
-    "id": "droid-tw",
     "name": "Droid TW",
-    "manufacturer": "devdroid.tech (Ukrainian)",
-    "codified": "2024-12",
-    "category": "ai_combat_reconnaissance",
-    "weight_class": "medium",
-    "type": "UGV",
+    "type": "Ground Combat Robot",
+    "status": "Codified for delivery to Armed Forces",
+    "manufacturer": "Ukrainian developer",
     "specs": {
-      "ai_capabilities": {
-        "enemy_recognition": true,
-        "target_tracking": true,
-        "autonomous_detection": true,
-        "ballistic_calculation": true
-      },
-      "weapons": [
-        {
-          "caliber_mm": 12.7,
-          "type": "Browning_machine_gun"
-        },
-        {
-          "caliber_mm": 7.62,
-          "type": "machine_gun"
-        }
-      ],
-      "ammunition_capacity": [
-        480,
-        1000
-      ],
-      "effective_range_m": 1000,
-      "detection": {
-        "day_range_m": 1500,
-        "night_range_m": 1000,
-        "thermal_imager": true,
-        "display_modes": "multiple"
-      },
-      "computing": {
-        "ballistic_calculation": true
-      },
-      "communication": [
-        "military_systems",
-        "Starlink",
-        "LTE"
-      ],
+      "weapon_systems": ["12.7mm Browning", "7.62mm machine gun"],
+      "ammo_capacity_rounds": [480, 1000],
+      "engagement_range_km": 1,
+      "target_detection_day_km": 1.5,
+      "target_detection_night_km": 1,
+      "ai_integration": "Enemy personnel recognition",
+      "thermal_imager": true,
+      "display_modes": "Multiple on operator monitor",
       "deployment_time_minutes": 5,
-      "control": [
-        "tablet",
-        "gamepad"
-      ],
-      "field_testing": "2023",
-      "operational_deployment": "30+ brigades (Apr 2026)"
+      "control": "Tablet or gamepad remote control",
+      "communications": ["Military systems", "Starlink", "LTE"]
     },
-    "status": "operational",
-    "source": "Ministry of Defence Ukraine, Ukrainska Pravda"
+    "roles": [
+      "Reconnaissance",
+      "Strike missions",
+      "Fire support"
+    ],
+    "features": [
+      "Autonomous target detection, recognition and tracking",
+      "Ballistic calculation system for accuracy",
+      "Day/night operational capability"
+    ],
+    "development_timeline": {
+      "development_start": "Several years ago",
+      "first_field_tests": 2023,
+      "codification": "December 2024"
+    },
+    "transport": "Pickup truck or trailer",
+    "source": "Ministry of Defence of Ukraine"
   },
   {
-    "id": "bufalo-ugv",
+    "name": "BIZON-L",
+    "type": "Modular Ground Robot",
+    "status": "Codified and authorized by Ministry of Defence",
+    "manufacturer": "UAV TECHNOLOGY",
+    "specs": {
+      "control_system": "DroidBox universal control system",
+      "architecture": "Modular"
+    },
+    "roles": [
+      "Combat modules",
+      "Engineering modules",
+      "Logistics",
+      "Evacuation"
+    ],
+    "date_authorized": "April 2025",
+    "source": "Ministry of Defence of Ukraine"
+  },
+  {
+    "name": "UNEX UGV",
+    "type": "Amphibious UGV",
+    "status": "Authorized for army use",
+    "manufacturer": "Ukrainian developer",
+    "specs": {
+      "mobility": "Amphibious, all-terrain"
+    },
+    "date_authorized": "April 2025",
+    "source": "Ministry of Defence of Ukraine"
+  },
+  {
+    "name": "Visliuk (Donkey)",
+    "type": "Fibre-optic tracked robot",
+    "status": "Approved and codified for Armed Forces",
+    "manufacturer": "Ukrainian developer",
+    "specs": {
+      "communication": "Fibre-optic cable"
+    },
+    "date_authorized": "May 2025",
+    "source": "Ministry of Defence of Ukraine"
+  },
+  {
+    "name": "KRAMPUS",
+    "type": "Mobile Strike System",
+    "status": "Codified and authorized by Ministry of Defence",
+    "manufacturer": "Ukrainian developer",
+    "specs": {
+      "armament": "Reactive thermobaric launchers"
+    },
+    "date_authorized": "2025",
+    "source": "Ministry of Defence of Ukraine"
+  },
+  {
+    "name": "DODGER",
+    "type": "Unmanned Ground Robotic System",
+    "status": "Codified and approved by Ministry of Defence",
+    "manufacturer": "Ukrainian developer",
+    "roles": [
+      "Path clearing",
+      "Safer battlefield operations"
+    ],
+    "date_authorized": "2025",
+    "source": "Defense Express"
+  },
+  {
+    "name": "TERMIT",
+    "type": "Ground Robot",
+    "status": "Authorized for operational use",
+    "manufacturer": "Ukrainian developer",
+    "specs": {
+      "payload_capacity_kg": 300
+    },
+    "roles": [
+      "Gear delivery",
+      "Trench navigation"
+    ],
+    "date_authorized": "2025",
+    "source": "Defense Express"
+  },
+  {
     "name": "Bufalo",
-    "manufacturer": "Ukrainian (undisclosed)",
-    "codified": "testing_2025",
-    "category": "heavy_ai_diesel",
-    "weight_class": "heavy",
-    "type": "UGV",
+    "type": "Combat UGV",
+    "status": "Testing phase",
+    "manufacturer": "Ukrainian developer",
     "specs": {
-      "weight_kg": 4000,
-      "speed_kmh": 20,
-      "profile": "low_difficult_to_detect",
-      "propulsion": {
-        "type": "diesel",
-        "fuel_tanks": "configurable",
-        "range_km": [
-          100,
-          200
-        ]
-      },
-      "ai_capabilities": {
-        "local_navigation": true,
-        "obstacle_detection_range_m": 15,
-        "route_planning": true,
-        "danger_response": "autonomous_stop"
-      },
-      "protection": {
-        "armor": "resists_small_arms_fire",
-        "blast_resistance": "152mm_shells_within_100m"
-      },
-      "communication": {
-        "primary": "Starlink",
-        "secondary": "radio_channel",
-        "gps": "crpa_antenna_ew_protected"
-      },
-      "local_content_percent": 70,
-      "components": {
-        "domestic": [
-          "electronics",
-          "cameras"
-        ],
-        "imported": "basic_components_from_EU"
-      },
-      "production_planned_monthly": 10,
-      "roles": [
-        "logistics",
-        "humanitarian_demining",
-        "combat_module_being_consulted",
-        "engineering_vehicle_trench_digging"
-      ]
+      "armour": "Armoured",
+      "ai": "AI equipped",
+      "range_km": 200
     },
-    "status": "testing_pre_production",
-    "source": "Oboronka, Ukrainska Pravda",
-    "deployment_target": "2026-2027"
-  },
-  {
-    "id": "rovertech-zmiy-droid-12-7",
-    "name": "RoverTech ZMIY Droid 12.7",
-    "manufacturer": "RoverTech (Ukrainian)",
-    "codified": "2026-03",
-    "category": "combat_strike",
-    "weight_class": "medium",
-    "type": "UGV",
-    "specs": {
-      "base_platform": "ZMIY tracked platform",
-      "armor": "armored_hull",
-      "armament": "12.7mm machine gun (Browning)",
-      "ammunition_capacity": "1000 rounds",
-      "effective_range_m": 1000,
-      "mobility": {
-        "terrain": [
-          "rough_terrain",
-          "minefields",
-          "water"
-        ],
-        "max_speed_kmh": 8,
-        "endurance_hours": "multiple_days"
-      },
-      "sensors": {
-        "thermal_imager": true,
-        "video_cameras": "multiple_views"
-      },
-      "communication": [
-        "Starlink",
-        "military_systems"
-      ],
-      "production_status": "mass_production"
-    },
-    "status": "operational",
-    "source": "RoverTech (rovertech.co.ua), Ministry of Defence Ukraine",
-    "deployment_note": "22,000+ missions documented"
-  },
-  {
-    "id": "themis-estonian-ugv",
-    "name": "THeMIS",
-    "manufacturer": "Milrem Robotics (Estonia)",
-    "codified": "2025-10",
-    "category": "multi_role_logistics_combat",
-    "weight_class": "medium",
-    "type": "UGV",
-    "specs": {
-      "platform": "Modular tracked UGV",
-      "propulsion": "electric",
-      "configurations": [
-        "weapons",
-        "logistics",
-        "mine_clearing",
-        "evacuation"
-      ],
-      "terrain_capability": "all_terrain",
-      "communication": "NATO_standard"
-    },
-    "status": "operational_expanding",
-    "deployment_status": {
-      "current_deployed": 15,
-      "additional_contracted": "150+",
-      "total_target": "165+",
-      "order_date": "October 2025"
-    },
-    "source": "Ukrainska Pravda (pravda.com.ua), Oct 2025"
-  },
-  {
-    "id": "robot-12",
-    "name": "Lynx MAX",
-    "manufacturer": "Roboneers (Ukrainian)",
-    "codified": "2026-04",
-    "category": "evacuation_logistics_tracked",
-    "weight_class": "medium",
-    "type": "UGV",
-    "specs": {
-      "chassis": "tracked",
-      "speed_kmh": 13,
-      "payload_kg": 350,
-      "range_km": 60,
-      "personnel_capacity": 2,
-      "water_crossing_depth_cm": 70,
-      "control_range_m": 700,
-      "endurance_hours": "4-6",
-      "special_features": [
-        "automatic_cargo_ejection_system",
-        "horizontal_buffer_suspension",
-        "all_terrain_tracked_mobility",
-        "operational_capsule_communication"
-      ]
-    },
-    "deployment": {
-      "status": "operational",
-      "location": "Pokrovsk axis",
-      "units": [
-        "25th Sicheslav Brigade",
-        "68th Separate Jaeger Brigade"
-      ],
-      "verified_mission": "12km deep penetration under drone threat, successful casualty evacuation"
-    },
-    "combat_record": {
-      "documented_missions": "Multiple evacuations Pokrovsk axis (March 2026)",
-      "threat_environment": "Active enemy drone coverage",
-      "communication": "Internal capsule communication maintained"
-    },
-    "source": "Roboneers official, Defender Media (April 2026), Ministry of Defence Ukraine"
-  },
-  {
-    "id": "robot-13",
-    "name": "Nurse TB",
-    "manufacturer": "Ratel Robotics (Ukrainian)",
-    "codified": "2026-04",
-    "category": "medical_evacuation_tracked",
-    "weight_class": "light",
-    "type": "UGV",
-    "specs": {
-      "chassis": "tracked",
-      "primary_mission": "medical_evacuation_and_logistics",
-      "cargo_capacity_kg": 150,
-      "special_payloads": [
-        "anti_tank_mines (up to 6)",
-        "medical_supply_modules",
-        "ammunition_containers"
-      ],
-      "mobility": "all_terrain_tracked"
-    },
-    "status": "pre_production",
-    "source": "Ratel Robotics official, Defender Media (April 2026)"
-  },
-  {
-    "id": "robot-14",
-    "name": "DroidBox Universal Control System",
-    "manufacturer": "DevDroid (Ukrainian)",
-    "codified": "2026-04",
-    "category": "universal_control_system",
-    "type": "C2_Integration",
-    "specs": {
-      "unified_control_capacity": "1000+ UGVs",
-      "communication_types": 6,
-      "gps_spoofing_protection": true,
-      "ai_integration_support": true,
-      "control_interface": [
-        "tablet",
-        "gamepad"
-      ],
-      "pre_installed_on": [
-        "8+ system variants",
-        "Droid TW series",
-        "BIZON series",
-        "FoxTac",
-        "others"
-      ]
-    },
-    "features": {
-      "single_operator_control": "Multiple platforms from one device",
-      "redundancy": "6 communication channel types",
-      "anti_jamming": "Multiple transmission methods"
-    },
-    "deployment": "1000+ units already deployed",
-    "status": "operational",
-    "source": "Ministry of Defence Ukraine (April 2026), DevDroid, Defender Media"
+    "date_reported": "September 2025",
+    "source": "The Defender Media"
   }
 ]
