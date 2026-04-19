@@ -1,29 +1,46 @@
 {
   "propulsion": {
     "internal_combustion": {
-      "systems": ["PROTECTOR heavy platform"],
+      "systems": [
+        "PROTECTOR heavy platform"
+      ],
       "advantage": "Extended range, high payload",
       "status": "Production"
     },
     "electric_motors": {
-      "systems": ["MURAKHA", "Zmiy Droid", "TERMIT"],
+      "systems": [
+        "MURAKHA",
+        "Zmiy Droid",
+        "TERMIT"
+      ],
       "advantage": "Silent operation, reduced signatures",
       "status": "Production"
     },
     "battery_systems": {
-      "types": ["LiPo packs", "Industrial lead-acid", "Experimental fuel cells"],
+      "types": [
+        "LiPo packs",
+        "Industrial lead-acid",
+        "Experimental fuel cells"
+      ],
       "critical_spec": "Endurance and weight ratio",
       "status": "Active development"
     }
   },
   "electronics_control": {
     "wireless_systems": {
-      "types": ["Combat-proven receivers", "EW-resistant multichannel"],
+      "types": [
+        "Combat-proven receivers",
+        "EW-resistant multichannel"
+      ],
       "requirement": "Redundant channels for EW environments",
       "status": "Operational"
     },
     "ai_systems": {
-      "capabilities": ["Target acquisition", "Tracking", "Decision support"],
+      "capabilities": [
+        "Target acquisition",
+        "Tracking",
+        "Decision support"
+      ],
       "integration": "Across all combat variants",
       "status": "Field-tested"
     },
@@ -52,7 +69,10 @@
   },
   "armor_materials": {
     "combat_armor": {
-      "systems": ["Zmiy Droid hull", "PROTECTOR chassis"],
+      "systems": [
+        "Zmiy Droid hull",
+        "PROTECTOR chassis"
+      ],
       "protection_level": "Anti-personnel mines, FPV drone impact",
       "status": "Production"
     },
@@ -63,7 +83,10 @@
   },
   "power_generation": {
     "generator_systems": {
-      "systems": ["PROTECTOR", "deep strike variants"],
+      "systems": [
+        "PROTECTOR",
+        "deep strike variants"
+      ],
       "fuel": "Combustion-powered",
       "status": "Operational"
     },
@@ -71,5 +94,8 @@
       "status": "Experimental",
       "application": "Extended duration operations"
     }
+  },
+  "metadata": {
+    "last_updated": "2026-04-19"
   }
 }
