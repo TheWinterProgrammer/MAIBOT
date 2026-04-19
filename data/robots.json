@@ -1,162 +1,307 @@
 [
   {
-    "id": "protector",
-    "name": "PROTECTOR",
-    "type": "Heavy Unmanned Ground System",
-    "status": "Operational",
-    "codified": "2026",
-    "manufacturer": "Domestic Ukrainian enterprise",
-    "specs": {
-      "payload_kg": 700,
-      "range_km": 400,
-      "power": "Internal combustion engine",
-      "drive": "All-wheel drive with RunFlat tires",
-      "armor": "Combat-rated",
-      "obstacles": "Water crossing capable"
-    },
-    "capabilities": [
-      "Ammunition/equipment transport",
-      "Casualty evacuation",
-      "Weapon station platform",
-      "Mobile EW systems",
-      "SIGINT/ELINT carrier"
-    ],
-    "deployment": "Active with Defence Forces"
-  },
-  {
-    "id": "murakha",
-    "name": "MURAKHA",
-    "type": "Tracked Infantry Support Robot",
-    "status": "Operational",
-    "codified": "2025-2026",
-    "manufacturer": "Robotizirani Kompleksy (RK)",
-    "specs": {
-      "payload_kg": 500,
-      "range_km": "Dozens of km continuous",
-      "drive": "Tracked",
-      "size": "Compact",
-      "ew_resistant": true,
-      "obstacles": "Difficult terrain, shallow water, mined areas"
-    },
-    "capabilities": [
-      "Infantry logistics",
-      "Supply/ammunition transport",
-      "Casualty evacuation",
-      "Operation under enemy fire",
-      "EW environment operation"
-    ],
-    "deployment": "Active with AFU"
-  },
-  {
-    "id": "zmiy-droid-12-7",
-    "name": "Zmiy Droid 12.7",
-    "type": "Strike and Reconnaissance System",
-    "status": "Operational",
-    "codified": "2026",
-    "manufacturer": "Coalition of two Ukrainian arms manufacturers",
-    "specs": {
-      "platform": "Zmiy combat-proven base",
-      "armament": "Wolly 12.7mm machine gun module",
-      "armor": "Anti-personnel mine protection, FPV drone survivable",
-      "control": "Unified operator control",
-      "ai_equipped": true,
-      "target_acquisition": "Automatic AI-based"
-    },
-    "combat_record": {
-      "documented_kills": ["MT-LB vehicles"],
-      "endurance_days": 45,
-      "maintenance_schedule": "Every 2 days"
-    },
-    "deployment": "Active with AFU"
-  },
-  {
-    "id": "droid-nw-40",
-    "name": "Droid NW 40",
-    "type": "Armed Ground Robot",
-    "status": "Operational",
-    "codified": "2025",
-    "manufacturer": "DevDroid",
-    "specs": {
-      "armament": "40mm module",
-      "platform_base": "Proven UGV base"
-    },
-    "deployment": "Active with AFU"
-  },
-  {
-    "id": "termit",
-    "name": "TERMIT",
-    "type": "Logistics Ground Robot",
-    "status": "Operational, DOT-Chain Defence Available",
-    "codified": "2026",
-    "manufacturer": "Ukrainian Defense Contractor",
-    "specs": {
-      "payload_kg": 300,
-      "specialization": "Trench navigation",
-      "use": "Supply delivery, logistics"
-    },
-    "procurement": {
-      "available_via": "DOT-Chain Defence marketplace",
-      "ordering": "Direct unit procurement with allocated budgets"
-    },
-    "deployment": "Active"
-  },
-  {
-    "id": "zmiy-sapper",
-    "name": "КНРО «Змій»",
-    "type": "Explosive Ordnance Disposal Robot",
-    "status": "Operational, DOT-Chain Defence Available",
-    "codified": "2026",
-    "manufacturer": "Ukrainian Defense Contractor",
-    "specs": {
-      "specialization": "Explosive-resistant sapper robot",
-      "capability": "Rapid demining operations"
-    },
-    "procurement": {
-      "available_via": "Brave1 Market",
-      "category": "Ground robotic systems"
-    },
-    "deployment": "Active"
-  },
-  {
-    "id": "termit-universal",
-    "name": "TerMIT",
-    "type": "Universal Ground Robot",
-    "status": "Operational, DOT-Chain Defence Available",
-    "codified": "2026",
-    "manufacturer": "Ukrainian Defense Contractor",
-    "specs": {
-      "use_cases": ["Evacuation", "Logistics", "Firepower application"],
-      "type": "Universal tracked UGV"
-    },
-    "procurement": {
-      "available_via": "DOT-Chain Defence / Brave1 Market",
-      "ordering": "Direct military unit procurement"
-    },
-    "deployment": "Active"
-  },
-  {
-    "id": "krampus",
     "name": "KRAMPUS",
-    "type": "Mobile Strike System with Thermobaric Launchers",
-    "status": "Operational - Ministry of Defence codified",
-    "codified": "2026-04",
-    "manufacturer": "Ukrainian defense enterprise",
-    "specs": {
-      "mobility": "Dual silent electric motors, tracked chassis",
-      "terrain": "Off-road, dense forests, sand, swamps, steep slopes",
-      "transport": "Fits in pickup truck bed, minibus, or trailer",
-      "armament": "RPV-16 reactive thermobaric launchers (2x)",
-      "control": "EW-resistant channels",
-      "weather": "All-weather operation (cold, heat, snow, rain)",
-      "endurance": "Several hours continuous movement, extended position duty"
-    },
+    "type": "Mobile Strike System",
+    "role": "Assault/Defensive Operations",
+    "weapon": "RPV-16 Reactive Thermobaric Launchers",
+    "propulsion": "Dual silent electric motors + tracked chassis",
     "capabilities": [
-      "Personnel elimination",
-      "Lightly armored vehicle destruction",
-      "Offensive operations",
-      "Defensive operations",
-      "Extended position holding"
+      "Off-road mobility",
+      "Forest traversal",
+      "Sand and swamp crossing",
+      "Steep slope climbing",
+      "EW-resistant control",
+      "All-weather operation",
+      "Extended battery life"
     ],
-    "deployment": "Authorized for operational use with AFU units"
+    "transport": "Fits in pickup truck bed, minibus, or trailer",
+    "sensors": ["Video cameras"],
+    "status": "Codified and authorized by MoD",
+    "origin": "Ukrainian-made",
+    "first_codified": "2025"
+  },
+  {
+    "name": "Droid TW",
+    "type": "Fire Support Robot",
+    "role": "Combat Support",
+    "weapon": "Browning 12.7mm machine gun",
+    "propulsion": "Tracked platform",
+    "ai_capabilities": ["AI-powered autonomous operation"],
+    "status": "Codified and combat-tested",
+    "origin": "Ukrainian-made",
+    "first_codified": "2025"
+  },
+  {
+    "name": "ZMIY Logistic",
+    "type": "Logistics/Cargo UGV",
+    "role": "Supply, equipment recovery, evacuation",
+    "manufacturer": "RoverTech",
+    "payload_capacity_kg": 500,
+    "tensile_force_kg": 700,
+    "range_km": 50,
+    "max_speed_kmh": 10,
+    "operators_required": 2,
+    "communication": "Starlink, LTE/4G",
+    "capabilities": [
+      "Rough terrain traversal",
+      "Wetland crossing",
+      "Minefield operation",
+      "Anti-personnel mine blast resistant",
+      "Silent operation"
+    ],
+    "status": "Codified by Ministry of Defence",
+    "origin": "Ukrainian-made",
+    "first_codified": "2025",
+    "missions_completed": 22000
+  },
+  {
+    "name": "ZMIY Mini Logistic",
+    "type": "Compact Logistics UGV",
+    "role": "Cargo transport in constrained areas",
+    "manufacturer": "RoverTech",
+    "payload_capacity_kg": 400,
+    "tensile_force_kg": 500,
+    "range_km": 80,
+    "max_speed_kmh": 15,
+    "communication_range_km": 3,
+    "operators_required": 2,
+    "use_cases": [
+      "Narrow routes",
+      "Damaged infrastructure",
+      "High-risk tight-access areas"
+    ],
+    "status": "Codified by Ministry of Defence",
+    "origin": "Ukrainian-made"
+  },
+  {
+    "name": "ZMIY Droid 12.7",
+    "type": "Strike/Combat UGV",
+    "role": "Armed assault platform",
+    "manufacturer": "RoverTech + DevDroid (combat module)",
+    "weapon": "Browning 12.7mm machine gun (Wolly 12.7 module)",
+    "effective_range_m": 1000,
+    "propulsion": "Tracked platform",
+    "max_speed_kmh": 8,
+    "range_km": 50,
+    "communication_range_km": 3,
+    "operators_required": 2,
+    "armor": true,
+    "capabilities": [
+      "Minefield traversal",
+      "Rough terrain navigation",
+      "Fire support",
+      "Position security",
+      "Area clearance",
+      "High-threat engagement"
+    ],
+    "status": "Codified and approved by Ministry of Defence",
+    "origin": "Ukrainian-made",
+    "first_codified": "2026",
+    "approval_date": "2026-04-18"
+  },
+  {
+    "name": "ZMIY Mini Strike",
+    "type": "Compact Strike UGV",
+    "role": "Close-range combat in constrained areas",
+    "manufacturer": "RoverTech",
+    "weapon": "Combat module (close-range)",
+    "effective_range_m": 1500,
+    "max_speed_kmh": 15,
+    "range_km": 80,
+    "communication_range_km": 3,
+    "tensile_force_kg": 150,
+    "operators_required": 2,
+    "armor": true,
+    "use_cases": [
+      "Assault operations",
+      "Area clearance",
+      "Close-quarters combat",
+      "Hard-to-reach positions"
+    ],
+    "status": "Codified by Ministry of Defence",
+    "origin": "Ukrainian-made"
+  },
+  {
+    "name": "ZMIY Gripper",
+    "type": "Recovery/Evacuation UGV",
+    "role": "Equipment recovery and casualty evacuation",
+    "manufacturer": "RoverTech",
+    "payload_capacity_kg": 800,
+    "claw_lift_kg": 250,
+    "range_km": 40,
+    "max_speed_kmh": 10,
+    "communication_range_km": 3,
+    "operators_required": 2,
+    "capabilities": [
+      "Equipment recovery from minefields",
+      "Fallen soldier evacuation",
+      "High mobility",
+      "Hydraulic manipulation"
+    ],
+    "status": "Prototype/Field testing",
+    "origin": "Ukrainian-made"
+  },
+  {
+    "name": "GRCC ZMIY",
+    "type": "Demining Robot",
+    "role": "Active combat and humanitarian demining",
+    "manufacturer": "RoverTech",
+    "operational_distance_km": 3,
+    "minefield_clearance_ha_per_charge": 3,
+    "tensile_force_kg": 700,
+    "range_km": 20,
+    "max_speed_kmh": 8,
+    "communication_range_km": 3,
+    "operators_required": 2,
+    "mine_types": [
+      "Anti-tank mines",
+      "Anti-personnel mines"
+    ],
+    "status": "Codified by Ministry of Defence",
+    "origin": "Ukrainian-made"
+  },
+  {
+    "name": "NUMO",
+    "type": "Multi-purpose UGV",
+    "role": "Logistics/Cargo/Support",
+    "payload_capacity_kg": 300,
+    "manufacturer": "NUMO Robotics (formerly Tank Bureau)",
+    "production_stats": {
+      "platforms_manufactured": 600,
+      "team_size": 100
+    },
+    "status": "Codified by Ministry of Defence",
+    "origin": "Ukrainian-made",
+    "first_codified": "2025",
+    "notes": "Significant domestic production capacity"
+  },
+  {
+    "name": "UNEX UGV",
+    "type": "Amphibious All-Terrain UGV",
+    "role": "Multi-terrain operations",
+    "manufacturer": "UGVR Machinery (Ukrainian-Czech)",
+    "chassis": "Ultra-low-pressure tire pneumatic suspension",
+    "ground_pressure": "Less than human footstep",
+    "capabilities": [
+      "Swamp traversal",
+      "Ice traversal (unique capability for wheeled UGV)",
+      "Rocky terrain navigation",
+      "Water crossing (swimming)",
+      "Amphibious water-to-ice transition",
+      "Anti-tank mine resistant",
+      "Rubble navigation"
+    ],
+    "modular_configurations": [
+      "Combat platform with weapons",
+      "EW hub for comms disruption",
+      "Logistics hauler",
+      "Evacuation unit",
+      "Demining specialist",
+      "Mobile rocket launcher"
+    ],
+    "control_system": "Secure, frequency-hopping radio (encrypted)",
+    "autonomy": "Programmable autopilot with Follow-Me function",
+    "operational_temperature": "Extreme range (-40°C to +60°C)",
+    "control_range": {
+      "radio_m": 10000,
+      "lte": "Unlimited with GSM signal"
+    },
+    "ew_resilience": true,
+    "status": "Approved for Defence Forces",
+    "origin": "Ukrainian-Czech collaboration",
+    "first_codified": "2025",
+    "approval_date": "2025-04-17"
+  },
+  {
+    "name": "Bufalo",
+    "type": "Combat UGV",
+    "role": "Armored combat operations",
+    "ai_capabilities": ["AI-equipped vision systems"],
+    "armor": true,
+    "range_km": 200,
+    "operational_distance_km": 200,
+    "status": "In testing phase",
+    "origin": "Ukrainian-made",
+    "notes": "Extended-range combat platform with AI integration"
+  },
+  {
+    "name": "BIZON-L",
+    "type": "Tracked Ground Robot",
+    "role": "Multi-mission combat platform",
+    "manufacturer": "UAV TECHNOLOGY",
+    "control_system": "Droid Box (by DevDroid)",
+    "payload_capacity_kg": 250,
+    "operational_range_km": 30,
+    "extended_range_km": 50,
+    "max_speed_kmh": 12,
+    "propulsion": "Steel tracks",
+    "modular_capabilities": [
+      "Combat module with 12.7mm machine gun turret",
+      "Antenna/communications relay systems",
+      "Engineering obstacle deployment",
+      "Remote mining modules",
+      "Electronic warfare platforms",
+      "Cargo trailers"
+    ],
+    "thermal_signature": "Low - liquid cooling system",
+    "communication": "LTE, Wi-Fi, Starlink",
+    "status": "Codified and approved by Ministry of Defence",
+    "origin": "Ukrainian-made",
+    "first_codified": "2026",
+    "approval_date": "2026-04-06"
+  },
+  {
+    "name": "Ratel H",
+    "type": "Multi-mission UGV",
+    "role": "Combat support and FPV drone deployment",
+    "recent_upgrade": "Fiber-optic FPV drone carrier module",
+    "capabilities": [
+      "Carries fiber-optic FPV drones",
+      "Remote launch from high-risk areas",
+      "Maintains mobility and off-road performance",
+      "Operator-less deployment at forward positions"
+    ],
+    "status": "Combat-tested",
+    "origin": "Ukrainian-made",
+    "upgrade_year": 2026
+  },
+  {
+    "name": "FPV Drone Swarms",
+    "type": "First-Person View Unmanned Aerial System",
+    "role": "Primary offensive tool",
+    "fpv_type": "Fiber-optic controlled",
+    "2025_production": {
+      "contracted": 2000000,
+      "delivered": 1000000,
+      "delivery_period": "January-July 2025"
+    },
+    "advantages": [
+      "Resilient to electronic warfare",
+      "Assured control without RF jamming",
+      "Fiber-optic spool management",
+      "Multiple new fiber-optic models approved"
+    ],
+    "recent_systems": [
+      "Hromylo Optic (codified and adopted)",
+      "Khyzhak REBOFF (fiber-optic resistant)",
+      "Stalker drone (tracks and strikes despite EW)"
+    ],
+    "procurement_method": "DOT-Chain Defence marketplace",
+    "development": "Actively expanding fiber-optic FPV models",
+    "status": "Primary operational system",
+    "origin": "Ukrainian-made",
+    "notes": "1 million units supplied in first 7 months of 2025 alone"
+  },
+  {
+    "name": "Gnome-NS",
+    "type": "Ground Mother Drone Platform",
+    "role": "Carries and deploys FPV drones",
+    "capabilities": [
+      "FPV drone carrier",
+      "Mobile drone launch platform"
+    ],
+    "status": "Recently unveiled",
+    "origin": "Ukrainian-made",
+    "announcement_date": "2026-03-03"
   }
 ]

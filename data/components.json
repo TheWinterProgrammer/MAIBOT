@@ -1,101 +1,276 @@
 {
   "propulsion": {
-    "internal_combustion": {
-      "systems": [
-        "PROTECTOR heavy platform"
-      ],
-      "advantage": "Extended range, high payload",
-      "status": "Production"
-    },
-    "electric_motors": {
-      "systems": [
-        "MURAKHA",
-        "Zmiy Droid",
-        "TERMIT"
-      ],
-      "advantage": "Silent operation, reduced signatures",
-      "status": "Production"
-    },
-    "battery_systems": {
-      "types": [
-        "LiPo packs",
-        "Industrial lead-acid",
-        "Experimental fuel cells"
-      ],
-      "critical_spec": "Endurance and weight ratio",
-      "status": "Active development"
+    "primary_type": "Electric motors",
+    "configurations": {
+      "dual_silent_motors": {
+        "description": "Silent electric motor pairs",
+        "advantages": [
+          "Silent operation for stealth",
+          "High torque for off-road climbing",
+          "Reduced thermal signature for detection avoidance",
+          "Efficient power usage"
+        ],
+        "examples": ["KRAMPUS", "ZMIY variants"]
+      },
+      "tracked_platforms": {
+        "type": "Steel or rubber tracks",
+        "advantages": [
+          "Superior off-road traction",
+          "Better weight distribution",
+          "Terrain adaptability",
+          "Slope climbing capability"
+        ],
+        "examples": ["BIZON-L", "ZMIY series", "GRCC ZMIY"]
+      },
+      "wheeled_platforms": {
+        "type": "Ultra-low-pressure tires with pneumatic suspension",
+        "advantages": [
+          "Amphibious capability",
+          "Swamp/wetland traversal",
+          "Ice transition capability",
+          "Water crossing",
+          "Minimal ground pressure (less than human footstep)"
+        ],
+        "examples": ["UNEX UGV"]
+      }
     }
   },
-  "electronics_control": {
-    "wireless_systems": {
-      "types": [
-        "Combat-proven receivers",
-        "EW-resistant multichannel"
+  "chassis_design": {
+    "terrain_capabilities": {
+      "all_terrain": [
+        "Dense forests",
+        "Sand dunes",
+        "Swamps and wetlands",
+        "Steep slopes (45° capable)",
+        "Rubble-strewn areas",
+        "Ice sheets (UNEX unique)",
+        "Rocky outcrops"
       ],
-      "requirement": "Redundant channels for EW environments",
-      "status": "Operational"
+      "transportability": {
+        "compact_form": "Fits in pickup truck beds, minivans, trailers",
+        "weight": "Generally under 1000 kg for maneuverability",
+        "modular": "Can be disassembled for transport"
+      }
     },
-    "ai_systems": {
+    "armor": {
+      "combat_platforms": "Steel/composite armor on strike variants",
+      "protection_level": "Fragmentation and small-arms resistant",
+      "thermal_management": "Liquid cooling systems reduce thermal signature",
+      "examples": ["ZMIY Droid 12.7", "BIZON-L"]
+    }
+  },
+  "power_systems": {
+    "batteries": {
+      "type": "Lithium-ion battery packs",
+      "capacity_features": [
+        "Extended operating time (multiple hours continuous)",
+        "Modular capacity expansion",
+        "Cold-weather rated (-40°C minimum)",
+        "Hot-weather rated (+60°C maximum)"
+      ],
+      "range_specs": {
+        "typical_km": "20-80 km per charge",
+        "extended_km": "200 km (Bufalo with extended battery)",
+        "factors": "Terrain type, speed, payload, weather"
+      }
+    },
+    "power_management": {
+      "features": [
+        "Redundant power monitoring",
+        "Emergency shutdown protocols",
+        "Battery status telemetry to operators",
+        "Solar charging capability (development stage)"
+      ]
+    }
+  },
+  "sensors": {
+    "visual_systems": {
+      "tactical_video_cameras": {
+        "type": "Multi-spectrum capable",
+        "features": [
+          "Day/night operation",
+          "All-weather rated",
+          "360° pan-tilt capability on some models",
+          "Real-time operator feedback"
+        ],
+        "resolution": "HD to 4K (varies by platform)"
+      },
+      "ai_vision": {
+        "type": "Computer vision with AI integration",
+        "capabilities": [
+          "Autonomous target recognition",
+          "Threat identification",
+          "Navigation assistance",
+          "Obstacle detection"
+        ],
+        "examples": ["Droid TW", "Bufalo", "ZMIY Droid 12.7"]
+      }
+    },
+    "sensor_suite": {
+      "thermal": "IR cameras on some variants",
+      "lidar": "Range-finding for obstacle avoidance (development)",
+      "odometry": "Wheel/track-based distance measurement",
+      "imu": "Inertial measurement for slope/orientation detection"
+    }
+  },
+  "communications": {
+    "radio_systems": {
+      "frequency_hopping": {
+        "type": "Spread-spectrum radio control",
+        "range_m": 10000,
+        "features": [
+          "EW-resistant channels",
+          "Encrypted command streams",
+          "Anti-jamming capability",
+          "Multiple frequency bands"
+        ],
+        "control_latency": "<100ms typical"
+      },
+      "fiber_optic": {
+        "system_type": "Fiber-optic spool tethering",
+        "range_m": 3000,
+        "advantages": [
+          "Complete immunity to RF jamming",
+          "No electronic warfare vulnerability",
+          "Secure physical connection",
+          "Power delivery over fiber"
+        ],
+        "use_case": "FPV drones (primary system)",
+        "examples": ["Hromylo Optic", "Khyzhak REBOFF", "Stalker drone"]
+      }
+    },
+    "cellular": {
+      "lte_4g": {
+        "range": "Unlimited with cellular coverage",
+        "latency": "100-300ms typical",
+        "bandwidth": "Sufficient for video + control"
+      },
+      "starlink": {
+        "coverage": "Global coverage capability",
+        "latency": "20-50ms typical",
+        "examples": ["ZMIY series", "UNEX UGV", "BIZON-L"]
+      }
+    },
+    "autonomy_levels": {
+      "teleoperation": "Full operator control via video/sensor feedback",
+      "semi_autonomous": "Assisted navigation and targeting",
+      "autonomous": "Pre-programmed waypoint missions with auto-return",
+      "examples": {
+        "follow_me": "UNEX UGV programmable autopilot",
+        "waypoint_nav": "Multiple platforms"
+      }
+    }
+  },
+  "weapons_systems": {
+    "kinetic": {
+      "machine_guns": {
+        "type": "Browning 12.7mm (.50 cal)",
+        "effective_range_m": 1000,
+        "ammunition_capacity": "500+ rounds typical",
+        "fire_rate": "400-600 rpm",
+        "examples": ["ZMIY Droid 12.7", "Droid TW 12.7"]
+      },
+      "grenade_launchers": {
+        "type": "Mk 19 automatic grenade launcher",
+        "ammunition": "40mm grenades",
+        "range_m": "Up to maximum effective range",
+        "examples": ["ARDAL platform (Frontline Robotics)"]
+      }
+    },
+    "explosive": {
+      "thermobaric": {
+        "system": "RPV-16 reactive thermobaric launcher",
+        "payload": "Thermobaric warheads",
+        "targets": [
+          "Personnel in open",
+          "Personnel in bunkers/fortifications",
+          "Lightly armored vehicles",
+          "Structures"
+        ],
+        "examples": ["KRAMPUS"],
+        "origin": "Ukrainian-designed"
+      },
+      "rocket_systems": {
+        "type": "Mobile rocket launcher modules",
+        "integration": "Modular on UNEX and other platforms",
+        "development": "Recent capability additions"
+      }
+    },
+    "electronic_warfare": {
+      "type": "EW hub/jammer modules",
       "capabilities": [
-        "Target acquisition",
-        "Tracking",
-        "Decision support"
+        "Communications disruption",
+        "Radar jamming",
+        "Drone frequency jamming",
+        "Enemy coordination disruption"
       ],
-      "integration": "Across all combat variants",
-      "status": "Field-tested"
-    },
-    "communications": {
-      "requirement": "Brigade-level integration",
-      "standards": "AFU unified protocols (developing)",
-      "status": "Standardization in progress"
+      "examples": ["UNEX EW configuration", "Mobile EW platforms"]
     }
   },
-  "sensors_optics": {
-    "fpv_cameras": {
-      "application": "Drone systems, operator stations",
-      "production_scale": "160+ manufacturers",
-      "status": "Mass production"
+  "control_systems": {
+    "operator_interface": {
+      "input_method": "Wireless gamepad or custom control station",
+      "feedback": "Real-time video + sensor telemetry",
+      "display": "FHD+ screens with tactical overlays",
+      "training_requirement": "Minimal (civilian-level complexity)"
     },
-    "fiber_optic_guidance": {
-      "application": "Long-range drones",
-      "advantage": "EW immunity",
-      "status": "Production"
-    },
-    "ai_vision": {
-      "application": "Target acquisition and tracking",
-      "integration": "Zmiy Droid 12.7, deep strike variants",
-      "status": "Operational"
-    }
-  },
-  "armor_materials": {
-    "combat_armor": {
-      "systems": [
-        "Zmiy Droid hull",
-        "PROTECTOR chassis"
+    "unified_control": {
+      "system": "Droid Box (by DevDroid)",
+      "capability": "Operates multiple Ukrainian robot types from single interface",
+      "advantages": [
+        "Reduced operator training",
+        "Standardized control scheme",
+        "Rapid platform switching"
       ],
-      "protection_level": "Anti-personnel mines, FPV drone impact",
-      "status": "Production"
+      "deployed_on": ["BIZON-L", "other platforms"]
     },
-    "structural_composites": {
-      "application": "Lightweight variants",
-      "status": "Active use"
-    }
-  },
-  "power_generation": {
-    "generator_systems": {
-      "systems": [
-        "PROTECTOR",
-        "deep strike variants"
+    "ai_integration": {
+      "features": [
+        "Target acquisition automation",
+        "Fire control assistance",
+        "Route planning optimization",
+        "Threat assessment"
       ],
-      "fuel": "Combustion-powered",
-      "status": "Operational"
-    },
-    "solar_systems": {
-      "status": "Experimental",
-      "application": "Extended duration operations"
+      "autonomy_level": "Advisory to full autonomous"
     }
   },
-  "metadata": {
-    "last_updated": "2026-04-19"
+  "modular_systems": {
+    "concept": "Rapid field reconfiguration without dismantling base platform",
+    "configurations": {
+      "combat": "Weapons turrets and ammunition",
+      "logistics": "Cargo racks and securing systems",
+      "demining": "Mine detection and neutralization tools",
+      "evacuation": "Casualty litter mounts and medical supplies",
+      "communications": "Antenna and relay equipment",
+      "electronic_warfare": "Jammer and sensor equipment"
+    },
+    "time_to_reconfigure": "Minutes to hours depending on module",
+    "examples": ["UNEX UGV (6+ configurations)", "ZMIY platform (multiple)", "BIZON-L"]
+  },
+  "ew_resistance": {
+    "tactics": [
+      "Frequency-hopping spread spectrum radio",
+      "Fiber-optic tethering for drones",
+      "Encrypted command channels",
+      "Multi-frequency redundancy",
+      "LOS and cellular backup links"
+    ],
+    "fiber_optic_dominance": "Primary FPV drone control method now",
+    "development": "New fiber-optic models actively entering service",
+    "advantage": "Complete immunity to RF jamming while maintaining control authority"
+  },
+  "manufacturing": {
+    "ukrainian_companies": 20,
+    "production_capacity_2025": {
+      "fpv_drones_contracted": 2000000,
+      "fpv_drones_delivered": 1000000,
+      "ground_robots": "20-30 new types per year",
+      "unit_assembly": "600+ NUMO robots, multiple others"
+    },
+    "supply_chain": {
+      "notes": "Increasingly self-sufficient",
+      "international": "Some Czech partnership (UNEX)",
+      "sources": "Ukrainian electronics, motors, materials domestic or allied"
+    }
   }
 }
