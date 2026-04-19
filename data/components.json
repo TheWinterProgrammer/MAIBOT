@@ -1,276 +1,233 @@
 {
-  "propulsion": {
-    "primary_type": "Electric motors",
-    "configurations": {
-      "dual_silent_motors": {
-        "description": "Silent electric motor pairs",
-        "advantages": [
-          "Silent operation for stealth",
-          "High torque for off-road climbing",
-          "Reduced thermal signature for detection avoidance",
-          "Efficient power usage"
-        ],
-        "examples": ["KRAMPUS", "ZMIY variants"]
+  "supply_chain_status": "Fully domestic Ukrainian manufacturing",
+  "last_updated": "2026-04-19T20:02:56.921759",
+  "component_categories": {
+    "motors": {
+      "supplier": "Motor-G (Ukrainian domestic manufacturer)",
+      "strategic_status": "Fully localized, scaling production",
+      "location": "Ukraine",
+      "production_quality": "Battle-tested since January 2024",
+      "models": {
+        "2820": {
+          "kv_variants": ["880KV", "1050KV", "1250KV", "custom"],
+          "topology": "12N14P",
+          "magnets": "N52H arc high-temperature",
+          "winding_heat_resistance": "200°C",
+          "application": "Heavy drone platforms",
+          "price_uah": 2039,
+          "status": "Serial production"
+        },
+        "3115": {
+          "kv_variants": ["900KV", "640KV"],
+          "topology": "12N14P",
+          "magnets": "N52H arc high-temperature",
+          "winding_heat_resistance": "200°C",
+          "application": "FPV drones, aircraft-type",
+          "price_uah": 987
+        },
+        "3110": {
+          "kv_variants": ["900KV", "1150KV", "1250KV", "custom"],
+          "topology": "12N14P",
+          "magnets": "N52H arc high-temperature",
+          "winding_heat_resistance": "200°C",
+          "price_uah": 933
+        }
       },
-      "tracked_platforms": {
-        "type": "Steel or rubber tracks",
-        "advantages": [
-          "Superior off-road traction",
-          "Better weight distribution",
-          "Terrain adaptability",
-          "Slope climbing capability"
-        ],
-        "examples": ["BIZON-L", "ZMIY series", "GRCC ZMIY"]
+      "quality_standards": [
+        "0.005g balancing accuracy (specialized equipment)",
+        "100% electrical testing pre-shipment",
+        "5-stage defect screening (vs. Chinese alternatives)",
+        "Heat-resistant windings (200°C standard)",
+        "Optimized for efficiency (grams/watt)",
+        "Heavy-duty field hardening"
+      ],
+      "comparative_advantage": "Surpasses Chinese counterparts in all specifications; custom KV available; R&D-optimized electromagnetic characteristics",
+      "production_scale": "Scaling rapidly; wholesale orders 4000+ pcs get custom pricing",
+      "delivery": "Popular models maintained in stock; custom designs 30+ days"
+    },
+    "electronics": {
+      "supplier": "FT Systems (Ukrainian manufacturer, in-house design & production)",
+      "strategic_status": "100% domestic manufacturing with supply chain control",
+      "location": "Ukraine",
+      "vertically_integrated": true,
+      "manufacturing": "All key components developed and manufactured in-house",
+      "product_lines": {
+        "flight_controllers": {
+          "type": "Proprietary designs",
+          "development": "In-house R&D",
+          "application": "All drone classes (FPV, Medium UAS, Large UAS)",
+          "key_features": ["Stability optimization", "Reliability focus", "Custom configurability"]
+        },
+        "speed_controllers": {
+          "ft_100a_1in1": {
+            "voltage": "6–12S (23.2–44.4V typical)",
+            "current_rating": "100A continuous",
+            "processor": "STM32G071 32-bit MCU",
+            "pwm": "128 kHz",
+            "mosfet": "80V / 420A / 1.2mΩ (ultra-low resistance)",
+            "protocols": ["DShot", "PWM", "Multishot"],
+            "protection": "Full protection suite, telemetry, RGB lighting",
+            "application": "High-power systems (ground robots, heavy drones)",
+            "price_uah": 3126
+          },
+          "ft_90a_4in1": {
+            "voltage": "4–8S",
+            "current_rating": "90A continuous",
+            "processor": "32-bit",
+            "protocols": ["DShot2400", "Telemetry"],
+            "protection": ["TVS protection", "2200µF capacitor", "8-layer PCB"],
+            "application": "Medium FPV drones",
+            "price_uah": 5322
+          },
+          "ft_85a_4in1": {
+            "voltage": "6–12S",
+            "processor": "32-bit",
+            "cooling": "Efficient active cooling",
+            "load_capability": "Extreme conditions",
+            "telemetry": true,
+            "price_uah": 4386
+          },
+          "ft_75a_4in1": {
+            "voltage": "3–6S",
+            "processor": "8-bit (BLHeli 2nd Gen)",
+            "protocols": ["DShot 300/600", "Bluejay compatible"],
+            "connectors": "MR30 AMASS (solder-free)",
+            "application": "Lightweight FPV platforms",
+            "price_uah": 2742
+          },
+          "ft_70a_1in1": {
+            "voltage": "3–6S",
+            "processor": "32-bit",
+            "protocols": ["PWM", "DShot", "Multishot"],
+            "protection": "Built-in comprehensive protections",
+            "price_uah": 612
+          }
+        },
+        "power_distribution": {
+          "ft_pdb_x8": {
+            "voltage_range": "4–12S (16–50.4V)",
+            "current_rating": "300A continuous",
+            "motor_channels": 8,
+            "bec": ["5V/5A", "9V/5A", "12V/5A"],
+            "current_sensor": "Built-in",
+            "application": "X8 heavy drone platforms",
+            "price_uah": 2700
+          },
+          "ft_pdb_hex": {
+            "voltage_range": "2–12S (60V max)",
+            "current_rating": "140–264A",
+            "mounting": ["30.5mm standard", "20mm compact"],
+            "bec": ["5V", "9V", "12V"],
+            "current_sensor": "264A integrated",
+            "application": "Medium-to-heavy drones, ground robots",
+            "price_uah": 960
+          }
+        },
+        "video_transmission": {
+          "antenna_6p1_7p2_ghz": {
+            "frequency": "6.1–7.2 GHz",
+            "polarization": "RHCP",
+            "connector": "SMA male",
+            "application": "HD video transmission in harsh conditions",
+            "price_uah": 894
+          },
+          "vtx_7p2ghz": {
+            "frequency": "7.2 GHz",
+            "power": "5W",
+            "channels": 64,
+            "features": ["SmartAudio", "Active cooling", "Wide frequency range"],
+            "application": "High-reliability FPV video link",
+            "price_uah": 4590
+          }
+        },
+        "brushless_motors": {
+          "type": "Proprietary engineering designs",
+          "torque_focus": "High-torque optimization for load",
+          "efficiency": "Optimized for stable thrust delivery",
+          "field_hardening": "Long-term operation under load",
+          "application": "Ground robots, heavy drones"
+        },
+        "batteries": {
+          "chemistry": "Li-ion format with Li-Po performance",
+          "characteristics": ["Long-lasting current delivery", "Stable power output", "High energy density"],
+          "size_form_factor": "Compact without compromise",
+          "self_discharge": "Low (long storage capability)"
+        },
+        "carbon_frames": {
+          "kharak_10inch": {
+            "size": "10\" FPV drone frame",
+            "dimensions": "218mm wheelbase",
+            "arms": "Reinforced 7mm carbon",
+            "mounting": ["30.5×30.5mm", "20×20mm"],
+            "hardware": "M3/M4 kit included",
+            "application": "FPV racing/combat drones",
+            "price_uah": 1800
+          }
+        }
       },
-      "wheeled_platforms": {
-        "type": "Ultra-low-pressure tires with pneumatic suspension",
-        "advantages": [
-          "Amphibious capability",
-          "Swamp/wetland traversal",
-          "Ice transition capability",
-          "Water crossing",
-          "Minimal ground pressure (less than human footstep)"
-        ],
-        "examples": ["UNEX UGV"]
-      }
-    }
-  },
-  "chassis_design": {
-    "terrain_capabilities": {
-      "all_terrain": [
-        "Dense forests",
-        "Sand dunes",
-        "Swamps and wetlands",
-        "Steep slopes (45° capable)",
-        "Rubble-strewn areas",
-        "Ice sheets (UNEX unique)",
-        "Rocky outcrops"
+      "quality_assurance": [
+        "All components undergo functional testing",
+        "Load testing (real-world condition simulation)",
+        "Full stack compatibility verification",
+        "Post-sale technical support",
+        "Configuration documentation",
+        "Predictable supply (full manufacturing control)"
       ],
-      "transportability": {
-        "compact_form": "Fits in pickup truck beds, minivans, trailers",
-        "weight": "Generally under 1000 kg for maneuverability",
-        "modular": "Can be disassembled for transport"
-      }
+      "compatibility": "Highest stability guaranteed by full FT Systems stack; modular compatibility with other brands when required",
+      "custom_development": "Open to individual requests for specialized configurations"
     },
-    "armor": {
-      "combat_platforms": "Steel/composite armor on strike variants",
-      "protection_level": "Fragmentation and small-arms resistant",
-      "thermal_management": "Liquid cooling systems reduce thermal signature",
-      "examples": ["ZMIY Droid 12.7", "BIZON-L"]
-    }
-  },
-  "power_systems": {
-    "batteries": {
-      "type": "Lithium-ion battery packs",
-      "capacity_features": [
-        "Extended operating time (multiple hours continuous)",
-        "Modular capacity expansion",
-        "Cold-weather rated (-40°C minimum)",
-        "Hot-weather rated (+60°C maximum)"
-      ],
-      "range_specs": {
-        "typical_km": "20-80 km per charge",
-        "extended_km": "200 km (Bufalo with extended battery)",
-        "factors": "Terrain type, speed, payload, weather"
-      }
-    },
-    "power_management": {
+    "control_systems": {
+      "primary_supplier": "DevDroid (Droid Box control system)",
+      "type": "Multi-platform operator interface",
+      "integration": "BIZON-L, ZMIY series, other modular platforms",
+      "application": "Ground robot operator control from protected shelter",
       "features": [
-        "Redundant power monitoring",
-        "Emergency shutdown protocols",
-        "Battery status telemetry to operators",
-        "Solar charging capability (development stage)"
-      ]
-    }
-  },
-  "sensors": {
-    "visual_systems": {
-      "tactical_video_cameras": {
-        "type": "Multi-spectrum capable",
-        "features": [
-          "Day/night operation",
-          "All-weather rated",
-          "360° pan-tilt capability on some models",
-          "Real-time operator feedback"
-        ],
-        "resolution": "HD to 4K (varies by platform)"
-      },
-      "ai_vision": {
-        "type": "Computer vision with AI integration",
-        "capabilities": [
-          "Autonomous target recognition",
-          "Threat identification",
-          "Navigation assistance",
-          "Obstacle detection"
-        ],
-        "examples": ["Droid TW", "Bufalo", "ZMIY Droid 12.7"]
-      }
+        "Tablet interface",
+        "Gamepad support",
+        "Modular configuration",
+        "EW-resistant datalink capable"
+      ],
+      "status": "Operational standard across Ukrainian GRS fleet"
     },
-    "sensor_suite": {
-      "thermal": "IR cameras on some variants",
-      "lidar": "Range-finding for obstacle avoidance (development)",
-      "odometry": "Wheel/track-based distance measurement",
-      "imu": "Inertial measurement for slope/orientation detection"
-    }
-  },
-  "communications": {
-    "radio_systems": {
-      "frequency_hopping": {
-        "type": "Spread-spectrum radio control",
-        "range_m": 10000,
-        "features": [
-          "EW-resistant channels",
-          "Encrypted command streams",
-          "Anti-jamming capability",
-          "Multiple frequency bands"
-        ],
-        "control_latency": "<100ms typical"
+    "communication": {
+      "primary_method": "Fiber-optic control (RF-jamming immune)",
+      "backup_methods": [
+        "Starlink integration",
+        "LTE / 4G",
+        "Military encrypted radio",
+        "Frequency-hopping encrypted channels"
+      ],
+      "radio_characteristics": {
+        "type": "Secure frequency-hopping",
+        "encryption": "Military-grade",
+        "jam_resistance": "High (frequency-agile)"
       },
       "fiber_optic": {
-        "system_type": "Fiber-optic spool tethering",
-        "range_m": 3000,
-        "advantages": [
-          "Complete immunity to RF jamming",
-          "No electronic warfare vulnerability",
-          "Secure physical connection",
-          "Power delivery over fiber"
-        ],
-        "use_case": "FPV drones (primary system)",
-        "examples": ["Hromylo Optic", "Khyzhak REBOFF", "Stalker drone"]
-      }
-    },
-    "cellular": {
-      "lte_4g": {
-        "range": "Unlimited with cellular coverage",
-        "latency": "100-300ms typical",
-        "bandwidth": "Sufficient for video + control"
+        "advantage": "Complete immunity to RF jamming/EW",
+        "spool_management": "Integrated in mobile platforms (Gnome-NS, carrier drones)",
+        "control_precision": "Wire-line level reliability",
+        "deployment": "Primary method on high-value FPV swarms"
       },
-      "starlink": {
-        "coverage": "Global coverage capability",
-        "latency": "20-50ms typical",
-        "examples": ["ZMIY series", "UNEX UGV", "BIZON-L"]
-      }
+      "status": "Fiber-optic becoming standard for EW-contested environments"
     },
-    "autonomy_levels": {
-      "teleoperation": "Full operator control via video/sensor feedback",
-      "semi_autonomous": "Assisted navigation and targeting",
-      "autonomous": "Pre-programmed waypoint missions with auto-return",
-      "examples": {
-        "follow_me": "UNEX UGV programmable autopilot",
-        "waypoint_nav": "Multiple platforms"
-      }
-    }
-  },
-  "weapons_systems": {
-    "kinetic": {
-      "machine_guns": {
-        "type": "Browning 12.7mm (.50 cal)",
-        "effective_range_m": 1000,
-        "ammunition_capacity": "500+ rounds typical",
-        "fire_rate": "400-600 rpm",
-        "examples": ["ZMIY Droid 12.7", "Droid TW 12.7"]
-      },
-      "grenade_launchers": {
-        "type": "Mk 19 automatic grenade launcher",
-        "ammunition": "40mm grenades",
-        "range_m": "Up to maximum effective range",
-        "examples": ["ARDAL platform (Frontline Robotics)"]
-      }
-    },
-    "explosive": {
-      "thermobaric": {
-        "system": "RPV-16 reactive thermobaric launcher",
-        "payload": "Thermobaric warheads",
-        "targets": [
-          "Personnel in open",
-          "Personnel in bunkers/fortifications",
-          "Lightly armored vehicles",
-          "Structures"
-        ],
-        "examples": ["KRAMPUS"],
-        "origin": "Ukrainian-designed"
-      },
-      "rocket_systems": {
-        "type": "Mobile rocket launcher modules",
-        "integration": "Modular on UNEX and other platforms",
-        "development": "Recent capability additions"
-      }
-    },
-    "electronic_warfare": {
-      "type": "EW hub/jammer modules",
-      "capabilities": [
-        "Communications disruption",
-        "Radar jamming",
-        "Drone frequency jamming",
-        "Enemy coordination disruption"
+    "strategic_assessment": {
+      "domestic_capability": "100% self-sufficient core manufacturing",
+      "supply_chain_resilience": "High (full vertical integration)",
+      "production_scaling": "Rapid expansion (2026 H1 target: 25,000 units)",
+      "innovation_velocity": "Soldier feedback → design iteration in weeks (vs. months)",
+      "cost_advantage": "Domestic > foreign alternatives by 2–3x cost efficiency",
+      "bottlenecks": [
+        "Communications reliability (improving with fiber-optic transition)",
+        "All-terrain capability on soft soil/mud (ongoing iteration)",
+        "Supply chain resilience for selective imports (monitoring)"
       ],
-      "examples": ["UNEX EW configuration", "Mobile EW platforms"]
-    }
-  },
-  "control_systems": {
-    "operator_interface": {
-      "input_method": "Wireless gamepad or custom control station",
-      "feedback": "Real-time video + sensor telemetry",
-      "display": "FHD+ screens with tactical overlays",
-      "training_requirement": "Minimal (civilian-level complexity)"
-    },
-    "unified_control": {
-      "system": "Droid Box (by DevDroid)",
-      "capability": "Operates multiple Ukrainian robot types from single interface",
-      "advantages": [
-        "Reduced operator training",
-        "Standardized control scheme",
-        "Rapid platform switching"
-      ],
-      "deployed_on": ["BIZON-L", "other platforms"]
-    },
-    "ai_integration": {
-      "features": [
-        "Target acquisition automation",
-        "Fire control assistance",
-        "Route planning optimization",
-        "Threat assessment"
-      ],
-      "autonomy_level": "Advisory to full autonomous"
-    }
-  },
-  "modular_systems": {
-    "concept": "Rapid field reconfiguration without dismantling base platform",
-    "configurations": {
-      "combat": "Weapons turrets and ammunition",
-      "logistics": "Cargo racks and securing systems",
-      "demining": "Mine detection and neutralization tools",
-      "evacuation": "Casualty litter mounts and medical supplies",
-      "communications": "Antenna and relay equipment",
-      "electronic_warfare": "Jammer and sensor equipment"
-    },
-    "time_to_reconfigure": "Minutes to hours depending on module",
-    "examples": ["UNEX UGV (6+ configurations)", "ZMIY platform (multiple)", "BIZON-L"]
-  },
-  "ew_resistance": {
-    "tactics": [
-      "Frequency-hopping spread spectrum radio",
-      "Fiber-optic tethering for drones",
-      "Encrypted command channels",
-      "Multi-frequency redundancy",
-      "LOS and cellular backup links"
-    ],
-    "fiber_optic_dominance": "Primary FPV drone control method now",
-    "development": "New fiber-optic models actively entering service",
-    "advantage": "Complete immunity to RF jamming while maintaining control authority"
-  },
-  "manufacturing": {
-    "ukrainian_companies": 20,
-    "production_capacity_2025": {
-      "fpv_drones_contracted": 2000000,
-      "fpv_drones_delivered": 1000000,
-      "ground_robots": "20-30 new types per year",
-      "unit_assembly": "600+ NUMO robots, multiple others"
-    },
-    "supply_chain": {
-      "notes": "Increasingly self-sufficient",
-      "international": "Some Czech partnership (UNEX)",
-      "sources": "Ukrainian electronics, motors, materials domestic or allied"
+      "competitive_advantage": [
+        "Locally optimized for Ukrainian terrain and EW environment",
+        "Direct feedback loop from frontline workshops",
+        "Modular design enables rapid role adaptation",
+        "AI integration advancing rapidly (Swarmer, Droid TW, others)",
+        "Autonomous capabilities not yet matched by adversary"
+      ]
     }
   }
 }

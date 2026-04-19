@@ -1,19 +1,20 @@
 {
-  "last_updated": "2026-04-19T13:05:00.000000",
-  "research_runs": 7,
+  "last_updated": "2026-04-19T20:02:56.921759",
+  "research_runs": 16,
+  "last_research_update": "2026-04-19 14:02 UTC",
   "data_collection_date": "2026-04-19",
-  "total_robots_tracked": 16,
-  "total_systems_codified": 81,
+  "total_robots_tracked": 21,
+  "total_systems_codified": 86,
   "codification_timeline": {
     "2023": 10,
     "2024": 50,
-    "2025": 15,
-    "2026_to_date": 6
+    "2025": 20,
+    "2026_to_date": 11
   },
   "codification_acceleration": {
     "2025_first_half": 30,
     "2025_july": 8,
-    "2026_april": 6,
+    "2026_april": 11,
     "trend": "Accelerating (~15+ new systems per 6-month period)"
   },
   "ground_robot_fleet_growth": {
@@ -35,6 +36,34 @@
     "delivery_rate": 142857,
     "units_per_day": 4762,
     "supply_chain": "Fully Ukrainian with import supplies"
+  },
+  "heavy_ugv_platforms": {
+    "vatag_h_ugv": {
+      "payload_capacity_kg": 2000,
+      "status": "Ready for serial production",
+      "ai_integration": "Full autonomous navigation and mission control",
+      "key_innovations": [
+        "Hybrid powerpack with silent mode",
+        "Multi-channel redundant communications",
+        "GPS-denied navigation",
+        "Convoy operations",
+        "Mobile power bank capability"
+      ],
+      "weapon_system": "RCWS with 25mm automatic cannon"
+    },
+    "protector_heavy_ugv": {
+      "payload_capacity_kg": 700,
+      "range_km": 400,
+      "engine": "High-performance internal combustion",
+      "status": "Codified and approved by MoD",
+      "key_features": [
+        "All-wheel drive",
+        "RunFlat tires",
+        "Water crossing capability",
+        "Modular combat/logistics architecture"
+      ]
+    },
+    "trend": "Shift toward 700kg-2+ ton payload systems for logistics automation"
   },
   "mission_statistics": {
     "january_2026": {

@@ -1,5 +1,82 @@
 [
   {
+    "name": "VATAG H-UGV",
+    "type": "Heavy UGV",
+    "role": "Multi-mission combat and logistics platform",
+    "payload_capacity_kg": 2000,
+    "propulsion": "Hybrid powerpack (electric + generator)",
+    "capabilities": [
+      "Autonomous navigation with AI integration",
+      "Machine learning-based mission control",
+      "GPS-denied navigation",
+      "Automatic route planning",
+      "Convoy operations",
+      "Multi-channel redundant communications",
+      "Silent mode operation (electric drive only)",
+      "Mobile power bank for field operations",
+      "Off-road traversal",
+      "EW-resistant control"
+    ],
+    "weapon_system": "RCWS with 25mm automatic cannon",
+    "status": "Ready for serial production",
+    "origin": "Ukrainian-based (international company)",
+    "announced": "2025-09-16",
+    "source": "en.defence-ua.com"
+  },
+  {
+    "name": "PROTECTOR",
+    "type": "Heavy UGV",
+    "role": "Logistics and combat support platform",
+    "manufacturer": "Ukrainian Armor",
+    "payload_capacity_kg": 700,
+    "operational_range_km": 400,
+    "combat_weight_kg": 4000,
+    "max_speed_kmh": 60,
+    "min_speed_maneuver_kmh": 5,
+    "engine_power_hp": 190,
+    "fuel_consumption_l_per_100km": 12,
+    "fuel_tank_capacity_l": 76,
+    "dimensions_mm": {
+      "length": 5200,
+      "width": 1870,
+      "height": 1450
+    },
+    "clearance_mm": 235,
+    "max_elevation_angle": 30,
+    "max_roll_angle": 25,
+    "vertical_wall_climb_mm": 235,
+    "fording_depth_m": 0.5,
+    "armor": "STANAG 4569 Level 1",
+    "propulsion": "All-wheel drive",
+    "engine_type": "Diesel internal combustion",
+    "communication_range_km": 15,
+    "communication_extended": "Repeater drone compatible",
+    "situational_awareness": "ICoMWare integrated",
+    "capabilities": [
+      "Ammunition/equipment transport",
+      "Casualty evacuation",
+      "Robotic weapon station platform",
+      "Anti-tank missile launcher platform",
+      "EW/SIGINT/ELINT platform",
+      "Water crossing capability",
+      "Off-road traversal",
+      "RunFlat tire damage resilience",
+      "Front-end loader capability"
+    ],
+    "weapons_compatible": [
+      "Anti-tank missile systems",
+      "Various weapon stations",
+      "Electronic warfare systems"
+    ],
+    "tires": "RunFlat (continued movement after damage)",
+    "advantages": ["Rapid production", "Low cost"],
+    "design_principle": "Safe execution of dangerous missions",
+    "status": "Codified and approved by MoD",
+    "origin": "Ukrainian-made",
+    "first_codified": "2025-06",
+    "source": "mod.gov.ua, en.defence-ua.com"
+  },
+  {
     "name": "D-21-12R",
     "type": "Combat UGV",
     "role": "Surveillance, patrolling, fire support",
@@ -33,24 +110,55 @@
       "Steep slope climbing",
       "EW-resistant control",
       "All-weather operation",
-      "Extended battery life"
+      "Extended battery life",
+      "Silent movement"
     ],
+    "targets": ["Enemy personnel", "Lightly armored vehicles"],
+    "battery": "Multi-hour continuous operation + extended standby",
+    "weather_operating": ["Cold", "Heat", "Snow", "Rain"],
     "transport": "Fits in pickup truck bed, minibus, or trailer",
     "sensors": ["Video cameras"],
     "status": "Codified and authorized by MoD",
     "origin": "Ukrainian-made",
-    "first_codified": "2025"
+    "first_codified": "2025",
+    "mo_note": "Since full-scale invasion, 80+ ground robotic systems codified (10 in 2023, 50+ in 2024, 20+ in 2025)"
   },
   {
     "name": "Droid TW",
-    "type": "Fire Support Robot",
-    "role": "Combat Support",
-    "weapon": "Browning 12.7mm machine gun",
+    "type": "AI-Powered Fire Support Robot",
+    "role": "Reconnaissance and strike missions",
+    "manufacturer": "Ukrainian defence industry",
+    "weapon_calibers_mm": [12.7, 7.62],
+    "ammo_capacity_variants": [480, 1000],
+    "effective_range_m": 1000,
     "propulsion": "Tracked platform",
-    "ai_capabilities": ["AI-powered autonomous operation"],
-    "status": "Codified and combat-tested",
+    "ai_capabilities": [
+      "AI-powered enemy personnel recognition",
+      "Autonomous target detection, recognition, and tracking",
+      "Ballistic calculation system for accuracy"
+    ],
+    "sensors": {
+      "thermal_imager": true,
+      "thermal_modes": "Multiple display modes",
+      "detection_range_day_m": 1500,
+      "detection_range_night_m": 1000
+    },
+    "communication": [
+      "Military communication systems",
+      "Starlink",
+      "LTE"
+    ],
+    "deployment_time_minutes": 5,
+    "control_interface": ["Tablet", "Gamepad"],
+    "transport": "Pickup truck or trailer",
+    "development_timeline": {
+      "start": "Several years ago",
+      "first_field_tests": "2023",
+      "codified": "December 2024"
+    },
+    "status": "Codified and authorized by Ministry of Defence",
     "origin": "Ukrainian-made",
-    "first_codified": "2025"
+    "first_codified": "2024-12"
   },
   {
     "name": "ZMIY Logistic",
@@ -199,9 +307,38 @@
   {
     "name": "UNEX UGV",
     "type": "Amphibious All-Terrain UGV",
-    "role": "Multi-terrain operations",
+    "role": "Multi-terrain operations platform",
     "manufacturer": "UGVR Machinery (Ukrainian-Czech)",
     "chassis": "Ultra-low-pressure tire pneumatic suspension",
+    "payload_capacity_kg": 1700,
+    "cargo_dimensions_mm": "1050x3336",
+    "dry_weight_kg": 2100,
+    "max_speed_kmh": 20,
+    "operating_temperature_celsius": "-30 to +40",
+    "ground_clearance_mm": 600,
+    "gradeability_angle": 40,
+    "tilt_angle": 30,
+    "obstacle_height_m": 1.0,
+    "u_turn_on_spot": true,
+    "dimensions_mm": {
+      "length": 3810,
+      "width": 2500,
+      "height_inflated": 1900
+    },
+    "tire_inflation_time_minutes": 1,
+    "tire_size": "1800x600",
+    "drive_type": "Full, electric",
+    "battery": {
+      "type": "Li-NMC",
+      "power_kwh": 78,
+      "weight_kg": 340,
+      "autonomy_hours": 6,
+      "charging_time_hours": 6
+    },
+    "control_range": {
+      "radio_m": 10000,
+      "lte": "Unlimited with GSM signal availability"
+    },
     "ground_pressure": "Less than human footstep",
     "capabilities": [
       "Swamp traversal",
@@ -210,9 +347,16 @@
       "Water crossing (swimming)",
       "Amphibious water-to-ice transition",
       "Anti-tank mine resistant",
-      "Rubble navigation"
+      "Rubble navigation",
+      "Trench crossing"
     ],
     "modular_configurations": [
+      "Construction and mining operations",
+      "Evacuation module",
+      "Communications and connectivity hub",
+      "Hub-to-hub autonomous transport",
+      "Snow removal and seasonal response",
+      "Aerial support and drone launch",
       "Combat platform with weapons",
       "EW hub for comms disruption",
       "Logistics hauler",
@@ -222,16 +366,51 @@
     ],
     "control_system": "Secure, frequency-hopping radio (encrypted)",
     "autonomy": "Programmable autopilot with Follow-Me function",
-    "operational_temperature": "Extreme range (-40°C to +60°C)",
-    "control_range": {
-      "radio_m": 10000,
-      "lte": "Unlimited with GSM signal"
-    },
+    "offroad_capabilities": "Amphibious",
     "ew_resilience": true,
-    "status": "Approved for Defence Forces",
+    "status": "Codified and authorized by Ministry of Defence",
+    "origin": "Ukrainian-Czech collaboration",
+    "first_codified": "2025-04-17",
+    "source": "mod.gov.ua, ugvmachinery.com"
+  },
     "origin": "Ukrainian-Czech collaboration",
     "first_codified": "2025",
     "approval_date": "2025-04-17"
+  },
+  {
+    "name": "Spider UGV",
+    "type": "Lightweight Multi-Role UGV",
+    "role": "Logistics, engineering tasks, scout operations",
+    "manufacturer": "Ukrainian defense industry",
+    "weight_kg": 50,
+    "payload_capacity_kg": 100,
+    "payload_ratio": "2:1 (payload-to-weight)",
+    "propulsion": "4 electric motors",
+    "battery_life_hours": "Several continuous hours",
+    "form_factor": "Two robots fit in single military pickup truck bed",
+    "dimensions": "Compact (enables rapid field distribution)",
+    "terrain_capability": "Steep slopes, dynamic angle maneuvers, confined spaces",
+    "mobility": "High maneuverability and endurance",
+    "communication": "EW-resistant control systems with extended range",
+    "capabilities": [
+      "Logistical support",
+      "Engineering task execution",
+      "Reconnaissance",
+      "Confined-space navigation",
+      "Multi-task modular configurations",
+      "EW resilience",
+      "Multi-hour autonomous operation"
+    ],
+    "modular_variations": [
+      "Logistics configuration",
+      "Engineering support configuration"
+    ],
+    "key_advantage": "Ultra-lightweight with 2:1 payload ratio; mass-deployable in transport vehicles",
+    "status": "Codified and authorized by Ministry of Defence",
+    "origin": "Ukrainian-made",
+    "first_codified": "2026-04",
+    "approval_date": "2026-04-19",
+    "source": "mod.gov.ua"
   },
   {
     "name": "Bufalo",
@@ -287,42 +466,100 @@
     "upgrade_year": 2026
   },
   {
-    "name": "FPV Drone Swarms",
+    "name": "Swarmer Autonomous Drone Swarms",
+    "type": "AI-Powered Autonomous Drone Swarm System",
+    "role": "Primary offensive tool with machine decision-making",
+    "manufacturer": "Swarmer (Ukrainian company)",
+    "ai_company": "The Fourth Law (AI scaling partner)",
+    "operational_status": "Active frontline deployment",
+    "battlefield_deployments": "100+ (single unit within past year)",
+    "swarm_configuration": {
+      "current_operations": "3–8 drones per swarm",
+      "tested_capacity": "25-drone autonomous coordination",
+      "planned_trials": "100-drone swarms (under development)"
+    },
+    "autonomy_model": {
+      "step_1": "Human operator designates target area (e.g., enemy trench)",
+      "step_2": "Reconnaissance drone charts optimal approach route",
+      "step_3": "Strike drones follow formation AUTONOMOUSLY (no real-time commands)",
+      "step_4": "AI determines precise TIMING and SEQUENCE of strikes",
+      "step_5": "Multi-drone coordination executes attack for maximum effectiveness"
+    },
+    "key_innovation": "First known REGULAR autonomous swarm combat deployment globally",
+    "deployment_timeline": {
+      "1_year_ago": "Mine-laying operations phase",
+      "current": "Direct strikes on Russian personnel, equipment, infrastructure"
+    },
+    "ethical_framework": "Transparent AI, Ethical AI principles adherence",
+    "CEO_statement": "Our approach prioritizes transparency and dependability, adhering to core principles of Ethical AI.",
+    "technology_partner": "The Fourth Law (TFL-1 massively scalable autonomy system)",
+    "funding_status": "Series A completed; 2.7M seed + additional funding",
+    "status": "Operational; expanding capacity",
+    "origin": "Ukrainian-made",
+    "deployment_start": "2025",
+    "source": "techukraine.org, wsj.com"
+  },
+  {
+    "name": "FPV Drone Swarms (Fiber-Optic)",
     "type": "First-Person View Unmanned Aerial System",
-    "role": "Primary offensive tool",
-    "fpv_type": "Fiber-optic controlled",
+    "role": "Primary offensive tool; EW-resistant",
+    "fpv_type": "Fiber-optic controlled (RF-jamming immune)",
     "2025_production": {
       "contracted": 2000000,
       "delivered": 1000000,
-      "delivery_period": "January-July 2025"
+      "delivery_period": "January-July 2025",
+      "daily_rate": 4762,
+      "weekly_rate": 142857
     },
     "advantages": [
-      "Resilient to electronic warfare",
-      "Assured control without RF jamming",
+      "Complete immunity to RF electronic warfare",
+      "Assured control without jamming",
       "Fiber-optic spool management",
-      "Multiple new fiber-optic models approved"
+      "Multiple certified fiber-optic models"
     ],
-    "recent_systems": [
-      "Hromylo Optic (codified and adopted)",
-      "Khyzhak REBOFF (fiber-optic resistant)",
+    "certified_systems": [
+      "Hromylo Optic (codified 2025)",
+      "Khyzhak REBOFF (by 3DTech, EW-resistant)",
       "Stalker drone (tracks and strikes despite EW)"
     ],
+    "supply_chain": "Fully Ukrainian with selective component imports",
     "procurement_method": "DOT-Chain Defence marketplace",
-    "development": "Actively expanding fiber-optic FPV models",
+    "development_status": "Actively expanding fiber-optic model variants",
+    "strategic_significance": "Fiber-optic becoming primary FPV control method to counter advanced EW",
     "status": "Primary operational system",
     "origin": "Ukrainian-made",
-    "notes": "1 million units supplied in first 7 months of 2025 alone"
+    "notes": "1,000,000 units delivered in 7 months of 2025; strategic shift to fiber-optic for EW dominance"
   },
   {
     "name": "Gnome-NS",
     "type": "Ground Mother Drone Platform",
-    "role": "Carries and deploys FPV drones",
+    "role": "Carries and deploys FPV drones (fiber-optic compatible)",
     "capabilities": [
       "FPV drone carrier",
-      "Mobile drone launch platform"
+      "Mobile drone launch platform",
+      "Fiber-optic FPV spool management",
+      "Multi-drone coordination support"
     ],
     "status": "Recently unveiled",
     "origin": "Ukrainian-made",
     "announcement_date": "2026-03-03"
+  },
+  {
+    "name": "The Fourth Law (TFL-1)",
+    "type": "AI Autonomy Platform",
+    "role": "Massively scalable AI system for FPV drones and ground robots",
+    "manufacturer": "The Fourth Law (Ukrainian company)",
+    "specialization": "Autonomous swarm coordination and decision-making",
+    "capability_scope": [
+      "FPV drone autonomy",
+      "Unmanned aerial vehicle (UAV) coordination",
+      "Ground robot autonomy",
+      "Multi-platform swarm control"
+    ],
+    "deployment_partner": "Swarmer (integrates TFL-1 for drone swarms)",
+    "funding": "Series A completed; significant institutional backing",
+    "status": "Operational on battlefield",
+    "origin": "Ukrainian-made",
+    "source": "thefourthlaw.ai"
   }
 ]
