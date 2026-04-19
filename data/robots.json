@@ -1,5 +1,26 @@
 [
   {
+    "name": "D-21-12R",
+    "type": "Combat UGV",
+    "role": "Surveillance, patrolling, fire support",
+    "weapon": "Large-caliber machine gun",
+    "propulsion": "Tracked chassis with off-road capability",
+    "capabilities": [
+      "Surveillance and patrolling",
+      "Fire support for units",
+      "Targeting enemy personnel",
+      "Targeting lightly armored vehicles",
+      "Off-road traversal",
+      "Marshland crossing",
+      "Shallow water barrier navigation",
+      "Remote operator control from protected shelter"
+    ],
+    "status": "Codified and adopted by MoD",
+    "origin": "Ukrainian-made",
+    "first_codified": "2026-04",
+    "source": "mod.gov.ua"
+  },
+  {
     "name": "KRAMPUS",
     "type": "Mobile Strike System",
     "role": "Assault/Defensive Operations",

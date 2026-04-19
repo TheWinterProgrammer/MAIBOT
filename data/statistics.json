@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-19T11:02:00Z",
-  "research_runs": 3,
+  "last_updated": "2026-04-19T13:05:00.000000",
+  "research_runs": 7,
   "data_collection_date": "2026-04-19",
-  "total_robots_tracked": 15,
-  "total_systems_codified": 80,
+  "total_robots_tracked": 16,
+  "total_systems_codified": 81,
   "codification_timeline": {
     "2023": 10,
     "2024": 50,
     "2025": 15,
-    "2026_to_date": 5
+    "2026_to_date": 6
   },
   "codification_acceleration": {
     "2025_first_half": 30,
     "2025_july": 8,
-    "2026_april": 5,
+    "2026_april": 6,
     "trend": "Accelerating (~15+ new systems per 6-month period)"
   },
   "ground_robot_fleet_growth": {
@@ -37,6 +37,11 @@
     "supply_chain": "Fully Ukrainian with import supplies"
   },
   "mission_statistics": {
+    "january_2026": {
+      "total_missions": 7000,
+      "primary_type": "Logistics operations",
+      "notes": "Majority were front-line logistics tasks previously performed under enemy fire"
+    },
     "ground_robots_march_2026": {
       "total_missions": 9000,
       "mission_types": [
@@ -47,8 +52,18 @@
         "Reconnaissance"
       ]
     },
+    "q1_2026_total": 21500,
     "zmiy_series_total_missions": 22000,
     "missions_without_infantry_involvement": 22000
+  },
+  "procurement_2026_h1": {
+    "target_units": 25000,
+    "contracts_signed": 19,
+    "contract_value_uah": 11000000000,
+    "comparison_2025_total": 12500,
+    "multiplier_vs_2025": 2.0,
+    "goal": "100% frontline logistics automation",
+    "notes": "Double the 2025 full-year procurement in just H1 2026"
   },
   "manufacturers": {
     "total_ukrainian_companies": 20,
@@ -95,49 +110,74 @@
   },
   "robot_categories": {
     "assault_combat": {
-      "systems": ["KRAMPUS", "ZMIY Droid 12.7", "ZMIY Mini Strike"],
+      "systems": [
+        "KRAMPUS",
+        "ZMIY Droid 12.7",
+        "ZMIY Mini Strike"
+      ],
       "count": 3,
       "primary_weapon": "Machine guns, thermobaric, grenade launchers",
       "role": "Frontline offensive operations"
     },
     "fire_support": {
-      "systems": ["Droid TW 12.7", "BIZON-L"],
+      "systems": [
+        "Droid TW 12.7",
+        "BIZON-L"
+      ],
       "count": 2,
       "weapon_type": "Remote turrets with machine guns",
       "role": "Tactical fire support"
     },
     "logistics": {
-      "systems": ["ZMIY Logistic", "ZMIY Mini Logistic", "NUMO"],
+      "systems": [
+        "ZMIY Logistic",
+        "ZMIY Mini Logistic",
+        "NUMO"
+      ],
       "count": 3,
       "role": "Cargo, supply, equipment recovery",
       "payload_capacity_total_kg": 1200
     },
     "demining": {
-      "systems": ["GRCC ZMIY", "ZMIY Gripper"],
+      "systems": [
+        "GRCC ZMIY",
+        "ZMIY Gripper"
+      ],
       "count": 2,
       "role": "Mine clearance, equipment recovery",
       "clearance_capability_ha": 3
     },
     "amphibious": {
-      "systems": ["UNEX UGV"],
+      "systems": [
+        "UNEX UGV"
+      ],
       "count": 1,
       "unique_capability": "Water-to-ice transition",
       "terrain_types": 7
     },
     "tactical_support": {
-      "systems": ["Ratel H (FPV carrier)", "Gnome-NS (mother drone)"],
+      "systems": [
+        "Ratel H (FPV carrier)",
+        "Gnome-NS (mother drone)"
+      ],
       "count": 2,
       "role": "Drone deployment and support"
     },
     "testing_phase": {
-      "systems": ["Bufalo"],
+      "systems": [
+        "Bufalo"
+      ],
       "count": 1,
       "estimated_capability": "Extended-range autonomous combat"
     }
   },
   "technology_trends": {
     "ai_autonomy": "Increasing across all new platforms",
-    "platforms_with_ai": ["Droid TW", "Bufalo", "ZMIY Droid 12.7"],
+    "platforms_with_ai": [
+      "Droid TW",
+      "Bufalo",
+      "ZMIY Droid 12.7"
+    ],
     "electric_propulsion": "Dominant standard (98% of new platforms)",
     "silent_operation": "Preferred for tactical advantage",
     "ew_resistance": "Universal standard requirement",
@@ -208,7 +248,7 @@
     "last_major_update": "2026-04-19 11:02 UTC"
   },
   "key_findings_april_2026": {
-    "fleet_expansion": "Ground robots grew 149% in 4 months (67→167 units)",
+    "fleet_expansion": "Ground robots grew 149% in 4 months (67\u2192167 units)",
     "new_codifications": "5 new systems approved in April 2026",
     "production_scale": "1 million FPV drones in 7 months (2025)",
     "modular_standard": "All new platforms feature rapid reconfiguration",
