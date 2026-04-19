@@ -1,268 +1,75 @@
 {
-  "propulsion_systems": {
-    "suppliers": [
-      {
-        "name": "Motor-G",
-        "country": "Ukraine",
-        "website": "https://www.motor-g.com",
-        "products": [
-          "Brushless motors for FPV drones",
-          "Heavy drone motors",
-          "Aircraft-type motors"
-        ],
-        "models": [
-          {
-            "model": "Motor 3110",
-            "kv_options": [
-              900,
-              1150,
-              1250
-            ],
-            "topology": "12N14P",
-            "magnets": "N52H arc high temperature",
-            "winding_temp": "200°C",
-            "price_uah": 933
-          },
-          {
-            "model": "Motor 3115",
-            "kv_options": [
-              900,
-              640
-            ],
-            "topology": "12N14P",
-            "magnets": "N52H arc high temperature",
-            "winding_temp": "200°C",
-            "price_uah": 987
-          },
-          {
-            "model": "Motor 2820",
-            "kv_options": [
-              880,
-              1050,
-              1250
-            ],
-            "topology": "12N14P",
-            "magnets": "N52H arc high temperature",
-            "winding_temp": "200°C",
-            "price_uah": 2039
-          }
-        ],
-        "quality_standards": [
-          "Electromagnetic characteristics optimized by R&D",
-          "Electrical testing before shipment",
-          "Balanced with 0.005g accuracy",
-          "Designed for harsh field conditions"
-        ],
-        "production_location": "Ukraine",
-        "custom_development": true,
-        "r_and_d": "In-house"
-      },
-      {
-        "name": "FT Systems",
-        "country": "Ukraine",
-        "website": "https://ft.systems",
-        "products": [
-          "Brushless motors for drones"
-        ]
-      }
-    ]
+  "propulsion": {
+    "internal_combustion": {
+      "systems": ["PROTECTOR heavy platform"],
+      "advantage": "Extended range, high payload",
+      "status": "Production"
+    },
+    "electric_motors": {
+      "systems": ["MURAKHA", "Zmiy Droid", "TERMIT"],
+      "advantage": "Silent operation, reduced signatures",
+      "status": "Production"
+    },
+    "battery_systems": {
+      "types": ["LiPo packs", "Industrial lead-acid", "Experimental fuel cells"],
+      "critical_spec": "Endurance and weight ratio",
+      "status": "Active development"
+    }
   },
-  "electronics_and_controllers": {
-    "suppliers": [
-      {
-        "name": "FT Systems",
-        "country": "Ukraine",
-        "website": "https://ft.systems/en/",
-        "categories": [
-          "Flight controllers",
-          "Speed controllers (ESC)",
-          "Video link systems",
-          "Control link systems",
-          "Power distribution boards"
-        ],
-        "key_products": [
-          {
-            "name": "FT ESC 90A 4-in-1 ESC 4-8S 32bit",
-            "price_uah": 5322,
-            "features": [
-              "DShot2400",
-              "Telemetry",
-              "TVS protection",
-              "2200µF capacitor",
-              "ARM 120MHz",
-              "8-layer PCB",
-              "MOSFET 60V/0.9mΩ"
-            ]
-          },
-          {
-            "name": "FT ESC 100A 1-in-1 ESC 6-12S 32bit",
-            "price_uah": 3126,
-            "features": [
-              "128kHz PWM",
-              "DShot support",
-              "Full protection",
-              "Telemetry",
-              "RGB lighting",
-              "STM32G071 MCU",
-              "MOSFET 80V/420A/1.2mΩ"
-            ]
-          },
-          {
-            "name": "FT ESC 85A 4-in-1 ESC 6-12S 32bit",
-            "price_uah": 4386,
-            "features": [
-              "32-bit",
-              "Telemetry",
-              "TVS protection",
-              "Extreme load cooling"
-            ]
-          },
-          {
-            "name": "FT PDB X8 4-12S 300A",
-            "price_uah": 2700,
-            "features": [
-              "8 motor channels",
-              "5V/9V/12V 5A BEC",
-              "4-12S (16-50.4V)"
-            ]
-          },
-          {
-            "name": "FT PDB HEX 2-12S 264A",
-            "price_uah": 960,
-            "features": [
-              "2-12S (60V)",
-              "5/9/12V BEC",
-              "264A current sensor",
-              "Universal mounting"
-            ]
-          }
-        ],
-        "video_systems": [
-          {
-            "name": "Video Transmitter FT 7.2GHz 5W 64CH VTX",
-            "price_uah": 4590,
-            "features": [
-              "Active cooling",
-              "SmartAudio support",
-              "Wide frequency range"
-            ]
-          },
-          {
-            "name": "Video communication antenna 6.1-7.2GHz RHCP",
-            "price_uah": 894
-          }
-        ],
-        "control_systems": [
-          "ELRS-based radio control system",
-          "Reliable connectivity and stability"
-        ],
-        "production": "In-house R&D and manufacturing in Ukraine",
-        "support": "Technical support and integration assistance"
-      },
-      {
-        "name": "LEADER Tech",
-        "country": "Ukraine",
-        "website": "https://leadertech.pro",
-        "products": [
-          "FPV drone components",
-          "Complete FPV systems"
-        ],
-        "example_system": {
-          "name": "FPV KAMIKAZE 10\"",
-          "specs": {
-            "takeoff_weight_kg": 8,
-            "payload_weight_kg": 5,
-            "flight_time_minutes": 17,
-            "tactical_range_km": 20,
-            "max_altitude_m": 3000
-          }
-        }
-      }
-    ]
+  "electronics_control": {
+    "wireless_systems": {
+      "types": ["Combat-proven receivers", "EW-resistant multichannel"],
+      "requirement": "Redundant channels for EW environments",
+      "status": "Operational"
+    },
+    "ai_systems": {
+      "capabilities": ["Target acquisition", "Tracking", "Decision support"],
+      "integration": "Across all combat variants",
+      "status": "Field-tested"
+    },
+    "communications": {
+      "requirement": "Brigade-level integration",
+      "standards": "AFU unified protocols (developing)",
+      "status": "Standardization in progress"
+    }
   },
-  "sensors_and_optics": {
-    "categories": [
-      "Thermal imagers",
-      "Target detection systems",
-      "Day/night vision systems",
-      "Ballistic calculation systems"
-    ],
-    "noted_systems": [
-      {
-        "name": "Droid TW integrated optics",
-        "features": [
-          "Thermal imager",
-          "1.5km day detection",
-          "1km night detection",
-          "Multiple display modes"
-        ]
-      }
-    ]
+  "sensors_optics": {
+    "fpv_cameras": {
+      "application": "Drone systems, operator stations",
+      "production_scale": "160+ manufacturers",
+      "status": "Mass production"
+    },
+    "fiber_optic_guidance": {
+      "application": "Long-range drones",
+      "advantage": "EW immunity",
+      "status": "Production"
+    },
+    "ai_vision": {
+      "application": "Target acquisition and tracking",
+      "integration": "Zmiy Droid 12.7, deep strike variants",
+      "status": "Operational"
+    }
   },
-  "power_systems": {
-    "suppliers": [
-      {
-        "name": "FT Systems",
-        "country": "Ukraine",
-        "products": [
-          "Li-ion batteries",
-          "Li-Po performance batteries"
-        ],
-        "features": [
-          "Long-lasting current delivery",
-          "Stable power",
-          "High energy capacity",
-          "Low self-discharge"
-        ]
-      }
-    ],
-    "types_tracked": [
-      "Battery systems (Li-ion, Li-Po)",
-      "Fuel cells",
-      "Internal combustion engines (for heavy UGVs)"
-    ]
+  "armor_materials": {
+    "combat_armor": {
+      "systems": ["Zmiy Droid hull", "PROTECTOR chassis"],
+      "protection_level": "Anti-personnel mines, FPV drone impact",
+      "status": "Production"
+    },
+    "structural_composites": {
+      "application": "Lightweight variants",
+      "status": "Active use"
+    }
   },
-  "frame_structures": {
-    "suppliers": [
-      {
-        "name": "FT Systems",
-        "country": "Ukraine",
-        "products": [
-          "Carbon frames"
-        ],
-        "example": {
-          "name": "KHARAK 10\" Carbon Fiber FPV Drone Frame 218mm",
-          "price_uah": 1800,
-          "features": [
-            "7mm reinforced arms",
-            "30.5×30.5 / 20×20 mounting"
-          ],
-          "hardware": "M3/M4 included"
-        }
-      }
-    ]
-  },
-  "control_systems": {
-    "noted_systems": [
-      {
-        "name": "DroidBox",
-        "manufacturer": "UAV TECHNOLOGY",
-        "application": "BIZON-L UGV control system",
-        "type": "Universal control system"
-      }
-    ]
-  },
-  "localization_trends": {
-    "observation": "Ukrainian manufacturers achieving high localization levels",
-    "key_companies": [
-      "Motor-G",
-      "FT Systems",
-      "LEADER Tech",
-      "UAV TECHNOLOGY"
-    ],
-    "goal": "Maximum possible level of domestic production"
-  },
-  "metadata": {
-    "last_updated": "2026-04-18"
+  "power_generation": {
+    "generator_systems": {
+      "systems": ["PROTECTOR", "deep strike variants"],
+      "fuel": "Combustion-powered",
+      "status": "Operational"
+    },
+    "solar_systems": {
+      "status": "Experimental",
+      "application": "Extended duration operations"
+    }
   }
 }

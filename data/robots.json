@@ -1,153 +1,137 @@
 [
   {
+    "id": "protector",
     "name": "PROTECTOR",
-    "type": "Heavy UGV",
-    "status": "Codified and authorized by Ministry of Defence",
-    "manufacturer": "Ukrainian domestic enterprise",
+    "type": "Heavy Unmanned Ground System",
+    "status": "Operational",
+    "codified": "2026",
+    "manufacturer": "Domestic Ukrainian enterprise",
     "specs": {
-      "payload_capacity_kg": 700,
+      "payload_kg": 700,
       "range_km": 400,
-      "propulsion": "Internal combustion engine",
-      "drive": "All-wheel drive",
-      "tires": "RunFlat",
-      "mobility": "All-terrain, water crossing capable"
+      "power": "Internal combustion engine",
+      "drive": "All-wheel drive with RunFlat tires",
+      "armor": "Combat-rated",
+      "obstacles": "Water crossing capable"
     },
-    "roles": [
-      "Ammunition and equipment transport",
+    "capabilities": [
+      "Ammunition/equipment transport",
       "Casualty evacuation",
-      "Robotic weapon station platform",
-      "Mobile EW platform",
-      "SIGINT/ELINT equipment carrier"
+      "Weapon station platform",
+      "Mobile EW systems",
+      "SIGINT/ELINT carrier"
     ],
-    "development_basis": "Combat experience of Ukrainian forces",
-    "date_authorized": "2025",
-    "source": "Ministry of Defence of Ukraine"
+    "deployment": "Active with Defence Forces"
   },
   {
-    "name": "Droid TW",
-    "type": "Ground Combat Robot",
-    "status": "Codified for delivery to Armed Forces",
-    "manufacturer": "Ukrainian developer",
+    "id": "murakha",
+    "name": "MURAKHA",
+    "type": "Tracked Infantry Support Robot",
+    "status": "Operational",
+    "codified": "2025-2026",
+    "manufacturer": "Robotizirani Kompleksy (RK)",
     "specs": {
-      "weapon_systems": ["12.7mm Browning", "7.62mm machine gun"],
-      "ammo_capacity_rounds": [480, 1000],
-      "engagement_range_km": 1,
-      "target_detection_day_km": 1.5,
-      "target_detection_night_km": 1,
-      "ai_integration": "Enemy personnel recognition",
-      "thermal_imager": true,
-      "display_modes": "Multiple on operator monitor",
-      "deployment_time_minutes": 5,
-      "control": "Tablet or gamepad remote control",
-      "communications": ["Military systems", "Starlink", "LTE"]
+      "payload_kg": 500,
+      "range_km": "Dozens of km continuous",
+      "drive": "Tracked",
+      "size": "Compact",
+      "ew_resistant": true,
+      "obstacles": "Difficult terrain, shallow water, mined areas"
     },
-    "roles": [
-      "Reconnaissance",
-      "Strike missions",
-      "Fire support"
+    "capabilities": [
+      "Infantry logistics",
+      "Supply/ammunition transport",
+      "Casualty evacuation",
+      "Operation under enemy fire",
+      "EW environment operation"
     ],
-    "features": [
-      "Autonomous target detection, recognition and tracking",
-      "Ballistic calculation system for accuracy",
-      "Day/night operational capability"
-    ],
-    "development_timeline": {
-      "development_start": "Several years ago",
-      "first_field_tests": 2023,
-      "codification": "December 2024"
-    },
-    "transport": "Pickup truck or trailer",
-    "source": "Ministry of Defence of Ukraine"
+    "deployment": "Active with AFU"
   },
   {
-    "name": "BIZON-L",
-    "type": "Modular Ground Robot",
-    "status": "Codified and authorized by Ministry of Defence",
-    "manufacturer": "UAV TECHNOLOGY",
+    "id": "zmiy-droid-12-7",
+    "name": "Zmiy Droid 12.7",
+    "type": "Strike and Reconnaissance System",
+    "status": "Operational",
+    "codified": "2026",
+    "manufacturer": "Coalition of two Ukrainian arms manufacturers",
     "specs": {
-      "control_system": "DroidBox universal control system",
-      "architecture": "Modular"
+      "platform": "Zmiy combat-proven base",
+      "armament": "Wolly 12.7mm machine gun module",
+      "armor": "Anti-personnel mine protection, FPV drone survivable",
+      "control": "Unified operator control",
+      "ai_equipped": true,
+      "target_acquisition": "Automatic AI-based"
     },
-    "roles": [
-      "Combat modules",
-      "Engineering modules",
-      "Logistics",
-      "Evacuation"
-    ],
-    "date_authorized": "April 2025",
-    "source": "Ministry of Defence of Ukraine"
+    "combat_record": {
+      "documented_kills": ["MT-LB vehicles"],
+      "endurance_days": 45,
+      "maintenance_schedule": "Every 2 days"
+    },
+    "deployment": "Active with AFU"
   },
   {
-    "name": "UNEX UGV",
-    "type": "Amphibious UGV",
-    "status": "Authorized for army use",
-    "manufacturer": "Ukrainian developer",
+    "id": "droid-nw-40",
+    "name": "Droid NW 40",
+    "type": "Armed Ground Robot",
+    "status": "Operational",
+    "codified": "2025",
+    "manufacturer": "DevDroid",
     "specs": {
-      "mobility": "Amphibious, all-terrain"
+      "armament": "40mm module",
+      "platform_base": "Proven UGV base"
     },
-    "date_authorized": "April 2025",
-    "source": "Ministry of Defence of Ukraine"
+    "deployment": "Active with AFU"
   },
   {
-    "name": "Visliuk (Donkey)",
-    "type": "Fibre-optic tracked robot",
-    "status": "Approved and codified for Armed Forces",
-    "manufacturer": "Ukrainian developer",
-    "specs": {
-      "communication": "Fibre-optic cable"
-    },
-    "date_authorized": "May 2025",
-    "source": "Ministry of Defence of Ukraine"
-  },
-  {
-    "name": "KRAMPUS",
-    "type": "Mobile Strike System",
-    "status": "Codified and authorized by Ministry of Defence",
-    "manufacturer": "Ukrainian developer",
-    "specs": {
-      "armament": "Reactive thermobaric launchers"
-    },
-    "date_authorized": "2025",
-    "source": "Ministry of Defence of Ukraine"
-  },
-  {
-    "name": "DODGER",
-    "type": "Unmanned Ground Robotic System",
-    "status": "Codified and approved by Ministry of Defence",
-    "manufacturer": "Ukrainian developer",
-    "roles": [
-      "Path clearing",
-      "Safer battlefield operations"
-    ],
-    "date_authorized": "2025",
-    "source": "Defense Express"
-  },
-  {
+    "id": "termit",
     "name": "TERMIT",
-    "type": "Ground Robot",
-    "status": "Authorized for operational use",
-    "manufacturer": "Ukrainian developer",
+    "type": "Logistics Ground Robot",
+    "status": "Operational, DOT-Chain Defence Available",
+    "codified": "2026",
+    "manufacturer": "Ukrainian Defense Contractor",
     "specs": {
-      "payload_capacity_kg": 300
+      "payload_kg": 300,
+      "specialization": "Trench navigation",
+      "use": "Supply delivery, logistics"
     },
-    "roles": [
-      "Gear delivery",
-      "Trench navigation"
-    ],
-    "date_authorized": "2025",
-    "source": "Defense Express"
+    "procurement": {
+      "available_via": "DOT-Chain Defence marketplace",
+      "ordering": "Direct unit procurement with allocated budgets"
+    },
+    "deployment": "Active"
   },
   {
-    "name": "Bufalo",
-    "type": "Combat UGV",
-    "status": "Testing phase",
-    "manufacturer": "Ukrainian developer",
+    "id": "zmiy-sapper",
+    "name": "КНРО «Змій»",
+    "type": "Explosive Ordnance Disposal Robot",
+    "status": "Operational, DOT-Chain Defence Available",
+    "codified": "2026",
+    "manufacturer": "Ukrainian Defense Contractor",
     "specs": {
-      "armour": "Armoured",
-      "ai": "AI equipped",
-      "range_km": 200
+      "specialization": "Explosive-resistant sapper robot",
+      "capability": "Rapid demining operations"
     },
-    "date_reported": "September 2025",
-    "source": "The Defender Media"
+    "procurement": {
+      "available_via": "Brave1 Market",
+      "category": "Ground robotic systems"
+    },
+    "deployment": "Active"
+  },
+  {
+    "id": "termit-universal",
+    "name": "TerMIT",
+    "type": "Universal Ground Robot",
+    "status": "Operational, DOT-Chain Defence Available",
+    "codified": "2026",
+    "manufacturer": "Ukrainian Defense Contractor",
+    "specs": {
+      "use_cases": ["Evacuation", "Logistics", "Firepower application"],
+      "type": "Universal tracked UGV"
+    },
+    "procurement": {
+      "available_via": "DOT-Chain Defence / Brave1 Market",
+      "ordering": "Direct military unit procurement"
+    },
+    "deployment": "Active"
   }
 ]
