@@ -133,5 +133,30 @@
       "ordering": "Direct military unit procurement"
     },
     "deployment": "Active"
+  },
+  {
+    "id": "krampus",
+    "name": "KRAMPUS",
+    "type": "Mobile Strike System with Thermobaric Launchers",
+    "status": "Operational - Ministry of Defence codified",
+    "codified": "2026-04",
+    "manufacturer": "Ukrainian defense enterprise",
+    "specs": {
+      "mobility": "Dual silent electric motors, tracked chassis",
+      "terrain": "Off-road, dense forests, sand, swamps, steep slopes",
+      "transport": "Fits in pickup truck bed, minibus, or trailer",
+      "armament": "RPV-16 reactive thermobaric launchers (2x)",
+      "control": "EW-resistant channels",
+      "weather": "All-weather operation (cold, heat, snow, rain)",
+      "endurance": "Several hours continuous movement, extended position duty"
+    },
+    "capabilities": [
+      "Personnel elimination",
+      "Lightly armored vehicle destruction",
+      "Offensive operations",
+      "Defensive operations",
+      "Extended position holding"
+    ],
+    "deployment": "Authorized for operational use with AFU units"
   }
 ]

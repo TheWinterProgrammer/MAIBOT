@@ -1,6 +1,11 @@
 {
-  "last_updated": "2026-04-19T05:02:00+02:00",
-  "research_runs": 36,
+  "last_updated": "2026-04-19T06:02:00Z",
+  "research_runs": 37,
+  "today_updates": {
+    "new_systems_added": 1,
+    "systems_verified": 1,
+    "new_system_name": "KRAMPUS Mobile Strike System",
+    "verified_system": "Zmiy Droid 12.7",
   "production_capacity_2026": {
     "fpv_drones_annual": "8+ million units",
     "fpv_manufacturers": 160,
@@ -17,7 +22,13 @@
     "deep_strike_cost_damage_ratio": "1:10"
   },
   "operational_deployment": {
-    "codified_ground_systems": 7,
+    "codified_ground_systems": 8,
+    "ground_systems_total_codified_since_invasion": 80,
+    "codified_by_year": {
+      "2023": "Nearly 10 systems",
+      "2024": "Over 50 systems",
+      "2025_start_to_present": "More than 20 systems"
+    },
     "ground_systems_operational": "Dozens of brigades",
     "aft_dedicated_robot_units": "Forming 2025-2026",
     "documented_vessel_losses": 25
