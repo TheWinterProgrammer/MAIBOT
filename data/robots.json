@@ -373,10 +373,6 @@
     "first_codified": "2025-04-17",
     "source": "mod.gov.ua, ugvmachinery.com"
   },
-    "origin": "Ukrainian-Czech collaboration",
-    "first_codified": "2025",
-    "approval_date": "2025-04-17"
-  },
   {
     "name": "Spider UGV",
     "type": "Lightweight Multi-Role UGV",
@@ -413,17 +409,151 @@
     "source": "mod.gov.ua"
   },
   {
+    "name": "Spider UGV",
+    "type": "Lightweight Multi-Role UGV",
+    "role": "Logistics, engineering tasks, scout operations",
+    "manufacturer": "Ukrainian engineers team",
+    "weight_kg": 50,
+    "payload_capacity_kg": 100,
+    "payload_ratio": "2:1",
+    "propulsion": "4 electric motors",
+    "battery_life_hours": "Several continuous hours",
+    "form_factor": "Compact - two robots fit in single pickup truck",
+    "mobility": "High maneuverability, steep inclines, confined spaces",
+    "communication": "EW-resistant control with extended range",
+    "modular_variants": ["Logistics", "Engineering support"],
+    "capabilities": [
+      "Logistical support",
+      "Engineering task execution",
+      "Reconnaissance",
+      "Confined-space navigation",
+      "EW resilience",
+      "Multi-hour autonomous operation"
+    ],
+    "status": "Codified and approved by Ministry of Defence",
+    "origin": "Ukrainian-made",
+    "first_codified": "2026-04",
+    "approval_date": "2026-04-19",
+    "source": "mod.gov.ua, thedefender.media"
+  },
+  {
     "name": "Bufalo",
     "type": "Combat UGV",
-    "role": "Armored combat operations",
-    "ai_capabilities": ["AI-equipped vision systems"],
-    "armor": true,
+    "role": "Logistics, humanitarian demining, future combat module",
+    "manufacturer": "Ukrainian developers (Oboronka)",
+    "weight_kg": 4000,
     "range_km": 200,
-    "operational_distance_km": 200,
-    "status": "In testing phase",
+    "max_speed_kmh": 20,
+    "armor": "European armored steel",
+    "armor_resistance": "Withstands bullets and 152mm shell fragments at 100m",
+    "propulsion": "Diesel engine",
+    "ai_capabilities": [
+      "Local navigation AI",
+      "Camera data analysis",
+      "Obstacle detection up to 15m",
+      "Route suggestion",
+      "Automatic danger stop"
+    ],
+    "human_control": "Operator control maintained - no autonomous weapon decisions",
+    "communication": {
+      "primary": "Starlink with CRPA antenna",
+      "backup": "Radio repeater channel",
+      "navigation": "Protected GPS via CRPA"
+    },
+    "component_sourcing": {
+      "ukrainian": 70,
+      "eu": 30,
+      "details": "Electronics and cameras Ukrainian; basic components from EU"
+    },
+    "production_plans": {
+      "initial_rate": "10 machines per month",
+      "scaling": "Further expansion planned after codification"
+    },
+    "use_cases": [
+      "Logistics in high-risk areas",
+      "Humanitarian demining",
+      "Future combat module integration",
+      "Engineering tasks"
+    ],
+    "status": "Testing phase, preparing for codification",
     "origin": "Ukrainian-made",
-    "notes": "Extended-range combat platform with AI integration"
+    "first_codified": "TBD (in testing)",
+    "source": "thedefender.media, mezha.media"
   },
+  {
+    "name": "D-21-12R",
+    "type": "Combat UGV",
+    "role": "Surveillance, patrolling, fire support",
+    "weapon": "Large-caliber machine gun",
+    "propulsion": "Tracked chassis with off-road capability",
+    "capabilities": [
+      "Surveillance and patrolling",
+      "Fire support for units",
+      "Targeting enemy personnel",
+      "Targeting lightly armored vehicles",
+      "Off-road traversal",
+      "Marshland crossing",
+      "Shallow water navigation",
+      "Remote operator control from protected shelter"
+    ],
+    "status": "Codified and adopted by MoD",
+    "origin": "Ukrainian-made",
+    "first_codified": "2026-04",
+    "source": "mod.gov.ua"
+  },
+  {
+    "name": "ZMIY Droid 12.7",
+    "type": "Strike/Combat UGV",
+    "role": "Armed assault platform",
+    "manufacturer": "RoverTech + DevDroid (combat module)",
+    "weapon": "Browning 12.7mm machine gun (Wolly 12.7 module)",
+    "effective_range_m": 1000,
+    "propulsion": "Tracked platform",
+    "max_speed_kmh": 8,
+    "range_km": 50,
+    "communication_range_km": 3,
+    "operators_required": 2,
+    "armor": true,
+    "capabilities": [
+      "Minefield traversal",
+      "Rough terrain navigation",
+      "Fire support",
+      "Position security",
+      "Area clearance",
+      "High-threat engagement"
+    ],
+    "status": "Codified and approved by Ministry of Defence",
+    "origin": "Ukrainian-made",
+    "first_codified": "2026",
+    "approval_date": "2026-04-18"
+  },
+  {
+    "name": "BIZON-L",
+    "type": "Tracked Ground Robot",
+    "role": "Multi-mission combat platform",
+    "manufacturer": "UAV TECHNOLOGY",
+    "control_system": "Droid Box (by DevDroid)",
+    "payload_capacity_kg": 250,
+    "operational_range_km": 30,
+    "extended_range_km": 50,
+    "max_speed_kmh": 12,
+    "propulsion": "Steel tracks",
+    "modular_capabilities": [
+      "Combat module with 12.7mm machine gun turret",
+      "Antenna/communications relay systems",
+      "Engineering obstacle deployment",
+      "Remote mining modules",
+      "Electronic warfare platforms",
+      "Cargo trailers"
+    ],
+    "thermal_signature": "Low - liquid cooling system",
+    "communication": "LTE, Wi-Fi, Starlink",
+    "status": "Codified and approved by Ministry of Defence",
+    "origin": "Ukrainian-made",
+    "first_codified": "2026",
+    "approval_date": "2026-04-06"
+  }
+],
   {
     "name": "BIZON-L",
     "type": "Tracked Ground Robot",
