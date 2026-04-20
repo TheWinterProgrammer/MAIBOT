@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-20T14:02:00Z",
-  "research_runs": 35,
+  "last_updated": "2026-04-20T16:04:00.777447",
+  "research_runs": 37,
   "total_robots_tracked": 8,
   "codified_systems_2025": 40,
   "codified_systems_2024": 60,
@@ -60,5 +60,8 @@
     "combined_operations": "Robots + UAVs + personnel",
     "logistics_automation": "Roboticized supply chains to reduce casualty risk",
     "evacuation_priority": "Reducing soldier casualty during rescue operations"
+  },
+  "metadata": {
+    "last_updated": "2026-04-20"
   }
 }

@@ -3,48 +3,83 @@
     "engines": {
       "internal_combustion": {
         "description": "Used in PROTECTOR and other heavy platforms",
-        "advantages": ["High torque", "Long operational range", "Proven reliability"],
-        "applications": ["PROTECTOR (heavy platform)"]
+        "advantages": [
+          "High torque",
+          "Long operational range",
+          "Proven reliability"
+        ],
+        "applications": [
+          "PROTECTOR (heavy platform)"
+        ]
       },
       "electric_motors": {
         "description": "Integrated with battery systems on lighter platforms",
-        "advantages": ["Silent operation", "Electronic warfare resistant"],
-        "applications": ["UNEX UGV", "DODGER", "TerMIT variants"]
+        "advantages": [
+          "Silent operation",
+          "Electronic warfare resistant"
+        ],
+        "applications": [
+          "UNEX UGV",
+          "DODGER",
+          "TerMIT variants"
+        ]
       }
     },
     "drive_systems": {
       "all_wheel_drive": {
         "description": "Standard on heavy platforms",
-        "advantages": ["Obstacle crossing", "Terrain navigation"],
-        "examples": ["PROTECTOR"]
+        "advantages": [
+          "Obstacle crossing",
+          "Terrain navigation"
+        ],
+        "examples": [
+          "PROTECTOR"
+        ]
       },
       "tracked": {
         "description": "Alternative on modular platforms",
-        "advantages": ["Weight distribution", "Rough terrain"],
-        "examples": ["TerMIT variants"]
+        "advantages": [
+          "Weight distribution",
+          "Rough terrain"
+        ],
+        "examples": [
+          "TerMIT variants"
+        ]
       },
       "wheeled": {
         "description": "Standard on amphibious platforms",
-        "advantages": ["Speed", "Water capability"],
-        "examples": ["UNEX UGV", "DODGER"]
+        "advantages": [
+          "Speed",
+          "Water capability"
+        ],
+        "examples": [
+          "UNEX UGV",
+          "DODGER"
+        ]
       }
     },
     "tires": {
       "runflat": {
         "description": "Allows continued mobility when punctured",
-        "applications": ["PROTECTOR"],
+        "applications": [
+          "PROTECTOR"
+        ],
         "benefit": "Operational continuity under fire"
       },
       "ultra_low_pressure": {
         "description": "Minimizes ground pressure below human footstep",
-        "applications": ["UNEX UGV"],
+        "applications": [
+          "UNEX UGV"
+        ],
         "benefit": "Anti-tank mine resistance"
       }
     },
     "suspension": {
       "pneumatic": {
         "description": "Advanced suspension for terrain absorption",
-        "applications": ["UNEX UGV"],
+        "applications": [
+          "UNEX UGV"
+        ],
         "benefit": "Amphibious capability, all-weather operation"
       }
     }
@@ -60,13 +95,17 @@
     "lte_gsm": {
       "type": "LTE/GSM connectivity",
       "range": "Unlimited with GSM signal availability",
-      "applications": ["UNEX UGV"],
+      "applications": [
+        "UNEX UGV"
+      ],
       "advantage": "Extended range beyond radio line-of-sight"
     },
     "signal_relay": {
       "type": "FPV drone signal relay",
       "description": "UAV provides relay communication for extended range and line-of-sight",
-      "applications": ["Combat robots with turrets"]
+      "applications": [
+        "Combat robots with turrets"
+      ]
     },
     "ew_resistance": {
       "type": "Electronic warfare resistance",
@@ -77,12 +116,17 @@
   "autonomy": {
     "autopilot": {
       "type": "Programmable autopilot",
-      "applications": ["UNEX UGV", "TerMIT variants"],
+      "applications": [
+        "UNEX UGV",
+        "TerMIT variants"
+      ],
       "description": "Autonomous navigation without operator input"
     },
     "follow_me": {
       "type": "Follow-me autonomous function",
-      "applications": ["UNEX UGV"],
+      "applications": [
+        "UNEX UGV"
+      ],
       "description": "Automatic following of lead operator"
     },
     "waypoint_navigation": {
@@ -93,12 +137,18 @@
   "power_systems": {
     "batteries": {
       "type": "High-capacity batteries",
-      "applications": ["UNEX UGV", "TerMIT", "DODGER"],
+      "applications": [
+        "UNEX UGV",
+        "TerMIT",
+        "DODGER"
+      ],
       "characteristics": "Weather-resistant, extreme temperature operation (-40 to +60°C)"
     },
     "fuel_based": {
       "type": "Internal combustion engine fuel",
-      "applications": ["PROTECTOR"],
+      "applications": [
+        "PROTECTOR"
+      ],
       "advantage": "Extended operational range (400km+)"
     }
   },
@@ -110,7 +160,10 @@
     },
     "weapon_station": {
       "type": "Remote weapon station mounting",
-      "applications": ["PROTECTOR", "Combat variants"],
+      "applications": [
+        "PROTECTOR",
+        "Combat variants"
+      ],
       "description": "Allows mounting of turrets with small arms or other weapons"
     },
     "ew_platform": {
@@ -119,17 +172,26 @@
     },
     "sigint_elint": {
       "type": "Signals/Electronic intelligence equipment",
-      "applications": ["PROTECTOR"]
+      "applications": [
+        "PROTECTOR"
+      ]
     },
     "evacuation_frame": {
       "type": "Casualty evacuation platform",
       "criticality": "High - saves lives in active fire zones",
-      "requirements": ["Good suspension", "Stability", "Reliable communication"]
+      "requirements": [
+        "Good suspension",
+        "Stability",
+        "Reliable communication"
+      ]
     },
     "mine_laying": {
       "type": "Mine deployment system",
       "capacity": "Up to 20 anti-tank mines per trip",
-      "applications": ["TerMIT variants", "UNEX UGV"]
+      "applications": [
+        "TerMIT variants",
+        "UNEX UGV"
+      ]
     },
     "demining": {
       "type": "Mine clearing/detection equipment",
@@ -139,24 +201,35 @@
   "sensors_optics": {
     "video_transmission": {
       "type": "Modern video transmission systems",
-      "applications": ["All operational UGVs"],
+      "applications": [
+        "All operational UGVs"
+      ],
       "description": "Real-time operator feedback"
     },
     "optical_reconnaissance": {
       "type": "Optical/visual reconnaissance equipment",
-      "applications": ["Reconnaissance platforms"]
+      "applications": [
+        "Reconnaissance platforms"
+      ]
     },
     "thermal": {
       "type": "Thermal imaging systems",
-      "applications": ["Advanced reconnaissance platforms"]
+      "applications": [
+        "Advanced reconnaissance platforms"
+      ]
     }
   },
   "armor_protection": {
     "basic_armor": {
       "type": "Protective plating",
       "protection_level": "Small arms fire & shrapnel resistant",
-      "applications": ["DODGER"],
+      "applications": [
+        "DODGER"
+      ],
       "rationale": "Protects against light fire and fragmentation"
     }
+  },
+  "metadata": {
+    "last_updated": "2026-04-20"
   }
 }
