@@ -242,9 +242,56 @@
         "Tablet interface",
         "Gamepad support",
         "Modular configuration",
-        "EW-resistant datalink capable"
+        "EW-resistant datalink capable",
+        "Apple Vision Pro compatibility (Wolly station)"
       ],
-      "status": "Operational standard across Ukrainian GRS fleet"
+      "status": "Operational standard across Ukrainian GRS fleet",
+      "droid_box_specs": {
+        "platforms_integrated": 8,
+        "deployed_systems": 1000,
+        "communication_channels": 6,
+        "channel_types": [
+          "Digital links",
+          "LTE",
+          "Starlink",
+          "Backup channels"
+        ],
+        "ai_capabilities": [
+          "Autonomous target detection",
+          "Target acquisition",
+          "Target tracking"
+        ]
+      }
+    },
+    "weapon_stations": {
+      "primary_supplier": "DevDroid (Wolly series)",
+      "product_line": "Wolly remote weapon stations",
+      "variants": [
+        {
+          "model": "Wolly 7.62",
+          "caliber": "7.62mm",
+          "ai_features": [
+            "AI-powered automatic target acquisition",
+            "Target tracking"
+          ],
+          "control": "Remote operation with Apple Vision Pro compatibility"
+        },
+        {
+          "model": "Wolly 12.7",
+          "caliber": "12.7mm",
+          "mounted_on": "ZMIY Droid 12.7",
+          "effective_range_m": 1000,
+          "ai_features": [
+            "AI-based automatic target acquisition",
+            "Real-time target tracking",
+            "Integrated fire control"
+          ],
+          "control_interface": "Integrated with platform control module",
+          "contract_status": "Contracted by Ukrainian Ministry of Defence"
+        }
+      ],
+      "key_innovation": "AI-powered targeting reduces decision-making time between detection and engagement",
+      "status": "Combat deployed on ZMIY platforms"
     },
     "communication": {
       "primary_method": "Fiber-optic control (RF-jamming immune)",

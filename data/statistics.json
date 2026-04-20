@@ -1,10 +1,76 @@
 {
-  "last_updated": "2026-04-20T02:03:19.509515",
-  "research_runs": 22,
+  "last_updated": "2026-04-20T08:03:02.046630",
+  "research_runs": 28,
   "last_research_update": "2026-04-20 00:02 UTC",
   "data_collection_date": "2026-04-20",
   "total_robots_tracked": 25,
   "total_systems_codified": 86,
+  "new_codifications_april_2026": [
+    {
+      "name": "Spider",
+      "type": "Ground robotic system",
+      "date": "2026-04-20",
+      "weight_kg": 50,
+      "payload_kg": 100,
+      "motors": 4,
+      "features": [
+        "Compact",
+        "EW resistant",
+        "Several hours battery life"
+      ],
+      "applications": [
+        "Logistics",
+        "Engineering tasks"
+      ],
+      "source": "mod.gov.ua"
+    },
+    {
+      "name": "UNEX UGV",
+      "type": "Amphibious all-terrain platform",
+      "date": "2026-04-20",
+      "partnership": "Ukrainian-Czech",
+      "unique_capability": "Water-to-ice transition",
+      "ground_pressure": "< human footstep (mine-resistant)",
+      "terrain_types": [
+        "Water",
+        "Floodplains",
+        "Swamps",
+        "Mud",
+        "Sand",
+        "Ice",
+        "Rubble"
+      ],
+      "configurations": [
+        "Combat",
+        "EW hub",
+        "Logistics",
+        "Evacuation",
+        "Demining"
+      ],
+      "source": "mod.gov.ua"
+    },
+    {
+      "name": "Droid Box",
+      "type": "Universal UGV control system",
+      "date": "2026-04-20",
+      "developer": "DevDroid",
+      "platforms_integrated": 8,
+      "deployment": "1000+ systems",
+      "communication_channels": 6,
+      "channels": [
+        "Digital links",
+        "LTE",
+        "Starlink",
+        "Backup channels"
+      ],
+      "ai_features": [
+        "Autonomous target detection",
+        "Acquisition",
+        "Tracking"
+      ],
+      "source": "militarnyi.com"
+    }
+  ],
   "codification_timeline": {
     "2023": 10,
     "2024": 50,
@@ -95,6 +161,50 @@
     "notes": "Double the 2025 full-year procurement in just H1 2026"
   },
   "manufacturers": {
+    "motor_g": {
+      "name": "Motor-G",
+      "status": "Ukraine's largest drone motor manufacturer",
+      "production_monthly": 200000,
+      "production_annual": 2400000,
+      "market_share_percent": 17,
+      "clients": 100,
+      "website": "https://www.motor-g.com",
+      "key_products": [
+        {
+          "model": "Motor 3110",
+          "kv_options": [
+            900,
+            1150,
+            1250
+          ],
+          "price_uah": 933
+        },
+        {
+          "model": "Motor 3115",
+          "kv_options": [
+            900,
+            640
+          ],
+          "price_uah": 987
+        },
+        {
+          "model": "Motor 2820",
+          "kv_options": [
+            880,
+            1050,
+            1250
+          ],
+          "price_uah": 2039
+        }
+      ],
+      "features": [
+        "12N14P design",
+        "N52H magnets",
+        "200\u00b0C winding",
+        "0.005g balance accuracy"
+      ],
+      "strategy": "China-free future for defense technology"
+    },
     "total_ukrainian_companies": 20,
     "major_producers": [
       {
@@ -277,7 +387,7 @@
     "last_major_update": "2026-04-19 11:02 UTC"
   },
   "key_findings_april_2026": {
-    "fleet_expansion": "Ground robots grew 149% in 4 months (67→167 units)",
+    "fleet_expansion": "Ground robots grew 149% in 4 months (67\u2192167 units)",
     "new_codifications": "5 new systems approved in April 2026",
     "production_scale": "1 million FPV drones in 7 months (2025)",
     "modular_standard": "All new platforms feature rapid reconfiguration",
