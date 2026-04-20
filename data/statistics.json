@@ -1,402 +1,64 @@
 {
-  "last_updated": "2026-04-20T08:03:02.046630",
-  "research_runs": 28,
-  "last_research_update": "2026-04-20 00:02 UTC",
-  "data_collection_date": "2026-04-20",
-  "total_robots_tracked": 25,
-  "total_systems_codified": 86,
-  "new_codifications_april_2026": [
-    {
-      "name": "Spider",
-      "type": "Ground robotic system",
-      "date": "2026-04-20",
-      "weight_kg": 50,
-      "payload_kg": 100,
-      "motors": 4,
-      "features": [
-        "Compact",
-        "EW resistant",
-        "Several hours battery life"
-      ],
-      "applications": [
-        "Logistics",
-        "Engineering tasks"
-      ],
-      "source": "mod.gov.ua"
-    },
-    {
-      "name": "UNEX UGV",
-      "type": "Amphibious all-terrain platform",
-      "date": "2026-04-20",
-      "partnership": "Ukrainian-Czech",
-      "unique_capability": "Water-to-ice transition",
-      "ground_pressure": "< human footstep (mine-resistant)",
-      "terrain_types": [
-        "Water",
-        "Floodplains",
-        "Swamps",
-        "Mud",
-        "Sand",
-        "Ice",
-        "Rubble"
-      ],
-      "configurations": [
-        "Combat",
-        "EW hub",
-        "Logistics",
-        "Evacuation",
-        "Demining"
-      ],
-      "source": "mod.gov.ua"
-    },
-    {
-      "name": "Droid Box",
-      "type": "Universal UGV control system",
-      "date": "2026-04-20",
-      "developer": "DevDroid",
-      "platforms_integrated": 8,
-      "deployment": "1000+ systems",
-      "communication_channels": 6,
-      "channels": [
-        "Digital links",
-        "LTE",
-        "Starlink",
-        "Backup channels"
-      ],
-      "ai_features": [
-        "Autonomous target detection",
-        "Acquisition",
-        "Tracking"
-      ],
-      "source": "militarnyi.com"
-    }
-  ],
-  "codification_timeline": {
-    "2023": 10,
-    "2024": 50,
-    "2025": 20,
-    "2026_to_date": 11
-  },
-  "codification_acceleration": {
-    "2025_first_half": 30,
-    "2025_july": 8,
-    "2026_april": 11,
-    "trend": "Accelerating (~15+ new systems per 6-month period)"
-  },
-  "ground_robot_fleet_growth": {
-    "december_2025": {
-      "tracked_units": 67,
-      "operational_types": "Multiple"
-    },
-    "april_2026": {
-      "tracked_units": 167,
-      "growth_months": 4,
-      "growth_percent": 149,
-      "new_units": 100
-    },
-    "growth_rate": "25 new units per month average"
-  },
-  "fpv_drone_production": {
-    "2025_contract": 2000000,
-    "2025_delivered_7months": 1000000,
-    "delivery_rate": 142857,
-    "units_per_day": 4762,
-    "supply_chain": "Fully Ukrainian with import supplies"
-  },
-  "heavy_ugv_platforms": {
-    "vatag_h_ugv": {
-      "payload_capacity_kg": 2000,
-      "status": "Ready for serial production",
-      "ai_integration": "Full autonomous navigation and mission control",
-      "key_innovations": [
-        "Hybrid powerpack with silent mode",
-        "Multi-channel redundant communications",
-        "GPS-denied navigation",
-        "Convoy operations",
-        "Mobile power bank capability"
-      ],
-      "weapon_system": "RCWS with 25mm automatic cannon"
-    },
-    "protector_heavy_ugv": {
-      "payload_capacity_kg": 700,
-      "range_km": 400,
-      "engine": "High-performance internal combustion",
-      "status": "Codified and approved by MoD",
-      "key_features": [
-        "All-wheel drive",
-        "RunFlat tires",
-        "Water crossing capability",
-        "Modular combat/logistics architecture"
-      ]
-    },
-    "trend": "Shift toward 700kg-2+ ton payload systems for logistics automation"
-  },
-  "mission_statistics": {
-    "january_2026": {
-      "total_missions": 7000,
-      "primary_type": "Logistics operations",
-      "notes": "Majority were front-line logistics tasks previously performed under enemy fire"
-    },
-    "ground_robots_march_2026": {
-      "total_missions": 9000,
-      "mission_types": [
-        "Combat operations",
-        "Logistics support",
-        "Demining",
-        "Casualty evacuation",
-        "Reconnaissance"
-      ]
-    },
-    "q1_2026_total": 21500,
-    "zmiy_series_total_missions": 22000,
-    "missions_without_infantry_involvement": 22000
-  },
-  "procurement_2026_h1": {
-    "target_units": 25000,
-    "contracts_signed": 19,
-    "contract_value_uah": 11000000000,
-    "comparison_2025_total": 12500,
-    "multiplier_vs_2025": 2.0,
-    "goal": "100% frontline logistics automation",
-    "notes": "Double the 2025 full-year procurement in just H1 2026"
-  },
-  "manufacturers": {
-    "motor_g": {
-      "name": "Motor-G",
-      "status": "Ukraine's largest drone motor manufacturer",
-      "production_monthly": 200000,
-      "production_annual": 2400000,
-      "market_share_percent": 17,
-      "clients": 100,
-      "website": "https://www.motor-g.com",
-      "key_products": [
-        {
-          "model": "Motor 3110",
-          "kv_options": [
-            900,
-            1150,
-            1250
-          ],
-          "price_uah": 933
-        },
-        {
-          "model": "Motor 3115",
-          "kv_options": [
-            900,
-            640
-          ],
-          "price_uah": 987
-        },
-        {
-          "model": "Motor 2820",
-          "kv_options": [
-            880,
-            1050,
-            1250
-          ],
-          "price_uah": 2039
-        }
-      ],
-      "features": [
-        "12N14P design",
-        "N52H magnets",
-        "200\u00b0C winding",
-        "0.005g balance accuracy"
-      ],
-      "strategy": "China-free future for defense technology"
-    },
-    "total_ukrainian_companies": 20,
-    "major_producers": [
-      {
-        "name": "RoverTech",
-        "product_line": "ZMIY series (7+ variants)",
-        "production_focus": "Modular ground robots",
-        "notable": "22,000+ missions completed"
-      },
-      {
-        "name": "NUMO Robotics",
-        "formerly": "Tank Bureau",
-        "units_manufactured": 600,
-        "team_size": 100,
-        "product_line": "NUMO logistics platform"
-      },
-      {
-        "name": "DevDroid",
-        "specialization": "Control systems (Droid Box)",
-        "integration": "Multi-platform operator interface"
-      },
-      {
-        "name": "UAV TECHNOLOGY",
-        "product": "BIZON-L tracked robot",
-        "codification_date": "2026-04-06"
-      },
-      {
-        "name": "UGVR Machinery",
-        "partnership": "Ukrainian-Czech",
-        "product": "UNEX UGV",
-        "specialization": "Amphibious all-terrain"
-      },
-      {
-        "name": "Frontline Robotics",
-        "partnership": "With BUREVII",
-        "product": "ARDAL platform (grenade launcher)",
-        "innovation": "Autonomous fire from concealment"
-      }
-    ],
-    "production_target_2025": 15000,
-    "fulfillment_2025": "100% of military requests",
-    "procurement_method": "DOT-Chain Defence marketplace (62 units in pilot)"
-  },
-  "robot_categories": {
-    "assault_combat": {
-      "systems": [
-        "KRAMPUS",
-        "ZMIY Droid 12.7",
-        "ZMIY Mini Strike"
-      ],
-      "count": 3,
-      "primary_weapon": "Machine guns, thermobaric, grenade launchers",
-      "role": "Frontline offensive operations"
-    },
-    "fire_support": {
-      "systems": [
-        "Droid TW 12.7",
-        "BIZON-L"
-      ],
-      "count": 2,
-      "weapon_type": "Remote turrets with machine guns",
-      "role": "Tactical fire support"
-    },
-    "logistics": {
-      "systems": [
-        "ZMIY Logistic",
-        "ZMIY Mini Logistic",
-        "NUMO"
-      ],
-      "count": 3,
-      "role": "Cargo, supply, equipment recovery",
-      "payload_capacity_total_kg": 1200
-    },
-    "demining": {
-      "systems": [
-        "GRCC ZMIY",
-        "ZMIY Gripper"
-      ],
-      "count": 2,
-      "role": "Mine clearance, equipment recovery",
-      "clearance_capability_ha": 3
-    },
-    "amphibious": {
-      "systems": [
-        "UNEX UGV"
-      ],
-      "count": 1,
-      "unique_capability": "Water-to-ice transition",
-      "terrain_types": 7
-    },
-    "tactical_support": {
-      "systems": [
-        "Ratel H (FPV carrier)",
-        "Gnome-NS (mother drone)"
-      ],
-      "count": 2,
-      "role": "Drone deployment and support"
-    },
-    "testing_phase": {
-      "systems": [
-        "Bufalo"
-      ],
-      "count": 1,
-      "estimated_capability": "Extended-range autonomous combat"
+  "last_updated": "2026-04-20T14:02:00Z",
+  "research_runs": 35,
+  "total_robots_tracked": 8,
+  "codified_systems_2025": 40,
+  "codified_systems_2024": 60,
+  "codified_systems_2023": 13,
+  "total_codified_all_time": 113,
+  "approval_rate_2025_first_half": 30,
+  "approval_rate_2025_july": 8,
+  "deployment_statistics": {
+    "january_2026_missions": 7000,
+    "mission_types_percentage": {
+      "logistics": 85,
+      "casualty_evacuation": 10,
+      "combat": 5
     }
   },
-  "technology_trends": {
-    "ai_autonomy": "Increasing across all new platforms",
-    "platforms_with_ai": [
-      "Droid TW",
-      "Bufalo",
-      "ZMIY Droid 12.7"
-    ],
-    "electric_propulsion": "Dominant standard (98% of new platforms)",
-    "silent_operation": "Preferred for tactical advantage",
-    "ew_resistance": "Universal standard requirement",
-    "thermal_signature": "Managed via liquid cooling and electric motors",
-    "modular_design": "Now standard on 80% of new platforms",
-    "all_weather": "Standard capability on all combat types",
-    "fiber_optic_drones": "Primary FPV control method"
+  "production_goals": {
+    "2025_target": 15000,
+    "2026_target": "Increased production planned",
+    "monthly_production_protector": 50
   },
-  "fpv_drone_types": {
-    "total_systems_developed": 3,
-    "fiber_optic_controlled": [
-      "Hromylo Optic (codified 2025)",
-      "Khyzhak REBOFF (by 3DTech)",
-      "Stalker drone (tracks despite EW)"
-    ],
-    "advantage_ew_resistance": "Complete immunity to RF jamming",
-    "new_models_in_development": "Multiple in active pipeline",
-    "deployment": "Front-line primary offensive tool"
+  "procurement_contracts": {
+    "h2_2024_contracts": 6,
+    "h2_2024_value_uah": 100000000,
+    "h2_2024_value_usd": 2400000,
+    "q1_2025_contracts": 31,
+    "q1_2025_value_uah": 6000000000,
+    "q1_2025_value_usd": 145000000
   },
-  "operational_capability": {
-    "ground_robot_effectiveness": {
-      "personnel_protection": "High - reduces infantry exposure",
-      "mission_completion_rate": ">95% (estimated)",
-      "force_multiplier_effect": "One unit replaces 5-10 personnel"
-    },
-    "coordination": {
-      "drones_and_ground_robots": "Working in concert",
-      "systems_integration": "Multi-platform tactical teams",
-      "command_and_control": "Unified operational net"
-    }
+  "manufacturing": {
+    "percentage_ukrainian_made": 95,
+    "reason_ukrainian_preference": "Foreign models significantly more expensive"
   },
-  "data_sources": {
-    "official_sources": [
-      "mod.gov.ua (Ministry of Defence)",
-      "rnbo.gov.ua (National Security & Defence Council)"
-    ],
-    "defense_analysis": [
-      "defence.ua (Defence Express)",
-      "thedefensepost.com",
-      "united24media.com",
-      "thedefender.media",
-      "techukraine.org"
-    ],
-    "media_coverage": [
-      "kyivpost.com",
-      "pravda.com.ua (Ukrainska Pravda English)",
-      "euromaidanpress.com"
-    ],
-    "specialist_sources": [
-      "rovertech.co.ua (RoverTech official)",
-      "militarnyi.com (Militarnyi military analysis)"
-    ],
-    "total_sources_indexed": 15,
-    "update_frequency": "Hourly via cron job",
-    "primary_source_reliability": "Official MoD announcements + manufacturer specs"
+  "operational_capability_ratings": {
+    "logistics": 5.5,
+    "turret_robots_small_arms": 3.0,
+    "kamikaze_robots": 5.5,
+    "mine_clearance": 4.5,
+    "evacuation": 3.0,
+    "specialized_equipment_transport": 3.5
   },
-  "research_methodology": {
-    "scope": "Ukrainian official sources only",
-    "focus_areas": [
-      "Technology specifications",
-      "Codification status",
-      "Production statistics",
-      "Mission data",
-      "Manufacturer information"
-    ],
-    "data_validation": "Cross-referenced with multiple official sources",
-    "update_schedule": "Continuous (hourly)",
-    "last_major_update": "2026-04-19 11:02 UTC"
+  "development_ecosystem": {
+    "registered_models_on_brave1": 250,
+    "codified_and_approved_for_use": 50,
+    "actively_deployed_frontline": "20-30%",
+    "raw_product_percentage": 60,
+    "frontline_workshop_count": "Dozens",
+    "training_centers_operational": 1,
+    "training_centers_planned": "Several"
   },
-  "key_findings_april_2026": {
-    "fleet_expansion": "Ground robots grew 149% in 4 months (67\u2192167 units)",
-    "new_codifications": "5 new systems approved in April 2026",
-    "production_scale": "1 million FPV drones in 7 months (2025)",
-    "modular_standard": "All new platforms feature rapid reconfiguration",
-    "fiber_optic_dominance": "RF-immune control becoming primary FPV method",
-    "domestic_capability": "Nearly complete self-sufficient manufacturing",
-    "operational_efficiency": "22,000+ ZMIY robot missions completed",
-    "ai_integration": "Now standard on assault and support platforms"
+  "component_focus_areas": {
+    "primary_challenge": "Communication systems reliability",
+    "secondary_challenge": "Off-road capability",
+    "active_development": "Greater autonomy, AI integration, battle management systems",
+    "future_capability": "One operator controlling multiple robots simultaneously"
   },
-  "metadata": {
-    "last_updated": "2026-04-20"
+  "deployment_modes": {
+    "combined_operations": "Robots + UAVs + personnel",
+    "logistics_automation": "Roboticized supply chains to reduce casualty risk",
+    "evacuation_priority": "Reducing soldier casualty during rescue operations"
   }
 }
