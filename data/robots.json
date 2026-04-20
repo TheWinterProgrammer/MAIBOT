@@ -1,5 +1,77 @@
 [
   {
+    "id": "spider",
+    "name": "Spider",
+    "type": "Compact Logistics UGV",
+    "manufacturer": "Ukrainian Engineers (Team)",
+    "status": "Codified & Operational",
+    "codification_date": "2026-04-19",
+    "weight_kg": 50,
+    "payload_capacity_kg": 100,
+    "payload_ratio": "2:1",
+    "drive_type": "Four-wheel drive",
+    "motor_count": 4,
+    "battery_life_hours": "Several hours continuous",
+    "control_range": "Enhanced (technology solution for increased range)",
+    "unique_features": [
+      "Compact dimensions - two robots fit in military pickup cargo area",
+      "EW-resistant - operates in electronic warfare environments",
+      "Complex maneuver capability in confined spaces",
+      "Dynamic slope traversal",
+      "Maneuverable in confined spaces"
+    ],
+    "missions": [
+      "Logistics support",
+      "Engineering tasks",
+      "Frontline supply transport"
+    ],
+    "description": "Lightweight ground robotic system designed for logistics and engineering tasks. Features compact design allowing easy transport, enhanced mobility with four motors, and EW-resistant operation.",
+    "source": "https://mod.gov.ua/en/news/the-ministry-of-defence-has-authorized-the-spider-ground-robot-for-operational-use"
+  },
+  {
+    "id": "bizon-l",
+    "name": "BIZON-L",
+    "type": "Tracked Multi-Mission UGV",
+    "manufacturer": "UAV TECHNOLOGY",
+    "status": "Codified & Operational",
+    "codification_date": "2026-04-06",
+    "payload_capacity_kg": 250,
+    "max_speed_kmh": 12,
+    "operational_range_km": 30,
+    "extended_range_km": 50,
+    "extended_range_method": "Auxiliary batteries",
+    "drive_type": "Tracked",
+    "track_type": "Steel tracks",
+    "control_system": "DroidBox universal control system",
+    "communication_types": ["LTE", "Wi-Fi", "Starlink", "Secure channels"],
+    "unique_features": [
+      "Modular architecture - rapid reconfiguration in field",
+      "Hot-swappable battery - under 5 minutes without shutdown",
+      "Deployment time under 10 minutes",
+      "Liquid cooling system - low thermal signature",
+      "Near-silent operation",
+      "High mobility across marshland, snow, rugged terrain"
+    ],
+    "modules": [
+      "Combat module with 12.7mm machine gun turret",
+      "Antenna and communications relay module",
+      "Remote minelaying module",
+      "Engineering obstacles module",
+      "Electronic warfare systems module",
+      "Trailer module for additional supplies"
+    ],
+    "missions": [
+      "Cargo/ammunition transport",
+      "Medical evacuation (MEDEVAC)",
+      "Combat operations (with weapons module)",
+      "Communications relay",
+      "Mine operations",
+      "Electronic warfare"
+    ],
+    "description": "Versatile tracked platform with modular design for rapid field reconfiguration. Universal DroidBox control system supports six communication types and integrated module management.",
+    "source": "https://thedefender.media/en/2026/04/bizon-l-codified/"
+  },
+  {
     "id": "protector",
     "name": "PROTECTOR",
     "type": "Heavy UGV",

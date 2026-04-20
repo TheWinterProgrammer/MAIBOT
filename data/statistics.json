@@ -1,37 +1,52 @@
 {
-  "last_updated": "2026-04-20T19:03:03.187666",
-  "research_runs": 38,
-  "total_robots_tracked": 8,
+  "last_updated": "2026-04-20T23:02:00",
+  "research_runs": 39,
+  "total_robots_tracked": 10,
+  "codified_systems_2026": 2,
   "codified_systems_2025": 40,
   "codified_systems_2024": 60,
   "codified_systems_2023": 13,
-  "total_codified_all_time": 113,
-  "approval_rate_2025_first_half": 30,
-  "approval_rate_2025_july": 8,
-  "deployment_statistics": {
+  "total_codified_all_time": 115,
+  "mission_statistics": {
+    "november_2025_missions": 2900,
     "january_2026_missions": 7000,
-    "mission_types_percentage": {
-      "logistics": 85,
-      "casualty_evacuation": 10,
-      "combat": 5
-    }
+    "february_2026_missions": 8000,
+    "march_2026_missions": 9000,
+    "q1_2026_total_missions": 24000,
+    "mission_growth_rate": "3.1x in 4 months (Nov-Mar)",
+    "monthly_growth_percent": 28
   },
-  "production_goals": {
-    "2025_target": 15000,
-    "2026_target": "Increased production planned",
-    "monthly_production_protector": 50
+  "unit_deployment": {
+    "november_2025_units": 67,
+    "march_2026_units": 167,
+    "unit_growth": "2.5x in 4 months",
+    "monthly_unit_increase": 25
   },
-  "procurement_contracts": {
-    "h2_2024_contracts": 6,
-    "h2_2024_value_uah": 100000000,
-    "h2_2024_value_usd": 2400000,
-    "q1_2025_contracts": 31,
-    "q1_2025_value_uah": 6000000000,
-    "q1_2025_value_usd": 145000000
+  "combat_operations": {
+    "kharkiv_robotic_assault_july_2025": "First fully unmanned assault - 30kg explosive robots, no Ukrainian infantry entered fight",
+    "kupiansk_school_operation_february_2026": "Complex multi-robot assault - thermobaric rockets + 227kg explosive robots, 9+ Russian soldiers neutralized",
+    "nc13_unit": "NC13 robotic strike unit commanded by Junior Lieutenant Mykola 'Makar' Zinkevych",
+    "third_assault_brigade": "Pioneered unmanned assault tactics",
+    "khartia_corps": "Maj. Andrii Kopach commands unmanned ground systems company"
   },
-  "manufacturing": {
-    "percentage_ukrainian_made": 95,
-    "reason_ukrainian_preference": "Foreign models significantly more expensive"
+  "procurement_data": {
+    "h1_2026_target": 25000,
+    "2025_total_deployed": 12500,
+    "h1_2026_vs_2025": "Double the full-year 2025 deployment",
+    "contracts_signed": 19,
+    "budget_committed_uah": 11000000000,
+    "strategic_goal": "100% automation of frontline logistics"
+  },
+  "deployment_modes": {
+    "combined_operations": "Robots + UAVs + personnel",
+    "logistics_automation": "Roboticized supply chains to reduce casualty risk",
+    "evacuation_priority": "Reducing soldier casualty during rescue operations",
+    "combat_operations": "Thermobaric rockets, explosives, weapon platforms"
+  },
+  "mission_types_percentage": {
+    "logistics": 85,
+    "casualty_evacuation": 10,
+    "combat": 5
   },
   "operational_capability_ratings": {
     "logistics": 5.5,
@@ -41,12 +56,18 @@
     "evacuation": 3.0,
     "specialized_equipment_transport": 3.5
   },
-  "development_ecosystem": {
-    "registered_models_on_brave1": 250,
+  "manufacturing": {
+    "percentage_ukrainian_made": 95,
+    "active_companies": 280,
+    "technology_solutions": 550,
+    "foreign_cost_comparison": "Foreign models significantly more expensive"
+  },
+  "ecosystem_metrics": {
+    "brave1_market_items": 470,
+    "brave1_ground_robot_models": 13,
+    "registered_models_total": 250,
     "codified_and_approved_for_use": 50,
     "actively_deployed_frontline": "20-30%",
-    "raw_product_percentage": 60,
-    "frontline_workshop_count": "Dozens",
     "training_centers_operational": 1,
     "training_centers_planned": "Several"
   },
@@ -56,12 +77,27 @@
     "active_development": "Greater autonomy, AI integration, battle management systems",
     "future_capability": "One operator controlling multiple robots simultaneously"
   },
-  "deployment_modes": {
-    "combined_operations": "Robots + UAVs + personnel",
-    "logistics_automation": "Roboticized supply chains to reduce casualty risk",
-    "evacuation_priority": "Reducing soldier casualty during rescue operations"
+  "procurement_contracts": {
+    "h2_2024_contracts": 6,
+    "h2_2024_value_uah": 100000000,
+    "h2_2024_value_usd": 2400000,
+    "q1_2025_contracts": 31,
+    "q1_2025_value_uah": 6000000000,
+    "q1_2025_value_usd": 145000000
   },
+  "key_leadership_statements": {
+    "minister_fedorov": "Robots routinely enter high-risk areas - delivering ammunition, sustaining logistics, and evacuating the wounded where deploying personnel would create additional risk",
+    "deputy_minister_churkin": "This is essentially a new branch in the development of ground robotic systems - a full-sized unmanned vehicle. We have to reinforce platoon strongpoints with robotic systems as much as possible."
+  },
+  "sources_verified": [
+    "mod.gov.ua",
+    "thedefender.media",
+    "en.defence-ua.com",
+    "dronexl.co",
+    "nytimes.com"
+  ],
   "metadata": {
-    "last_updated": "2026-04-20"
+    "last_updated": "2026-04-20",
+    "update_type": "Official MoD sources + Defense media"
   }
 }
