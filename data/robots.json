@@ -1,226 +1,258 @@
 [
   {
-    "id": "spider",
-    "name": "Spider",
-    "type": "Compact Logistics UGV",
-    "manufacturer": "Ukrainian Engineers (Team)",
-    "status": "Codified & Operational",
-    "codification_date": "2026-04-19",
-    "weight_kg": 50,
-    "payload_capacity_kg": 100,
-    "payload_ratio": "2:1",
-    "drive_type": "Four-wheel drive",
-    "motor_count": 4,
-    "battery_life_hours": "Several hours continuous",
-    "control_range": "Enhanced (technology solution for increased range)",
-    "unique_features": [
-      "Compact dimensions - two robots fit in military pickup cargo area",
-      "EW-resistant - operates in electronic warfare environments",
-      "Complex maneuver capability in confined spaces",
-      "Dynamic slope traversal",
-      "Maneuverable in confined spaces"
+    "name": "Zmiy Droid 12.7",
+    "type": "ground_robotic",
+    "manufacturer": "Ukrainian defense enterprises",
+    "status": "codified_authorized",
+    "source": "mod.gov.ua",
+    "date_added": "2026-04-21",
+    "description": "Armored strike-and-reconnaissance ground robotic system with 12.7mm machine gun",
+    "features": [
+      "High cross-country mobility (rough terrain, sand, snow, shallow water)",
+      "Armored hull protects against anti-personnel mines",
+      "FPV drone resistant",
+      "Integrated control module for simultaneous platform/weapon control",
+      "AI-based target acquisition and tracking"
     ],
-    "missions": [
-      "Logistics support",
-      "Engineering tasks",
-      "Frontline supply transport"
-    ],
-    "description": "Lightweight ground robotic system designed for logistics and engineering tasks. Features compact design allowing easy transport, enhanced mobility with four motors, and EW-resistant operation.",
-    "source": "https://mod.gov.ua/en/news/the-ministry-of-defence-has-authorized-the-spider-ground-robot-for-operational-use"
+    "proven_combat": [
+      "Successfully engaged Russian MT-LB vehicles",
+      "Held firing position for 45 consecutive days with maintenance every 2 days"
+    ]
   },
   {
-    "id": "bizon-l",
-    "name": "BIZON-L",
-    "type": "Tracked Multi-Mission UGV",
-    "manufacturer": "UAV TECHNOLOGY",
-    "status": "Codified & Operational",
-    "codification_date": "2026-04-06",
-    "payload_capacity_kg": 250,
-    "max_speed_kmh": 12,
-    "operational_range_km": 30,
-    "extended_range_km": 50,
-    "extended_range_method": "Auxiliary batteries",
-    "drive_type": "Tracked",
-    "track_type": "Steel tracks",
-    "control_system": "DroidBox universal control system",
-    "communication_types": ["LTE", "Wi-Fi", "Starlink", "Secure channels"],
-    "unique_features": [
-      "Modular architecture - rapid reconfiguration in field",
-      "Hot-swappable battery - under 5 minutes without shutdown",
-      "Deployment time under 10 minutes",
-      "Liquid cooling system - low thermal signature",
-      "Near-silent operation",
-      "High mobility across marshland, snow, rugged terrain"
-    ],
-    "modules": [
-      "Combat module with 12.7mm machine gun turret",
-      "Antenna and communications relay module",
-      "Remote minelaying module",
-      "Engineering obstacles module",
-      "Electronic warfare systems module",
-      "Trailer module for additional supplies"
-    ],
-    "missions": [
-      "Cargo/ammunition transport",
-      "Medical evacuation (MEDEVAC)",
-      "Combat operations (with weapons module)",
-      "Communications relay",
-      "Mine operations",
-      "Electronic warfare"
-    ],
-    "description": "Versatile tracked platform with modular design for rapid field reconfiguration. Universal DroidBox control system supports six communication types and integrated module management.",
-    "source": "https://thedefender.media/en/2026/04/bizon-l-codified/"
-  },
-  {
-    "id": "protector",
     "name": "PROTECTOR",
-    "type": "Heavy UGV",
+    "type": "ground_ugv",
     "manufacturer": "Ukrainian Armor",
-    "status": "Codified & Operational",
-    "codification_date": "2025-06",
-    "payload_capacity_kg": 700,
-    "operational_range_km": 400,
-    "drive_type": "All-wheel drive",
-    "power": "Internal combustion engine",
-    "tire_type": "RunFlat",
-    "max_speed_kmh": 60,
-    "missions": [
-      "Ammunition transport",
-      "Equipment logistics",
-      "Casualty evacuation",
-      "Weapon station platform",
-      "Electronic warfare (EW) platform",
-      "SIGINT/ELINT mobile platform"
-    ],
-    "description": "Heavy unmanned ground system with 700kg payload capacity, developed based on combat experience. Features powerful ICE, all-wheel drive, RunFlat tires for continued mobility when damaged. Operational range up to 400km.",
-    "source": "https://mod.gov.ua/en/news/range-of-up-to-400-km-protector-ground-robotic-system-authorized-by-ministry-of-defence"
-  },
-  {
-    "id": "unex",
-    "name": "UNEX UGV",
-    "type": "Amphibious wheeled UGV",
-    "manufacturer": "UGVR Machinery (Czech-Ukrainian)",
-    "status": "Codified & Operational",
-    "codification_date": "2025-04",
-    "payload_capacity_kg": 250,
-    "control_radius_m": 10000,
-    "lte_range": "Unlimited with GSM signal",
-    "tire_pressure": "Ultra-low-pressure",
-    "ground_pressure": "Less than human footstep",
-    "operational_temperatures_c": "-40 to +60",
-    "missions": [
-      "Amphibious operations",
-      "Mine laying/demining",
-      "Logistics/evacuation",
-      "Weapon station mounting",
-      "Electronic warfare",
-      "Water obstacle crossing"
-    ],
-    "unique_features": [
-      "Amphibious capability - seamless water/ice/swamp transition",
-      "Does not trigger anti-tank mines (ground pressure < footstep)",
-      "Demonstrated durability: drove over ceramic plate and coffee cup",
-      "Resistant to electronic warfare",
-      "Programmable autopilot",
-      "Follow-me autonomous function",
-      "High-capacity batteries"
-    ],
-    "description": "Revolutionary amphibious platform with unprecedented terrain capability. Uses pneumatic suspension and ultra-low-pressure tires for extreme mobility. Operates in water, swamps, mire, sand, difficult surfaces, and ice.",
-    "source": "https://mod.gov.ua/en/news/the-defence-forces-expand-their-fleet-of-ground-robots-with-a-unique-amphibious-system"
-  },
-  {
-    "id": "dodger",
-    "name": "DODGER",
-    "type": "Compact multi-function UGV",
-    "manufacturer": "Ukrainian manufacturer",
-    "status": "Codified & Operational",
-    "codification_date": "2025-06",
-    "payload_capacity_kg": 250,
-    "profile": "Low-profile compact design",
-    "armor": "Basic protective plating",
-    "protection_level": "Small arms fire & shrapnel resistant",
-    "missions": [
-      "Logistics & supply transport",
-      "Casualty evacuation",
-      "Mine laying & combat engineering",
-      "Reconnaissance"
-    ],
-    "description": "Compact armored platform designed with frontline soldier input. Low profile allows inconspicuous movement in contested environments. Can carry 250kg of payload while maintaining small size advantage.",
-    "source": "https://en.defence-ua.com/weapon_and_tech/ukrainian_dodger_robot_clears_path_for_safer_battlefield_operations-14933.html"
-  },
-  {
-    "id": "termit",
-    "name": "TerMIT",
-    "type": "Modular tracked/wheeled UGV",
-    "manufacturer": "Tencore",
-    "status": "Codified & Operational (Multiple versions)",
-    "codification_date": "2025-06",
-    "modularity": "Highly modular - 300+ design iterations",
-    "design_iterations": 300,
-    "production_scale": "Hundreds produced, in mass production",
-    "missions": [
-      "Logistics & cargo transport",
-      "Mine laying & demining",
+    "status": "codified_authorized",
+    "source": "mod.gov.ua",
+    "date_added": "2026-04-21",
+    "description": "Heavy unmanned ground vehicle for logistics and combat missions",
+    "specifications": {
+      "combat_weight": "4,000 kg",
+      "max_speed": "60 km/h",
+      "min_maneuver_speed": "5 km/h",
+      "kinetic_protection": "STANAG 4569 Level 1",
+      "engine_power": "190 hp",
+      "fuel_consumption": "12 L/100km diesel",
+      "fuel_capacity": "76 L",
+      "dimensions_mm": "5,200 x 1,870 x 1,450",
+      "clearance_mm": 235,
+      "max_elevation_angle": "30°",
+      "max_roll_angle": "25°",
+      "vertical_wall_obstacle": "235 mm",
+      "fording_depth": "0.5 m",
+      "communication_range_km": 15,
+      "extended_range": "repeater drone capable"
+    },
+    "mission_profiles": [
+      "Logistics",
       "Reconnaissance",
-      "Casualty evacuation",
-      "Engineering tasks",
-      "Obstacle deployment (barbed wire)"
+      "Weapon platform",
+      "EW system carrier",
+      "Launch/recovery of other UAS"
     ],
-    "modular_components": [
-      "Communication systems (multiple options)",
-      "Suspension",
-      "Tracks/wheels",
-      "Electronics",
-      "Batteries",
-      "Auxiliary equipment",
-      "Software"
+    "integrations": [
+      "ICoMWare situational awareness system"
     ],
-    "description": "Most popular ground robot in Ukrainian Armed Forces. Highly modular design allows rapid integration of any communication system or simultaneous combination of several. Evolved through intensive frontline feedback.",
-    "popularity": "Chosen by Come Back Alive Foundation for military supply",
-    "source": "https://techukraine.org/2025/06/25/meet-termit-the-modular-all-terrain-ugv-greenlit-for-ukraines-armed-forces/"
+    "advantages": [
+      "Rapid production",
+      "Low cost",
+      "Modular design"
+    ]
   },
   {
-    "id": "targan",
-    "name": "TARGAN",
-    "type": "Multi-purpose UGV",
-    "manufacturer": "Ukrainian manufacturer",
-    "status": "Operational",
-    "codification_date": "Unknown",
-    "favorite_units": ["Khartia (13th Brigade National Guard)", "Da Vinci Wolves"],
-    "description": "Favored UGV model among frontline units. Known for reliable performance in combat operations.",
-    "source": "https://www.pravda.com.ua/eng/articles/2025/04/03/7505903/"
+    "name": "UB60D FPV Drone",
+    "type": "fpv_kamikaze",
+    "manufacturer": "Ukrainian Armor",
+    "status": "serial_production",
+    "source": "defence-ua.com",
+    "date_added": "2026-04-21",
+    "description": "FPV drone based on 60mm mortar round, factory-equipped warhead",
+    "production": {
+      "current_output_per_month": 20000,
+      "scalable_output_per_month": 40000,
+      "max_potential_output_per_month": 60000,
+      "units_per_system": 250
+    },
+    "cost": {
+      "system_ua": "UAH 5.8-6.2 million",
+      "per_drone_usd": "~$500"
+    },
+    "warhead": "60mm mortar round",
+    "variants_in_development": [
+      "82mm mortar round warhead",
+      "120mm mortar round warhead"
+    ],
+    "advantages": [
+      "Factory-installed warhead",
+      "Ready-to-use out of box",
+      "No separate payload sourcing needed"
+    ],
+    "export_interest": "Poland (Territorial Defence Forces)"
   },
   {
-    "id": "gimli",
-    "name": "GIMLI",
-    "type": "Multi-purpose UGV",
-    "manufacturer": "Ukrainian manufacturer",
-    "status": "Operational",
-    "codification_date": "Unknown",
-    "favorite_units": ["Khartia (13th Brigade National Guard)", "Da Vinci Wolves"],
-    "description": "Established UGV model with solid reputation among military units.",
-    "source": "https://www.pravda.com.ua/eng/articles/2025/04/03/7505903/"
+    "name": "Queen of the Hornets",
+    "type": "fpv_multipurpose",
+    "manufacturer": "Wild Hornets",
+    "status": "active_production",
+    "source": "vgi.com.ua",
+    "date_added": "2026-04-21",
+    "description": "Largest Ukrainian FPV drone, capable of multiple mission roles",
+    "payload_capacity_kg": 9.5,
+    "localization_percentage": 65,
+    "mission_roles": [
+      "Bomber",
+      "Reconnaissance",
+      "Communications relay",
+      "Logistics transport"
+    ],
+    "features": [
+      "Thermal imaging capable",
+      "Night vision (Wally models)",
+      "Hornet Vision digital control system",
+      "Onboard computers",
+      "Radio modules"
+    ],
+    "localization_breakdown": {
+      "in_house": [
+        "Carbon fiber frames",
+        "Electronic speed controllers (ESCs)",
+        "Propellers",
+        "Sensor modules",
+        "Control boards",
+        "Li-Po batteries",
+        "Onboard computers",
+        "Radio modules"
+      ],
+      "imported": [
+        "FPV cameras (Caddx)",
+        "2.5W video transmitters",
+        "Motors (partial)"
+      ]
+    },
+    "breakthrough": "First to localize flight controllers in Ukraine"
   },
   {
-    "id": "teslia",
-    "name": "TESLIA",
-    "type": "Multi-purpose UGV",
-    "manufacturer": "Ukrainian manufacturer",
-    "status": "Operational",
-    "codification_date": "Unknown",
-    "favorite_units": ["Khartia (13th Brigade National Guard)"],
-    "description": "Established UGV model with proven combat reliability.",
-    "source": "https://www.pravda.com.ua/eng/articles/2025/04/03/7505903/"
+    "name": "Vyriy Drone",
+    "type": "fpv_thermal",
+    "manufacturer": "VYRIY DRONE",
+    "status": "serial_production",
+    "source": "vgi.com.ua",
+    "date_added": "2026-04-21",
+    "description": "First 100% Ukrainian component FPV drone batch",
+    "cost_ua": "30,000 UAH",
+    "localization_percentage": 100,
+    "components": {
+      "in_house": [
+        "Frames",
+        "Initiation boards",
+        "Flight controllers",
+        "Radio control systems"
+      ],
+      "ukrainian_sourced": [
+        "Video transmitters (DEC-1)",
+        "Motors (Realgold LLC)",
+        "Cameras (Odd Systems)"
+      ]
+    },
+    "guidance_system": "VGI-9 Ukrainian guidance system",
+    "features": [
+      "Thermal imaging cameras",
+      "Improved EW resistance",
+      "Enhanced strike accuracy"
+    ],
+    "milestone": "1,000 fully localized drones produced by March 2025"
   },
   {
-    "id": "rys_pro",
-    "name": "RYS (Lynx) PRO",
-    "type": "Multi-purpose UGV",
-    "manufacturer": "Ukrainian manufacturer",
-    "status": "Operational",
-    "codification_date": "Unknown",
-    "favorite_units": ["Khartia (13th Brigade National Guard)", "Da Vinci Wolves"],
-    "description": "Advanced variant of Rys platform favored by experienced units for proven performance.",
-    "source": "https://www.pravda.com.ua/eng/articles/2025/04/03/7505903/"
+    "name": "Khizhak REBOFF",
+    "type": "fiber_optic_fpv",
+    "manufacturer": "3DTech",
+    "status": "codified",
+    "source": "vgi.com.ua",
+    "date_added": "2026-04-21",
+    "description": "Fiber-optic FPV drone immune to electronic warfare",
+    "range_km": [10, 20],
+    "models": 5,
+    "components_localized": [
+      "30km fiber-optic spools manufactured in Ukraine"
+    ],
+    "advantages": [
+      "Immune to jamming",
+      "No radio signature",
+      "Quality-controlled spool production"
+    ],
+    "comparison": "Most serial models limited to 20km; 30km spool breakthrough achieved"
+  },
+  {
+    "name": "BIZON-L",
+    "type": "ground_ugv",
+    "manufacturer": "UAV TECHNOLOGY",
+    "status": "codified_authorized",
+    "source": "mod.gov.ua",
+    "date_added": "2026-04-21",
+    "codification_date": "2026-04-07",
+    "description": "Tracked ground robotic system with modular architecture",
+    "payload_capacity_kg": 200,
+    "range_km": 30,
+    "control_system": "DroidBox universal controller",
+    "features": [
+      "Modular architecture",
+      "Tracked chassis",
+      "Combat and engineering modules",
+      "Deploys in under 10 minutes"
+    ],
+    "applications": [
+      "Logistics",
+      "Combat",
+      "Engineering"
+    ]
+  },
+  {
+    "name": "D-21-12R",
+    "type": "ground_combat_ugv",
+    "manufacturer": "Ukrainian defense enterprises",
+    "status": "codified_authorized",
+    "source": "mod.gov.ua",
+    "date_added": "2026-04-21",
+    "description": "Ground robotic system with machine gun for surveillance and fire support",
+    "weapon": "Large-caliber machine gun",
+    "capabilities": [
+      "Surveillance",
+      "Patrolling",
+      "Fire support",
+      "Off-road mobility",
+      "Marshland navigation",
+      "Shallow water crossing"
+    ]
+  },
+  {
+    "name": "Spextr",
+    "type": "ground_ugv",
+    "manufacturer": "Ukrainian defense enterprises",
+    "status": "codified_authorized",
+    "source": "mod.gov.ua",
+    "date_added": "2026-04-21",
+    "description": "Ground robotic system family with various modifications",
+    "modifications": [
+      "Combat",
+      "Engineering",
+      "Reconnaissance",
+      "Logistics"
+    ]
+  },
+  {
+    "name": "DroidBox",
+    "type": "universal_control_system",
+    "manufacturer": "DevDroid",
+    "status": "codified_authorized",
+    "source": "thedefender.media",
+    "date_added": "2026-04-21",
+    "codification_date": "2026-04-2026",
+    "description": "Universal UGV control system codified by Ministry of Defence",
+    "platform_compatibility": [
+      "BIZON-L",
+      "Universal controller for multiple UGV platforms"
+    ],
+    "availability": "Brave1 Market"
   }
 ]

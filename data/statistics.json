@@ -1,103 +1,100 @@
 {
-  "last_updated": "2026-04-20T23:02:00",
-  "research_runs": 39,
+  "last_updated": "2026-04-21T07:03:35.252824",
+  "research_runs": 47,
   "total_robots_tracked": 10,
-  "codified_systems_2026": 2,
-  "codified_systems_2025": 40,
-  "codified_systems_2024": 60,
-  "codified_systems_2023": 13,
-  "total_codified_all_time": 115,
-  "mission_statistics": {
-    "november_2025_missions": 2900,
-    "january_2026_missions": 7000,
-    "february_2026_missions": 8000,
-    "march_2026_missions": 9000,
-    "q1_2026_total_missions": 24000,
-    "mission_growth_rate": "3.1x in 4 months (Nov-Mar)",
-    "monthly_growth_percent": 28
-  },
-  "unit_deployment": {
-    "november_2025_units": 67,
-    "march_2026_units": 167,
-    "unit_growth": "2.5x in 4 months",
-    "monthly_unit_increase": 25
-  },
-  "combat_operations": {
-    "kharkiv_robotic_assault_july_2025": "First fully unmanned assault - 30kg explosive robots, no Ukrainian infantry entered fight",
-    "kupiansk_school_operation_february_2026": "Complex multi-robot assault - thermobaric rockets + 227kg explosive robots, 9+ Russian soldiers neutralized",
-    "nc13_unit": "NC13 robotic strike unit commanded by Junior Lieutenant Mykola 'Makar' Zinkevych",
-    "third_assault_brigade": "Pioneered unmanned assault tactics",
-    "khartia_corps": "Maj. Andrii Kopach commands unmanned ground systems company"
-  },
-  "procurement_data": {
-    "h1_2026_target": 25000,
-    "2025_total_deployed": 12500,
-    "h1_2026_vs_2025": "Double the full-year 2025 deployment",
-    "contracts_signed": 19,
-    "budget_committed_uah": 11000000000,
-    "strategic_goal": "100% automation of frontline logistics"
-  },
-  "deployment_modes": {
-    "combined_operations": "Robots + UAVs + personnel",
-    "logistics_automation": "Roboticized supply chains to reduce casualty risk",
-    "evacuation_priority": "Reducing soldier casualty during rescue operations",
-    "combat_operations": "Thermobaric rockets, explosives, weapon platforms"
-  },
-  "mission_types_percentage": {
-    "logistics": 85,
-    "casualty_evacuation": 10,
-    "combat": 5
-  },
-  "operational_capability_ratings": {
-    "logistics": 5.5,
-    "turret_robots_small_arms": 3.0,
-    "kamikaze_robots": 5.5,
-    "mine_clearance": 4.5,
-    "evacuation": 3.0,
-    "specialized_equipment_transport": 3.5
-  },
-  "manufacturing": {
-    "percentage_ukrainian_made": 95,
-    "active_companies": 280,
-    "technology_solutions": 550,
-    "foreign_cost_comparison": "Foreign models significantly more expensive"
-  },
-  "ecosystem_metrics": {
-    "brave1_market_items": 470,
-    "brave1_ground_robot_models": 13,
-    "registered_models_total": 250,
-    "codified_and_approved_for_use": 50,
-    "actively_deployed_frontline": "20-30%",
-    "training_centers_operational": 1,
-    "training_centers_planned": "Several"
-  },
-  "component_focus_areas": {
-    "primary_challenge": "Communication systems reliability",
-    "secondary_challenge": "Off-road capability",
-    "active_development": "Greater autonomy, AI integration, battle management systems",
-    "future_capability": "One operator controlling multiple robots simultaneously"
-  },
-  "procurement_contracts": {
-    "h2_2024_contracts": 6,
-    "h2_2024_value_uah": 100000000,
-    "h2_2024_value_usd": 2400000,
-    "q1_2025_contracts": 31,
-    "q1_2025_value_uah": 6000000000,
-    "q1_2025_value_usd": 145000000
-  },
-  "key_leadership_statements": {
-    "minister_fedorov": "Robots routinely enter high-risk areas - delivering ammunition, sustaining logistics, and evacuating the wounded where deploying personnel would create additional risk",
-    "deputy_minister_churkin": "This is essentially a new branch in the development of ground robotic systems - a full-sized unmanned vehicle. We have to reinforce platoon strongpoints with robotic systems as much as possible."
-  },
-  "sources_verified": [
-    "mod.gov.ua",
-    "thedefender.media",
-    "en.defence-ua.com",
-    "dronexl.co",
-    "nytimes.com"
+  "total_codified_systems": 86,
+  "latest_codifications": [
+    {
+      "name": "D-21-12R",
+      "date": "2026-04-21",
+      "type": "ground_combat_ugv"
+    },
+    {
+      "name": "Spextr",
+      "date": "2026-04-21",
+      "type": "ground_ugv_family"
+    },
+    {
+      "name": "BIZON-L",
+      "date": "2026-04-07",
+      "type": "tracked_modular_ugv"
+    },
+    {
+      "name": "DroidBox",
+      "date": "2026-04-2026",
+      "type": "universal_control_system"
+    }
   ],
-  "metadata": {
-    "last_updated": "2026-04-20",
-    "update_type": "Official MoD sources + Defense media"
-  }
+  "source_sites_indexed": [
+    "mod.gov.ua (Ministry of Defence)",
+    "gur.gov.ua (Main Intelligence Directorate)",
+    "defence-ua.com (Defense Express)",
+    "military.com.ua",
+    "zbroya.net",
+    "vgi.com.ua",
+    "oboronka.mezha.ua"
+  ],
+  "production_statistics_2026": {
+    "fpv_annual_capacity": "8+ million units",
+    "source": "NSDC (National Security and Defense Council)",
+    "monthly_production_leaders": {
+      "TAF Industries": "80,000 drones/month",
+      "General Chereshnia": "50,000+ drones/month"
+    },
+    "major_motor_producer": "Motor-G: 100,000+ motors/month",
+    "casualty_attribution": "60% of Russian Army losses from FPV drones"
+  },
+  "localization_progress": {
+    "ground_robot_systems": {
+      "fully_ukrainian": 2,
+      "notable": [
+        "Zmiy Droid 12.7",
+        "PROTECTOR UGV"
+      ]
+    },
+    "fpv_drones": {
+      "100_percent_localized": [
+        "Vyriy Drone"
+      ],
+      "high_localization_60_percent_plus": [
+        "Queen of the Hornets (65%)"
+      ],
+      "partial_30_40_percent": [
+        "General Chereshnia"
+      ]
+    },
+    "breakthrough_components": {
+      "flight_controllers": "Wild Hornets - first Ukrainian production",
+      "fiber_optic_spools": "3DTech - 30km range (vs 20km standard)",
+      "thermal_cameras": "Multiple Ukrainian manufacturers"
+    }
+  },
+  "technology_readiness": {
+    "deployed_and_codified": [
+      "Zmiy Droid 12.7",
+      "PROTECTOR UGV",
+      "UB60D FPV",
+      "Khizhak REBOFF (fiber-optic)"
+    ],
+    "in_production": [
+      "Queen of the Hornets",
+      "Vyriy Drone",
+      "TAF Industries portfolio"
+    ],
+    "testing": [
+      "82mm mortar round FPV variant",
+      "120mm mortar round FPV variant",
+      "New bomber drones with protected comms"
+    ]
+  },
+  "export_interest": {
+    "poland": [
+      "UB60D FPV",
+      "PROTECTOR UGV"
+    ],
+    "germany": [
+      "Linza 3.0 tactical drones (joint venture)"
+    ]
+  },
+  "data_last_verified": "2026-04-21"
 }

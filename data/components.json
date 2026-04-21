@@ -1,235 +1,197 @@
 {
-  "propulsion": {
-    "engines": {
-      "internal_combustion": {
-        "description": "Used in PROTECTOR and other heavy platforms",
-        "advantages": [
-          "High torque",
-          "Long operational range",
-          "Proven reliability"
-        ],
-        "applications": [
-          "PROTECTOR (heavy platform)"
-        ]
+  "localization_status_2026": {
+    "fully_localized": [
+      "Carbon fiber frames",
+      "Flight controllers (Wild Hornets breakthrough)",
+      "Electronic speed controllers (ESCs)",
+      "Propellers",
+      "Sensor modules",
+      "Control boards",
+      "Li-Po batteries",
+      "Radio control systems",
+      "Initiation boards",
+      "Connection systems",
+      "Circuit boards (partial)",
+      "Frame elements",
+      "Thermal imaging cameras",
+      "Night vision systems",
+      "Fiber-optic spools (3DTech - 30km)",
+      "Video transmitters (DEC-1, some models)"
+    ],
+    "partially_localized": [
+      {
+        "component": "Motors",
+        "manufacturers": ["Realgold LLC", "Motor-G"],
+        "production_capacity": "100,000+ motors/month (Motor-G)",
+        "status": "Scaling production, some imported magnets still required"
       },
-      "electric_motors": {
-        "description": "Integrated with battery systems on lighter platforms",
-        "advantages": [
-          "Silent operation",
-          "Electronic warfare resistant"
-        ],
-        "applications": [
-          "UNEX UGV",
-          "DODGER",
-          "TerMIT variants"
-        ]
+      {
+        "component": "FPV Cameras",
+        "manufacturers": ["Odd Systems"],
+        "status": "Domestic production established, competing with Caddx imports"
       }
-    },
-    "drive_systems": {
-      "all_wheel_drive": {
-        "description": "Standard on heavy platforms",
-        "advantages": [
-          "Obstacle crossing",
-          "Terrain navigation"
-        ],
-        "examples": [
-          "PROTECTOR"
-        ]
+    ],
+    "still_imported": [
+      {
+        "component": "High-precision microchips",
+        "challenge": "Requires clean-room manufacturing, massive investment",
+        "impact": "Flight controllers would be disrupted if China cut supply"
       },
-      "tracked": {
-        "description": "Alternative on modular platforms",
-        "advantages": [
-          "Weight distribution",
-          "Rough terrain"
-        ],
-        "examples": [
-          "TerMIT variants"
-        ]
+      {
+        "component": "Advanced optics",
+        "status": "Some thermal modules localized, high-end still imported"
       },
-      "wheeled": {
-        "description": "Standard on amphibious platforms",
-        "advantages": [
-          "Speed",
-          "Water capability"
-        ],
-        "examples": [
-          "UNEX UGV",
-          "DODGER"
-        ]
-      }
-    },
-    "tires": {
-      "runflat": {
-        "description": "Allows continued mobility when punctured",
-        "applications": [
-          "PROTECTOR"
-        ],
-        "benefit": "Operational continuity under fire"
+      {
+        "component": "DJI cameras",
+        "note": "Used in some models (General Chereshnia)"
       },
-      "ultra_low_pressure": {
-        "description": "Minimizes ground pressure below human footstep",
-        "applications": [
-          "UNEX UGV"
-        ],
-        "benefit": "Anti-tank mine resistance"
+      {
+        "component": "SpeedyBee flight controllers",
+        "note": "Used in some models before localization"
+      },
+      {
+        "component": "BrotherHobby/EMAX motors",
+        "note": "Imported alternatives still used"
+      },
+      {
+        "component": "AKK/Foxeer video transmitters",
+        "note": "Some imports still used"
       }
+    ]
+  },
+  "manufacturing_capacity": {
+    "fpv_drones_annual_capacity_2026": {
+      "total": "8+ million units/year",
+      "source": "NSDC (National Security and Defense Council of Ukraine)",
+      "note": "60% of Russian Army losses attributed to FPV drones"
     },
-    "suspension": {
-      "pneumatic": {
-        "description": "Advanced suspension for terrain absorption",
-        "applications": [
-          "UNEX UGV"
-        ],
-        "benefit": "Amphibious capability, all-weather operation"
+    "major_producers": [
+      {
+        "company": "TAF Industries",
+        "monthly_output": "80,000 drones",
+        "sites": 20,
+        "revenue_2024": "$1 billion",
+        "focus": "High-tech: EW-resistant radio, machine vision, AI loitering munitions"
+      },
+      {
+        "company": "General Chereshnia",
+        "monthly_output": "50,000+ drones",
+        "localization": "30-40% Ukrainian components"
+      },
+      {
+        "company": "Escadrone",
+        "focus": "Full production cycle, thermal cameras, high-power motors"
+      },
+      {
+        "company": "Ukrainian Armor",
+        "products": ["UB60D FPV", "PROTECTOR UGV"]
+      },
+      {
+        "company": "Wild Hornets",
+        "breakthrough": "Localized flight controllers"
       }
+    ]
+  },
+  "technology_categories": {
+    "autonomous_systems": [
+      {
+        "system": "AI-based target acquisition",
+        "deployed_on": ["Zmiy Droid 12.7"]
+      },
+      {
+        "system": "Automatic target tracking",
+        "deployed_on": ["Zmiy Droid 12.7"]
+      },
+      {
+        "system": "Last Mile guidance modules",
+        "developer": "TAF Industries"
+      },
+      {
+        "system": "Cruise Control (VGI-9)",
+        "description": "Redefines FPV survivability against EW"
+      },
+      {
+        "system": "Machine vision",
+        "developer": "TAF Industries"
+      }
+    ],
+    "ew_countermeasures": [
+      {
+        "technology": "Fiber-optic control",
+        "provider": "3DTech",
+        "advantage": "Immune to jamming"
+      },
+      {
+        "technology": "Protected communication links",
+        "developer": "Ministry of Defence testing"
+      },
+      {
+        "technology": "Hornet Vision digital system",
+        "provider": "Wild Hornets"
+      },
+      {
+        "technology": "EW-resistant radio modules",
+        "developer": "TAF Industries"
+      }
+    ],
+    "situational_awareness": [
+      {
+        "system": "ICoMWare",
+        "integrated_with": ["PROTECTOR UGV"]
+      }
+    ]
+  },
+  "supply_chain_risks": {
+  "key_component_suppliers": {
+    "Motor-G": {
+      "products": "Brushless drone motors",
+      "localization": "80% achieved (April 2026)",
+      "breakthrough": "Reached 80% localization, targeting 100%",
+      "source": "militarnyi.com (Militarnyi news)",
+      "date_added": "2026-04-21",
+      "production_capacity": "100,000+ motors/month",
+      "target": "100% localization by end 2026"
+    },
+    "FT Systems": {
+      "products": "Electronic components for unmanned systems",
+      "website": "ft.systems",
+      "components": [
+        "Electronic Speed Controllers (ESCs)",
+        "Flight controllers",
+        "Power distribution boards",
+        "Video transmitters",
+        "Telemetry modules"
+      ],
+      "target": "10x capacity scaling by Q3 2026",
+      "source": "ft.systems (official website)",
+      "date_added": "2026-04-21"
     }
   },
-  "communications": {
-    "radio_control": {
-      "type": "Reliable radio control system",
-      "frequency_hopping": true,
-      "encryption": "Encrypted communications",
-      "range_direct": "Up to 10km line-of-sight",
-      "description": "Primary control method for most UGVs"
-    },
-    "lte_gsm": {
-      "type": "LTE/GSM connectivity",
-      "range": "Unlimited with GSM signal availability",
-      "applications": [
-        "UNEX UGV"
-      ],
-      "advantage": "Extended range beyond radio line-of-sight"
-    },
-    "signal_relay": {
-      "type": "FPV drone signal relay",
-      "description": "UAV provides relay communication for extended range and line-of-sight",
-      "applications": [
-        "Combat robots with turrets"
-      ]
-    },
-    "ew_resistance": {
-      "type": "Electronic warfare resistance",
-      "description": "Designed to resist enemy EW attacks on communications",
-      "critical_for": "Operational reliability in contested zones"
-    }
+  "supply_chain_risks": {
+    "critical_dependencies": [
+      {
+        "dependency": "Chinese microelectronics",
+        "components": ["Flight controller chips", "High-precision sensors", "Motors (partial)"],
+        "risk_level": "High",
+        "mitigation": "Domestic flight controllers now available (Wild Hornets), scaling motor production"
+      }
+    ],
+    "vulnerabilities": [
+      "Clean-room manufacturing for microelectronics not yet established in Ukraine",
+      "SMT electronics assembly line destroyed in Mukachevo (2024)",
+      "Export controls from China remain a risk"
+    ]
   },
-  "autonomy": {
-    "autopilot": {
-      "type": "Programmable autopilot",
-      "applications": [
-        "UNEX UGV",
-        "TerMIT variants"
-      ],
-      "description": "Autonomous navigation without operator input"
+  "cost_structure": {
+    "fully_localized_fpvs": {
+      "cost_ua": "~30,000 UAH",
+      "cost_usd_approx": "~$750",
+      "comparable_to": "Chinese-component drones"
     },
-    "follow_me": {
-      "type": "Follow-me autonomous function",
-      "applications": [
-        "UNEX UGV"
-      ],
-      "description": "Automatic following of lead operator"
+    "ub60d_per_unit": {
+      "cost_usd": "~$500",
+      "note": "Factory-equipped with 60mm mortar warhead"
     },
-    "waypoint_navigation": {
-      "type": "Pre-programmed waypoint routing",
-      "description": "Reduces operator burden, enables logistics automation"
-    }
-  },
-  "power_systems": {
-    "batteries": {
-      "type": "High-capacity batteries",
-      "applications": [
-        "UNEX UGV",
-        "TerMIT",
-        "DODGER"
-      ],
-      "characteristics": "Weather-resistant, extreme temperature operation (-40 to +60°C)"
-    },
-    "fuel_based": {
-      "type": "Internal combustion engine fuel",
-      "applications": [
-        "PROTECTOR"
-      ],
-      "advantage": "Extended operational range (400km+)"
-    }
-  },
-  "payload_systems": {
-    "cargo_drop": {
-      "type": "Automated cargo drop mechanism",
-      "critical_for": "Logistics operations",
-      "benefit": "Eliminates personnel exposure during supply delivery"
-    },
-    "weapon_station": {
-      "type": "Remote weapon station mounting",
-      "applications": [
-        "PROTECTOR",
-        "Combat variants"
-      ],
-      "description": "Allows mounting of turrets with small arms or other weapons"
-    },
-    "ew_platform": {
-      "type": "Electronic warfare system carrying",
-      "benefit": "Mobile EW operations without personnel exposure"
-    },
-    "sigint_elint": {
-      "type": "Signals/Electronic intelligence equipment",
-      "applications": [
-        "PROTECTOR"
-      ]
-    },
-    "evacuation_frame": {
-      "type": "Casualty evacuation platform",
-      "criticality": "High - saves lives in active fire zones",
-      "requirements": [
-        "Good suspension",
-        "Stability",
-        "Reliable communication"
-      ]
-    },
-    "mine_laying": {
-      "type": "Mine deployment system",
-      "capacity": "Up to 20 anti-tank mines per trip",
-      "applications": [
-        "TerMIT variants",
-        "UNEX UGV"
-      ]
-    },
-    "demining": {
-      "type": "Mine clearing/detection equipment",
-      "challenge": "High accuracy requirement - no margin for error"
-    }
-  },
-  "sensors_optics": {
-    "video_transmission": {
-      "type": "Modern video transmission systems",
-      "applications": [
-        "All operational UGVs"
-      ],
-      "description": "Real-time operator feedback"
-    },
-    "optical_reconnaissance": {
-      "type": "Optical/visual reconnaissance equipment",
-      "applications": [
-        "Reconnaissance platforms"
-      ]
-    },
-    "thermal": {
-      "type": "Thermal imaging systems",
-      "applications": [
-        "Advanced reconnaissance platforms"
-      ]
-    }
-  },
-  "armor_protection": {
-    "basic_armor": {
-      "type": "Protective plating",
-      "protection_level": "Small arms fire & shrapnel resistant",
-      "applications": [
-        "DODGER"
-      ],
-      "rationale": "Protects against light fire and fragmentation"
-    }
-  },
-  "metadata": {
-    "last_updated": "2026-04-20"
+    "cost_reduction_from_localization": "12% (Wild Hornets example)"
   }
 }
