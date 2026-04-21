@@ -141,16 +141,20 @@
       }
     ]
   },
-  "supply_chain_risks": {
   "key_component_suppliers": {
     "Motor-G": {
       "products": "Brushless drone motors",
-      "localization": "80% achieved (April 2026)",
-      "breakthrough": "Reached 80% localization, targeting 100%",
-      "source": "militarnyi.com (Militarnyi news)",
+      "localization": "85% maximum possible (some components still Chinese)",
+      "breakthrough": "17% of Ukrainian drone motor market (largest domestic producer)",
+      "source": "DroneXL.co / Defender Media (March 2026)",
       "date_added": "2026-04-21",
-      "production_capacity": "100,000+ motors/month",
-      "target": "100% localization by end 2026"
+      "production_capacity": "200,000+ motors/month (as of March 2026)",
+      "monthly_growth": "From 181 units (Dec 2024) to 200,000/month (Mar 2026)",
+      "market_share": "17% Ukrainian market (largest domestic, 10% other Ukrainian, 73% Chinese)",
+      "customers": ["General Chereshnia", "Vyriy", "100+ drone manufacturers"],
+      "new_products": ["Vandal motor for interceptor drones (400 km/h achieved)"],
+      "future_expansion": ["UGV motors", "Heavy bomber drone motors", "European/American partnerships"],
+      "target": "20-30% market share by end 2026"
     },
     "FT Systems": {
       "products": "Electronic components for unmanned systems",
