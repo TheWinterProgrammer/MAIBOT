@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-21T09:12:49.914429",
+  "last_updated": "2026-04-21T18:12:14.939974",
   "cron_run_time": "2026-04-21 07:12 UTC",
-  "research_runs": 50,
+  "research_runs": 59,
   "total_robots_tracked": 10,
   "total_codified_systems": 86,
   "latest_codifications": [
@@ -97,5 +97,8 @@
       "Linza 3.0 tactical drones (joint venture)"
     ]
   },
-  "data_last_verified": "2026-04-21"
+  "data_last_verified": "2026-04-21",
+  "metadata": {
+    "last_updated": "2026-04-21"
+  }
 }

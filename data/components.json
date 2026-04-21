@@ -21,13 +21,18 @@
     "partially_localized": [
       {
         "component": "Motors",
-        "manufacturers": ["Realgold LLC", "Motor-G"],
+        "manufacturers": [
+          "Realgold LLC",
+          "Motor-G"
+        ],
         "production_capacity": "100,000+ motors/month (Motor-G)",
         "status": "Scaling production, some imported magnets still required"
       },
       {
         "component": "FPV Cameras",
-        "manufacturers": ["Odd Systems"],
+        "manufacturers": [
+          "Odd Systems"
+        ],
         "status": "Domestic production established, competing with Caddx imports"
       }
     ],
@@ -84,7 +89,10 @@
       },
       {
         "company": "Ukrainian Armor",
-        "products": ["UB60D FPV", "PROTECTOR UGV"]
+        "products": [
+          "UB60D FPV",
+          "PROTECTOR UGV"
+        ]
       },
       {
         "company": "Wild Hornets",
@@ -96,11 +104,15 @@
     "autonomous_systems": [
       {
         "system": "AI-based target acquisition",
-        "deployed_on": ["Zmiy Droid 12.7"]
+        "deployed_on": [
+          "Zmiy Droid 12.7"
+        ]
       },
       {
         "system": "Automatic target tracking",
-        "deployed_on": ["Zmiy Droid 12.7"]
+        "deployed_on": [
+          "Zmiy Droid 12.7"
+        ]
       },
       {
         "system": "Last Mile guidance modules",
@@ -137,7 +149,9 @@
     "situational_awareness": [
       {
         "system": "ICoMWare",
-        "integrated_with": ["PROTECTOR UGV"]
+        "integrated_with": [
+          "PROTECTOR UGV"
+        ]
       }
     ]
   },
@@ -151,9 +165,19 @@
       "production_capacity": "200,000+ motors/month (as of March 2026)",
       "monthly_growth": "From 181 units (Dec 2024) to 200,000/month (Mar 2026)",
       "market_share": "17% Ukrainian market (largest domestic, 10% other Ukrainian, 73% Chinese)",
-      "customers": ["General Chereshnia", "Vyriy", "100+ drone manufacturers"],
-      "new_products": ["Vandal motor for interceptor drones (400 km/h achieved)"],
-      "future_expansion": ["UGV motors", "Heavy bomber drone motors", "European/American partnerships"],
+      "customers": [
+        "General Chereshnia",
+        "Vyriy",
+        "100+ drone manufacturers"
+      ],
+      "new_products": [
+        "Vandal motor for interceptor drones (400 km/h achieved)"
+      ],
+      "future_expansion": [
+        "UGV motors",
+        "Heavy bomber drone motors",
+        "European/American partnerships"
+      ],
       "target": "20-30% market share by end 2026"
     },
     "FT Systems": {
@@ -175,7 +199,11 @@
     "critical_dependencies": [
       {
         "dependency": "Chinese microelectronics",
-        "components": ["Flight controller chips", "High-precision sensors", "Motors (partial)"],
+        "components": [
+          "Flight controller chips",
+          "High-precision sensors",
+          "Motors (partial)"
+        ],
         "risk_level": "High",
         "mitigation": "Domestic flight controllers now available (Wild Hornets), scaling motor production"
       }
@@ -197,5 +225,8 @@
       "note": "Factory-equipped with 60mm mortar warhead"
     },
     "cost_reduction_from_localization": "12% (Wild Hornets example)"
+  },
+  "metadata": {
+    "last_updated": "2026-04-21"
   }
 }
