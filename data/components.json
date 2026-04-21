@@ -226,7 +226,140 @@
     },
     "cost_reduction_from_localization": "12% (Wild Hornets example)"
   },
+  "new_components_2026_04_22": {
+    "flight_controllers": [
+      {
+        "name": "GALYCHYNA F405 V2",
+        "manufacturer": "603700",
+        "location": "Lviv, Ivano-Frankivsk, Kyiv, Vinnytsia, Dnipro",
+        "price_usd": 61,
+        "specs": {
+          "firmware": "Betaflight_4.4.3_4.5.1_INAV_7.1.2_plus",
+          "esc": "FRANKIVSK_v2_6S_60A_Bluejay",
+          "bec": "Dual_5V_3A_plus_5_9_12V_3A",
+          "servos": 3,
+          "uarts": 6,
+          "motor_support": "Up_to_6_motors",
+          "pinio": "2x_5V_1A",
+          "frame_size": "Up_to_10_inch"
+        },
+        "features": [
+          "Video_channel_switching_anti_jamming",
+          "Hidden_start_point_OSD_overlay",
+          "Bi_directional_DShot_RPM_filtering",
+          "Pre_configured_7_inch_10_inch_builds"
+        ]
+      }
+    ],
+    "ai_computing": [
+      {
+        "name": "NVIDIA Jetson Xavier NX",
+        "application": "Computer_vision_combat_robots",
+        "specs": {
+          "size_mm": "103x90.5x34",
+          "power_w": 10,
+          "gpu": "NVIDIA_Volta_384_CUDA_48_Tensor",
+          "cpu": "6_core_ARM_Carmel_64_bit",
+          "memory": "8GB_LPDDR4x_59.7_Gbps",
+          "performance": "30_fps_multi_model_parallel"
+        },
+        "capabilities": [
+          "Image_classification",
+          "Semantic_segmentation",
+          "Object_detection",
+          "Autonomous_navigation"
+        ]
+      }
+    ],
+    "sensors_navigation": [
+      {
+        "category": "IMU",
+        "manufacturers": ["Analog_Devices", "Bosch_Sensortech", "SBG_Systems", "InertialLabs"],
+        "applications": ["Navigation", "Stabilization", "Ground_robotics"]
+      },
+      {
+        "category": "Depth_Camera",
+        "name": "Intel RealSense Depth Camera",
+        "application": "Object_identification_obstacle_avoidance"
+      },
+      {
+        "category": "Navigation",
+        "components": [
+          "Satellite_SNS_GPS_GLONASS_Galileo",
+          "9_axis_MEMS_accelerometer_gyroscope_magnetometer",
+          "IMU_backup_GPS_denied"
+        ]
+      }
+    ],
+    "communication_systems": [
+      {
+        "name": "L3Harris",
+        "specs": "MIL_STD_810G",
+        "cost": "50-60k_USD_per_set",
+        "delivery_time": "5-6_months",
+        "source": "US_supplied"
+      },
+      {
+        "technology": "Programmable_Frequency_Hopping_PFR",
+        "channels": "2-3_redundant",
+        "advantage": "Anti_jamming"
+      },
+      {
+        "technology": "Private_LTE",
+        "availability": "Optional_on_GNOM"
+      },
+      {
+        "technology": "WiFi_5GHz",
+        "use": "Consumer_grade_backup"
+      }
+    ],
+    "power_systems": [
+      {
+        "type": "Li_ion",
+        "voltage": "42V",
+        "capacity": "60Ah",
+        "application": "GNOM_platform"
+      },
+      {
+        "type": "6S_LiPo",
+        "voltage": "22.2V",
+        "capacity": "5000mAh",
+        "application": "FPV_drones"
+      },
+      {
+        "type": "ICE_Generator",
+        "application": "MAUL_cold_weather_operations",
+        "advantages": ["High_speed_70kmh", "Cold_resistant"],
+        "disadvantages": ["Visible_IR_signature"]
+      }
+    ],
+    "motors_propulsion": [
+      {
+        "type": "4x_BLDC_1kW",
+        "application": "GNOM_drive"
+      },
+      {
+        "type": "Brushless_motors_6S_60A",
+        "application": "FPV_drones",
+        "features": "Bi_directional_DShot_RPM_filtering"
+      },
+      {
+        "type": "Stepper_motors",
+        "application": "Weapon_systems_turrets"
+      }
+    ],
+    "weapon_integration": [
+      {
+        "system": "RSVK_M_Combat_Module",
+        "weapon": "NSVT_12.7mm_Utyos",
+        "fire_control": "Electronic_single_shot_system",
+        "alignment": "Laser_module_cold_firing_2-3min",
+        "stabilization": "Gyroscopic_barrel",
+        "targeting": "Ballistic_calculator_rangefinder_reticle"
+      }
+    ]
+  },
   "metadata": {
-    "last_updated": "2026-04-21"
+    "last_updated": "2026-04-22"
   }
 }

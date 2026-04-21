@@ -1,73 +1,86 @@
 [
   {
+    "id": "robot-001",
     "name": "Zmiy Droid 12.7",
-    "type": "ground_robotic",
+    "category": "ground_combat_ugv",
     "manufacturer": "Ukrainian defense enterprises",
     "status": "codified_authorized",
     "source": "mod.gov.ua",
     "date_added": "2026-04-21",
+    "last_updated": "2026-04-22",
     "description": "Armored strike-and-reconnaissance ground robotic system with 12.7mm machine gun",
-    "features": [
-      "High cross-country mobility (rough terrain, sand, snow, shallow water)",
-      "Armored hull protects against anti-personnel mines",
-      "FPV drone resistant",
-      "Integrated control module for simultaneous platform/weapon control",
-      "AI-based target acquisition and tracking"
-    ],
-    "proven_combat": [
-      "Successfully engaged Russian MT-LB vehicles",
-      "Held firing position for 45 consecutive days with maintenance every 2 days"
-    ]
+    "technology": {
+      "autonomy": "semi_autonomous",
+      "ai_system": "target_acquisition_tracking",
+      "communication": "radio_video_link",
+      "range": "tactical",
+      "endurance": "45_days_position"
+    },
+    "components": {
+      "weapon": "NSVT_12.7mm_Utyos",
+      "hull": "armor_plate",
+      "propulsion": "tracked",
+      "protection": "anti_personnel_mine_resistant"
+    },
+    "statistics": {
+      "combat_proven": true,
+      "notable_achievement": "Held firing position for 45 consecutive days"
+    }
   },
   {
+    "id": "robot-002",
     "name": "PROTECTOR",
-    "type": "ground_ugv",
+    "category": "ground_ugv",
     "manufacturer": "Ukrainian Armor",
     "status": "codified_authorized",
     "source": "mod.gov.ua",
     "date_added": "2026-04-21",
+    "last_updated": "2026-04-22",
     "description": "Heavy unmanned ground vehicle for logistics and combat missions",
-    "specifications": {
-      "combat_weight": "4,000 kg",
-      "max_speed": "60 km/h",
-      "min_maneuver_speed": "5 km/h",
-      "kinetic_protection": "STANAG 4569 Level 1",
-      "engine_power": "190 hp",
-      "fuel_consumption": "12 L/100km diesel",
-      "fuel_capacity": "76 L",
-      "dimensions_mm": "5,200 x 1,870 x 1,450",
-      "clearance_mm": 235,
-      "max_elevation_angle": "30°",
-      "max_roll_angle": "25°",
-      "vertical_wall_obstacle": "235 mm",
-      "fording_depth": "0.5 m",
-      "communication_range_km": 15,
-      "extended_range": "repeater drone capable"
+    "technology": {
+      "autonomy": "remote_control",
+      "communication": "15km_standard_repeater_extended",
+      "control_system": "ICoMWare"
     },
-    "mission_profiles": [
-      "Logistics",
-      "Reconnaissance",
-      "Weapon platform",
-      "EW system carrier",
-      "Launch/recovery of other UAS"
-    ],
-    "integrations": [
-      "ICoMWare situational awareness system"
-    ],
-    "advantages": [
-      "Rapid production",
-      "Low cost",
-      "Modular design"
-    ]
+    "components": {
+      "engine": "190_hp_diesel",
+      "fuel_capacity": "76_L",
+      "fuel_consumption": "12_L_100km",
+      "kinetic_protection": "STANAG_4569_Level_1",
+      "dimensions_mm": "5200x1870x1450",
+      "clearance_mm": 235,
+      "weight": "4000_kg"
+    },
+    "specifications": {
+      "max_speed": "60_kmh",
+      "min_maneuver_speed": "5_kmh",
+      "max_elevation_angle": "30_deg",
+      "max_roll_angle": "25_deg",
+      "vertical_wall_obstacle": "235_mm",
+      "fording_depth": "0.5_m"
+    },
+    "mission_profiles": ["logistics", "reconnaissance", "weapon_platform", "EW_carrier", "UAS_launch_recovery"]
   },
   {
+    "id": "robot-003",
     "name": "UB60D FPV Drone",
-    "type": "fpv_kamikaze",
+    "category": "fpv_kamikaze",
     "manufacturer": "Ukrainian Armor",
     "status": "serial_production",
     "source": "defence-ua.com",
     "date_added": "2026-04-21",
-    "description": "FPV drone based on 60mm mortar round, factory-equipped warhead",
+    "last_updated": "2026-04-22",
+    "description": "8-inch FPV drone based on 60mm mortar round with autonomous terminal guidance TFL-1",
+    "technology": {
+      "autonomy": "autonomous_terminal_guidance",
+      "guidance_system": "TFL-1",
+      "effectiveness": "2-4x_increase_vs_standard"
+    },
+    "components": {
+      "frame": "8_inch",
+      "warhead": "60mm_mortar_round_factory_installed",
+      "flight_controller": "GALYCHYNA_F405_v2"
+    },
     "production": {
       "current_output_per_month": 20000,
       "scalable_output_per_month": 40000,
@@ -75,184 +88,196 @@
       "units_per_system": 250
     },
     "cost": {
-      "system_ua": "UAH 5.8-6.2 million",
-      "per_drone_usd": "~$500"
-    },
-    "warhead": "60mm mortar round",
-    "variants_in_development": [
-      "82mm mortar round warhead",
-      "120mm mortar round warhead"
-    ],
-    "advantages": [
-      "Factory-installed warhead",
-      "Ready-to-use out of box",
-      "No separate payload sourcing needed"
-    ],
-    "export_interest": "Poland (Territorial Defence Forces)"
+      "system_ua": "UAH_5.8-6.2_million",
+      "per_drone_usd": 500
+    }
   },
   {
+    "id": "robot-004",
+    "name": "MAUL",
+    "category": "medical_evacuation_ugv",
+    "manufacturer": "1st Separate Medical Battalion USF",
+    "status": "operational",
+    "source": "armyinform.com.ua",
+    "date_added": "2026-04-22",
+    "last_updated": "2026-04-22",
+    "description": "Wheeled ground robotic system for casualty evacuation with ICE propulsion",
+    "technology": {
+      "autonomy": "remote_control",
+      "communication": "4_redundant_systems",
+      "navigation": "multi_channel_switching"
+    },
+    "components": {
+      "base_platform": "ATV",
+      "propulsion": "ICE",
+      "protection": "armored_capsule"
+    },
+    "specifications": {
+      "max_speed": "70_kmh",
+      "protection_level": "FPV_resistant_artillery_tested",
+      "survivability": "Survived_2_FPV_hits_plus_artillery_barrage"
+    }
+  },
+  {
+    "id": "robot-005",
+    "name": "GNOM",
+    "category": "multi_functional_ugv",
+    "manufacturer": "Temerland",
+    "status": "mass_production_nato_certified",
+    "source": "temerland.com",
+    "date_added": "2026-04-22",
+    "last_updated": "2026-04-22",
+    "description": "Multifunctional 4x4 wheeled robotic platform for surveillance, logistics, and communication relay",
+    "technology": {
+      "autonomy": "smart_track_gps_waypoints_return_home",
+      "ai_system": "Intel_RealSense_depth_camera",
+      "communication": "WiFi_5GHz_Private_LTE_optional",
+      "control_range": "5_km"
+    },
+    "components": {
+      "chassis": "wheeled_4x4",
+      "drive": "electric_4x1kW",
+      "power": "42V_Li_ion_60Ah",
+      "onboard_computer": "Odyssey_single_board",
+      "depth_camera": "Intel_RealSense",
+      "surveillance": "360_panoramic_camera_telescopic_mast",
+      "body_material": "steel_2mm"
+    },
+    "specifications": {
+      "weight_kg": 50,
+      "dimensions_mm": "570x380x600",
+      "clearance_mm": 90,
+      "control_range_km": 5,
+      "operating_temp": "-25_to_60_C",
+      "protection": "IP65"
+    },
+    "roles": ["surveillance_reconnaissance", "ammunition_delivery", "casualty_evacuation", "radio_repeater", "decoy_target"]
+  },
+  {
+    "id": "robot-006",
+    "name": "Ratel H",
+    "category": "logistics_ugv",
+    "manufacturer": "Ukrainian Ground Robotics Developer",
+    "status": "mass_production",
+    "source": "robots.com.ua",
+    "date_added": "2026-04-22",
+    "last_updated": "2026-04-22",
+    "description": "Tracked logistics and combat support UGV with 400kg payload",
+    "technology": {
+      "autonomy": "remote_control_satellite_based",
+      "communication": "50km_control_range",
+      "cameras": "day_night_vision"
+    },
+    "components": {
+      "chassis": "tracked",
+      "propulsion": "electric_or_hybrid",
+      "payload_capacity_kg": 400,
+      "weight_kg": 1100
+    },
+    "specifications": {
+      "dimensions_mm": "2300x1300x1900",
+      "max_weight_with_payload_kg": 1500,
+      "speed_kmh": 8,
+      "range_km": 60,
+      "control_range_km": 50
+    },
+    "variants": ["logistics", "deminer", "fpv_launcher"]
+  },
+  {
+    "id": "robot-007",
     "name": "Queen of the Hornets",
-    "type": "fpv_multipurpose",
+    "category": "fpv_multipurpose",
     "manufacturer": "Wild Hornets",
     "status": "active_production",
     "source": "vgi.com.ua",
     "date_added": "2026-04-21",
-    "description": "Largest Ukrainian FPV drone, capable of multiple mission roles",
-    "payload_capacity_kg": 9.5,
-    "localization_percentage": 65,
-    "mission_roles": [
-      "Bomber",
-      "Reconnaissance",
-      "Communications relay",
-      "Logistics transport"
-    ],
-    "features": [
-      "Thermal imaging capable",
-      "Night vision (Wally models)",
-      "Hornet Vision digital control system",
-      "Onboard computers",
-      "Radio modules"
-    ],
-    "localization_breakdown": {
-      "in_house": [
-        "Carbon fiber frames",
-        "Electronic speed controllers (ESCs)",
-        "Propellers",
-        "Sensor modules",
-        "Control boards",
-        "Li-Po batteries",
-        "Onboard computers",
-        "Radio modules"
-      ],
-      "imported": [
-        "FPV cameras (Caddx)",
-        "2.5W video transmitters",
-        "Motors (partial)"
-      ]
+    "last_updated": "2026-04-22",
+    "description": "Large Ukrainian FPV drone with 9.5kg payload, thermal capable",
+    "technology": {
+      "autonomy": "Hornet_Vision_digital_control",
+      "ai_system": "thermal_imaging_night_vision"
     },
-    "breakthrough": "First to localize flight controllers in Ukraine"
+    "components": {
+      "frame": "carbon_fiber_localized",
+      "flight_controller": "localized_breakthrough",
+      "esc": "localized",
+      "propellers": "localized",
+      "battery": "Li_Po_localized"
+    },
+    "specifications": {
+      "payload_capacity_kg": 9.5,
+      "localization_percentage": 65
+    },
+    "roles": ["bomber", "reconnaissance", "communications_relay", "logistics"]
   },
   {
+    "id": "robot-008",
     "name": "Vyriy Drone",
-    "type": "fpv_thermal",
+    "category": "fpv_thermal",
     "manufacturer": "VYRIY DRONE",
     "status": "serial_production",
     "source": "vgi.com.ua",
     "date_added": "2026-04-21",
-    "description": "First 100% Ukrainian component FPV drone batch",
-    "cost_ua": "30,000 UAH",
-    "localization_percentage": 100,
-    "components": {
-      "in_house": [
-        "Frames",
-        "Initiation boards",
-        "Flight controllers",
-        "Radio control systems"
-      ],
-      "ukrainian_sourced": [
-        "Video transmitters (DEC-1)",
-        "Motors (Realgold LLC)",
-        "Cameras (Odd Systems)"
-      ]
+    "last_updated": "2026-04-22",
+    "description": "100% Ukrainian component FPV drone with thermal imaging",
+    "technology": {
+      "guidance_system": "VGI-9_Ukrainian",
+      "features": "EW_resistant_enhanced_accuracy"
     },
-    "guidance_system": "VGI-9 Ukrainian guidance system",
-    "features": [
-      "Thermal imaging cameras",
-      "Improved EW resistance",
-      "Enhanced strike accuracy"
-    ],
-    "milestone": "1,000 fully localized drones produced by March 2025"
+    "components": {
+      "frame": "localized",
+      "flight_controller": "localized",
+      "radio_control": "localized",
+      "video_transmitter": "DEC-1_localized",
+      "motors": "Realgold_LLC_localized",
+      "cameras": "Odd_Systems_localized"
+    },
+    "specifications": {
+      "cost_ua": 30000,
+      "localization_percentage": 100
+    }
   },
   {
-    "name": "Khizhak REBOFF",
-    "type": "fiber_optic_fpv",
-    "manufacturer": "3DTech",
-    "status": "codified",
-    "source": "vgi.com.ua",
-    "date_added": "2026-04-21",
-    "description": "Fiber-optic FPV drone immune to electronic warfare",
-    "range_km": [10, 20],
-    "models": 5,
-    "components_localized": [
-      "30km fiber-optic spools manufactured in Ukraine"
-    ],
-    "advantages": [
-      "Immune to jamming",
-      "No radio signature",
-      "Quality-controlled spool production"
-    ],
-    "comparison": "Most serial models limited to 20km; 30km spool breakthrough achieved"
-  },
-  {
+    "id": "robot-009",
     "name": "BIZON-L",
-    "type": "ground_ugv",
+    "category": "ground_ugv",
     "manufacturer": "UAV TECHNOLOGY",
     "status": "codified_authorized",
     "source": "mod.gov.ua",
     "date_added": "2026-04-21",
-    "codification_date": "2026-04-07",
-    "description": "Tracked ground robotic system with modular architecture",
-    "payload_capacity_kg": 200,
-    "range_km": 30,
-    "control_system": "DroidBox universal controller",
-    "features": [
-      "Modular architecture",
-      "Tracked chassis",
-      "Combat and engineering modules",
-      "Deploys in under 10 minutes"
-    ],
-    "applications": [
-      "Logistics",
-      "Combat",
-      "Engineering"
-    ]
+    "last_updated": "2026-04-22",
+    "description": "Tracked ground robotic system with modular architecture and DroidBox control",
+    "technology": {
+      "autonomy": "DroidBox_universal_controller",
+      "communication": "tactical"
+    },
+    "components": {
+      "chassis": "tracked",
+      "control_system": "DroidBox"
+    },
+    "specifications": {
+      "payload_capacity_kg": 200,
+      "range_km": 30,
+      "deployment_time": "10_minutes"
+    }
   },
   {
-    "name": "D-21-12R",
-    "type": "ground_combat_ugv",
-    "manufacturer": "Ukrainian defense enterprises",
-    "status": "codified_authorized",
-    "source": "mod.gov.ua",
+    "id": "robot-010",
+    "name": "Khizhak REBOFF",
+    "category": "fiber_optic_fpv",
+    "manufacturer": "3DTech",
+    "status": "codified",
+    "source": "vgi.com.ua",
     "date_added": "2026-04-21",
-    "description": "Ground robotic system with machine gun for surveillance and fire support",
-    "weapon": "Large-caliber machine gun",
-    "capabilities": [
-      "Surveillance",
-      "Patrolling",
-      "Fire support",
-      "Off-road mobility",
-      "Marshland navigation",
-      "Shallow water crossing"
-    ]
-  },
-  {
-    "name": "Spextr",
-    "type": "ground_ugv",
-    "manufacturer": "Ukrainian defense enterprises",
-    "status": "codified_authorized",
-    "source": "mod.gov.ua",
-    "date_added": "2026-04-21",
-    "description": "Ground robotic system family with various modifications",
-    "modifications": [
-      "Combat",
-      "Engineering",
-      "Reconnaissance",
-      "Logistics"
-    ]
-  },
-  {
-    "name": "DroidBox",
-    "type": "universal_control_system",
-    "manufacturer": "DevDroid",
-    "status": "codified_authorized",
-    "source": "thedefender.media",
-    "date_added": "2026-04-21",
-    "codification_date": "2026-04-2026",
-    "description": "Universal UGV control system codified by Ministry of Defence",
-    "platform_compatibility": [
-      "BIZON-L",
-      "Universal controller for multiple UGV platforms"
-    ],
-    "availability": "Brave1 Market"
+    "last_updated": "2026-04-22",
+    "description": "Fiber-optic FPV drone immune to electronic warfare",
+    "technology": {
+      "communication": "fiber_optic_immune_jamming",
+      "range": "10-30_km",
+      "spool": "30km_Ukrainian_manufactured"
+    },
+    "components": {
+      "fiber_spool": "30km_Ukrainian_made"
+    }
   }
 ]

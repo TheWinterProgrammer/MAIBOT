@@ -1,9 +1,29 @@
 {
-  "last_updated": "2026-04-21T19:15:00.000000",
-  "cron_run_time": "2026-04-21 17:12 UTC",
-  "research_runs": 60,
+  "last_updated": "2026-04-22T00:00:00.000000",
+  "cron_run_time": "2026-04-21 22:12 UTC",
+  "research_runs": 64,
   "total_robots_tracked": 10,
   "total_codified_systems": 86,
+  "usf_killboard_cumulative": {
+    "period": "June_2025_to_Present",
+    "total_targets": 27609,
+    "destroyed": 11072,
+    "enemy_personnel": 6692,
+    "killed": 3135,
+    "wounded": 3557
+  },
+  "ground_robot_mission_scale": {
+    "november_2025": 2900,
+    "march_2026": 9000,
+    "growth_percentage": 310
+  },
+  "brave1_marketplace": {
+    "total_drone_types": 470,
+    "robotic_systems_registered": 140,
+    "defense_approved": 96,
+    "nato_standards_met": 14,
+    "systems_tested": 50
+  },
   "latest_codifications": [
     {
       "name": "D-21-12R",
@@ -33,7 +53,11 @@
     "military.com.ua",
     "zbroya.net",
     "vgi.com.ua",
-    "oboronka.mezha.ua"
+    "oboronka.mezha.ua",
+    "armyinform.com.ua (added 2026-04-22)",
+    "usforces.army (added 2026-04-22)",
+    "temerland.com (added 2026-04-22)",
+    "robots.com.ua (added 2026-04-22)"
   ],
   "production_statistics_2026": {
     "fpv_annual_capacity": "8+ million units",
@@ -47,7 +71,12 @@
   },
   "localization_progress": {
     "ground_robot_systems": {
-      "fully_ukrainian": 2,
+      "fully_ukrainian": [
+        "Zmiy Droid 12.7",
+        "PROTECTOR UGV",
+        "MAUL",
+        "GNOM"
+      ],
       "notable": [
         "Zmiy Droid 12.7",
         "PROTECTOR UGV"
@@ -67,7 +96,8 @@
     "breakthrough_components": {
       "flight_controllers": "Wild Hornets - first Ukrainian production",
       "fiber_optic_spools": "3DTech - 30km range (vs 20km standard)",
-      "thermal_cameras": "Multiple Ukrainian manufacturers"
+      "thermal_cameras": "Multiple Ukrainian manufacturers",
+      "motor_production": "Motor-G - 200,000/month March 2026"
     }
   },
   "technology_readiness": {
@@ -75,12 +105,15 @@
       "Zmiy Droid 12.7",
       "PROTECTOR UGV",
       "UB60D FPV",
-      "Khizhak REBOFF (fiber-optic)"
+      "Khizhak REBOFF (fiber-optic)",
+      "GNOM (NATO certified)",
+      "Ratel H"
     ],
     "in_production": [
       "Queen of the Hornets",
       "Vyriy Drone",
-      "TAF Industries portfolio"
+      "TAF Industries portfolio",
+      "MAUL"
     ],
     "testing": [
       "82mm mortar round FPV variant",
@@ -97,18 +130,50 @@
       "Linza 3.0 tactical drones (joint venture)"
     ]
   },
-  "data_last_verified": "2026-04-21",
-  "march_2026_missions": {
-    "total": "9,000+",
-    "growth_from_feb_2026": "29%",
-    "growth_from_nov_2025": "200%+",
-    "q1_2026_total": "24,500+"
+  "usf_structure": {
+    "commander": "Major Robert 'Magyar' Brovdi",
+    "appointed": "June 2025",
+    "notable_units": [
+      {"name": "412th Separate Brigade", "callsign": "NEMESIS"},
+      {"name": "413th Regiment", "callsign": "RAID"},
+      {"name": "414th Separate Brigade", "callsign": "Magyar's Birds"},
+      {"name": "424th Battalion", "callsign": "SVAROG"},
+      {"name": "427th Separate Brigade", "callsign": "RAROG"},
+      {"name": "429th Separate Brigade", "callsign": "Achilles"},
+      {"name": "59th Assault Brigade", "callsign": "Steppe Predators"},
+      {"name": "20th Separate Brigade", "callsign": "K-2"},
+      {"name": "NC13 Unit", "callsign": "3rd Assault Brigade"},
+      {"name": "Khartia Corps", "callsign": "National Guard UGV Company"}
+    ]
   },
-  "fleet_deployment": {
-    "april_2026_units": 167,
-    "dec_2025_units": 67,
-    "growth_percentage": 149,
-    "timeframe_months": 4
+  "key_components_database": {
+    "flight_controllers": [
+      {
+        "name": "GALYCHYNA F405 V2",
+        "manufacturer": "603700",
+        "price_usd": 61,
+        "firmware": ["Betaflight", "INAV"],
+        "specs": "6S/60A, 6 UARTs, 3 servos"
+      }
+    ],
+    "ai_computing": [
+      {
+        "name": "NVIDIA Jetson Xavier NX",
+        "application": "Computer_vision_combat_robots",
+        "performance": "30 fps multi-model parallel"
+      }
+    ],
+    "communication": [
+      "L3Harris MIL-STD-810G ($50-60k/set)",
+      "Programmable Frequency Hopping (PFR)",
+      "Private LTE",
+      "WiFi 5 GHz"
+    ],
+    "sensors": [
+      "Intel RealSense Depth Camera",
+      "360° panoramic cameras",
+      "IMUs (Analog Devices, Bosch, SBG Systems)"
+    ]
   },
   "motor_g_update": {
     "monthly_production": "200,000 motors",
@@ -119,14 +184,23 @@
     "corporate_clients": "100+",
     "margin_percent": "<20",
     "scaling_history": [
-      {"date": "2024-12", "units": 181},
-      {"date": "2025-01", "units": 1500},
-      {"date": "2026-03", "units": 200000}
+      {
+        "date": "2024-12",
+        "units": 181
+      },
+      {
+        "date": "2025-01",
+        "units": 1500
+      },
+      {
+        "date": "2026-03",
+        "units": 200000
+      }
     ]
   },
   "metadata": {
-    "last_updated": "2026-04-21",
-    "research_run": 60,
+    "last_updated": "2026-04-22",
+    "research_run": 64,
     "cron_job": "36198b4b-8844-494c-978b-299931f147b4"
   }
 }
