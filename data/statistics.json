@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-21T18:12:14.939974",
-  "cron_run_time": "2026-04-21 07:12 UTC",
-  "research_runs": 59,
+  "last_updated": "2026-04-21T19:15:00.000000",
+  "cron_run_time": "2026-04-21 17:12 UTC",
+  "research_runs": 60,
   "total_robots_tracked": 10,
   "total_codified_systems": 86,
   "latest_codifications": [
@@ -42,7 +42,7 @@
       "TAF Industries": "80,000 drones/month",
       "General Chereshnia": "50,000+ drones/month"
     },
-    "major_motor_producer": "Motor-G: 100,000+ motors/month",
+    "major_motor_producer": "Motor-G: 200,000 motors/month",
     "casualty_attribution": "60% of Russian Army losses from FPV drones"
   },
   "localization_progress": {
@@ -98,7 +98,35 @@
     ]
   },
   "data_last_verified": "2026-04-21",
+  "march_2026_missions": {
+    "total": "9,000+",
+    "growth_from_feb_2026": "29%",
+    "growth_from_nov_2025": "200%+",
+    "q1_2026_total": "24,500+"
+  },
+  "fleet_deployment": {
+    "april_2026_units": 167,
+    "dec_2025_units": 67,
+    "growth_percentage": 149,
+    "timeframe_months": 4
+  },
+  "motor_g_update": {
+    "monthly_production": "200,000 motors",
+    "market_share_percent": 17,
+    "localization_percent": 80,
+    "target_localization": 100,
+    "target_date": "end of 2026",
+    "corporate_clients": "100+",
+    "margin_percent": "<20",
+    "scaling_history": [
+      {"date": "2024-12", "units": 181},
+      {"date": "2025-01", "units": 1500},
+      {"date": "2026-03", "units": 200000}
+    ]
+  },
   "metadata": {
-    "last_updated": "2026-04-21"
+    "last_updated": "2026-04-21",
+    "research_run": 60,
+    "cron_job": "36198b4b-8844-494c-978b-299931f147b4"
   }
 }
