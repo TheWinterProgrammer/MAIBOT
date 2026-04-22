@@ -1,8 +1,13 @@
 {
-  "last_updated": "2026-04-22T00:00:00.000000",
+  "last_updated": "2026-04-22T06:12:09.489432",
   "cron_run_time": "2026-04-21 22:12 UTC",
-  "research_runs": 64,
-  "total_robots_tracked": 10,
+  "research_runs": 70,
+  "total_robots_tracked": 11,
+  "latest_news_2026_04_22": {
+    "unex_ugv_codified": "April 22, 2026 - UNEX UGV amphibious platform codified",
+    "ground_robots_25k_target": "Ministry of Defense targets 25,000 ground robots in H1 2026",
+    "mission_volume_q1_2026": "21,500 ground robot missions in Q1 2026"
+  },
   "total_codified_systems": 86,
   "usf_killboard_cumulative": {
     "period": "June_2025_to_Present",
@@ -25,6 +30,17 @@
     "systems_tested": 50
   },
   "latest_codifications": [
+    {
+      "name": "UNEX UGV",
+      "date": "2026-04-22",
+      "type": "amphibious_armored_ugv",
+      "features": [
+        "water_traversal",
+        "mine_pressure_safe",
+        "EW_resistant",
+        "multi_role_configurable"
+      ]
+    },
     {
       "name": "D-21-12R",
       "date": "2026-04-21",
@@ -134,16 +150,46 @@
     "commander": "Major Robert 'Magyar' Brovdi",
     "appointed": "June 2025",
     "notable_units": [
-      {"name": "412th Separate Brigade", "callsign": "NEMESIS"},
-      {"name": "413th Regiment", "callsign": "RAID"},
-      {"name": "414th Separate Brigade", "callsign": "Magyar's Birds"},
-      {"name": "424th Battalion", "callsign": "SVAROG"},
-      {"name": "427th Separate Brigade", "callsign": "RAROG"},
-      {"name": "429th Separate Brigade", "callsign": "Achilles"},
-      {"name": "59th Assault Brigade", "callsign": "Steppe Predators"},
-      {"name": "20th Separate Brigade", "callsign": "K-2"},
-      {"name": "NC13 Unit", "callsign": "3rd Assault Brigade"},
-      {"name": "Khartia Corps", "callsign": "National Guard UGV Company"}
+      {
+        "name": "412th Separate Brigade",
+        "callsign": "NEMESIS"
+      },
+      {
+        "name": "413th Regiment",
+        "callsign": "RAID"
+      },
+      {
+        "name": "414th Separate Brigade",
+        "callsign": "Magyar's Birds"
+      },
+      {
+        "name": "424th Battalion",
+        "callsign": "SVAROG"
+      },
+      {
+        "name": "427th Separate Brigade",
+        "callsign": "RAROG"
+      },
+      {
+        "name": "429th Separate Brigade",
+        "callsign": "Achilles"
+      },
+      {
+        "name": "59th Assault Brigade",
+        "callsign": "Steppe Predators"
+      },
+      {
+        "name": "20th Separate Brigade",
+        "callsign": "K-2"
+      },
+      {
+        "name": "NC13 Unit",
+        "callsign": "3rd Assault Brigade"
+      },
+      {
+        "name": "Khartia Corps",
+        "callsign": "National Guard UGV Company"
+      }
     ]
   },
   "key_components_database": {
@@ -152,7 +198,10 @@
         "name": "GALYCHYNA F405 V2",
         "manufacturer": "603700",
         "price_usd": 61,
-        "firmware": ["Betaflight", "INAV"],
+        "firmware": [
+          "Betaflight",
+          "INAV"
+        ],
         "specs": "6S/60A, 6 UARTs, 3 servos"
       }
     ],
@@ -171,7 +220,7 @@
     ],
     "sensors": [
       "Intel RealSense Depth Camera",
-      "360° panoramic cameras",
+      "360\u00b0 panoramic cameras",
       "IMUs (Analog Devices, Bosch, SBG Systems)"
     ]
   },
