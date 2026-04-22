@@ -274,8 +274,17 @@
     "sensors_navigation": [
       {
         "category": "IMU",
-        "manufacturers": ["Analog_Devices", "Bosch_Sensortech", "SBG_Systems", "InertialLabs"],
-        "applications": ["Navigation", "Stabilization", "Ground_robotics"]
+        "manufacturers": [
+          "Analog_Devices",
+          "Bosch_Sensortech",
+          "SBG_Systems",
+          "InertialLabs"
+        ],
+        "applications": [
+          "Navigation",
+          "Stabilization",
+          "Ground_robotics"
+        ]
       },
       {
         "category": "Depth_Camera",
@@ -329,8 +338,13 @@
       {
         "type": "ICE_Generator",
         "application": "MAUL_cold_weather_operations",
-        "advantages": ["High_speed_70kmh", "Cold_resistant"],
-        "disadvantages": ["Visible_IR_signature"]
+        "advantages": [
+          "High_speed_70kmh",
+          "Cold_resistant"
+        ],
+        "disadvantages": [
+          "Visible_IR_signature"
+        ]
       }
     ],
     "motors_propulsion": [

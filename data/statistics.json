@@ -220,7 +220,7 @@
     ],
     "sensors": [
       "Intel RealSense Depth Camera",
-      "360\u00b0 panoramic cameras",
+      "360° panoramic cameras",
       "IMUs (Analog Devices, Bosch, SBG Systems)"
     ]
   },
