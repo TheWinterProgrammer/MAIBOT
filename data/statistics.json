@@ -1,255 +1,127 @@
 {
-  "last_updated": "2026-04-22T06:12:09.489432",
-  "cron_run_time": "2026-04-21 22:12 UTC",
-  "research_runs": 70,
-  "total_robots_tracked": 11,
-  "latest_news_2026_04_22": {
-    "unex_ugv_codified": "April 22, 2026 - UNEX UGV amphibious platform codified",
-    "ground_robots_25k_target": "Ministry of Defense targets 25,000 ground robots in H1 2026",
-    "mission_volume_q1_2026": "21,500 ground robot missions in Q1 2026"
-  },
-  "total_codified_systems": 86,
-  "usf_killboard_cumulative": {
-    "period": "June_2025_to_Present",
-    "total_targets": 27609,
-    "destroyed": 11072,
-    "enemy_personnel": 6692,
-    "killed": 3135,
-    "wounded": 3557
-  },
-  "ground_robot_mission_scale": {
-    "november_2025": 2900,
-    "march_2026": 9000,
-    "growth_percentage": 310
-  },
-  "brave1_marketplace": {
-    "total_drone_types": 470,
-    "robotic_systems_registered": 140,
-    "defense_approved": 96,
-    "nato_standards_met": 14,
-    "systems_tested": 50
-  },
-  "latest_codifications": [
-    {
-      "name": "UNEX UGV",
-      "date": "2026-04-22",
-      "type": "amphibious_armored_ugv",
-      "features": [
-        "water_traversal",
-        "mine_pressure_safe",
-        "EW_resistant",
-        "multi_role_configurable"
-      ]
-    },
-    {
-      "name": "D-21-12R",
-      "date": "2026-04-21",
-      "type": "ground_combat_ugv"
-    },
-    {
-      "name": "Spextr",
-      "date": "2026-04-21",
-      "type": "ground_ugv_family"
-    },
-    {
-      "name": "BIZON-L",
-      "date": "2026-04-07",
-      "type": "tracked_modular_ugv"
-    },
-    {
-      "name": "DroidBox",
-      "date": "2026-04-2026",
-      "type": "universal_control_system"
-    }
-  ],
-  "source_sites_indexed": [
-    "mod.gov.ua (Ministry of Defence)",
-    "gur.gov.ua (Main Intelligence Directorate)",
-    "defence-ua.com (Defense Express)",
-    "military.com.ua",
-    "zbroya.net",
-    "vgi.com.ua",
-    "oboronka.mezha.ua",
-    "armyinform.com.ua (added 2026-04-22)",
-    "usforces.army (added 2026-04-22)",
-    "temerland.com (added 2026-04-22)",
-    "robots.com.ua (added 2026-04-22)"
-  ],
-  "production_statistics_2026": {
-    "fpv_annual_capacity": "8+ million units",
-    "source": "NSDC (National Security and Defense Council)",
-    "monthly_production_leaders": {
-      "TAF Industries": "80,000 drones/month",
-      "General Chereshnia": "50,000+ drones/month"
-    },
-    "major_motor_producer": "Motor-G: 200,000 motors/month",
-    "casualty_attribution": "60% of Russian Army losses from FPV drones"
-  },
-  "localization_progress": {
-    "ground_robot_systems": {
-      "fully_ukrainian": [
-        "Zmiy Droid 12.7",
-        "PROTECTOR UGV",
-        "MAUL",
-        "GNOM"
-      ],
-      "notable": [
-        "Zmiy Droid 12.7",
-        "PROTECTOR UGV"
-      ]
-    },
-    "fpv_drones": {
-      "100_percent_localized": [
-        "Vyriy Drone"
-      ],
-      "high_localization_60_percent_plus": [
-        "Queen of the Hornets (65%)"
-      ],
-      "partial_30_40_percent": [
-        "General Chereshnia"
-      ]
-    },
-    "breakthrough_components": {
-      "flight_controllers": "Wild Hornets - first Ukrainian production",
-      "fiber_optic_spools": "3DTech - 30km range (vs 20km standard)",
-      "thermal_cameras": "Multiple Ukrainian manufacturers",
-      "motor_production": "Motor-G - 200,000/month March 2026"
-    }
-  },
-  "technology_readiness": {
-    "deployed_and_codified": [
-      "Zmiy Droid 12.7",
-      "PROTECTOR UGV",
-      "UB60D FPV",
-      "Khizhak REBOFF (fiber-optic)",
-      "GNOM (NATO certified)",
-      "Ratel H"
-    ],
-    "in_production": [
-      "Queen of the Hornets",
-      "Vyriy Drone",
-      "TAF Industries portfolio",
-      "MAUL"
-    ],
-    "testing": [
-      "82mm mortar round FPV variant",
-      "120mm mortar round FPV variant",
-      "New bomber drones with protected comms"
-    ]
-  },
-  "export_interest": {
-    "poland": [
-      "UB60D FPV",
-      "PROTECTOR UGV"
-    ],
-    "germany": [
-      "Linza 3.0 tactical drones (joint venture)"
-    ]
-  },
-  "usf_structure": {
-    "commander": "Major Robert 'Magyar' Brovdi",
-    "appointed": "June 2025",
-    "notable_units": [
-      {
-        "name": "412th Separate Brigade",
-        "callsign": "NEMESIS"
-      },
-      {
-        "name": "413th Regiment",
-        "callsign": "RAID"
-      },
-      {
-        "name": "414th Separate Brigade",
-        "callsign": "Magyar's Birds"
-      },
-      {
-        "name": "424th Battalion",
-        "callsign": "SVAROG"
-      },
-      {
-        "name": "427th Separate Brigade",
-        "callsign": "RAROG"
-      },
-      {
-        "name": "429th Separate Brigade",
-        "callsign": "Achilles"
-      },
-      {
-        "name": "59th Assault Brigade",
-        "callsign": "Steppe Predators"
-      },
-      {
-        "name": "20th Separate Brigade",
-        "callsign": "K-2"
-      },
-      {
-        "name": "NC13 Unit",
-        "callsign": "3rd Assault Brigade"
-      },
-      {
-        "name": "Khartia Corps",
-        "callsign": "National Guard UGV Company"
-      }
-    ]
-  },
-  "key_components_database": {
-    "flight_controllers": [
-      {
-        "name": "GALYCHYNA F405 V2",
-        "manufacturer": "603700",
-        "price_usd": 61,
-        "firmware": [
-          "Betaflight",
-          "INAV"
-        ],
-        "specs": "6S/60A, 6 UARTs, 3 servos"
-      }
-    ],
-    "ai_computing": [
-      {
-        "name": "NVIDIA Jetson Xavier NX",
-        "application": "Computer_vision_combat_robots",
-        "performance": "30 fps multi-model parallel"
-      }
-    ],
-    "communication": [
-      "L3Harris MIL-STD-810G ($50-60k/set)",
-      "Programmable Frequency Hopping (PFR)",
-      "Private LTE",
-      "WiFi 5 GHz"
-    ],
-    "sensors": [
-      "Intel RealSense Depth Camera",
-      "360° panoramic cameras",
-      "IMUs (Analog Devices, Bosch, SBG Systems)"
-    ]
-  },
-  "motor_g_update": {
-    "monthly_production": "200,000 motors",
-    "market_share_percent": 17,
-    "localization_percent": 80,
-    "target_localization": 100,
-    "target_date": "end of 2026",
-    "corporate_clients": "100+",
-    "margin_percent": "<20",
-    "scaling_history": [
-      {
-        "date": "2024-12",
-        "units": 181
-      },
-      {
-        "date": "2025-01",
-        "units": 1500
-      },
-      {
-        "date": "2026-03",
-        "units": 200000
-      }
-    ]
-  },
   "metadata": {
+    "project": "MAIBOT",
     "last_updated": "2026-05-14",
-    "research_run": 64,
-    "cron_job": "36198b4b-8844-494c-978b-299931f147b4"
+    "data_source": "Ministry of Defence Ukraine, DOT-Chain Defence metrics",
+    "research_period": "May 2026"
+  },
+  "operational_missions": {
+    "q1_2025": {
+      "total_missions": 22000,
+      "lives_saved_estimated": 22000,
+      "breakdown": {
+        "january_2025": 7333,
+        "february_2025": 6000,
+        "march_2025": 9000
+      },
+      "note": "Presidential statement: 22,000+ robots deployed in dangerous areas instead of soldiers"
+    },
+    "deployment_breadth": {
+      "systems_codified_2023": 10,
+      "systems_codified_2024": 50,
+      "systems_codified_2025_partial": 15,
+      "total_codified": 80,
+      "growth_rate_yoy": "33%"
+    }
+  },
+  "procurement_metrics": {
+    "dot_chain_defence": {
+      "launch_date": "July 2025",
+      "status": "operational and scaling",
+      "seven_month_period": {
+        "start": "July 2025",
+        "end": "February 2026",
+        "total_items_delivered": 500000,
+        "total_value_uah": 13300000000,
+        "total_value_usd_est": 560000000
+      },
+      "q1_2026_allocation_uah": 12000000000,
+      "q1_2026_allocation_usd_est": 290000000,
+      "active_brigades": 186,
+      "additional_corps": ["Azov", "Khartiia"],
+      "marketplace_catalog": {
+        "total_systems": 490,
+        "active_manufacturers": 140,
+        "ground_robot_models": 7,
+        "ground_robot_manufacturers": 6
+      }
+    },
+    "ugv_procurement_targets": {
+      "2025_total_units": 12500,
+      "h1_2026_target_units": 25000,
+      "yoy_growth_percent": 100,
+      "strategic_goal": "100% of frontline logistics via robotic solutions"
+    },
+    "contracts": {
+      "signed_h1_2025": 19,
+      "total_value_uah": 11000000000,
+      "total_value_usd_est": 265000000
+    }
+  },
+  "delivery_performance": {
+    "average_delivery_time_days_warehouse": 10,
+    "units_delivered_2026_ytd": 175400,
+    "value_delivered_2026_ytd_uah": 7687000000
+  },
+  "most_popular_categories": [
+    "FPV drones (including fiber-optic-controlled)",
+    "Heavy strike drones (bombers)",
+    "Reconnaissance UAVs and fixed-wing drones"
+  ],
+  "supply_chain_metrics": {
+    "fpv_drone_annual_capacity": "8M+ units/year",
+    "fpv_drone_monthly_baseline": "600K+ units/month",
+    "tencore_termit_local_content_percent": 65,
+    "production_scaling": {
+      "taf_industries_monthly": "80K drones/month",
+      "taf_industries_annual_revenue_2024_usd": 1000000000,
+      "general_chereshnia_monthly": "50K+ drones/month"
+    }
+  },
+  "unit_cost_analysis": {
+    "fully_localized_fpv_drone_uah": 30000,
+    "fully_localized_fpv_drone_usd": 750,
+    "ub60d_per_unit_usd": 500,
+    "leader_tech_f405_controller_usd": 30,
+    "leader_tech_fpv_kamikaze_usd": 620,
+    "tencore_termit_ugv_usd": 12000,
+    "roboneers_lynx_pro_uah": 1400000,
+    "roboneers_lynx_pro_usd_est": 34000
+  },
+  "codified_systems_timeline": {
+    "2023": {
+      "year": 2023,
+      "new_systems": 10,
+      "cumulative_total": 10
+    },
+    "2024": {
+      "year": 2024,
+      "new_systems": 50,
+      "cumulative_total": 60
+    },
+    "2025": {
+      "year": 2025,
+      "new_systems": 15,
+      "cumulative_total": 80,
+      "note": "partial year data"
+    }
+  },
+  "key_deployments": {
+    "3rd_separate_assault_brigade": "TerMIT UGV",
+    "galician_landing_force": "TerMIT UGV",
+    "110th_oshb": "13× TerMIT units (December 2024)",
+    "gur_intelligence": "TerMIT UGV operational use",
+    "pokrovsk_axis": "Lynx MAX deployment",
+    "brigade_scale": "20+ brigades with various UGV platforms"
+  },
+  "effectiveness_assessments": {
+    "note": "From commander assessments based on Jan-Mar 2025 operations",
+    "logistics_operations": 5.5,
+    "kamikaze_robot_strikes": 5.5,
+    "mine_clearance": 4.5,
+    "specialized_transport": 3.5,
+    "turret_mounted_robots": 3.0,
+    "evacuation": 3.0,
+    "scale": "0-10 effectiveness rating"
   }
 }

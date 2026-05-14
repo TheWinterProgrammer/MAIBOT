@@ -1,379 +1,246 @@
 {
-  "localization_status_2026": {
+  "metadata": {
+    "project": "MAIBOT",
+    "last_updated": "2026-05-14",
+    "data_source": "LEADER Tech (Ukrainian FPV components), official specs",
+    "total_components": 18
+  },
+  "manufacturers": [
+    {
+      "name": "LEADER Tech",
+      "country": "Ukraine",
+      "specialization": "FPV drone components, complete FPV platforms",
+      "market_reach": "100+ drone manufacturers"
+    },
+    {
+      "name": "Roboneers",
+      "country": "Ukraine",
+      "specialization": "UGVs, UAVs, water systems, AI targeting",
+      "market_reach": "NATO interoperable"
+    },
+    {
+      "name": "Tencore",
+      "country": "Ukraine",
+      "specialization": "TerMIT UGV production",
+      "local_content": "65%"
+    }
+  ],
+  "fpv_platforms": [
+    {
+      "id": "fpv-kamikaze-10",
+      "name": "FPV Kamikaze 10\"",
+      "manufacturer": "LEADER Tech",
+      "takeoff_weight_kg": 8,
+      "payload_kg": 5,
+      "flight_time_min": 17,
+      "tactical_range_km": 20,
+      "max_speed_kmh": 120,
+      "price_usd": 620
+    },
+    {
+      "id": "fpv-bomber-8",
+      "name": "FPV Bomber 8\"",
+      "manufacturer": "LEADER Tech",
+      "takeoff_weight_kg": 3.5,
+      "payload_kg": 2,
+      "flight_time_min": 17,
+      "tactical_range_km": 10,
+      "max_speed_kmh": 120,
+      "price_usd": 500
+    }
+  ],
+  "flight_controllers": [
+    {
+      "id": "f405-wing",
+      "name": "F405 Wing Flight Controller",
+      "manufacturer": "LEADER Tech",
+      "microcontroller": "STM32F405",
+      "uarts": 6,
+      "servo_outputs": 10,
+      "dimensions_mm": "38x56",
+      "price_usd": 45
+    },
+    {
+      "id": "f405-re",
+      "name": "F405 RE Flight Controller",
+      "manufacturer": "LEADER Tech",
+      "microcontroller": "STM32F405",
+      "imu": "BMI270",
+      "uarts": 5,
+      "servo_outputs": 9,
+      "bec_voltage": "5V+9V",
+      "dimensions_mm": "40x42",
+      "price_usd": 30
+    }
+  ],
+  "escs": [
+    {
+      "id": "bls80a-8s",
+      "name": "BLS80A ESC (8S)",
+      "manufacturer": "LEADER Tech",
+      "max_current_a": 80,
+      "firmware": "BLHELI_S",
+      "input_voltage": "3-8S LiPo",
+      "price_usd": 60
+    },
+    {
+      "id": "bls50a-6s",
+      "name": "BLS50A ESC (6S)",
+      "manufacturer": "LEADER Tech",
+      "max_current_a": 50,
+      "firmware": "BLHELI_S",
+      "input_voltage": "3-6S LiPo",
+      "price_usd": 35
+    }
+  ],
+  "radio_control": [
+    {
+      "id": "elrs24900",
+      "name": "ELRS24900 Receiver",
+      "manufacturer": "LEADER Tech",
+      "frequency_mhz": "862-1020 + 2.4-2.5 GHz",
+      "chipset": "LR1121x2 + ESP32",
+      "protocols": ["CRSF", "SBUS", "SUMD"],
+      "weight_g": 2.5,
+      "price_usd": 33
+    },
+    {
+      "id": "elrs900",
+      "name": "ELRS900 Receiver",
+      "manufacturer": "LEADER Tech",
+      "frequency_mhz": "720-1020",
+      "chipset": "2× SX1276 + ESP32",
+      "protocols": ["CRSF", "SBUS", "SUMD"],
+      "weight_g": 0.6,
+      "price_usd": 29
+    },
+    {
+      "id": "elrs433",
+      "name": "ELRS433 Receiver",
+      "manufacturer": "LEADER Tech",
+      "frequency_mhz": "410-530",
+      "price_usd": 15
+    },
+    {
+      "id": "elrs433-tx",
+      "name": "ELRS433 Transmitter",
+      "manufacturer": "LEADER Tech",
+      "frequency_mhz": "410-530",
+      "output_power": "1W or 2W",
+      "form_factor": "JR module",
+      "price_usd_1w": 60,
+      "price_usd_2w": 70
+    }
+  ],
+  "antennas": [
+    {
+      "id": "helical-5.8ghz",
+      "name": "FPV RX Helical 5.8 GHz",
+      "manufacturer": "LEADER Tech",
+      "center_frequency_ghz": 5.8,
+      "gain_dbi": 10.9,
+      "turns": 8,
+      "beamwidth_deg": 37,
+      "price_usd": 24
+    },
+    {
+      "id": "helical-2.4ghz",
+      "name": "FPV Helical 2.4 GHz",
+      "manufacturer": "LEADER Tech",
+      "center_frequency_ghz": 2.4,
+      "gain_dbi": 10,
+      "turns": 7,
+      "dimensions_mm": "310x105",
+      "price_usd": 75
+    }
+  ],
+  "payload_systems": [
+    {
+      "id": "payload-drop",
+      "name": "Drone Payload Drop System",
+      "manufacturer": "LEADER Tech",
+      "max_payload_kg": 2,
+      "mechanism": "servo-controlled",
+      "control_interface": "standard PWM",
+      "price_usd": 15
+    },
+    {
+      "id": "camera-gimbal",
+      "name": "FPV Camera Gimbal",
+      "manufacturer": "LEADER Tech",
+      "mount_size_mm": "19x19",
+      "control": "servo tilt",
+      "price_usd": 17
+    },
+    {
+      "id": "thermal-gimbal",
+      "name": "FPV Thermal Camera Gimbal",
+      "manufacturer": "LEADER Tech",
+      "mount_size_mm": "21x21",
+      "control": "servo tilt",
+      "price_usd": 17
+    }
+  ],
+  "structural": [
+    {
+      "id": "frame-10-carbon",
+      "name": "10\" Drone Frame",
+      "manufacturer": "LEADER Tech",
+      "material": "carbon fiber",
+      "max_takeoff_kg": 8,
+      "layout": "true X",
+      "price_usd": 55
+    }
+  ],
+  "supply_chain_status": {
     "fully_localized": [
-      "Carbon fiber frames",
-      "Flight controllers (Wild Hornets breakthrough)",
-      "Electronic speed controllers (ESCs)",
-      "Propellers",
-      "Sensor modules",
-      "Control boards",
+      "carbon fiber frames",
+      "flight controllers",
+      "ESCs",
+      "propellers",
+      "sensor modules",
       "Li-Po batteries",
-      "Radio control systems",
-      "Initiation boards",
-      "Connection systems",
-      "Circuit boards (partial)",
-      "Frame elements",
-      "Thermal imaging cameras",
-      "Night vision systems",
-      "Fiber-optic spools (3DTech - 30km)",
-      "Video transmitters (DEC-1, some models)"
+      "radio control systems",
+      "thermal imaging",
+      "fiber-optic systems",
+      "video transmitters"
     ],
     "partially_localized": [
-      {
-        "component": "Motors",
-        "manufacturers": [
-          "Realgold LLC",
-          "Motor-G"
-        ],
-        "production_capacity": "100,000+ motors/month (Motor-G)",
-        "status": "Scaling production, some imported magnets still required"
-      },
-      {
-        "component": "FPV Cameras",
-        "manufacturers": [
-          "Odd Systems"
-        ],
-        "status": "Domestic production established, competing with Caddx imports"
-      }
+      "motors (Realgold LLC, Motor-G: 100K+/month, some magnets imported)",
+      "FPV cameras (Odd Systems competing with Caddx)"
     ],
-    "still_imported": [
-      {
-        "component": "High-precision microchips",
-        "challenge": "Requires clean-room manufacturing, massive investment",
-        "impact": "Flight controllers would be disrupted if China cut supply"
-      },
-      {
-        "component": "Advanced optics",
-        "status": "Some thermal modules localized, high-end still imported"
-      },
-      {
-        "component": "DJI cameras",
-        "note": "Used in some models (General Chereshnia)"
-      },
-      {
-        "component": "SpeedyBee flight controllers",
-        "note": "Used in some models before localization"
-      },
-      {
-        "component": "BrotherHobby/EMAX motors",
-        "note": "Imported alternatives still used"
-      },
-      {
-        "component": "AKK/Foxeer video transmitters",
-        "note": "Some imports still used"
-      }
+    "import_dependent": [
+      "advanced microchips",
+      "high-end thermal modules",
+      "some optical systems"
     ]
   },
-  "manufacturing_capacity": {
-    "fpv_drones_annual_capacity_2026": {
-      "total": "8+ million units/year",
-      "source": "NSDC (National Security and Defense Council of Ukraine)",
-      "note": "60% of Russian Army losses attributed to FPV drones"
-    },
-    "major_producers": [
+  "annual_production_capacity": {
+    "fpv_drones": "8M+ units/year",
+    "monthly_baseline": "600K+ units/month",
+    "top_manufacturers": [
       {
-        "company": "TAF Industries",
-        "monthly_output": "80,000 drones",
-        "sites": 20,
-        "revenue_2024": "$1 billion",
-        "focus": "High-tech: EW-resistant radio, machine vision, AI loitering munitions"
+        "name": "TAF Industries",
+        "monthly_output": "80K drones/month",
+        "production_sites": 20,
+        "annual_revenue_2024": "$1B USD"
       },
       {
-        "company": "General Chereshnia",
-        "monthly_output": "50,000+ drones",
-        "localization": "30-40% Ukrainian components"
+        "name": "General Chereshnia",
+        "monthly_output": "50K+ drones/month"
       },
       {
-        "company": "Escadrone",
-        "focus": "Full production cycle, thermal cameras, high-power motors"
+        "name": "Escadrone",
+        "capability": "full production cycle"
       },
       {
-        "company": "Ukrainian Armor",
-        "products": [
-          "UB60D FPV",
-          "PROTECTOR UGV"
-        ]
+        "name": "Ukrainian Armor",
+        "products": ["PROTECTOR UGV", "UB60D"]
       },
       {
-        "company": "Wild Hornets",
-        "breakthrough": "Localized flight controllers"
+        "name": "Wild Hornets",
+        "breakthrough": "localized flight controller (65% Ukrainian, 12% cost reduction)"
       }
     ]
-  },
-  "technology_categories": {
-    "autonomous_systems": [
-      {
-        "system": "AI-based target acquisition",
-        "deployed_on": [
-          "Zmiy Droid 12.7"
-        ]
-      },
-      {
-        "system": "Automatic target tracking",
-        "deployed_on": [
-          "Zmiy Droid 12.7"
-        ]
-      },
-      {
-        "system": "Last Mile guidance modules",
-        "developer": "TAF Industries"
-      },
-      {
-        "system": "Cruise Control (VGI-9)",
-        "description": "Redefines FPV survivability against EW"
-      },
-      {
-        "system": "Machine vision",
-        "developer": "TAF Industries"
-      }
-    ],
-    "ew_countermeasures": [
-      {
-        "technology": "Fiber-optic control",
-        "provider": "3DTech",
-        "advantage": "Immune to jamming"
-      },
-      {
-        "technology": "Protected communication links",
-        "developer": "Ministry of Defence testing"
-      },
-      {
-        "technology": "Hornet Vision digital system",
-        "provider": "Wild Hornets"
-      },
-      {
-        "technology": "EW-resistant radio modules",
-        "developer": "TAF Industries"
-      }
-    ],
-    "situational_awareness": [
-      {
-        "system": "ICoMWare",
-        "integrated_with": [
-          "PROTECTOR UGV"
-        ]
-      }
-    ]
-  },
-  "key_component_suppliers": {
-    "Motor-G": {
-      "products": "Brushless drone motors",
-      "localization": "85% maximum possible (some components still Chinese)",
-      "breakthrough": "17% of Ukrainian drone motor market (largest domestic producer)",
-      "source": "DroneXL.co / Defender Media (March 2026)",
-      "date_added": "2026-04-21",
-      "production_capacity": "200,000+ motors/month (as of March 2026)",
-      "monthly_growth": "From 181 units (Dec 2024) to 200,000/month (Mar 2026)",
-      "market_share": "17% Ukrainian market (largest domestic, 10% other Ukrainian, 73% Chinese)",
-      "customers": [
-        "General Chereshnia",
-        "Vyriy",
-        "100+ drone manufacturers"
-      ],
-      "new_products": [
-        "Vandal motor for interceptor drones (400 km/h achieved)"
-      ],
-      "future_expansion": [
-        "UGV motors",
-        "Heavy bomber drone motors",
-        "European/American partnerships"
-      ],
-      "target": "20-30% market share by end 2026"
-    },
-    "FT Systems": {
-      "products": "Electronic components for unmanned systems",
-      "website": "ft.systems",
-      "components": [
-        "Electronic Speed Controllers (ESCs)",
-        "Flight controllers",
-        "Power distribution boards",
-        "Video transmitters",
-        "Telemetry modules"
-      ],
-      "target": "10x capacity scaling by Q3 2026",
-      "source": "ft.systems (official website)",
-      "date_added": "2026-04-21"
-    }
-  },
-  "supply_chain_risks": {
-    "critical_dependencies": [
-      {
-        "dependency": "Chinese microelectronics",
-        "components": [
-          "Flight controller chips",
-          "High-precision sensors",
-          "Motors (partial)"
-        ],
-        "risk_level": "High",
-        "mitigation": "Domestic flight controllers now available (Wild Hornets), scaling motor production"
-      }
-    ],
-    "vulnerabilities": [
-      "Clean-room manufacturing for microelectronics not yet established in Ukraine",
-      "SMT electronics assembly line destroyed in Mukachevo (2024)",
-      "Export controls from China remain a risk"
-    ]
-  },
-  "cost_structure": {
-    "fully_localized_fpvs": {
-      "cost_ua": "~30,000 UAH",
-      "cost_usd_approx": "~$750",
-      "comparable_to": "Chinese-component drones"
-    },
-    "ub60d_per_unit": {
-      "cost_usd": "~$500",
-      "note": "Factory-equipped with 60mm mortar warhead"
-    },
-    "cost_reduction_from_localization": "12% (Wild Hornets example)"
-  },
-  "new_components_2026_04_22": {
-    "flight_controllers": [
-      {
-        "name": "GALYCHYNA F405 V2",
-        "manufacturer": "603700",
-        "location": "Lviv, Ivano-Frankivsk, Kyiv, Vinnytsia, Dnipro",
-        "price_usd": 61,
-        "specs": {
-          "firmware": "Betaflight_4.4.3_4.5.1_INAV_7.1.2_plus",
-          "esc": "FRANKIVSK_v2_6S_60A_Bluejay",
-          "bec": "Dual_5V_3A_plus_5_9_12V_3A",
-          "servos": 3,
-          "uarts": 6,
-          "motor_support": "Up_to_6_motors",
-          "pinio": "2x_5V_1A",
-          "frame_size": "Up_to_10_inch"
-        },
-        "features": [
-          "Video_channel_switching_anti_jamming",
-          "Hidden_start_point_OSD_overlay",
-          "Bi_directional_DShot_RPM_filtering",
-          "Pre_configured_7_inch_10_inch_builds"
-        ]
-      }
-    ],
-    "ai_computing": [
-      {
-        "name": "NVIDIA Jetson Xavier NX",
-        "application": "Computer_vision_combat_robots",
-        "specs": {
-          "size_mm": "103x90.5x34",
-          "power_w": 10,
-          "gpu": "NVIDIA_Volta_384_CUDA_48_Tensor",
-          "cpu": "6_core_ARM_Carmel_64_bit",
-          "memory": "8GB_LPDDR4x_59.7_Gbps",
-          "performance": "30_fps_multi_model_parallel"
-        },
-        "capabilities": [
-          "Image_classification",
-          "Semantic_segmentation",
-          "Object_detection",
-          "Autonomous_navigation"
-        ]
-      }
-    ],
-    "sensors_navigation": [
-      {
-        "category": "IMU",
-        "manufacturers": [
-          "Analog_Devices",
-          "Bosch_Sensortech",
-          "SBG_Systems",
-          "InertialLabs"
-        ],
-        "applications": [
-          "Navigation",
-          "Stabilization",
-          "Ground_robotics"
-        ]
-      },
-      {
-        "category": "Depth_Camera",
-        "name": "Intel RealSense Depth Camera",
-        "application": "Object_identification_obstacle_avoidance"
-      },
-      {
-        "category": "Navigation",
-        "components": [
-          "Satellite_SNS_GPS_GLONASS_Galileo",
-          "9_axis_MEMS_accelerometer_gyroscope_magnetometer",
-          "IMU_backup_GPS_denied"
-        ]
-      }
-    ],
-    "communication_systems": [
-      {
-        "name": "L3Harris",
-        "specs": "MIL_STD_810G",
-        "cost": "50-60k_USD_per_set",
-        "delivery_time": "5-6_months",
-        "source": "US_supplied"
-      },
-      {
-        "technology": "Programmable_Frequency_Hopping_PFR",
-        "channels": "2-3_redundant",
-        "advantage": "Anti_jamming"
-      },
-      {
-        "technology": "Private_LTE",
-        "availability": "Optional_on_GNOM"
-      },
-      {
-        "technology": "WiFi_5GHz",
-        "use": "Consumer_grade_backup"
-      }
-    ],
-    "power_systems": [
-      {
-        "type": "Li_ion",
-        "voltage": "42V",
-        "capacity": "60Ah",
-        "application": "GNOM_platform"
-      },
-      {
-        "type": "6S_LiPo",
-        "voltage": "22.2V",
-        "capacity": "5000mAh",
-        "application": "FPV_drones"
-      },
-      {
-        "type": "ICE_Generator",
-        "application": "MAUL_cold_weather_operations",
-        "advantages": [
-          "High_speed_70kmh",
-          "Cold_resistant"
-        ],
-        "disadvantages": [
-          "Visible_IR_signature"
-        ]
-      }
-    ],
-    "motors_propulsion": [
-      {
-        "type": "4x_BLDC_1kW",
-        "application": "GNOM_drive"
-      },
-      {
-        "type": "Brushless_motors_6S_60A",
-        "application": "FPV_drones",
-        "features": "Bi_directional_DShot_RPM_filtering"
-      },
-      {
-        "type": "Stepper_motors",
-        "application": "Weapon_systems_turrets"
-      }
-    ],
-    "weapon_integration": [
-      {
-        "system": "RSVK_M_Combat_Module",
-        "weapon": "NSVT_12.7mm_Utyos",
-        "fire_control": "Electronic_single_shot_system",
-        "alignment": "Laser_module_cold_firing_2-3min",
-        "stabilization": "Gyroscopic_barrel",
-        "targeting": "Ballistic_calculator_rangefinder_reticle"
-      }
-    ]
-  },
-  "metadata": {
-    "last_updated": "2026-05-14"
   }
 }
