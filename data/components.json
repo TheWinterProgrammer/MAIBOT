@@ -1,11 +1,22 @@
 {
   "metadata": {
     "project": "MAIBOT",
-    "last_updated": "2026-05-14",
-    "data_source": "LEADER Tech (Ukrainian FPV components), official specs",
-    "total_components": 18
+    "last_updated": "2026-05-17",
+    "data_source": "LEADER Tech, Motor-G, official Ukrainian sources",
+    "total_components": 19
   },
   "manufacturers": [
+    {
+      "name": "Motor-G",
+      "country": "Ukraine",
+      "specialization": "Drone/UAV electric motors",
+      "production_capacity": "200,000 motors/month",
+      "market_share_ukraine_percent": 17,
+      "clients": "100+ drone manufacturers",
+      "localization_percent": 80,
+      "localization_target_2027_percent": 90,
+      "quality_defects_per_1000": 2
+    },
     {
       "name": "LEADER Tech",
       "country": "Ukraine",
@@ -23,6 +34,88 @@
       "country": "Ukraine",
       "specialization": "TerMIT UGV production",
       "local_content": "65%"
+    },
+    {
+      "name": "TAF Industries",
+      "country": "Ukraine",
+      "specialization": "Legit UGV production, drone manufacturing",
+      "monthly_output": "80K drones/month",
+      "production_sites": 20,
+      "annual_revenue_2024": "$1B USD",
+      "collaboration": "Ukrainian Defence Intelligence"
+    },
+    {
+      "name": "Frontline Robotics",
+      "country": "Ukraine",
+      "specialization": "BURIA robotic turret systems"
+    },
+    {
+      "name": "DevDroid",
+      "country": "Ukraine",
+      "specialization": "DroidBox universal UGV control systems, Wolly 12.7 combat modules"
+    }
+  ],
+  "motors": [
+    {
+      "id": "motor-g-vandal",
+      "name": "VANDAL Electric Motor",
+      "manufacturer": "Motor-G",
+      "application": "High-speed interceptor drones",
+      "target_drone_weight_kg": "3-5",
+      "demonstrated_speed_kmh": 350,
+      "key_features": [
+        "extended shaft for large-pitch propellers",
+        "lower winding resistance vs conventional motors",
+        "higher efficiency for extended range",
+        "power reserve for high-load conditions"
+      ],
+      "localization_status": {
+        "stators": "100% localized (starting May 2026)",
+        "magnets": "imported (specialty alloys)",
+        "bearings": "imported (Ukraine produces large bearings only)"
+      },
+      "cost_uah": 2000,
+      "cost_usd_est": 50,
+      "cost_trend": "expected to decrease with volume",
+      "testing_status": "Tested on Air Baby and multiple interceptor drone types",
+      "development_date": "March 2026",
+      "source": "militarnyi.com (March 2026)"
+    },
+    {
+      "id": "motor-g-standard",
+      "name": "Motor-G Standard Drone Motors",
+      "manufacturer": "Motor-G",
+      "production_rate_monthly": 200000,
+      "market_share_ukraine_percent": 17,
+      "clients": "100+ drone manufacturers",
+      "localization_percent": 80,
+      "localization_target_2027_percent": 90,
+      "quality_defects_per_1000": 2,
+      "applications": ["FPV drones", "strike bombers", "aircraft-type drones"],
+      "testing_stages": "6-stage process (lab → field → deployment)",
+      "source": "motor-g.com, techukraine.org"
+    }
+  ],
+  "control_systems": [
+    {
+      "id": "droidbox",
+      "name": "DroidBox Universal Control System",
+      "manufacturer": "DevDroid",
+      "status": "Codified by MoD (April 2026)",
+      "units_deployed": 1000,
+      "platforms_supported": 8,
+      "communication_channels": 6,
+      "channel_types": ["radio (encrypted)", "LTE/cellular", "Starlink satellite", "encrypted military channels", "Wi-Fi", "optical fiber"],
+      "key_capabilities": [
+        "GPS spoofing protection",
+        "AI target detection integration",
+        "real-time diagnostics",
+        "single operator interface across all platforms"
+      ],
+      "training_reduction_percent": 60,
+      "market_availability": "Brave1 Market, DOT-Chain Defence",
+      "service_offering": "Retrofit available for non-functional platforms",
+      "verified_combat_success": "UGV detected and destroyed loitering drone ambush, engaged enemy personnel with zero operator casualties"
     }
   ],
   "fpv_platforms": [

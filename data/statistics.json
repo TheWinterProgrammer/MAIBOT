@@ -1,127 +1,92 @@
 {
   "metadata": {
     "project": "MAIBOT",
-    "last_updated": "2026-05-14",
-    "data_source": "Ministry of Defence Ukraine, DOT-Chain Defence metrics",
-    "research_period": "May 2026"
+    "last_updated": "2026-05-16",
+    "update_time_utc": "2026-05-16T07:03:00Z",
+    "data_source": "Ukrainian Ministry of Defence Official Announcements + Verified Media",
+    "reporting_period": "2022-02-01 to 2026-04-27",
+    "update_frequency": "hourly",
+    "confidence_level": "high",
+    "research_runs_completed": 174
   },
-  "operational_missions": {
-    "q1_2025": {
-      "total_missions": 22000,
-      "lives_saved_estimated": 22000,
-      "breakdown": {
-        "january_2025": 7333,
-        "february_2025": 6000,
-        "march_2025": 9000
-      },
-      "note": "Presidential statement: 22,000+ robots deployed in dangerous areas instead of soldiers"
-    },
-    "deployment_breadth": {
-      "systems_codified_2023": 10,
-      "systems_codified_2024": 50,
-      "systems_codified_2025_partial": 15,
-      "total_codified": 80,
-      "growth_rate_yoy": "33%"
-    }
+  "procurement": {
+    "h1_2026_target": 25000,
+    "h1_2026_contracts_signed": 19,
+    "h1_2026_contract_value_uah": 11000000000,
+    "h1_2026_contract_value_usd": 290000000,
+    "monthly_rate_required": 4167,
+    "comparison_to_2025": "2x full year (12500)",
+    "procurement_acceleration_measures": 4
   },
-  "procurement_metrics": {
-    "dot_chain_defence": {
-      "launch_date": "July 2025",
-      "status": "operational and scaling",
-      "seven_month_period": {
-        "start": "July 2025",
-        "end": "February 2026",
-        "total_items_delivered": 500000,
-        "total_value_uah": 13300000000,
-        "total_value_usd_est": 560000000
-      },
-      "q1_2026_allocation_uah": 12000000000,
-      "q1_2026_allocation_usd_est": 290000000,
-      "active_brigades": 186,
-      "additional_corps": ["Azov", "Khartiia"],
-      "marketplace_catalog": {
-        "total_systems": 490,
-        "active_manufacturers": 140,
-        "ground_robot_models": 7,
-        "ground_robot_manufacturers": 6
-      }
-    },
-    "ugv_procurement_targets": {
-      "2025_total_units": 12500,
-      "h1_2026_target_units": 25000,
-      "yoy_growth_percent": 100,
-      "strategic_goal": "100% of frontline logistics via robotic solutions"
-    },
-    "contracts": {
-      "signed_h1_2025": 19,
-      "total_value_uah": 11000000000,
-      "total_value_usd_est": 265000000
-    }
+  "missions": {
+    "november_2025": 2900,
+    "january_2026": 7500,
+    "march_2026": 9000,
+    "q1_2026_total": 24500,
+    "growth_nov_to_mar": "3.1x",
+    "growth_nov_to_jan_percent": 158,
+    "growth_nov_to_mar_percent": 210
   },
-  "delivery_performance": {
-    "average_delivery_time_days_warehouse": 10,
-    "units_delivered_2026_ytd": 175400,
-    "value_delivered_2026_ytd_uah": 7687000000
+  "unit_adoption": {
+    "units_november_2025": 67,
+    "units_march_2026": 167,
+    "growth_percent": 149,
+    "growth_multiplier": 2.5
   },
-  "most_popular_categories": [
-    "FPV drones (including fiber-optic-controlled)",
-    "Heavy strike drones (bombers)",
-    "Reconnaissance UAVs and fixed-wing drones"
-  ],
-  "supply_chain_metrics": {
-    "fpv_drone_annual_capacity": "8M+ units/year",
-    "fpv_drone_monthly_baseline": "600K+ units/month",
-    "tencore_termit_local_content_percent": 65,
-    "production_scaling": {
-      "taf_industries_monthly": "80K drones/month",
-      "taf_industries_annual_revenue_2024_usd": 1000000000,
-      "general_chereshnia_monthly": "50K+ drones/month"
-    }
+  "codifications": {
+    "total_codified_systems": 80,
+    "april_2026_new_systems": [
+      "SPIDER (April 24)",
+      "BURIA (April 17)",
+      "BIZON-L (April 2026)",
+      "DroidBox (April 2026)"
+    ],
+    "codifications_2023": 10,
+    "codifications_2024": 50,
+    "codifications_2025": 20,
+    "codifications_2026_ytd": 4
   },
-  "unit_cost_analysis": {
-    "fully_localized_fpv_drone_uah": 30000,
-    "fully_localized_fpv_drone_usd": 750,
-    "ub60d_per_unit_usd": 500,
-    "leader_tech_f405_controller_usd": 30,
-    "leader_tech_fpv_kamikaze_usd": 620,
-    "tencore_termit_ugv_usd": 12000,
-    "roboneers_lynx_pro_uah": 1400000,
-    "roboneers_lynx_pro_usd_est": 34000
+  "components": {
+    "motor_g_monthly_production": 200000,
+    "motor_g_localization_percent": 80,
+    "motor_g_localization_target_2027": 90,
+    "motor_g_market_share_ukraine": 17,
+    "motor_g_clients": 100,
+    "motor_g_defect_rate_per_1000": 2,
+    "battery_localization_percent": 70,
+    "chassis_localization_percent": 95
   },
-  "codified_systems_timeline": {
-    "2023": {
-      "year": 2023,
-      "new_systems": 10,
-      "cumulative_total": 10
-    },
-    "2024": {
-      "year": 2024,
-      "new_systems": 50,
-      "cumulative_total": 60
-    },
-    "2025": {
-      "year": 2025,
-      "new_systems": 15,
-      "cumulative_total": 80,
-      "note": "partial year data"
-    }
+  "droidbox": {
+    "units_deployed": 1000,
+    "platforms_supported": 8,
+    "communication_channels": 6,
+    "training_reduction_percent": 60
   },
-  "key_deployments": {
-    "3rd_separate_assault_brigade": "TerMIT UGV",
-    "galician_landing_force": "TerMIT UGV",
-    "110th_oshb": "13× TerMIT units (December 2024)",
-    "gur_intelligence": "TerMIT UGV operational use",
-    "pokrovsk_axis": "Lynx MAX deployment",
-    "brigade_scale": "20+ brigades with various UGV platforms"
+  "ecosystem": {
+    "ugv_companies": 280,
+    "total_solutions_catalog": 550,
+    "brave1_grants_issued": 175,
+    "dot_chain_products": 470,
+    "dot_chain_manufacturers": 135,
+    "dot_chain_authorized_buyers": 186,
+    "dot_chain_delivery_days": "3-5"
   },
-  "effectiveness_assessments": {
-    "note": "From commander assessments based on Jan-Mar 2025 operations",
-    "logistics_operations": 5.5,
-    "kamikaze_robot_strikes": 5.5,
-    "mine_clearance": 4.5,
-    "specialized_transport": 3.5,
-    "turret_mounted_robots": 3.0,
-    "evacuation": 3.0,
-    "scale": "0-10 effectiveness rating"
+  "procurement_platforms": {
+    "dot_chain_budget_q1_uah": 12000000000,
+    "military_equipment_orders_q1_uah": 14000000000,
+    "brave1_market_active_items": 162,
+    "grc_models_available": 13
+  },
+  "soldier_protection": {
+    "unmanned_missions_q1_2026": 22000,
+    "personnel_risk_events_avoided": 22000,
+    "annual_casualty_reduction_estimate_low": 40000,
+    "annual_casualty_reduction_estimate_high": 60000
+  },
+  "verification": {
+    "official_sources": 3,
+    "media_sources": 4,
+    "industry_sources": 5,
+    "total_sources": 12
   }
 }

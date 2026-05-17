@@ -1,12 +1,69 @@
 {
   "metadata": {
     "project": "MAIBOT",
-    "last_updated": "2026-05-14",
-    "total_robots": 13,
+    "last_updated": "2026-05-17",
+    "total_robots": 15,
     "data_source": "Ministry of Defence Ukraine (mod.gov.ua), Roboneers, Tencore, thedefender.media",
     "research_period": "May 2026"
   },
   "robots": [
+    {
+      "id": "legit-s1",
+      "name": "Legit S1 UGV",
+      "manufacturer": "TAF Industries (Ukrainian)",
+      "classification": "Multi-purpose Ground Robot (Compact)",
+      "status": "Codified & Authorized (May 2026)",
+      "deployment_status": "Active frontline (Ukrainian Defence Intelligence)",
+      "specifications": {
+        "range_paved_km": 22,
+        "range_offroad_km": 21,
+        "endurance_hours": 2,
+        "max_speed_paved_kmh": 25,
+        "max_speed_offroad_kmh": 13,
+        "communication": ["LTE", "fiber-optic (optional)"],
+        "crew": 2
+      },
+      "capabilities": [
+        "logistics support",
+        "reconnaissance",
+        "fire support",
+        "kamikaze role",
+        "grenade launcher mount (optional)",
+        "mini-trailer (optional)"
+      ],
+      "key_advantage": "Modular design enables rapid reconfiguration. Developed with Defence Intelligence collaboration.",
+      "source": "thedefender.media (May 2026), TAF Industries"
+    },
+    {
+      "id": "legit-l1",
+      "name": "Legit L1 UGV",
+      "manufacturer": "TAF Industries (Ukrainian)",
+      "classification": "Multi-purpose Ground Robot (Extended Range)",
+      "status": "Codified & Authorized (May 2026)",
+      "deployment_status": "Active frontline (Ukrainian Defence Intelligence)",
+      "specifications": {
+        "range_paved_km": 30,
+        "range_offroad_km": 26,
+        "endurance_hours": 2.5,
+        "max_speed_paved_kmh": 22,
+        "max_speed_offroad_kmh": 15,
+        "navigation": "GPS",
+        "communication": ["LTE", "Starlink"],
+        "crew": 2
+      },
+      "capabilities": [
+        "logistics support",
+        "reconnaissance",
+        "fire support",
+        "kamikaze role",
+        "grenade launcher mount (optional)",
+        "engineering trailer for razor wire deployment (optional)",
+        "logistics trailer (optional)",
+        "Pulsar turret for small arms (optional)"
+      ],
+      "key_advantage": "Extended range and endurance with Starlink integration. Modular Pulsar turret support.",
+      "source": "thedefender.media (May 2026), TAF Industries"
+    },
     {
       "id": "bizon-l",
       "name": "BIZON-L UGV",
