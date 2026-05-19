@@ -1,7 +1,7 @@
 {
   "metadata": {
     "project": "MAIBOT",
-    "last_updated": "2026-05-17",
+    "last_updated": "2026-05-19",
     "data_source": "LEADER Tech, Motor-G, official Ukrainian sources",
     "total_components": 19
   },
@@ -91,7 +91,11 @@
       "localization_percent": 80,
       "localization_target_2027_percent": 90,
       "quality_defects_per_1000": 2,
-      "applications": ["FPV drones", "strike bombers", "aircraft-type drones"],
+      "applications": [
+        "FPV drones",
+        "strike bombers",
+        "aircraft-type drones"
+      ],
       "testing_stages": "6-stage process (lab → field → deployment)",
       "source": "motor-g.com, techukraine.org"
     }
@@ -105,7 +109,14 @@
       "units_deployed": 1000,
       "platforms_supported": 8,
       "communication_channels": 6,
-      "channel_types": ["radio (encrypted)", "LTE/cellular", "Starlink satellite", "encrypted military channels", "Wi-Fi", "optical fiber"],
+      "channel_types": [
+        "radio (encrypted)",
+        "LTE/cellular",
+        "Starlink satellite",
+        "encrypted military channels",
+        "Wi-Fi",
+        "optical fiber"
+      ],
       "key_capabilities": [
         "GPS spoofing protection",
         "AI target detection integration",
@@ -193,7 +204,11 @@
       "manufacturer": "LEADER Tech",
       "frequency_mhz": "862-1020 + 2.4-2.5 GHz",
       "chipset": "LR1121x2 + ESP32",
-      "protocols": ["CRSF", "SBUS", "SUMD"],
+      "protocols": [
+        "CRSF",
+        "SBUS",
+        "SUMD"
+      ],
       "weight_g": 2.5,
       "price_usd": 33
     },
@@ -203,7 +218,11 @@
       "manufacturer": "LEADER Tech",
       "frequency_mhz": "720-1020",
       "chipset": "2× SX1276 + ESP32",
-      "protocols": ["CRSF", "SBUS", "SUMD"],
+      "protocols": [
+        "CRSF",
+        "SBUS",
+        "SUMD"
+      ],
       "weight_g": 0.6,
       "price_usd": 29
     },
@@ -328,7 +347,10 @@
       },
       {
         "name": "Ukrainian Armor",
-        "products": ["PROTECTOR UGV", "UB60D"]
+        "products": [
+          "PROTECTOR UGV",
+          "UB60D"
+        ]
       },
       {
         "name": "Wild Hornets",
