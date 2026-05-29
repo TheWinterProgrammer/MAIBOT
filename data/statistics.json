@@ -2,7 +2,7 @@
   "metadata": {
     "project": "MAIBOT",
     "last_updated": "2026-05-29",
-    "update_time_utc": "2026-05-16T07:03:00Z",
+    "update_time_utc": "2026-05-29T18:03:00Z",
     "data_source": "Ukrainian Ministry of Defence Official Announcements + Verified Media",
     "reporting_period": "2022-02-01 to 2026-04-27",
     "update_frequency": "hourly",
@@ -13,7 +13,7 @@
     "h1_2026_target": 25000,
     "h1_2026_contracts_signed": 19,
     "h1_2026_contract_value_uah": 11000000000,
-    "h1_2026_contract_value_usd": 290000000,
+    "h1_2026_contract_value_usd": 260000000,
     "monthly_rate_required": 4167,
     "comparison_to_2025": "2x full year (12500)",
     "procurement_acceleration_measures": 4
@@ -23,9 +23,20 @@
     "january_2026": 7500,
     "march_2026": 9000,
     "q1_2026_total": 24500,
+    "three_month_total_2026": 22000,
     "growth_nov_to_mar": "3.1x",
     "growth_nov_to_jan_percent": 158,
     "growth_nov_to_mar_percent": 210
+  },
+  "fpv_drones": {
+    "annual_production_capacity": 8000000,
+    "monthly_baseline_production": 600000,
+    "manufacturing_companies": 160,
+    "mod_2025_procurement_target": 4500000,
+    "mod_2025_budget_allocation_uah": 110000000000,
+    "mod_2025_budget_allocation_usd": 2600000000,
+    "fpv_delivered_dot_chain": 100000,
+    "casualty_percentage_inflicted": 60
   },
   "unit_adoption": {
     "units_november_2025": 67,
@@ -68,6 +79,7 @@
     "brave1_grants_issued": 175,
     "dot_chain_products": 470,
     "dot_chain_manufacturers": 135,
+    "dot_chain_ugvs_delivered": 1000,
     "dot_chain_authorized_buyers": 186,
     "dot_chain_delivery_days": "3-5"
   },

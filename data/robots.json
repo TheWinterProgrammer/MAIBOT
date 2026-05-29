@@ -1,8 +1,8 @@
 {
   "metadata": {
     "project": "MAIBOT",
-    "last_updated": "2026-05-17",
-    "total_robots": 15,
+    "last_updated": "2026-05-29",
+    "total_robots": 17,
     "data_source": "Ministry of Defence Ukraine (mod.gov.ua), Roboneers, Tencore, thedefender.media",
     "research_period": "May 2026"
   },
@@ -63,6 +63,45 @@
       ],
       "key_advantage": "Extended range and endurance with Starlink integration. Modular Pulsar turret support.",
       "source": "thedefender.media (May 2026), TAF Industries"
+    },
+    {
+      "id": "protector-ugv",
+      "name": "PROTECTOR UGV",
+      "manufacturer": "Ukrainian Defense Enterprise",
+      "classification": "Heavy Unmanned Ground Vehicle",
+      "status": "Codified & Authorized (June 2025)",
+      "deployment_status": "Active, heavy logistics/combat platform",
+      "specifications": {
+        "payload_kg": 700,
+        "operational_range_km": 400,
+        "propulsion": "internal combustion engine",
+        "drive": "all-wheel drive",
+        "tires": "RunFlat",
+        "water_crossing": true
+      },
+      "capabilities": [
+        "ammunition and equipment transport",
+        "casualty evacuation",
+        "weapon station platform",
+        "mobile EW carrier",
+        "SIGINT platform",
+        "ELINT platform"
+      ],
+      "key_advantage": "First full-sized unmanned vehicle authorized by MoD. Extended 400km range enables deep logistics operations.",
+      "source": "mod.gov.ua (June 27, 2025)"
+    },
+    {
+      "id": "visluk-ugv",
+      "name": "Visluk UGV",
+      "manufacturer": "Ukrainian Defense Enterprise",
+      "classification": "Multifunctional Tracked Ground Robot",
+      "status": "Codified & Authorized (2025)",
+      "deployment_status": "Active frontline",
+      "capabilities": [
+        "logistics support",
+        "combat missions"
+      ],
+      "source": "mod.gov.ua"
     },
     {
       "id": "bizon-l",
