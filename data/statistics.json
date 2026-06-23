@@ -2,12 +2,12 @@
   "metadata": {
     "project": "MAIBOT",
     "last_updated": "2026-06-23",
-    "update_time_utc": "2026-05-29T18:03:00Z",
+    "update_time_utc": "2026-06-23T13:42:00Z",
     "data_source": "Ukrainian Ministry of Defence Official Announcements + Verified Media",
-    "reporting_period": "2022-02-01 to 2026-04-27",
+    "reporting_period": "2022-02-01 to 2026-06-23",
     "update_frequency": "hourly",
     "confidence_level": "high",
-    "research_runs_completed": 174
+    "research_runs_completed": 175
   },
   "procurement": {
     "h1_2026_target": 25000,
@@ -22,6 +22,7 @@
     "november_2025": 2900,
     "january_2026": 7500,
     "march_2026": 9000,
+    "april_2026": 10281,
     "q1_2026_total": 24500,
     "three_month_total_2026": 22000,
     "growth_nov_to_mar": "3.1x",
@@ -52,10 +53,49 @@
       "BIZON-L (April 2026)",
       "DroidBox (April 2026)"
     ],
+    "june_2026_new_systems": [
+      "Zmiy Droid 12.7",
+      "Vepr (modernized)",
+      "PROTECTOR (June 2026 update)"
+    ],
     "codifications_2023": 10,
     "codifications_2024": 50,
     "codifications_2025": 20,
-    "codifications_2026_ytd": 4
+    "codifications_2026_ytd": 7
+  },
+  "new_systems_june_2026": {
+    "zmiy_droid_12_7": {
+      "type": "Strike-and-reconnaissance",
+      "armament": "12.7mm machine gun",
+      "ai_features": ["automatic target acquisition", "target tracking"],
+      "protection": "Armor vs mines and FPV drones",
+      "mobility": "High cross-country, water-capable"
+    },
+    "droid_tw": {
+      "type": "Reconnaissance-strike",
+      "armament": "12.7mm or 7.62mm machine gun",
+      "ammunition": "480-1000 rounds",
+      "engagement_range": "1km",
+      "detection_range_day": "1.5km",
+      "detection_range_night": "1km",
+      "ai_features": ["enemy personnel recognition", "ballistic calculation"],
+      "deployment_time": "5 minutes",
+      "combat_record": "Destroyed MT-LB, 45-day sustained position"
+    },
+    "vepr_modernized": {
+      "type": "Logistics-and-evacuation",
+      "payload": "350kg",
+      "speed": ">7.5 km/h",
+      "range": "40km",
+      "roles": ["logistics", "MEDEVAC", "demining", "kamikaze", "recovery"]
+    },
+    "protector": {
+      "type": "Heavy logistics/combat",
+      "payload": "700kg",
+      "range": "400km",
+      "propulsion": "ICE all-wheel drive",
+      "roles": ["logistics", "CASEVAC", "weapon platform", "EW/SIGINT/ELINT"]
+    }
   },
   "components": {
     "motor_g_monthly_production": 200000,
@@ -74,14 +114,15 @@
     "training_reduction_percent": 60
   },
   "ecosystem": {
-    "ugv_companies": 280,
+    "ugv_companies": 300,
     "total_solutions_catalog": 550,
     "brave1_grants_issued": 175,
     "dot_chain_products": 470,
     "dot_chain_manufacturers": 135,
-    "dot_chain_ugvs_delivered": 1000,
+    "dot_chain_ugvs_delivered": 1028,
     "dot_chain_authorized_buyers": 186,
-    "dot_chain_delivery_days": "3-5"
+    "dot_chain_delivery_days": "3-5",
+    "brave1_growth_2022_to_2026": "0 to 300+ companies"
   },
   "procurement_platforms": {
     "dot_chain_budget_q1_uah": 12000000000,
@@ -95,10 +136,17 @@
     "annual_casualty_reduction_estimate_low": 40000,
     "annual_casualty_reduction_estimate_high": 60000
   },
+  "strategic_developments": {
+    "quantum_tencore_jv": "April 2026 - German-Ukrainian joint venture with Quantum Systems for NATO production scaling",
+    "first_unmanned_position_capture": "Summer 2025 - 3rd Separate Assault Brigade NC13 captured Russian position using only unmanned platforms",
+    "ministry_goal": "100% frontline logistics automation via robotic systems",
+    "mod_spend_since_jan_2026_uah": 14000000000,
+    "mod_spend_since_jan_2026_usd": 330000000
+  },
   "verification": {
-    "official_sources": 3,
-    "media_sources": 4,
+    "official_sources": 5,
+    "media_sources": 6,
     "industry_sources": 5,
-    "total_sources": 12
+    "total_sources": 16
   }
 }

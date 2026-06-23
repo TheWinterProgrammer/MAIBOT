@@ -1,10 +1,12 @@
 {
   "metadata": {
     "project": "MAIBOT",
-    "last_updated": "2026-05-29",
-    "total_robots": 17,
-    "data_source": "Ministry of Defence Ukraine (mod.gov.ua), Roboneers, Tencore, thedefender.media",
-    "research_period": "May 2026"
+    "last_updated": "2026-06-23",
+    "total_robots": 22,
+    "data_source": "Ministry of Defence Ukraine (mod.gov.ua), Defense News, Euromaidan Press, Roboneers, Tencore, thedefender.media",
+    "research_period": "June 2026",
+    "new_systems_added": ["Zmiy Droid 12.7", "Droid TW", "Vepr UGV", "PROTECTOR UGV"],
+    "updates_to_existing": ["Bizon-L extended specs", "TerMIT Quantum Systems JV"]
   },
   "robots": [
     {
@@ -104,7 +106,135 @@
       "source": "mod.gov.ua"
     },
     {
+      "id": "zmiy-droid-12-7",
+      "name": "Zmiy Droid 12.7",
+      "manufacturer": "Ukrainian Defense Enterprise (DevDroid)",
+      "classification": "Strike-and-Reconnaissance Ground Robotic System",
+      "status": "Codified & Authorized by MoD (June 2026)",
+      "deployment_status": "Active frontline deployment",
+      "specifications": {
+        "platform_base": "Zmiy (combat-proven)",
+        "weapon_station": "Wolly 12.7mm machine gun",
+        "mobility": "High cross-country; rough terrain, sand, snow, shallow water",
+        "protection": "Armored hull vs anti-personnel mines, FPV-drone resistant",
+        "control": "Integrated module for simultaneous platform + weapon control",
+        "ai_features": ["automatic target acquisition", "target tracking"]
+      },
+      "key_advantage": "AI-based automatic target acquisition and tracking; armored hull withstands multiple FPV drone hits",
+      "combat_notes": "Designed to replace soldiers in highest-risk battlefield areas",
+      "source": "mod.gov.ua (June 2026)"
+    },
+    {
+      "id": "droid-tw",
+      "name": "Droid TW",
+      "manufacturer": "Ukrainian Defense Enterprise (DevDroid)",
+      "classification": "Reconnaissance-Strike Ground Robot",
+      "status": "Codified & Procured by MoD",
+      "deployment_status": "Active frontline deployment, combat-proven",
+      "specifications": {
+        "armament_options": ["12.7mm Browning", "7.62mm machine gun"],
+        "ammunition_capacity_rounds": "480-1000",
+        "engagement_range_m": 1000,
+        "detection_range_day_m": 1500,
+        "detection_range_night_m": 1000,
+        "optics": "Thermal imager with selectable display modes",
+        "ai_features": ["enemy personnel recognition", "ballistic calculation module"],
+        "communications": ["military systems", "Starlink", "LTE"],
+        "deployment_time_min": 5,
+        "control": ["tablet", "gamepad"]
+      },
+      "key_advantage": "AI-based enemy recognition and ballistic calculations; 5-minute deployment; day/night thermal capability",
+      "combat_record": [
+        "Successfully destroyed Russian MT-LB armored vehicle",
+        "Sustained 45-day firing position (withdrawn every 2 days for maintenance/recharge)"
+      ],
+      "media_comparison": "Foreign media compared to Terminator sci-fi robot",
+      "source": "mod.gov.ua (June 2026), development since 2023"
+    },
+    {
+      "id": "vepr-ugv",
+      "name": "Vepr UGV",
+      "manufacturer": "Ukrainian Defense Enterprise",
+      "classification": "Logistics-and-Evacuation Ground Robotic Complex",
+      "status": "Codified & Authorized (modernized version, June 2026)",
+      "deployment_status": "Operational since 2024, upgraded version codified",
+      "specifications": {
+        "payload_kg": 350,
+        "empty_weight_kg": 350,
+        "dimensions_cm": "136 L × 112 W × 138 H",
+        "motors": "2 × 1,500W electric",
+        "max_speed_kmh": 7.5,
+        "range_km": 40,
+        "communications": "Digital cameras, multiple communication channels"
+      },
+      "capabilities": [
+        "logistics carrier",
+        "MEDEVAC (1-2 wounded)",
+        "remote demining platform",
+        "kamikaze strike system",
+        "battlefield recovery unit",
+        "damaged vehicle recovery"
+      ],
+      "key_advantage": "Built from real combat experience; multi-role capability; towing capacity for recovery operations",
+      "source": "mod.gov.ua, euromaidanpress.com (June 3, 2026)"
+    },
+    {
+      "id": "protector-ugv",
+      "name": "PROTECTOR UGV",
+      "manufacturer": "Ukrainian Defense Enterprise (Ukrainian Armor)",
+      "classification": "Heavy Unmanned Ground System",
+      "status": "Codified & Authorized by MoD (June 2026)",
+      "deployment_status": "Active, heavy logistics/combat platform",
+      "specifications": {
+        "payload_kg": 700,
+        "operational_range_km": 400,
+        "propulsion": "Internal combustion engine",
+        "drive": "All-wheel drive",
+        "tires": "RunFlat",
+        "water_crossing": true,
+        "obstacle_capability": "Significant obstacles and water crossings"
+      },
+      "capabilities": [
+        "ammunition and equipment transport",
+        "casualty evacuation",
+        "weapon station platform",
+        "mobile EW carrier",
+        "SIGINT platform",
+        "ELINT platform"
+      ],
+      "key_advantage": "First full-sized unmanned vehicle authorized by MoD; 400km range enables deep logistics operations",
+      "official_note": "Deputy Minister Valerii Churkin emphasized reinforcing platoon strongpoints with such systems",
+      "source": "mod.gov.ua (June 2026)"
+    },
+    {
       "id": "bizon-l",
+      "name": "BIZON-L UGV",
+      "manufacturer": "UAV Technology",
+      "classification": "Multi-purpose Logistics/Combat Platform",
+      "status": "Codified & Authorized by MoD (April 2026, NATO cataloging standards)",
+      "deployment_status": "Active frontline, serial production",
+      "specifications": {
+        "payload_kg": 300,
+        "max_speed_kmh": 12,
+        "operational_range_km": 50,
+        "deployment_time": "few minutes",
+        "communication_channels": 6,
+        "communication_types": ["LTE", "Wi-Fi", "Starlink", "others"],
+        "thermal_signature": "low (IR stealth)",
+        "terrain_capability": ["marshland", "snow", "ice", "rough terrain"],
+        "chassis_type": "tracked"
+      },
+      "capabilities": [
+        "ammunition and supply transport",
+        "casualty evacuation (CASEVAC)",
+        "engineering obstacles (minelaying/demining)",
+        "communications relay and antenna transport",
+        "EW system carrier",
+        "optional 12.7mm machine gun turret"
+      ],
+      "key_advantage": "6-channel redundant communication for EW-resistant command & control; DroidBox universal control system",
+      "source": "mod.gov.ua (April 2026)"
+    },
       "name": "BIZON-L UGV",
       "manufacturer": "UAV Technology",
       "classification": "Multi-purpose Logistics/Combat Platform",
