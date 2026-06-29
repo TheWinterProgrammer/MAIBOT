@@ -235,6 +235,8 @@
       "key_advantage": "6-channel redundant communication for EW-resistant command & control; DroidBox universal control system",
       "source": "mod.gov.ua (April 2026)"
     },
+    {
+      "id": "bizon-l-v2",
       "name": "BIZON-L UGV",
       "manufacturer": "UAV Technology",
       "classification": "Multi-purpose Logistics/Combat Platform",
