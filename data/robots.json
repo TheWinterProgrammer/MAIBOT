@@ -1,496 +1,155 @@
-{
-  "metadata": {
-    "project": "MAIBOT",
-    "last_updated": "2026-06-23",
-    "total_robots": 22,
-    "data_source": "Ministry of Defence Ukraine (mod.gov.ua), Defense News, Euromaidan Press, Roboneers, Tencore, thedefender.media",
-    "research_period": "June 2026",
-    "new_systems_added": ["Zmiy Droid 12.7", "Droid TW", "Vepr UGV", "PROTECTOR UGV"],
-    "updates_to_existing": ["Bizon-L extended specs", "TerMIT Quantum Systems JV"]
+[
+  {
+    "name": "DODGER",
+    "type": "UGV - Unmanned Ground Vehicle",
+    "developer": "Ukrainian weapons engineers",
+    "status": "Codified and authorized by Ministry of Defence of Ukraine (June 2025)",
+    "payload_capacity_kg": 250,
+    "features": [
+      "Armored - protective plating against small arms fire and shrapnel",
+      "Compact dimensions with low profile",
+      "Multi-functional platform",
+      "Combat informed development process with frontline soldier input"
+    ],
+    "missions": [
+      "Logistics - transporting supplies",
+      "Evacuating wounded personnel",
+      "Combat engineering - remote mine deployment",
+      "Combat support"
+    ],
+    "source": "https://mod.gov.ua/en/news/bulletproof-and-versatile-ukraines-arsenal-of-ground-robotic-systems-has-been-reinforced-with-a-new-addition",
+    "last_updated": "2025-06-29"
   },
-  "robots": [
-    {
-      "id": "legit-s1",
-      "name": "Legit S1 UGV",
-      "manufacturer": "TAF Industries (Ukrainian)",
-      "classification": "Multi-purpose Ground Robot (Compact)",
-      "status": "Codified & Authorized (May 2026)",
-      "deployment_status": "Active frontline (Ukrainian Defence Intelligence)",
-      "specifications": {
-        "range_paved_km": 22,
-        "range_offroad_km": 21,
-        "endurance_hours": 2,
-        "max_speed_paved_kmh": 25,
-        "max_speed_offroad_kmh": 13,
-        "communication": ["LTE", "fiber-optic (optional)"],
-        "crew": 2
-      },
-      "capabilities": [
-        "logistics support",
-        "reconnaissance",
-        "fire support",
-        "kamikaze role",
-        "grenade launcher mount (optional)",
-        "mini-trailer (optional)"
-      ],
-      "key_advantage": "Modular design enables rapid reconfiguration. Developed with Defence Intelligence collaboration.",
-      "source": "thedefender.media (May 2026), TAF Industries"
+  {
+    "name": "TERMIT",
+    "type": "UGV - Tracked Robotic Platform",
+    "developer": "Tencore (Ukrainian company)",
+    "status": "Codified and approved by Ministry of Defence of Ukraine",
+    "investment": "$3.74 million from US-Ukraine MITS Capital",
+    "features": [
+      "Modular architecture",
+      "All-terrain tracked design",
+      "Can be equipped with Browning machine guns",
+      "Starlink terminal compatible",
+      "Logistics, evacuation, engineering, and fire support capable"
+    ],
+    "missions": [
+      "Logistics support",
+      "Evacuation of wounded",
+      "Engineering tasks",
+      "Fire support",
+      "Surveillance"
+    ],
+    "source": "https://cyberdronesolutions.com/platforms/termit/",
+    "last_updated": "2025-06-29"
+  },
+  {
+    "name": "Ratel H",
+    "type": "UGV - Robotic Logistician/Tow Truck",
+    "developer": "Ratel Robotics (Ukrainian)",
+    "status": "In production",
+    "specifications": {
+      "radius_of_use_km": 50,
+      "useful_load_kg": 400,
+      "travel_range_km": 60
     },
-    {
-      "id": "legit-l1",
-      "name": "Legit L1 UGV",
-      "manufacturer": "TAF Industries (Ukrainian)",
-      "classification": "Multi-purpose Ground Robot (Extended Range)",
-      "status": "Codified & Authorized (May 2026)",
-      "deployment_status": "Active frontline (Ukrainian Defence Intelligence)",
-      "specifications": {
-        "range_paved_km": 30,
-        "range_offroad_km": 26,
-        "endurance_hours": 2.5,
-        "max_speed_paved_kmh": 22,
-        "max_speed_offroad_kmh": 15,
-        "navigation": "GPS",
-        "communication": ["LTE", "Starlink"],
-        "crew": 2
-      },
-      "capabilities": [
-        "logistics support",
-        "reconnaissance",
-        "fire support",
-        "kamikaze role",
-        "grenade launcher mount (optional)",
-        "engineering trailer for razor wire deployment (optional)",
-        "logistics trailer (optional)",
-        "Pulsar turret for small arms (optional)"
-      ],
-      "key_advantage": "Extended range and endurance with Starlink integration. Modular Pulsar turret support.",
-      "source": "thedefender.media (May 2026), TAF Industries"
+    "source": "https://robots.com.ua/en/robotizovanij-kompleks-ratel-h/",
+    "last_updated": "2025-06-29"
+  },
+  {
+    "name": "Ratel S",
+    "type": "UGV - Kamikaze/Miner Robot",
+    "developer": "Ratel Robotics (Ukrainian)",
+    "status": "In production",
+    "specifications": {
+      "radius_of_use_m": 1500,
+      "payload_kg": 35,
+      "travel_range_km": 10
     },
-    {
-      "id": "protector-ugv",
-      "name": "PROTECTOR UGV",
-      "manufacturer": "Ukrainian Defense Enterprise",
-      "classification": "Heavy Unmanned Ground Vehicle",
-      "status": "Codified & Authorized (June 2025)",
-      "deployment_status": "Active, heavy logistics/combat platform",
-      "specifications": {
-        "payload_kg": 700,
-        "operational_range_km": 400,
-        "propulsion": "internal combustion engine",
-        "drive": "all-wheel drive",
-        "tires": "RunFlat",
-        "water_crossing": true
-      },
-      "capabilities": [
-        "ammunition and equipment transport",
-        "casualty evacuation",
-        "weapon station platform",
-        "mobile EW carrier",
-        "SIGINT platform",
-        "ELINT platform"
-      ],
-      "key_advantage": "First full-sized unmanned vehicle authorized by MoD. Extended 400km range enables deep logistics operations.",
-      "source": "mod.gov.ua (June 27, 2025)"
+    "missions": [
+      "Remote mining of territories",
+      "Mining equipment",
+      "Demolition"
+    ],
+    "source": "https://robots.com.ua/en/ratel-s-zaminovuvach/",
+    "last_updated": "2025-06-29"
+  },
+  {
+    "name": "Ratel M",
+    "type": "UGV - Robotic Logistician",
+    "developer": "Ratel Robotics (Ukrainian)",
+    "status": "In production",
+    "specifications": {
+      "radius_of_use_km": 50,
+      "working_weight_kg": 300,
+      "travel_range_km": 70
     },
-    {
-      "id": "visluk-ugv",
-      "name": "Visluk UGV",
-      "manufacturer": "Ukrainian Defense Enterprise",
-      "classification": "Multifunctional Tracked Ground Robot",
-      "status": "Codified & Authorized (2025)",
-      "deployment_status": "Active frontline",
-      "capabilities": [
-        "logistics support",
-        "combat missions"
-      ],
-      "source": "mod.gov.ua"
+    "missions": [
+      "Evacuation tasks",
+      "Logistics support"
+    ],
+    "source": "https://robots.com.ua/en/ratel-m/",
+    "last_updated": "2025-06-29"
+  },
+  {
+    "name": "Ratel X",
+    "type": "UGV - Multi-purpose Six-wheeled Platform",
+    "developer": "Ratel Robotics (Ukrainian)",
+    "status": "In production, preparing for mass production",
+    "specifications": {
+      "radius_of_use_km": 115,
+      "useful_load_kg": 400,
+      "travel_range_km": 100,
+      "weight_kg": 1130,
+      "weight_with_payload_kg": 1530,
+      "ground_clearance_mm": 400,
+      "dimensions_mm": "2580x1780x830-1930",
+      "speed_kmh": 14,
+      "cameras": ["Daytime", "Night"]
     },
-    {
-      "id": "zmiy-droid-12-7",
-      "name": "Zmiy Droid 12.7",
-      "manufacturer": "Ukrainian Defense Enterprise (DevDroid)",
-      "classification": "Strike-and-Reconnaissance Ground Robotic System",
-      "status": "Codified & Authorized by MoD (June 2026)",
-      "deployment_status": "Active frontline deployment",
-      "specifications": {
-        "platform_base": "Zmiy (combat-proven)",
-        "weapon_station": "Wolly 12.7mm machine gun",
-        "mobility": "High cross-country; rough terrain, sand, snow, shallow water",
-        "protection": "Armored hull vs anti-personnel mines, FPV-drone resistant",
-        "control": "Integrated module for simultaneous platform + weapon control",
-        "ai_features": ["automatic target acquisition", "target tracking"]
-      },
-      "key_advantage": "AI-based automatic target acquisition and tracking; armored hull withstands multiple FPV drone hits",
-      "combat_notes": "Designed to replace soldiers in highest-risk battlefield areas",
-      "source": "mod.gov.ua (June 2026)"
+    "features": [
+      "Six-wheeled design",
+      "Off-road capable suspension",
+      "Virtually silent electric motors",
+      "Low heat emission",
+      "Satellite-based remote control",
+      "Multicopter repeater included"
+    ],
+    "missions": [
+      "Logistics support",
+      "Mobile observation point for reconnaissance",
+      "Carrier for third-party equipment"
+    ],
+    "source": "https://robots.com.ua/en/ratel-x/",
+    "last_updated": "2025-06-29"
+  },
+  {
+    "name": "Litavr",
+    "type": "Interceptor Drone",
+    "developer": "F-Drones (Ukrainian company)",
+    "status": "Codified, in restricted Brave1 catalog since Autumn 2025",
+    "specifications": {
+      "max_speed_kmh": 350,
+      "operational_radius_km": 40,
+      "max_recorded_distance_km": 80,
+      "max_altitude_m": 9000
     },
-    {
-      "id": "droid-tw",
-      "name": "Droid TW",
-      "manufacturer": "Ukrainian Defense Enterprise (DevDroid)",
-      "classification": "Reconnaissance-Strike Ground Robot",
-      "status": "Codified & Procured by MoD",
-      "deployment_status": "Active frontline deployment, combat-proven",
-      "specifications": {
-        "armament_options": ["12.7mm Browning", "7.62mm machine gun"],
-        "ammunition_capacity_rounds": "480-1000",
-        "engagement_range_m": 1000,
-        "detection_range_day_m": 1500,
-        "detection_range_night_m": 1000,
-        "optics": "Thermal imager with selectable display modes",
-        "ai_features": ["enemy personnel recognition", "ballistic calculation module"],
-        "communications": ["military systems", "Starlink", "LTE"],
-        "deployment_time_min": 5,
-        "control": ["tablet", "gamepad"]
-      },
-      "key_advantage": "AI-based enemy recognition and ballistic calculations; 5-minute deployment; day/night thermal capability",
-      "combat_record": [
-        "Successfully destroyed Russian MT-LB armored vehicle",
-        "Sustained 45-day firing position (withdrawn every 2 days for maintenance/recharge)"
-      ],
-      "media_comparison": "Foreign media compared to Terminator sci-fi robot",
-      "source": "mod.gov.ua (June 2026), development since 2023"
+    "features": [
+      "Automatic terminal guidance (Last Mile/Pixel Lock)",
+      "Remote control module",
+      "Minimal dependence on foreign components",
+      "Warhead in nose section (two variants: empty container or ready-made with NATO code)",
+      "Self-homing to target",
+      "Pilot controls only speed during final approach",
+      "Safe return to base if target not detected"
+    ],
+    "development_timeline": {
+      "development_start": "Autumn 2024",
+      "successful_testing": "Summer 2025",
+      "codification": "Summer 2025",
+      "serial_production_start": "Autumn 2025"
     },
-    {
-      "id": "vepr-ugv",
-      "name": "Vepr UGV",
-      "manufacturer": "Ukrainian Defense Enterprise",
-      "classification": "Logistics-and-Evacuation Ground Robotic Complex",
-      "status": "Codified & Authorized (modernized version, June 2026)",
-      "deployment_status": "Operational since 2024, upgraded version codified",
-      "specifications": {
-        "payload_kg": 350,
-        "empty_weight_kg": 350,
-        "dimensions_cm": "136 L × 112 W × 138 H",
-        "motors": "2 × 1,500W electric",
-        "max_speed_kmh": 7.5,
-        "range_km": 40,
-        "communications": "Digital cameras, multiple communication channels"
-      },
-      "capabilities": [
-        "logistics carrier",
-        "MEDEVAC (1-2 wounded)",
-        "remote demining platform",
-        "kamikaze strike system",
-        "battlefield recovery unit",
-        "damaged vehicle recovery"
-      ],
-      "key_advantage": "Built from real combat experience; multi-role capability; towing capacity for recovery operations",
-      "source": "mod.gov.ua, euromaidanpress.com (June 3, 2026)"
-    },
-    {
-      "id": "protector-ugv",
-      "name": "PROTECTOR UGV",
-      "manufacturer": "Ukrainian Defense Enterprise (Ukrainian Armor)",
-      "classification": "Heavy Unmanned Ground System",
-      "status": "Codified & Authorized by MoD (June 2026)",
-      "deployment_status": "Active, heavy logistics/combat platform",
-      "specifications": {
-        "payload_kg": 700,
-        "operational_range_km": 400,
-        "propulsion": "Internal combustion engine",
-        "drive": "All-wheel drive",
-        "tires": "RunFlat",
-        "water_crossing": true,
-        "obstacle_capability": "Significant obstacles and water crossings"
-      },
-      "capabilities": [
-        "ammunition and equipment transport",
-        "casualty evacuation",
-        "weapon station platform",
-        "mobile EW carrier",
-        "SIGINT platform",
-        "ELINT platform"
-      ],
-      "key_advantage": "First full-sized unmanned vehicle authorized by MoD; 400km range enables deep logistics operations",
-      "official_note": "Deputy Minister Valerii Churkin emphasized reinforcing platoon strongpoints with such systems",
-      "source": "mod.gov.ua (June 2026)"
-    },
-    {
-      "id": "bizon-l",
-      "name": "BIZON-L UGV",
-      "manufacturer": "UAV Technology",
-      "classification": "Multi-purpose Logistics/Combat Platform",
-      "status": "Codified & Authorized by MoD (April 2026, NATO cataloging standards)",
-      "deployment_status": "Active frontline, serial production",
-      "specifications": {
-        "payload_kg": 300,
-        "max_speed_kmh": 12,
-        "operational_range_km": 50,
-        "deployment_time": "few minutes",
-        "communication_channels": 6,
-        "communication_types": ["LTE", "Wi-Fi", "Starlink", "others"],
-        "thermal_signature": "low (IR stealth)",
-        "terrain_capability": ["marshland", "snow", "ice", "rough terrain"],
-        "chassis_type": "tracked"
-      },
-      "capabilities": [
-        "ammunition and supply transport",
-        "casualty evacuation (CASEVAC)",
-        "engineering obstacles (minelaying/demining)",
-        "communications relay and antenna transport",
-        "EW system carrier",
-        "optional 12.7mm machine gun turret"
-      ],
-      "key_advantage": "6-channel redundant communication for EW-resistant command & control; DroidBox universal control system",
-      "source": "mod.gov.ua (April 2026)"
-    },
-    {
-      "id": "bizon-l-v2",
-      "name": "BIZON-L UGV",
-      "manufacturer": "UAV Technology",
-      "classification": "Multi-purpose Logistics/Combat Platform",
-      "status": "Codified & Authorized (2025)",
-      "deployment_status": "Active frontline, serial production",
-      "specifications": {
-        "payload_kg": 300,
-        "max_speed_kmh": 12,
-        "operational_range_km": 50,
-        "deployment_time": "few minutes",
-        "communication_channels": 6,
-        "communication_types": ["LTE", "Wi-Fi", "Starlink", "others"],
-        "thermal_signature": "low (IR stealth)",
-        "terrain_capability": ["marshland", "snow", "ice", "rough terrain"],
-        "chassis_type": "tracked"
-      },
-      "capabilities": [
-        "ammunition and supply transport",
-        "casualty evacuation (CASEVAC)",
-        "engineering obstacles (minelaying/demining)",
-        "communications relay and antenna transport",
-        "EW system carrier",
-        "optional 12.7mm machine gun turret"
-      ],
-      "key_advantage": "6-channel redundant communication for EW-resistant command & control"
-    },
-    {
-      "id": "termit",
-      "name": "TERMIT UGV",
-      "manufacturer": "Tencore (Ukrainian)",
-      "code_name": "Iron Soldiers",
-      "classification": "Tracked Ground Robot",
-      "status": "Codified & Authorized (2025)",
-      "deployment_status": "Combat-proven, 20+ brigades",
-      "specifications": {
-        "weight_kg": 280,
-        "payload_kg": 300,
-        "max_speed_kmh": 10,
-        "endurance_hours": 12,
-        "control_range_km": 20,
-        "operational_range_km": "several dozen",
-        "unit_price_usd": 12000,
-        "unit_price_uah": 480000,
-        "local_content_percent": 65,
-        "nato_codified": true
-      },
-      "operational_configurations": [
-        "medical evacuation (MEDEVAC)",
-        "logistics support",
-        "mine laying/demining",
-        "combat module transport",
-        "optional armor (Level 4)",
-        "winch capability"
-      ],
-      "key_advantage": "65% Ukrainian components provide supply-chain resilience; $12K price enables attrition-tolerant procurement",
-      "strategic_development": "Joint venture with German Quantum Systems (Quantum Tencore Industries, April 2026) for NATO production scaling"
-    },
-    {
-      "id": "lynx-plus",
-      "name": "Lynx+ UGV",
-      "manufacturer": "Roboneers (Ukrainian)",
-      "classification": "Logistics/Evacuation Platform",
-      "status": "Authorized (April 2026)",
-      "deployment_status": "New, ramping deployment",
-      "specifications": {
-        "one_way_range_km": 40,
-        "total_range_km": 80,
-        "max_speed_kmh": 14,
-        "payload_kg": 350,
-        "ground_clearance_mm": 260,
-        "personnel_evacuation": 2,
-        "evacuation_method": "suspended basket (off-road capable)"
-      },
-      "capabilities": [
-        "logistics missions",
-        "evacuation missions",
-        "automated cargo ejection (rapid unloading)",
-        "Saber RWS module integration"
-      ],
-      "comparison": "vs Lynx MAX: higher speed and range, lower ground clearance"
-    },
-    {
-      "id": "lynx-max",
-      "name": "Lynx MAX UGV",
-      "manufacturer": "Roboneers (Ukrainian)",
-      "classification": "Logistics/Combat Platform",
-      "status": "Authorized (April 2026)",
-      "deployment_status": "Active (Pokrovsk axis + multiple sectors)",
-      "specifications": {
-        "payload_kg": 350,
-        "ground_clearance_mm": 300
-      },
-      "capabilities": [
-        "Saber RWS combat module integration",
-        "logistics support",
-        "extended ground clearance for rough terrain"
-      ]
-    },
-    {
-      "id": "lynx-pro",
-      "name": "Lynx PRO UGV",
-      "manufacturer": "Roboneers (Ukrainian)",
-      "classification": "Universal Logistics/Combat Platform",
-      "status": "Authorized with May 2026 updates",
-      "deployment_status": "Active, regularly updated",
-      "specifications": {
-        "payload_kg": 300,
-        "baseline_range_km": 40,
-        "extended_range_km": 80,
-        "extended_range_config": "4 battery configuration",
-        "price_uah": 1400000,
-        "price_usd_est": 34000
-      },
-      "capabilities": [
-        "digital MESH communications with Starlink Mini standard",
-        "LTE and short-range infantry control",
-        "rear-view camera (May 2026 update)",
-        "improved mobility (May 2026 update)",
-        "EW system integration",
-        "combat module integration",
-        "Brave1 Market procurement (ePoints system)"
-      ],
-      "key_advantage": "Modular Saber RWS standardization enables rapid task-reconfiguration; extended range supports deep logistics"
-    },
-    {
-      "id": "gulliver",
-      "name": "Gulliver UGV",
-      "manufacturer": "Ukrainian combat engineers",
-      "classification": "Universal Logistics Platform",
-      "status": "Codified & Authorized (2025)",
-      "deployment_status": "Active, brigade-scale deployment",
-      "specifications": {
-        "payload_road_kg": 300,
-        "payload_offroad_kg": 250,
-        "towing_capacity": "sufficient to extract small military off-road vehicles from mud",
-        "form_factor": "fits pickup truck bed",
-        "operational_range_km": "several tens (+ return)",
-        "terrain_capability": "wide temperature range, steep slopes"
-      },
-      "capabilities": [
-        "ammunition and equipment transport",
-        "casualty evacuation (CASEVAC)",
-        "combat module transport",
-        "mine action operations (configurable)"
-      ],
-      "key_advantage": "Extremely portable (pickup truck bed). Towing capacity enables recovery operations without additional vehicles"
-    },
-    {
-      "id": "unex",
-      "name": "UNEX UGV",
-      "manufacturer": "Ukrainian Defense Enterprise",
-      "classification": "Amphibious Multi-Domain Platform",
-      "status": "Codified & Authorized (2025)",
-      "deployment_status": "Active, specialized deployment",
-      "specifications": {
-        "terrain": ["water", "floodplains", "swamps", "mire", "sand", "ice", "difficult surfaces"],
-        "ground_pressure": "less than infantry foot",
-        "mine_safety": "cannot activate anti-vehicle mines (low-pressure design)",
-        "obstacle_capability": ["fallen trees", "large rocks", "ditches"],
-        "water_transition": "seamless water-to-ice operations",
-        "control": "radio + programmable autopilot",
-        "ew_resistant": true
-      },
-      "capabilities": [
-        "amphibious operations",
-        "mine-resistant logistics (low ground pressure)",
-        "weapon station integration",
-        "EW system integration",
-        "logistics/evacuation/demining (configurable)"
-      ],
-      "unique_capability": "Only documented UGV with explicit low-ground-pressure design preventing mine activation. Critical for heavily-mined Ukrainian terrain.",
-      "demonstration": "Drove over ceramic plate and coffee cup undamaged"
-    },
-    {
-      "id": "krampus",
-      "name": "KRAMPUS",
-      "manufacturer": "Ukrainian Defense Enterprise",
-      "classification": "Mobile Thermobaric Strike System",
-      "status": "Codified & Authorized (2025)",
-      "deployment_status": "Active, offensive/defensive operations",
-      "specifications": {
-        "propulsion": "2× silent electric motors (zero thermal signature)",
-        "chassis": "tracked (high mobility)",
-        "form_factor": "fits pickup truck bed, minibus, or trailer",
-        "weapon_system": "2× RPV-16 reactive thermobaric launchers",
-        "terrain_capability": ["off-road", "dense forests", "sand", "swamps", "steep slopes"],
-        "endurance": "battery-driven, multi-hour continuous duty",
-        "weather_capability": ["cold", "heat", "snow", "rain"],
-        "target_capability": "enemy personnel and lightly-armored vehicles"
-      },
-      "key_advantage": "Silent electric propulsion eliminates acoustic/thermal signature. Compact form enables rapid deployment. Thermobaric payload provides area-effect capability"
-    },
-    {
-      "id": "saber-rws",
-      "name": "Saber RWS",
-      "manufacturer": "Roboneers",
-      "classification": "Remotely-Operated Weapon Station",
-      "status": "Authorized (ongoing)",
-      "deployment_status": "Integrated across Lynx series",
-      "capabilities": [
-        "weapon station integration",
-        "modular payload standard",
-        "compatible with multiple UGV platforms"
-      ],
-      "strategic_value": "Standardization enables rapid task-reconfiguration across fleet"
-    },
-    {
-      "id": "wardog-uav",
-      "name": "WarDogUAV",
-      "manufacturer": "Roboneers",
-      "classification": "Unmanned Air Vehicle",
-      "status": "In development/deployment",
-      "deployment_status": "Active"
-    },
-    {
-      "id": "bulldog-drone",
-      "name": "Bulldog",
-      "manufacturer": "Roboneers",
-      "classification": "Transformer-Type Drone",
-      "status": "Authorized (March 2026)",
-      "deployment_status": "Active, ramping",
-      "capabilities": [
-        "signal relay functionality",
-        "payload delivery platform"
-      ]
-    },
-    {
-      "id": "shadowai",
-      "name": "ShadowAI",
-      "manufacturer": "Roboneers",
-      "classification": "AI Targeting/Autonomy System",
-      "status": "In development/integration",
-      "capabilities": [
-        "AI-based target acquisition",
-        "autonomous navigation integration",
-        "fleet management potential"
-      ]
-    },
-    {
-      "id": "fpv-kamikaze-10",
-      "name": "FPV Kamikaze 10\"",
-      "manufacturer": "LEADER Tech",
-      "classification": "FPV Strike Drone",
-      "status": "Production (ongoing)",
-      "deployment_status": "Active",
-      "specifications": {
-        "takeoff_weight_kg": 8,
-        "payload_kg": 5,
-        "flight_time_min": 17,
-        "tactical_range_km": 20,
-        "altitude_m": 500,
-        "max_speed_kmh": 120,
-        "price_usd": 620
-      }
-    }
-  ]
-}
+    "source": "https://en.interfax.com.ua/news/general/1175110.html",
+    "last_updated": "2025-06-29"
+  }
+]

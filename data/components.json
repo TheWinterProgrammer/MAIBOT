@@ -1,540 +1,93 @@
 {
-  "metadata": {
-    "project": "MAIBOT",
-    "last_updated": "2026-06-29",
-    "data_source": "LEADER Tech, Motor-G, official Ukrainian sources",
-    "total_components": 19
+  "motors": {
+    "description": "Electric motors for FPV and ground robotic systems",
+    "key_manufacturer": "Motor-G",
+    "production_capacity": "Approaching 100,000 motors per month",
+    "status": "Mass production since December 2024",
+    "types": ["FPV drone motors", "Fiber-optic drone motors (up to 15 inch frames)"],
+    "origin": "Ukrainian-made",
+    "notes": "Likely largest drone motor manufacturer in Ukraine and Europe"
   },
-  "manufacturers": [
-    {
-      "name": "Motor-G",
-      "country": "Ukraine",
-      "specialization": "Drone/UAV electric motors",
-      "production_capacity": "200,000 motors/month",
-      "market_share_ukraine_percent": 17,
-      "clients": "100+ drone manufacturers",
-      "localization_percent": 80,
-      "localization_target_2027_percent": 90,
-      "quality_defects_per_1000": 2
-    },
-    {
-      "name": "LEADER Tech",
-      "country": "Ukraine",
-      "specialization": "FPV drone components, complete FPV platforms",
-      "market_reach": "100+ drone manufacturers"
-    },
-    {
-      "name": "Roboneers",
-      "country": "Ukraine",
-      "specialization": "UGVs, UAVs, water systems, AI targeting",
-      "market_reach": "NATO interoperable"
-    },
-    {
-      "name": "Tencore",
-      "country": "Ukraine",
-      "specialization": "TerMIT UGV production",
-      "local_content": "65%"
-    },
-    {
-      "name": "TAF Industries",
-      "country": "Ukraine",
-      "specialization": "Legit UGV production, drone manufacturing",
-      "monthly_output": "80K drones/month",
-      "production_sites": 20,
-      "annual_revenue_2024": "$1B USD",
-      "collaboration": "Ukrainian Defence Intelligence"
-    },
-    {
-      "name": "Frontline Robotics",
-      "country": "Ukraine",
-      "specialization": "BURIA robotic turret systems"
-    },
-    {
-      "name": "DevDroid",
-      "country": "Ukraine",
-      "specialization": "DroidBox universal UGV control systems, Wolly 12.7 combat modules"
-    }
-  ],
-  "motors": [
-    {
-      "id": "motor-g-vandal",
-      "name": "VANDAL Electric Motor",
-      "manufacturer": "Motor-G",
-      "application": "High-speed interceptor drones",
-      "target_drone_weight_kg": "3-5",
-      "demonstrated_speed_kmh": 350,
-      "key_features": [
-        "extended shaft for large-pitch propellers",
-        "lower winding resistance vs conventional motors",
-        "higher efficiency for extended range",
-        "power reserve for high-load conditions"
-      ],
-      "localization_status": {
-        "stators": "100% localized (starting May 2026)",
-        "magnets": "imported (specialty alloys)",
-        "bearings": "imported (Ukraine produces large bearings only)"
-      },
-      "cost_uah": 2000,
-      "cost_usd_est": 50,
-      "cost_trend": "expected to decrease with volume",
-      "testing_status": "Tested on Air Baby and multiple interceptor drone types",
-      "development_date": "March 2026",
-      "source": "militarnyi.com (March 2026)"
-    },
-    {
-      "id": "motor-g-standard",
-      "name": "Motor-G Standard Drone Motors",
-      "manufacturer": "Motor-G",
-      "production_rate_monthly": 200000,
-      "market_share_ukraine_percent": 17,
-      "clients": "100+ drone manufacturers",
-      "localization_percent": 80,
-      "localization_target_2027_percent": 90,
-      "quality_defects_per_1000": 2,
-      "applications": [
-        "FPV drones",
-        "strike bombers",
-        "aircraft-type drones"
-      ],
-      "testing_stages": "6-stage process (lab → field → deployment)",
-      "source": "motor-g.com, techukraine.org"
-    }
-  ],
-  "weapon_stations": [
-    {
-      "id": "wolly-12-7",
-      "name": "Wolly Weapon Station",
-      "manufacturer": "DevDroid",
-      "caliber_mm": 12.7,
-      "type": "Remotely operated machine gun turret",
-      "platforms": [
-        "Zmiy Droid 12.7"
-      ],
-      "ai_features": [
-        "automatic target acquisition",
-        "target tracking"
-      ],
-      "integration": "DroidBox-compatible",
-      "status": "Combat-proven, codified by MoD"
-    },
-    {
-      "id": "saber-rws",
-      "name": "Saber RWS",
-      "manufacturer": "Roboneers",
-      "type": "Remotely-Operated Weapon Station",
-      "platforms": [
-        "Lynx+",
-        "Lynx MAX",
-        "Lynx PRO"
-      ],
-      "key_advantage": "Standardization enables rapid task-reconfiguration across fleet",
-      "status": "Authorized, integrated across Lynx series"
-    },
-    {
-      "id": "droid-tw-12-7",
-      "name": "Droid TW Weapon Station",
-      "manufacturer": "Ukrainian Defense Enterprise",
-      "caliber_mm": 12.7,
-      "alternative_caliber_mm": 7.62,
-      "ammunition_capacity_rounds": "480-1000",
-      "engagement_range_m": 1000,
-      "detection_range_day_m": 1500,
-      "detection_range_night_m": 1000,
-      "ai_features": [
-        "enemy personnel recognition",
-        "ballistic calculation module"
-      ],
-      "optics": "thermal imager with selectable display modes",
-      "deployment_time_min": 5,
-      "control": [
-        "tablet",
-        "gamepad"
-      ],
-      "communications": [
-        "military systems",
-        "Starlink",
-        "LTE"
-      ],
-      "combat_record": "Destroyed Russian MT-LB; held position for 45 consecutive days",
-      "status": "Codified & procured by MoD"
-    },
-    {
-      "id": "bizon-l-turret",
-      "name": "Bizon-L 12.7mm Turret",
-      "manufacturer": "UAV Technology",
-      "caliber_mm": 12.7,
-      "type": "Optional machine gun turret module",
-      "platforms": [
-        "Bizon-L"
-      ],
-      "control_system": "DroidBox",
-      "integration": "Unified interface with platform control",
-      "status": "Available as optional module"
-    },
-    {
-      "id": "rpv-16-launcher",
-      "name": "RPV-16 Thermobaric Launchers",
-      "manufacturer": "Ukrainian Defense Enterprise",
-      "type": "Reactive thermobaric launchers",
-      "quantity_per_platform": 2,
-      "platforms": [
-        "KRAMPUS"
-      ],
-      "target_capability": "enemy personnel and lightly-armored vehicles",
-      "effect": "area-effect thermobaric",
-      "status": "Active deployment"
-    }
-  ],
-  "propulsion_systems": [
-    {
-      "id": "vepr-dual-motor",
-      "name": "Vepr Dual Electric Drive",
-      "manufacturer": "Ukrainian Defense Enterprise",
-      "type": "Electric motors",
-      "configuration": "2 × 1,500W",
-      "platforms": [
-        "Vepr"
-      ],
-      "max_speed_kmh": 7.5,
-      "range_km": 40,
-      "key_advantage": "Reliable electric propulsion for logistics operations"
-    },
-    {
-      "id": "krampus-silent",
-      "name": "KRAMPUS Silent Electric Drive",
-      "manufacturer": "Ukrainian Defense Enterprise",
-      "type": "Silent electric motors",
-      "configuration": "2 × silent electric motors",
-      "platforms": [
-        "KRAMPUS"
-      ],
-      "thermal_signature": "zero",
-      "acoustic_signature": "silent",
-      "endurance": "multi-hour continuous duty",
-      "key_advantage": "Zero thermal/acoustic signature for stealth operations"
-    },
-    {
-      "id": "protector-ice",
-      "name": "PROTECTOR Heavy-Duty Drive",
-      "manufacturer": "Ukrainian Defense Enterprise",
-      "type": "Internal combustion engine",
-      "platforms": [
-        "PROTECTOR"
-      ],
-      "drive_type": "all-wheel drive",
-      "tires": "RunFlat",
-      "capability": "water crossings, significant obstacle negotiation",
-      "range_km": 400,
-      "key_advantage": "Extended range for deep logistics operations"
-    },
-    {
-      "id": "bizon-l-tracked",
-      "name": "Bizon-L Tracked Chassis",
-      "manufacturer": "UAV Technology",
-      "type": "Tracked propulsion",
-      "platforms": [
-        "Bizon-L"
-      ],
-      "max_speed_kmh": 12,
-      "terrain": [
-        "marshland",
-        "snow",
-        "ice",
-        "rough terrain"
-      ],
-      "thermal_signature": "low (IR stealth)",
-      "key_advantage": "Low thermal signature, all-terrain capability"
-    },
-    {
-      "id": "termit-tracked",
-      "name": "TerMIT Tracked Drive",
-      "manufacturer": "Tencore",
-      "type": "Tracked propulsion",
-      "platforms": [
-        "TerMIT"
-      ],
-      "max_speed_kmh": 10,
-      "endurance_hours": 12,
-      "key_advantage": "Combat-proven reliability across 20+ brigades"
-    },
-    {
-      "id": "unex-low-pressure",
-      "name": "UNEX Low-Pressure Amphibious System",
-      "manufacturer": "Ukrainian Defense Enterprise",
-      "type": "Amphibious low-pressure propulsion",
-      "platforms": [
-        "UNEX"
-      ],
-      "ground_pressure": "less than infantry foot",
-      "mine_safety": "cannot activate anti-vehicle mines",
-      "unique_capability": "Only documented UGV with explicit low-ground-pressure design preventing mine activation",
-      "terrain": [
-        "water",
-        "floodplains",
-        "swamps",
-        "mire",
-        "sand",
-        "ice",
-        "difficult surfaces"
-      ]
-    }
-  ],
-  "control_systems": [
-    {
-      "id": "droidbox",
-      "name": "DroidBox Universal Control System",
-      "manufacturer": "DevDroid",
-      "status": "Codified by MoD (April 2026)",
-      "units_deployed": 1000,
-      "platforms_supported": 8,
-      "communication_channels": 6,
-      "channel_types": [
-        "radio (encrypted)",
-        "LTE/cellular",
-        "Starlink satellite",
-        "encrypted military channels",
-        "Wi-Fi",
-        "optical fiber"
-      ],
-      "key_capabilities": [
-        "GPS spoofing protection",
-        "AI target detection integration",
-        "real-time diagnostics",
-        "single operator interface across all platforms"
-      ],
-      "training_reduction_percent": 60,
-      "market_availability": "Brave1 Market, DOT-Chain Defence",
-      "service_offering": "Retrofit available for non-functional platforms",
-      "verified_combat_success": "UGV detected and destroyed loitering drone ambush, engaged enemy personnel with zero operator casualties"
-    }
-  ],
-  "fpv_platforms": [
-    {
-      "id": "fpv-kamikaze-10",
-      "name": "FPV Kamikaze 10\"",
-      "manufacturer": "LEADER Tech",
-      "takeoff_weight_kg": 8,
-      "payload_kg": 5,
-      "flight_time_min": 17,
-      "tactical_range_km": 20,
-      "max_speed_kmh": 120,
-      "price_usd": 620
-    },
-    {
-      "id": "fpv-bomber-8",
-      "name": "FPV Bomber 8\"",
-      "manufacturer": "LEADER Tech",
-      "takeoff_weight_kg": 3.5,
-      "payload_kg": 2,
-      "flight_time_min": 17,
-      "tactical_range_km": 10,
-      "max_speed_kmh": 120,
-      "price_usd": 500
-    }
-  ],
-  "flight_controllers": [
-    {
-      "id": "f405-wing",
-      "name": "F405 Wing Flight Controller",
-      "manufacturer": "LEADER Tech",
-      "microcontroller": "STM32F405",
-      "uarts": 6,
-      "servo_outputs": 10,
-      "dimensions_mm": "38x56",
-      "price_usd": 45
-    },
-    {
-      "id": "f405-re",
-      "name": "F405 RE Flight Controller",
-      "manufacturer": "LEADER Tech",
-      "microcontroller": "STM32F405",
-      "imu": "BMI270",
-      "uarts": 5,
-      "servo_outputs": 9,
-      "bec_voltage": "5V+9V",
-      "dimensions_mm": "40x42",
-      "price_usd": 30
-    }
-  ],
-  "escs": [
-    {
-      "id": "bls80a-8s",
-      "name": "BLS80A ESC (8S)",
-      "manufacturer": "LEADER Tech",
-      "max_current_a": 80,
-      "firmware": "BLHELI_S",
-      "input_voltage": "3-8S LiPo",
-      "price_usd": 60
-    },
-    {
-      "id": "bls50a-6s",
-      "name": "BLS50A ESC (6S)",
-      "manufacturer": "LEADER Tech",
-      "max_current_a": 50,
-      "firmware": "BLHELI_S",
-      "input_voltage": "3-6S LiPo",
-      "price_usd": 35
-    }
-  ],
-  "radio_control": [
-    {
-      "id": "elrs24900",
-      "name": "ELRS24900 Receiver",
-      "manufacturer": "LEADER Tech",
-      "frequency_mhz": "862-1020 + 2.4-2.5 GHz",
-      "chipset": "LR1121x2 + ESP32",
-      "protocols": [
-        "CRSF",
-        "SBUS",
-        "SUMD"
-      ],
-      "weight_g": 2.5,
-      "price_usd": 33
-    },
-    {
-      "id": "elrs900",
-      "name": "ELRS900 Receiver",
-      "manufacturer": "LEADER Tech",
-      "frequency_mhz": "720-1020",
-      "chipset": "2× SX1276 + ESP32",
-      "protocols": [
-        "CRSF",
-        "SBUS",
-        "SUMD"
-      ],
-      "weight_g": 0.6,
-      "price_usd": 29
-    },
-    {
-      "id": "elrs433",
-      "name": "ELRS433 Receiver",
-      "manufacturer": "LEADER Tech",
-      "frequency_mhz": "410-530",
-      "price_usd": 15
-    },
-    {
-      "id": "elrs433-tx",
-      "name": "ELRS433 Transmitter",
-      "manufacturer": "LEADER Tech",
-      "frequency_mhz": "410-530",
-      "output_power": "1W or 2W",
-      "form_factor": "JR module",
-      "price_usd_1w": 60,
-      "price_usd_2w": 70
-    }
-  ],
-  "antennas": [
-    {
-      "id": "helical-5.8ghz",
-      "name": "FPV RX Helical 5.8 GHz",
-      "manufacturer": "LEADER Tech",
-      "center_frequency_ghz": 5.8,
-      "gain_dbi": 10.9,
-      "turns": 8,
-      "beamwidth_deg": 37,
-      "price_usd": 24
-    },
-    {
-      "id": "helical-2.4ghz",
-      "name": "FPV Helical 2.4 GHz",
-      "manufacturer": "LEADER Tech",
-      "center_frequency_ghz": 2.4,
-      "gain_dbi": 10,
-      "turns": 7,
-      "dimensions_mm": "310x105",
-      "price_usd": 75
-    }
-  ],
-  "payload_systems": [
-    {
-      "id": "payload-drop",
-      "name": "Drone Payload Drop System",
-      "manufacturer": "LEADER Tech",
-      "max_payload_kg": 2,
-      "mechanism": "servo-controlled",
-      "control_interface": "standard PWM",
-      "price_usd": 15
-    },
-    {
-      "id": "camera-gimbal",
-      "name": "FPV Camera Gimbal",
-      "manufacturer": "LEADER Tech",
-      "mount_size_mm": "19x19",
-      "control": "servo tilt",
-      "price_usd": 17
-    },
-    {
-      "id": "thermal-gimbal",
-      "name": "FPV Thermal Camera Gimbal",
-      "manufacturer": "LEADER Tech",
-      "mount_size_mm": "21x21",
-      "control": "servo tilt",
-      "price_usd": 17
-    }
-  ],
-  "structural": [
-    {
-      "id": "frame-10-carbon",
-      "name": "10\" Drone Frame",
-      "manufacturer": "LEADER Tech",
-      "material": "carbon fiber",
-      "max_takeoff_kg": 8,
-      "layout": "true X",
-      "price_usd": 55
-    }
-  ],
-  "supply_chain_status": {
-    "fully_localized": [
-      "carbon fiber frames",
-      "flight controllers",
-      "ESCs",
-      "propellers",
-      "sensor modules",
-      "Li-Po batteries",
-      "radio control systems",
-      "thermal imaging",
-      "fiber-optic systems",
-      "video transmitters"
-    ],
-    "partially_localized": [
-      "motors (Realgold LLC, Motor-G: 100K+/month, some magnets imported)",
-      "FPV cameras (Odd Systems competing with Caddx)"
-    ],
-    "import_dependent": [
-      "advanced microchips",
-      "high-end thermal modules",
-      "some optical systems"
-    ]
-  },
-  "annual_production_capacity": {
-    "fpv_drones": "8M+ units/year",
-    "monthly_baseline": "600K+ units/month",
-    "top_manufacturers": [
+  "flight_controllers": {
+    "description": "FPV drone flight controllers and ESC stacks",
+    "manufacturers": [
       {
-        "name": "TAF Industries",
-        "monthly_output": "80K drones/month",
-        "production_sites": 20,
-        "annual_revenue_2024": "$1B USD"
+        "name": "Flytex",
+        "product": "Fuzia F405 v2 + ESC 65A 6S V4 Flight Stack",
+        "origin": "Made in Ukraine",
+        "specs": "F405 v2 controller + 65A ESC for 6S battery systems"
       },
       {
-        "name": "General Chereshnia",
-        "monthly_output": "50K+ drones/month"
-      },
-      {
-        "name": "Escadrone",
-        "capability": "full production cycle"
-      },
-      {
-        "name": "Ukrainian Armor",
-        "products": [
-          "PROTECTOR UGV",
-          "UB60D"
-        ]
-      },
-      {
-        "name": "Wild Hornets",
-        "breakthrough": "localized flight controller (65% Ukrainian, 12% cost reduction)"
+        "name": "603700 FPV",
+        "product": "GALYCHYNA F405 v2 6S/60A Flight Stack",
+        "origin": "Ukrainian",
+        "specs": "Flight controller + FRANKIVSK v2 6S/60A ESC, supports up to 10 inch frames"
       }
+    ],
+    "status": "In production, replacing Chinese imports"
+  },
+  "optics": {
+    "description": "Thermal vision and camera systems",
+    "status": "Developing - no mass production yet",
+    "notes": "One of the components targeted by Ukrainian manufacturers due to high markup costs"
+  },
+  "optical_fiber": {
+    "description": "Fiber-optic cables for drone control",
+    "origin": "Still imported (primarily from China - Hubei province)",
+    "notes": "Chemical process not yet localized in Ukraine"
+  },
+  "batteries": {
+    "description": "Power systems for drones and UGVs",
+    "note": "Research indicates ongoing component independence efforts"
+  },
+  "propulsion_systems": {
+    "ugv": {
+      "Ratel_X": {
+        "type": "Electric motors",
+        "characteristics": ["Virtually silent", "Low heat emission"]
+      }
+    }
+  },
+  "sensors": {
+    "Ratel_X": ["Daytime camera", "Night camera", "Satellite-based remote control system"]
+  },
+  "armor_plating": {
+    "DODGER": "Protective plating against small arms fire and shrapnel",
+    "Ratel_X": "Class 2 armor plates (planned by January 2025)"
+  },
+  "ai_modules": {
+    "Litavr": {
+      "feature": "Automatic terminal guidance system (Last Mile/Pixel Lock)",
+      "developer": "F-Drones (self-developed software)",
+      "capability": "Identifies target and autonomously guides drone into attack"
+    }
+  },
+  "foreign_dependence": {
+    "description": "Components still dependent on Chinese imports",
+    "items": [
+      "Chemical manufacturing plants for optical fiber",
+      "Advanced machining tools",
+      "Magnets (for motor production)",
+      "Voltage testers",
+      "Some thermal vision components"
+    ],
+    "statistics": "Only 5% of Ukrainian Council of Defense Industry members report not using Chinese components",
+    "risk": "China could shut down global drone industry for a year according to Pentagon analysis"
+  },
+  "domestic_independence_progress": {
+    "now_produced_in_ukraine": [
+      "Electric motors",
+      "Flight controllers",
+      "ESC boards",
+      "Frames",
+      "Software and firmware",
+      "Speed regulators"
+    ],
+    "in_development": [
+      "Thermal vision cameras",
+      "Complete optical fiber production"
     ]
-  }
+  },
+  "last_updated": "2025-06-29",
+  "source_summary": "Kyiv Independent - 'Little by little away from China' (August 2025)"
 }

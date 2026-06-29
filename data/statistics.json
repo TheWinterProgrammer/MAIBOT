@@ -1,169 +1,76 @@
 {
-  "metadata": {
-    "project": "MAIBOT",
-    "last_updated": "2026-06-29",
-    "update_time_utc": "2026-06-23T13:42:00Z",
-    "data_source": "Ukrainian Ministry of Defence Official Announcements + Verified Media",
-    "reporting_period": "2022-02-01 to 2026-06-23",
-    "update_frequency": "hourly",
-    "confidence_level": "high",
-    "research_runs_completed": 175
+  "last_updated": "2025-06-29T14:31:00Z",
+  "research_runs": 1,
+  "overview": {
+    "ground_robots_tracked": 7,
+    "aerial_systems_tracked": 1,
+    "total_robot_types": 8,
+    "officially_codified_systems": 4
   },
-  "procurement": {
-    "h1_2026_target": 25000,
-    "h1_2026_contracts_signed": 19,
-    "h1_2026_contract_value_uah": 11000000000,
-    "h1_2026_contract_value_usd": 260000000,
-    "monthly_rate_required": 4167,
-    "comparison_to_2025": "2x full year (12500)",
-    "procurement_acceleration_measures": 4
-  },
-  "missions": {
-    "november_2025": 2900,
-    "january_2026": 7500,
-    "march_2026": 9000,
-    "april_2026": 10281,
-    "q1_2026_total": 24500,
-    "three_month_total_2026": 22000,
-    "growth_nov_to_mar": "3.1x",
-    "growth_nov_to_jan_percent": 158,
-    "growth_nov_to_mar_percent": 210
-  },
-  "fpv_drones": {
-    "annual_production_capacity": 8000000,
-    "monthly_baseline_production": 600000,
-    "manufacturing_companies": 160,
-    "mod_2025_procurement_target": 4500000,
-    "mod_2025_budget_allocation_uah": 110000000000,
-    "mod_2025_budget_allocation_usd": 2600000000,
-    "fpv_delivered_dot_chain": 100000,
-    "casualty_percentage_inflicted": 60
-  },
-  "unit_adoption": {
-    "units_november_2025": 67,
-    "units_march_2026": 167,
-    "growth_percent": 149,
-    "growth_multiplier": 2.5
-  },
-  "codifications": {
-    "total_codified_systems": 80,
-    "april_2026_new_systems": [
-      "SPIDER (April 24)",
-      "BURIA (April 17)",
-      "BIZON-L (April 2026)",
-      "DroidBox (April 2026)"
-    ],
-    "june_2026_new_systems": [
-      "Zmiy Droid 12.7",
-      "Vepr (modernized)",
-      "PROTECTOR (June 2026 update)"
-    ],
-    "codifications_2023": 10,
-    "codifications_2024": 50,
-    "codifications_2025": 20,
-    "codifications_2026_ytd": 7
-  },
-  "new_systems_june_2026": {
-    "zmiy_droid_12_7": {
-      "type": "Strike-and-reconnaissance",
-      "armament": "12.7mm machine gun",
-      "ai_features": [
-        "automatic target acquisition",
-        "target tracking"
-      ],
-      "protection": "Armor vs mines and FPV drones",
-      "mobility": "High cross-country, water-capable"
+  "ministry_of_defense_programs": {
+    "ugv_procurement": {
+      "contracts_signed": 16,
+      "total_value_uah": "300 million",
+      "systems_supplied": "Several hundred ground robotic systems",
+      "testing_program": "Since Summer 2024",
+      "organizational_structure": "Developed by General Staff and Innovation Directorate"
     },
-    "droid_tw": {
-      "type": "Reconnaissance-strike",
-      "armament": "12.7mm or 7.62mm machine gun",
-      "ammunition": "480-1000 rounds",
-      "engagement_range": "1km",
-      "detection_range_day": "1.5km",
-      "detection_range_night": "1km",
-      "ai_features": [
-        "enemy personnel recognition",
-        "ballistic calculation"
-      ],
-      "deployment_time": "5 minutes",
-      "combat_record": "Destroyed MT-LB, 45-day sustained position"
-    },
-    "vepr_modernized": {
-      "type": "Logistics-and-evacuation",
-      "payload": "350kg",
-      "speed": ">7.5 km/h",
-      "range": "40km",
-      "roles": [
-        "logistics",
-        "MEDEVAC",
-        "demining",
-        "kamikaze",
-        "recovery"
-      ]
-    },
-    "protector": {
-      "type": "Heavy logistics/combat",
-      "payload": "700kg",
-      "range": "400km",
-      "propulsion": "ICE all-wheel drive",
-      "roles": [
-        "logistics",
-        "CASEVAC",
-        "weapon platform",
-        "EW/SIGINT/ELINT"
-      ]
+    "unit_formation": {
+      "type": "Military units focused on robotic equipment",
+      "integration": "Unmanned ground systems integrated into combat brigades",
+      "goal": "Reinforce brigades on front lines, enhance combat effectiveness, save lives"
     }
   },
-  "components": {
-    "motor_g_monthly_production": 200000,
-    "motor_g_localization_percent": 80,
-    "motor_g_localization_target_2027": 90,
-    "motor_g_market_share_ukraine": 17,
-    "motor_g_clients": 100,
-    "motor_g_defect_rate_per_1000": 2,
-    "battery_localization_percent": 70,
-    "chassis_localization_percent": 95
+  "brave1_platform": {
+    "description": "Coordination platform for DefenseTech sector",
+    "mission": "Organizational, informational, and financial support for defense projects",
+    "drone_orders": "Over 500,000 drones for combat points",
+    "restricted_catalog": "Contains advanced systems like Litavr interceptor drone",
+    "grants": {
+      "component_manufacturers": "Up to UAH 8 million per grant",
+      "purpose": "Accelerate R&D and increase technological readiness",
+      "deep_tech_sovereignty": "Launched December 2025"
+    },
+    "brave_france": {
+      "partner": "French Defense Innovation Agency",
+      "joint_budget": "EUR 20 million"
+    }
   },
-  "droidbox": {
-    "units_deployed": 1000,
-    "platforms_supported": 8,
-    "communication_channels": 6,
-    "training_reduction_percent": 60
+  "industry_production": {
+    "motors": {
+      "manufacturer": "Motor-G",
+      "capacity": "Approaching 100,000 motors/month",
+      "production_start": "December 2024",
+      "types": ["FPV motors", "Fiber-optic drone motors"]
+    },
+    "total_drone_production": {
+      "ukraine_ranking": "Second only to China (and possibly Russia) in drone production volume",
+      "orders_via_brave1": "500,000+ units"
+    }
   },
-  "ecosystem": {
-    "ugv_companies": 300,
-    "total_solutions_catalog": 550,
-    "brave1_grants_issued": 175,
-    "dot_chain_products": 470,
-    "dot_chain_manufacturers": 135,
-    "dot_chain_ugvs_delivered": 1028,
-    "dot_chain_authorized_buyers": 186,
-    "dot_chain_delivery_days": "3-5",
-    "brave1_growth_2022_to_2026": "0 to 300+ companies"
+  "key_advantages_ugv_systems": {
+    "remote_control": "Reduces risk of casualties among personnel",
+    "reduced_visibility": "Compact design, harder to detect",
+    "high_maneuverability": "Speed and agility in field conditions",
+    "increased_payload": "Enhanced capacity and endurance",
+    "modular_integration": "Combat modules, engineering tools, EW systems"
   },
-  "procurement_platforms": {
-    "dot_chain_budget_q1_uah": 12000000000,
-    "military_equipment_orders_q1_uah": 14000000000,
-    "brave1_market_active_items": 162,
-    "grc_models_available": 13
+  "sources_indexed": [
+    "mod.gov.ua - Ministry of Defence of Ukraine",
+    "gur.gov.ua - Main Directorate",
+    "defence.ua - Defence Express",
+    "military.com.ua",
+    "zbroya.net",
+    "robots.com.ua - Ratel Robotics",
+    "brave1.ua - DefenseTech platform",
+    "interfax.com.ua",
+    "kyivindependent.com"
+  ],
+  "data_points_collected": {
+    "robot_specifications": 28,
+    "component_categories": 12,
+    "industry_statistics": 15,
+    "ministry_announcements": 5
   },
-  "soldier_protection": {
-    "unmanned_missions_q1_2026": 22000,
-    "personnel_risk_events_avoided": 22000,
-    "annual_casualty_reduction_estimate_low": 40000,
-    "annual_casualty_reduction_estimate_high": 60000
-  },
-  "strategic_developments": {
-    "quantum_tencore_jv": "April 2026 - German-Ukrainian joint venture with Quantum Systems for NATO production scaling",
-    "first_unmanned_position_capture": "Summer 2025 - 3rd Separate Assault Brigade NC13 captured Russian position using only unmanned platforms",
-    "ministry_goal": "100% frontline logistics automation via robotic systems",
-    "mod_spend_since_jan_2026_uah": 14000000000,
-    "mod_spend_since_jan_2026_usd": 330000000
-  },
-  "verification": {
-    "official_sources": 5,
-    "media_sources": 6,
-    "industry_sources": 5,
-    "total_sources": 16
-  }
+  "next_update_scheduled": "2025-06-29 15:31 UTC"
 }
