@@ -1,7 +1,7 @@
 {
   "metadata": {
     "project": "MAIBOT",
-    "last_updated": "2026-06-23",
+    "last_updated": "2026-06-29",
     "update_time_utc": "2026-06-23T13:42:00Z",
     "data_source": "Ukrainian Ministry of Defence Official Announcements + Verified Media",
     "reporting_period": "2022-02-01 to 2026-06-23",
@@ -67,7 +67,10 @@
     "zmiy_droid_12_7": {
       "type": "Strike-and-reconnaissance",
       "armament": "12.7mm machine gun",
-      "ai_features": ["automatic target acquisition", "target tracking"],
+      "ai_features": [
+        "automatic target acquisition",
+        "target tracking"
+      ],
       "protection": "Armor vs mines and FPV drones",
       "mobility": "High cross-country, water-capable"
     },
@@ -78,7 +81,10 @@
       "engagement_range": "1km",
       "detection_range_day": "1.5km",
       "detection_range_night": "1km",
-      "ai_features": ["enemy personnel recognition", "ballistic calculation"],
+      "ai_features": [
+        "enemy personnel recognition",
+        "ballistic calculation"
+      ],
       "deployment_time": "5 minutes",
       "combat_record": "Destroyed MT-LB, 45-day sustained position"
     },
@@ -87,14 +93,25 @@
       "payload": "350kg",
       "speed": ">7.5 km/h",
       "range": "40km",
-      "roles": ["logistics", "MEDEVAC", "demining", "kamikaze", "recovery"]
+      "roles": [
+        "logistics",
+        "MEDEVAC",
+        "demining",
+        "kamikaze",
+        "recovery"
+      ]
     },
     "protector": {
       "type": "Heavy logistics/combat",
       "payload": "700kg",
       "range": "400km",
       "propulsion": "ICE all-wheel drive",
-      "roles": ["logistics", "CASEVAC", "weapon platform", "EW/SIGINT/ELINT"]
+      "roles": [
+        "logistics",
+        "CASEVAC",
+        "weapon platform",
+        "EW/SIGINT/ELINT"
+      ]
     }
   },
   "components": {

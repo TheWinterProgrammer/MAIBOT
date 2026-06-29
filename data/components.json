@@ -1,7 +1,7 @@
 {
   "metadata": {
     "project": "MAIBOT",
-    "last_updated": "2026-06-23",
+    "last_updated": "2026-06-29",
     "data_source": "LEADER Tech, Motor-G, official Ukrainian sources",
     "total_components": 19
   },
@@ -107,8 +107,13 @@
       "manufacturer": "DevDroid",
       "caliber_mm": 12.7,
       "type": "Remotely operated machine gun turret",
-      "platforms": ["Zmiy Droid 12.7"],
-      "ai_features": ["automatic target acquisition", "target tracking"],
+      "platforms": [
+        "Zmiy Droid 12.7"
+      ],
+      "ai_features": [
+        "automatic target acquisition",
+        "target tracking"
+      ],
       "integration": "DroidBox-compatible",
       "status": "Combat-proven, codified by MoD"
     },
@@ -117,7 +122,11 @@
       "name": "Saber RWS",
       "manufacturer": "Roboneers",
       "type": "Remotely-Operated Weapon Station",
-      "platforms": ["Lynx+", "Lynx MAX", "Lynx PRO"],
+      "platforms": [
+        "Lynx+",
+        "Lynx MAX",
+        "Lynx PRO"
+      ],
       "key_advantage": "Standardization enables rapid task-reconfiguration across fleet",
       "status": "Authorized, integrated across Lynx series"
     },
@@ -131,11 +140,21 @@
       "engagement_range_m": 1000,
       "detection_range_day_m": 1500,
       "detection_range_night_m": 1000,
-      "ai_features": ["enemy personnel recognition", "ballistic calculation module"],
+      "ai_features": [
+        "enemy personnel recognition",
+        "ballistic calculation module"
+      ],
       "optics": "thermal imager with selectable display modes",
       "deployment_time_min": 5,
-      "control": ["tablet", "gamepad"],
-      "communications": ["military systems", "Starlink", "LTE"],
+      "control": [
+        "tablet",
+        "gamepad"
+      ],
+      "communications": [
+        "military systems",
+        "Starlink",
+        "LTE"
+      ],
       "combat_record": "Destroyed Russian MT-LB; held position for 45 consecutive days",
       "status": "Codified & procured by MoD"
     },
@@ -145,7 +164,9 @@
       "manufacturer": "UAV Technology",
       "caliber_mm": 12.7,
       "type": "Optional machine gun turret module",
-      "platforms": ["Bizon-L"],
+      "platforms": [
+        "Bizon-L"
+      ],
       "control_system": "DroidBox",
       "integration": "Unified interface with platform control",
       "status": "Available as optional module"
@@ -156,7 +177,9 @@
       "manufacturer": "Ukrainian Defense Enterprise",
       "type": "Reactive thermobaric launchers",
       "quantity_per_platform": 2,
-      "platforms": ["KRAMPUS"],
+      "platforms": [
+        "KRAMPUS"
+      ],
       "target_capability": "enemy personnel and lightly-armored vehicles",
       "effect": "area-effect thermobaric",
       "status": "Active deployment"
@@ -169,7 +192,9 @@
       "manufacturer": "Ukrainian Defense Enterprise",
       "type": "Electric motors",
       "configuration": "2 × 1,500W",
-      "platforms": ["Vepr"],
+      "platforms": [
+        "Vepr"
+      ],
       "max_speed_kmh": 7.5,
       "range_km": 40,
       "key_advantage": "Reliable electric propulsion for logistics operations"
@@ -180,7 +205,9 @@
       "manufacturer": "Ukrainian Defense Enterprise",
       "type": "Silent electric motors",
       "configuration": "2 × silent electric motors",
-      "platforms": ["KRAMPUS"],
+      "platforms": [
+        "KRAMPUS"
+      ],
       "thermal_signature": "zero",
       "acoustic_signature": "silent",
       "endurance": "multi-hour continuous duty",
@@ -191,7 +218,9 @@
       "name": "PROTECTOR Heavy-Duty Drive",
       "manufacturer": "Ukrainian Defense Enterprise",
       "type": "Internal combustion engine",
-      "platforms": ["PROTECTOR"],
+      "platforms": [
+        "PROTECTOR"
+      ],
       "drive_type": "all-wheel drive",
       "tires": "RunFlat",
       "capability": "water crossings, significant obstacle negotiation",
@@ -203,9 +232,16 @@
       "name": "Bizon-L Tracked Chassis",
       "manufacturer": "UAV Technology",
       "type": "Tracked propulsion",
-      "platforms": ["Bizon-L"],
+      "platforms": [
+        "Bizon-L"
+      ],
       "max_speed_kmh": 12,
-      "terrain": ["marshland", "snow", "ice", "rough terrain"],
+      "terrain": [
+        "marshland",
+        "snow",
+        "ice",
+        "rough terrain"
+      ],
       "thermal_signature": "low (IR stealth)",
       "key_advantage": "Low thermal signature, all-terrain capability"
     },
@@ -214,7 +250,9 @@
       "name": "TerMIT Tracked Drive",
       "manufacturer": "Tencore",
       "type": "Tracked propulsion",
-      "platforms": ["TerMIT"],
+      "platforms": [
+        "TerMIT"
+      ],
       "max_speed_kmh": 10,
       "endurance_hours": 12,
       "key_advantage": "Combat-proven reliability across 20+ brigades"
@@ -224,11 +262,21 @@
       "name": "UNEX Low-Pressure Amphibious System",
       "manufacturer": "Ukrainian Defense Enterprise",
       "type": "Amphibious low-pressure propulsion",
-      "platforms": ["UNEX"],
+      "platforms": [
+        "UNEX"
+      ],
       "ground_pressure": "less than infantry foot",
       "mine_safety": "cannot activate anti-vehicle mines",
       "unique_capability": "Only documented UGV with explicit low-ground-pressure design preventing mine activation",
-      "terrain": ["water", "floodplains", "swamps", "mire", "sand", "ice", "difficult surfaces"]
+      "terrain": [
+        "water",
+        "floodplains",
+        "swamps",
+        "mire",
+        "sand",
+        "ice",
+        "difficult surfaces"
+      ]
     }
   ],
   "control_systems": [
