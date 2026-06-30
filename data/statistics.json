@@ -41,7 +41,10 @@
       "manufacturer": "Motor-G",
       "capacity": "Approaching 100,000 motors/month",
       "production_start": "December 2024",
-      "types": ["FPV motors", "Fiber-optic drone motors"]
+      "types": [
+        "FPV motors",
+        "Fiber-optic drone motors"
+      ]
     },
     "total_drone_production": {
       "ukraine_ranking": "Second only to China (and possibly Russia) in drone production volume",
@@ -72,5 +75,8 @@
     "industry_statistics": 15,
     "ministry_announcements": 5
   },
-  "next_update_scheduled": "2025-06-29 15:31 UTC"
+  "next_update_scheduled": "2025-06-29 15:31 UTC",
+  "metadata": {
+    "last_updated": "2026-06-30"
+  }
 }

@@ -4,7 +4,10 @@
     "key_manufacturer": "Motor-G",
     "production_capacity": "Approaching 100,000 motors per month",
     "status": "Mass production since December 2024",
-    "types": ["FPV drone motors", "Fiber-optic drone motors (up to 15 inch frames)"],
+    "types": [
+      "FPV drone motors",
+      "Fiber-optic drone motors (up to 15 inch frames)"
+    ],
     "origin": "Ukrainian-made",
     "notes": "Likely largest drone motor manufacturer in Ukraine and Europe"
   },
@@ -44,12 +47,19 @@
     "ugv": {
       "Ratel_X": {
         "type": "Electric motors",
-        "characteristics": ["Virtually silent", "Low heat emission"]
+        "characteristics": [
+          "Virtually silent",
+          "Low heat emission"
+        ]
       }
     }
   },
   "sensors": {
-    "Ratel_X": ["Daytime camera", "Night camera", "Satellite-based remote control system"]
+    "Ratel_X": [
+      "Daytime camera",
+      "Night camera",
+      "Satellite-based remote control system"
+    ]
   },
   "armor_plating": {
     "DODGER": "Protective plating against small arms fire and shrapnel",
@@ -89,5 +99,8 @@
     ]
   },
   "last_updated": "2025-06-29",
-  "source_summary": "Kyiv Independent - 'Little by little away from China' (August 2025)"
+  "source_summary": "Kyiv Independent - 'Little by little away from China' (August 2025)",
+  "metadata": {
+    "last_updated": "2026-06-30"
+  }
 }
