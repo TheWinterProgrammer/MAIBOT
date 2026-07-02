@@ -63,13 +63,30 @@
   },
   "armor_plating": {
     "DODGER": "Protective plating against small arms fire and shrapnel",
-    "Ratel_X": "Class 2 armor plates (planned by January 2025)"
+    "Ratel_X": "Class 2 armor plates (planned by January 2025)",
+    "Zmiy_Droid": "Armored hull against anti-personnel mines, withstands multiple FPV hits"
   },
   "ai_modules": {
     "Litavr": {
       "feature": "Automatic terminal guidance system (Last Mile/Pixel Lock)",
       "developer": "F-Drones (self-developed software)",
       "capability": "Identifies target and autonomously guides drone into attack"
+    },
+    "Zmiy_Droid_Wolly": {
+      "feature": "AI-based automatic target acquisition and tracking",
+      "developer": "Integrated in Wolly weapon station",
+      "capability": "Automatic target detection and tracking for 12.7mm machine gun"
+    }
+  },
+  "weapon_stations": {
+    "Wolly": {
+      "type": "Remotely operated weapon station",
+      "armament": "12.7mm machine gun",
+      "features": [
+        "AI-based automatic target acquisition and tracking",
+        "Integrated control with ground platform"
+      ],
+      "platform": "Zmiy Droid 12.7"
     }
   },
   "foreign_dependence": {
@@ -91,15 +108,20 @@
       "ESC boards",
       "Frames",
       "Software and firmware",
-      "Speed regulators"
+      "Speed regulators",
+      "AI targeting modules"
     ],
     "in_development": [
       "Thermal vision cameras",
       "Complete optical fiber production"
     ]
   },
-  "last_updated": "2025-06-29",
-  "source_summary": "Kyiv Independent - 'Little by little away from China' (August 2025)",
+  "last_updated": "2026-07-02",
+  "source_summary": [
+    "Kyiv Independent - 'Little by little away from China' (August 2025)",
+    "New Voice of Ukraine - Talion codification (June 2026)",
+    "Euromaidan Press - Interceptor industry consolidation (July 2026)"
+  ],
   "metadata": {
     "last_updated": "2026-07-02"
   }

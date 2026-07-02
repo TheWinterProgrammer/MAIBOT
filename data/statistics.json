@@ -1,11 +1,24 @@
 {
-  "last_updated": "2025-06-29T14:31:00Z",
-  "research_runs": 1,
+  "last_updated": "2026-07-02",
+  "research_runs": 2,
   "overview": {
-    "ground_robots_tracked": 7,
-    "aerial_systems_tracked": 1,
-    "total_robot_types": 8,
-    "officially_codified_systems": 4
+    "ground_robots_tracked": 8,
+    "aerial_systems_tracked": 2,
+    "total_robot_types": 10,
+    "officially_codified_systems": 6
+  },
+  "interceptor_industry_consolidation": {
+    "description": "Ukrainian interceptor industry has rapidly scaled through 2026",
+    "key_systems_codified_2026": [
+      "Talion (June 2026)",
+      "Litavr (June 2026)",
+      "Wild Hornets Sting (June 2026 - first NATO-standard drone control system)"
+    ],
+    "production_scale": {
+      "germany_funded_strila": "15,000 units",
+      "octopus_orders_april_2026": "8,000 units",
+      "ukrainian_interceptors_march_2026": "33,000 Russian UAVs destroyed (record)"
+    }
   },
   "ministry_of_defense_programs": {
     "ugv_procurement": {
@@ -19,13 +32,14 @@
       "type": "Military units focused on robotic equipment",
       "integration": "Unmanned ground systems integrated into combat brigades",
       "goal": "Reinforce brigades on front lines, enhance combat effectiveness, save lives"
-    }
+    },
+    "codification_framework": "NATO-aligned procurement framework - converts prototypes into serial procurement-eligible systems"
   },
   "brave1_platform": {
     "description": "Coordination platform for DefenseTech sector",
     "mission": "Organizational, informational, and financial support for defense projects",
     "drone_orders": "Over 500,000 drones for combat points",
-    "restricted_catalog": "Contains advanced systems like Litavr interceptor drone",
+    "restricted_catalog": "Contains advanced systems like Litavr interceptor drone and Talion",
     "grants": {
       "component_manufacturers": "Up to UAH 8 million per grant",
       "purpose": "Accelerate R&D and increase technological readiness",
@@ -51,12 +65,17 @@
       "orders_via_brave1": "500,000+ units"
     }
   },
+  "ai_integration": {
+    "zmiy_droid": "AI-based automatic target acquisition and tracking in Wolly weapon station",
+    "interceptor_drones": "Semi-autonomous modes for target engagement"
+  },
   "key_advantages_ugv_systems": {
     "remote_control": "Reduces risk of casualties among personnel",
     "reduced_visibility": "Compact design, harder to detect",
     "high_maneuverability": "Speed and agility in field conditions",
     "increased_payload": "Enhanced capacity and endurance",
-    "modular_integration": "Combat modules, engineering tools, EW systems"
+    "modular_integration": "Combat modules, engineering tools, EW systems",
+    "ai_targeting": "Automatic target acquisition and tracking"
   },
   "sources_indexed": [
     "mod.gov.ua - Ministry of Defence of Ukraine",
@@ -67,15 +86,17 @@
     "robots.com.ua - Ratel Robotics",
     "brave1.ua - DefenseTech platform",
     "interfax.com.ua",
-    "kyivindependent.com"
+    "kyivindependent.com",
+    "ukrinform.net - Ukrinform National News Agency",
+    "euromaidanpress.com"
   ],
   "data_points_collected": {
-    "robot_specifications": 28,
-    "component_categories": 12,
-    "industry_statistics": 15,
-    "ministry_announcements": 5
+    "robot_specifications": 32,
+    "component_categories": 14,
+    "industry_statistics": 18,
+    "ministry_announcements": 7
   },
-  "next_update_scheduled": "2025-06-29 15:31 UTC",
+  "next_update_scheduled": "2026-07-03 02:30 UTC",
   "metadata": {
     "last_updated": "2026-07-02"
   }

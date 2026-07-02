@@ -151,5 +151,70 @@
     },
     "source": "https://en.interfax.com.ua/news/general/1175110.html",
     "last_updated": "2025-06-29"
+  },
+  {
+    "name": "TALION",
+    "type": "UAS - Interceptor and Strike Drone",
+    "developer": "Ukrainian defense industry",
+    "status": "Codified and approved by Ministry of Defence of Ukraine (June 30, 2026)",
+    "classification": "Universal unmanned aerial system",
+    "features": [
+      "Dual-role capability: interceptor and strike drone",
+      "Manual and semi-automatic control modes",
+      "Can operate at both low and high altitudes",
+      "Long endurance for patrol missions",
+      "Aerial reconnaissance capability"
+    ],
+    "missions": [
+      "Interception of enemy UAVs (kamikaze aircraft role)",
+      "Strike drone operations against ground targets",
+      "Aerial reconnaissance and patrol",
+      "Small air defense missions",
+      "Tactical missions in enemy rear"
+    ],
+    "operational_capabilities": {
+      "interceptor": "Effective against virtually all types of enemy drones at any altitude",
+      "strike": "Loitering munition for precision ground target engagement",
+      "reconnaissance": "Real-time battlefield situational awareness"
+    },
+    "context": "Joins other codified Ukrainian interceptor families including Litavr, General Cherry AIR, Wild Hornets Sting, STRILA, and Octopus",
+    "source": [
+      "https://english.nv.ua/nation/meet-talion-new-ukrainian-interceptor-and-strike-drone-for-defense-forces-50620534.html",
+      "https://euromaidanpress.com/2026/07/01/one-more-entry-in-fast-filling-interceptor-lineup-ukraines-new-talion-can-kill-drone-or-be-drone/"
+    ],
+    "last_updated": "2026-07-02"
+  },
+  {
+    "name": "Zmiy Droid 12.7",
+    "type": "UGV - Strike and Reconnaissance Ground Robotic System",
+    "developer": "Two Ukrainian defense enterprises with extensive ground platform experience",
+    "status": "Authorized by Ministry of Defence of Ukraine for operational use (2026)",
+    "platform_base": "Zmiy platform (combat-proven in high-intensity warfare)",
+    "weapon_station": {
+      "name": "Wolly",
+      "type": "Remotely operated weapon station",
+      "armament": "12.7 mm machine gun",
+      "ai_capability": "AI-based automatic target acquisition and tracking"
+    },
+    "features": [
+      "Armored hull protecting against anti-personnel mines",
+      "Withstands multiple hits from FPV drones",
+      "High cross-country mobility",
+      "Can traverse rough terrain, sand, snow, and shallow water",
+      "Integrated control module for simultaneous platform and weapon control",
+      "AI-based automatic target acquisition and tracking"
+    ],
+    "missions": [
+      "Strike operations in high-intensity combat environments",
+      "Reconnaissance missions",
+      "Anti-personnel operations",
+      "Replacing soldiers in high-risk battlefield areas"
+    ],
+    "combat_proven_examples": [
+      "Successful engagement against Russian MT-LB multi-purpose tracked armored fighting vehicle",
+      "Sustained holding of firing position for 45 consecutive days (with bi-daily maintenance)"
+    ],
+    "source": "https://mod.gov.ua/en/news/ukraine-s-ground-robot-fleet-expands-with-the-addition-of-the-zmiy-droid-12-7-armored-machine-gun-system",
+    "last_updated": "2026-07-02"
   }
 ]
